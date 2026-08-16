@@ -1,4 +1,4 @@
-name: qom
+name: fl_qom
 channels:
   - conda-forge
 dependencies:

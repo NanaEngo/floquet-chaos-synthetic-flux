@@ -24,7 +24,7 @@ in `scripts/` and a machine-readable artifact in `results/`; every figure in
 | `figures/` | Vector (PDF) and raster (PNG) figures plus `*.manifest.json` provenance. |
 | `manuscript/` | AIP/`Chaos`-formatted LaTeX sources (main + SI) and compiled PDFs. |
 | `submission_SciPost/` | SciPost Physics submission package (main + SI, class, bib style) and compiled PDFs. |
-| `environment.yml` | Conda environment specification (`qom`). |
+| `environment.yml` | Conda environment specification (`fl_qom`). |
 
 ## Environment
 
@@ -32,7 +32,7 @@ The environment is specified in `environment.yml`:
 
 ```bash
 mamba env create -f environment.yml
-mamba activate qom
+mamba activate fl_qom
 ```
 
 The Floquet infrastructure package **FL_QOM** is a separate repository and is
@@ -45,8 +45,8 @@ pip install -e /path/to/FL_QOM
 
 ## Reproducing the headline results
 
-All commands are run from the repository root with the `qom` environment active
-(`mamba run -n qom python ...`). The key generators are:
+All commands are run from the repository root with the `fl_qom` environment active
+(`mamba run -n fl_qom python ...`). The key generators are:
 
 | Claim | Script → artifact |
 |---|---|
