@@ -1,0 +1,9 @@
+{
+  "gate": "NOISE_OBSERVABILITY_FIGURE",
+  "input": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/noise_observability.json",
+  "outputs": [
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/noise_observability.pdf",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/noise_observability.png"
+  ],
+  "note": "(a) measured-record variance of y = X_a + detector noise vs drive for theta=0 and pi/2 with the noise-only floor marked; (b) the observability ratio (measured variance / noise floor) vs drive."
+}

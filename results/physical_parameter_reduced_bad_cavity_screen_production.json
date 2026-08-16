@@ -1,0 +1,401 @@
+{
+  "candidate_count": 4,
+  "candidate_records": [
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -37333.33335,
+        "drive": 0.19999999999999998,
+        "drive_frequency": 1.0,
+        "drive_modulation": 0.6799999999999999,
+        "g1": 69.47440230000001,
+        "g2": 69.47440230000001,
+        "gamma1": 0.0012499999999999998,
+        "gamma2": 0.0012499999999999998,
+        "hopping": 0.004166666649999999,
+        "kappa": 106666.66665,
+        "omega1": 1.0,
+        "omega2": 1.20833335,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960807097281646,
+          "replicate": 0,
+          "residual": 3.3087224502121107e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281631,
+          "replicate": 0,
+          "residual": 5.823351512373315e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281634,
+          "replicate": 0,
+          "residual": 1.0587911840678754e-21,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9966436250246864,
+          "replicate": 1,
+          "residual": 2.357464745776129e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9966436250246868,
+          "replicate": 1,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9966436250246867,
+          "replicate": 1,
+          "residual": 2.5229008682867344e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9966040987442766,
+          "replicate": 2,
+          "residual": 1.809457589959748e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9966040987442758,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9966040987442758,
+          "replicate": 2,
+          "residual": 1.5819829215076654e-23,
+          "status": "PASS"
+        }
+      ],
+      "sample": 0
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -37333.33335,
+        "drive": 0.19999999999999998,
+        "drive_frequency": 1.0,
+        "drive_modulation": 0.6799999999999999,
+        "g1": 69.47440230000001,
+        "g2": 69.47440230000001,
+        "gamma1": 0.0012499999999999998,
+        "gamma2": 0.0012499999999999998,
+        "hopping": 0.004166666649999999,
+        "kappa": 106666.66665,
+        "omega1": 1.0,
+        "omega2": 1.20833335,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960807097281646,
+          "replicate": 0,
+          "residual": 3.3087224502121107e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281631,
+          "replicate": 0,
+          "residual": 8.470329472543003e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 31,
+          "poincare_spectral_radius": 0.9960807097281628,
+          "replicate": 0,
+          "residual": 5.293955920339377e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960142919792009,
+          "replicate": 1,
+          "residual": 1.2940852942479984e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9960142919792009,
+          "replicate": 1,
+          "residual": 2.0679515313825692e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9960142919792009,
+          "replicate": 1,
+          "residual": 2.4007624809644514e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960693879446344,
+          "replicate": 2,
+          "residual": 3.5559072816976834e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9960693879446346,
+          "replicate": 2,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9960693879446346,
+          "replicate": 2,
+          "residual": 1.914470753662769e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 1
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -37333.33335,
+        "drive": 0.19999999999999998,
+        "drive_frequency": 1.0,
+        "drive_modulation": 0.6799999999999999,
+        "g1": 69.47440230000001,
+        "g2": 69.47440230000001,
+        "gamma1": 0.0012499999999999998,
+        "gamma2": 0.0012499999999999998,
+        "hopping": 0.004166666649999999,
+        "kappa": 106666.66665,
+        "omega1": 1.0,
+        "omega2": 1.20833335,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960807097281646,
+          "replicate": 0,
+          "residual": 3.3087224502121107e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281635,
+          "replicate": 0,
+          "residual": 1.9852334701272664e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281629,
+          "replicate": 0,
+          "residual": 7.411538288475128e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.996565285584897,
+          "replicate": 1,
+          "residual": 8.271806125530277e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9965652855848969,
+          "replicate": 1,
+          "residual": 1.1333343744256815e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9965652855848964,
+          "replicate": 1,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9962482112028743,
+          "replicate": 2,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9962482112028741,
+          "replicate": 2,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9962482112028739,
+          "replicate": 2,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        }
+      ],
+      "sample": 2
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -37333.33335,
+        "drive": 0.19999999999999998,
+        "drive_frequency": 1.0,
+        "drive_modulation": 0.6799999999999999,
+        "g1": 69.47440230000001,
+        "g2": 69.47440230000001,
+        "gamma1": 0.0012499999999999998,
+        "gamma2": 0.0012499999999999998,
+        "hopping": 0.004166666649999999,
+        "kappa": 106666.66665,
+        "omega1": 1.0,
+        "omega2": 1.20833335,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960807097281646,
+          "replicate": 0,
+          "residual": 3.3087224502121107e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281633,
+          "replicate": 0,
+          "residual": 2.329340604949326e-21,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.996080709728163,
+          "replicate": 0,
+          "residual": 3.1763735522036263e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9969024047447888,
+          "replicate": 1,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9969024047447891,
+          "replicate": 1,
+          "residual": 6.126306411720861e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9969024047447893,
+          "replicate": 1,
+          "residual": 1.4579058296247113e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9959905936005906,
+          "replicate": 2,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9959905936005891,
+          "replicate": 2,
+          "residual": 6.3007898221812655e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9959905936005896,
+          "replicate": 2,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 3
+    }
+  ],
+  "design": {
+    "initial_condition_replicates": 3,
+    "initial_condition_scale": 0.1,
+    "orbit_max_iter": 80,
+    "orbit_residual_tolerance": 1e-08,
+    "robust_replicates": 3,
+    "samples": 4,
+    "seed": 20260814
+  },
+  "feasible_count": 4,
+  "interpretation": "Reduced bad-cavity diagnostic only; no SI calibration or manuscript claim is authorized.",
+  "kind": "adiabatic_bad_cavity_diagnostic",
+  "limitations": [
+    "optical mode adiabatically eliminated",
+    "drive remains model coordinate",
+    "J_m and g_i are assumed proxies",
+    "reduced/full-model agreement remains to be tested"
+  ],
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_assumed_closure_optimizer.json",
+  "pareto_count": 0,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "recorded_at_utc": "2026-08-14T07:22:52.124723+00:00",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_SCREEN",
+  "status": "PROVISIONAL"
+}

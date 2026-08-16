@@ -1,0 +1,1014 @@
+{
+  "candidate_pass_count": 3,
+  "candidate_results": [
+    {
+      "candidate_pass": true,
+      "replicate_results": [
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 7.896753093645937e-16,
+                "post_capture_residual": 4.473467123053669e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3325,
+                "first_distance_threshold_period": 2044,
+                "initial_condition": 1,
+                "minimum_distance": 3.8293719514023244e-09,
+                "post_capture_residual": 9.62312203425017e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 4050,
+                "first_distance_threshold_period": 2650,
+                "initial_condition": 2,
+                "minimum_distance": 5.3367144593762774e-08,
+                "post_capture_residual": 8.302733076137187e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3875,
+                "first_distance_threshold_period": 2491,
+                "initial_condition": 3,
+                "minimum_distance": 3.101276958341082e-08,
+                "post_capture_residual": 9.3318888507414e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3700,
+                "first_distance_threshold_period": 2300,
+                "initial_condition": 4,
+                "minimum_distance": 1.4220570975731873e-08,
+                "post_capture_residual": 8.387473126123185e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.9852334701272664e-23,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -34655.353966533745,
+            "drive": 0.22025850962654964,
+            "drive_frequency": 0.995207013039976,
+            "drive_modulation": 0.8106931172173473,
+            "g1": 64.69996076594252,
+            "g2": 66.00116295942748,
+            "gamma1": 0.0013031551466702476,
+            "gamma2": 0.0011793030751959337,
+            "hopping": 0.004014611354398934,
+            "kappa": 100974.552520153,
+            "omega1": 1.0304789295724543,
+            "omega2": 1.2586125037330957,
+            "theta": 0.0
+          },
+          "replicate": 0
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 3.803227716160519e-16,
+                "post_capture_residual": 3.798844375938548e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3025,
+                "first_distance_threshold_period": 1863,
+                "initial_condition": 1,
+                "minimum_distance": 1.5818836581341305e-08,
+                "post_capture_residual": 8.708096712237582e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3175,
+                "first_distance_threshold_period": 2008,
+                "initial_condition": 2,
+                "minimum_distance": 3.319867201796943e-08,
+                "post_capture_residual": 8.004694882148308e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3100,
+                "first_distance_threshold_period": 1955,
+                "initial_condition": 3,
+                "minimum_distance": 2.513088731128152e-08,
+                "post_capture_residual": 8.983935672099692e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3225,
+                "first_distance_threshold_period": 2064,
+                "initial_condition": 4,
+                "minimum_distance": 4.177987220475923e-08,
+                "post_capture_residual": 8.790453145594457e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 3.622146354187281e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -37122.547776028856,
+            "drive": 0.2139366648971936,
+            "drive_frequency": 0.816649568845141,
+            "drive_modulation": 0.7316462191886743,
+            "g1": 74.23472242060343,
+            "g2": 78.27088784996666,
+            "gamma1": 0.0013105356737034353,
+            "gamma2": 0.0012275071735211058,
+            "hopping": 0.004882195702960788,
+            "kappa": 114817.88644694838,
+            "omega1": 1.0176682763298681,
+            "omega2": 1.2628267374993218,
+            "theta": 0.0
+          },
+          "replicate": 1
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 2.530349747989602e-15,
+                "post_capture_residual": 4.383428336885985e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3600,
+                "first_distance_threshold_period": 2321,
+                "initial_condition": 1,
+                "minimum_distance": 3.5082428860524985e-08,
+                "post_capture_residual": 9.673748259358142e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3850,
+                "first_distance_threshold_period": 2565,
+                "initial_condition": 2,
+                "minimum_distance": 8.577073929085874e-08,
+                "post_capture_residual": 9.361943115699613e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3800,
+                "first_distance_threshold_period": 2635,
+                "initial_condition": 3,
+                "minimum_distance": 1.0157287630826456e-07,
+                "post_capture_residual": 9.250711128514107e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3850,
+                "first_distance_threshold_period": 2557,
+                "initial_condition": 4,
+                "minimum_distance": 8.359011273208317e-08,
+                "post_capture_residual": 8.759660303832741e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.6543612251060553e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -39792.90539584593,
+            "drive": 0.2181588776433173,
+            "drive_frequency": 1.089884704403276,
+            "drive_modulation": 0.5876633794257649,
+            "g1": 60.05738320127786,
+            "g2": 72.53321428096216,
+            "gamma1": 0.0013061685819400228,
+            "gamma2": 0.0012875416481515029,
+            "hopping": 0.004649507405474995,
+            "kappa": 86398.90479380602,
+            "omega1": 1.1700034318487502,
+            "omega2": 1.2834717656992547,
+            "theta": 0.0
+          },
+          "replicate": 2
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 8.55782070029465e-16,
+                "post_capture_residual": 3.5519900791699646e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3525,
+                "first_distance_threshold_period": 2201,
+                "initial_condition": 1,
+                "minimum_distance": 1.0435454549367932e-08,
+                "post_capture_residual": 9.70584873933224e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3975,
+                "first_distance_threshold_period": 2589,
+                "initial_condition": 2,
+                "minimum_distance": 5.0254314360286565e-08,
+                "post_capture_residual": 8.633313292214558e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3650,
+                "first_distance_threshold_period": 2354,
+                "initial_condition": 3,
+                "minimum_distance": 2.0101756946443095e-08,
+                "post_capture_residual": 9.859392756379547e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 4025,
+                "first_distance_threshold_period": 2664,
+                "initial_condition": 4,
+                "minimum_distance": 6.377986102977184e-08,
+                "post_capture_residual": 9.954807232823559e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.0960143116327617e-23,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -36777.968303064255,
+            "drive": 0.2142909310769874,
+            "drive_frequency": 0.9980422922381754,
+            "drive_modulation": 0.572397790105165,
+            "g1": 69.36337924440313,
+            "g2": 64.75817289858848,
+            "gamma1": 0.0013299763566649134,
+            "gamma2": 0.0011802179855032611,
+            "hopping": 0.005217828806602635,
+            "kappa": 93460.97964323041,
+            "omega1": 0.9777443840111314,
+            "omega2": 1.2194338969930607,
+            "theta": 0.0
+          },
+          "replicate": 3
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 1.1335665164607399e-15,
+                "post_capture_residual": 3.33574641451734e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3750,
+                "first_distance_threshold_period": 2520,
+                "initial_condition": 1,
+                "minimum_distance": 6.332999514975431e-08,
+                "post_capture_residual": 9.593494708512351e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3950,
+                "first_distance_threshold_period": 2629,
+                "initial_condition": 2,
+                "minimum_distance": 9.529336697984165e-08,
+                "post_capture_residual": 9.081036755414764e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3800,
+                "first_distance_threshold_period": 2453,
+                "initial_condition": 3,
+                "minimum_distance": 3.4026727002436265e-08,
+                "post_capture_residual": 9.714040837060519e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3800,
+                "first_distance_threshold_period": 2570,
+                "initial_condition": 4,
+                "minimum_distance": 7.001993652140776e-08,
+                "post_capture_residual": 9.528044581458046e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.7593743888090764e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -40603.82365417761,
+            "drive": 0.20029979453888552,
+            "drive_frequency": 1.0066018468165547,
+            "drive_modulation": 0.7022192540592186,
+            "g1": 64.72317994974173,
+            "g2": 80.82816821080567,
+            "gamma1": 0.0011425815235413983,
+            "gamma2": 0.0012433580995502083,
+            "hopping": 0.0040802432006337664,
+            "kappa": 121340.85725040111,
+            "omega1": 0.886785989433552,
+            "omega2": 1.324259761195392,
+            "theta": 0.0
+          },
+          "replicate": 4
+        }
+      ],
+      "sample": 5
+    },
+    {
+      "candidate_pass": true,
+      "replicate_results": [
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 9.00191423740761e-16,
+                "post_capture_residual": 4.261610521413478e-10,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3325,
+                "first_distance_threshold_period": 2342,
+                "initial_condition": 1,
+                "minimum_distance": 1.6589929138825057e-07,
+                "post_capture_residual": 8.112834945414442e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3250,
+                "first_distance_threshold_period": 2205,
+                "initial_condition": 2,
+                "minimum_distance": 9.524410583030738e-08,
+                "post_capture_residual": 9.212966597694892e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3200,
+                "first_distance_threshold_period": 2163,
+                "initial_condition": 3,
+                "minimum_distance": 7.953823604651378e-08,
+                "post_capture_residual": 9.275435633304823e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3275,
+                "first_distance_threshold_period": 2318,
+                "initial_condition": 4,
+                "minimum_distance": 1.409819399951153e-07,
+                "post_capture_residual": 9.757052963008004e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.0339757656912846e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -38082.69211931381,
+            "drive": 0.08002407081169909,
+            "drive_frequency": 1.0155624631858635,
+            "drive_modulation": 0.6938170120907063,
+            "g1": 70.37304220574225,
+            "g2": 74.6366003684148,
+            "gamma1": 0.0013484091893826446,
+            "gamma2": 0.0013479164132444799,
+            "hopping": 0.004039816056571554,
+            "kappa": 104825.10146051543,
+            "omega1": 0.9247071904484381,
+            "omega2": 1.091115836029028,
+            "theta": 0.0
+          },
+          "replicate": 0
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 9.364679496716323e-16,
+                "post_capture_residual": 2.8166691420092964e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3775,
+                "first_distance_threshold_period": 2461,
+                "initial_condition": 1,
+                "minimum_distance": 3.50366786151062e-08,
+                "post_capture_residual": 9.466203573496977e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 4025,
+                "first_distance_threshold_period": 2660,
+                "initial_condition": 2,
+                "minimum_distance": 6.971976065427123e-08,
+                "post_capture_residual": 8.914458749092832e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3775,
+                "first_distance_threshold_period": 2461,
+                "initial_condition": 3,
+                "minimum_distance": 3.425171854799441e-08,
+                "post_capture_residual": 9.413432221541734e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 4100,
+                "first_distance_threshold_period": 2712,
+                "initial_condition": 4,
+                "minimum_distance": 7.924093127703727e-08,
+                "post_capture_residual": 8.693821960178358e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 4.756288522179909e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -30877.782351810944,
+            "drive": 0.22799328706240882,
+            "drive_frequency": 1.0783280590907907,
+            "drive_modulation": 0.5892628297511714,
+            "g1": 75.06188738964701,
+            "g2": 72.19909912653723,
+            "gamma1": 0.0011870670766302943,
+            "gamma2": 0.0014815747154779616,
+            "hopping": 0.003546561611829405,
+            "kappa": 121869.52645477552,
+            "omega1": 0.9153185846122027,
+            "omega2": 1.191318015508903,
+            "theta": 0.0
+          },
+          "replicate": 1
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 4.006195640182142e-15,
+                "post_capture_residual": 2.373719788413656e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3225,
+                "first_distance_threshold_period": 2230,
+                "initial_condition": 1,
+                "minimum_distance": 6.875089150595159e-08,
+                "post_capture_residual": 9.151677470398765e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3325,
+                "first_distance_threshold_period": 2325,
+                "initial_condition": 2,
+                "minimum_distance": 9.810931197931102e-08,
+                "post_capture_residual": 9.816943382666549e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3450,
+                "first_distance_threshold_period": 2310,
+                "initial_condition": 3,
+                "minimum_distance": 9.170822321119135e-08,
+                "post_capture_residual": 8.696265023294064e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3375,
+                "first_distance_threshold_period": 2409,
+                "initial_condition": 4,
+                "minimum_distance": 1.436394669149014e-07,
+                "post_capture_residual": 9.617845918946174e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 3.980806697911446e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -37148.95317020347,
+            "drive": 0.2035954426146179,
+            "drive_frequency": 0.9571419563575427,
+            "drive_modulation": 0.6627535128821961,
+            "g1": 68.62365511680083,
+            "g2": 59.130392063038144,
+            "gamma1": 0.0012421804558646861,
+            "gamma2": 0.0012423269398077466,
+            "hopping": 0.004272354116224578,
+            "kappa": 112592.35991262108,
+            "omega1": 1.0262977010360714,
+            "omega2": 1.184913990624947,
+            "theta": 0.0
+          },
+          "replicate": 2
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 9.457860972515902e-15,
+                "post_capture_residual": 6.081711210574092e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3425,
+                "first_distance_threshold_period": 2540,
+                "initial_condition": 1,
+                "minimum_distance": 1.2336060800419405e-07,
+                "post_capture_residual": 9.793587124976335e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3375,
+                "first_distance_threshold_period": 2449,
+                "initial_condition": 2,
+                "minimum_distance": 9.155890854978288e-08,
+                "post_capture_residual": 9.589493432913823e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3675,
+                "first_distance_threshold_period": 2617,
+                "initial_condition": 3,
+                "minimum_distance": 1.7814075468856617e-07,
+                "post_capture_residual": 8.077846155462795e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3425,
+                "first_distance_threshold_period": 2212,
+                "initial_condition": 4,
+                "minimum_distance": 3.665484713248931e-08,
+                "post_capture_residual": 9.333405391010539e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 9.305781891221561e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -39640.574202584634,
+            "drive": 0.21667865196274805,
+            "drive_frequency": 0.9220666623114592,
+            "drive_modulation": 0.7566449959547304,
+            "g1": 72.32995163394672,
+            "g2": 69.82685121326428,
+            "gamma1": 0.0011220668134395892,
+            "gamma2": 0.0012063447636813291,
+            "hopping": 0.0046467959234208645,
+            "kappa": 87130.26151154406,
+            "omega1": 0.8831458856682188,
+            "omega2": 1.2122616201047427,
+            "theta": 0.0
+          },
+          "replicate": 3
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 1.5896155238148454e-15,
+                "post_capture_residual": 4.15521427203412e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3550,
+                "first_distance_threshold_period": 2259,
+                "initial_condition": 1,
+                "minimum_distance": 6.232352792768089e-08,
+                "post_capture_residual": 8.005098967926132e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3525,
+                "first_distance_threshold_period": 2233,
+                "initial_condition": 2,
+                "minimum_distance": 5.018935938472575e-08,
+                "post_capture_residual": 7.459619474550265e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3550,
+                "first_distance_threshold_period": 2256,
+                "initial_condition": 3,
+                "minimum_distance": 5.0120030768226164e-08,
+                "post_capture_residual": 9.745235549539169e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3225,
+                "first_distance_threshold_period": 1972,
+                "initial_condition": 4,
+                "minimum_distance": 1.706193591806558e-08,
+                "post_capture_residual": 9.844939354787364e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.8417693326376007e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -42264.43490297192,
+            "drive": 0.21422120527300914,
+            "drive_frequency": 0.9377837431541581,
+            "drive_modulation": 0.690292850804793,
+            "g1": 74.94800695853661,
+            "g2": 58.62599601758264,
+            "gamma1": 0.0012002287953240829,
+            "gamma2": 0.0012640511252122277,
+            "hopping": 0.004260843802135681,
+            "kappa": 90827.79981422196,
+            "omega1": 1.1557493034287054,
+            "omega2": 1.191466529086988,
+            "theta": 0.0
+          },
+          "replicate": 4
+        }
+      ],
+      "sample": 10
+    },
+    {
+      "candidate_pass": true,
+      "replicate_results": [
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 9.404920595161412e-16,
+                "post_capture_residual": 1.1938689116221707e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3550,
+                "first_distance_threshold_period": 2429,
+                "initial_condition": 1,
+                "minimum_distance": 4.927430058015161e-08,
+                "post_capture_residual": 9.678741318058587e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3750,
+                "first_distance_threshold_period": 2437,
+                "initial_condition": 2,
+                "minimum_distance": 5.2356451453448405e-08,
+                "post_capture_residual": 7.42364394915697e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3800,
+                "first_distance_threshold_period": 2489,
+                "initial_condition": 3,
+                "minimum_distance": 5.9437082174206405e-08,
+                "post_capture_residual": 8.65432225530254e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3875,
+                "first_distance_threshold_period": 2571,
+                "initial_condition": 4,
+                "minimum_distance": 9.740307873128954e-08,
+                "post_capture_residual": 9.508945992396058e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.6543612251060553e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -34045.250688166445,
+            "drive": 0.13120321582088784,
+            "drive_frequency": 1.000340265414901,
+            "drive_modulation": 0.47389019990362347,
+            "g1": 68.80711913423593,
+            "g2": 69.27639376718086,
+            "gamma1": 0.00117022671826345,
+            "gamma2": 0.001142896594214222,
+            "hopping": 0.004310590216834489,
+            "kappa": 106602.66816001435,
+            "omega1": 1.0944836396346986,
+            "omega2": 1.166123199538343,
+            "theta": 0.0
+          },
+          "replicate": 0
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 1.6497268233014964e-15,
+                "post_capture_residual": 5.560332166104954e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3375,
+                "first_distance_threshold_period": 2124,
+                "initial_condition": 1,
+                "minimum_distance": 2.8890116125048923e-08,
+                "post_capture_residual": 9.7080670027598e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3350,
+                "first_distance_threshold_period": 2139,
+                "initial_condition": 2,
+                "minimum_distance": 3.501694660535571e-08,
+                "post_capture_residual": 9.69486445862509e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3200,
+                "first_distance_threshold_period": 2222,
+                "initial_condition": 3,
+                "minimum_distance": 3.875614603499297e-08,
+                "post_capture_residual": 9.004334780370377e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3475,
+                "first_distance_threshold_period": 2279,
+                "initial_condition": 4,
+                "minimum_distance": 6.032963439822833e-08,
+                "post_capture_residual": 9.782165593854999e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.6907119356186396e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -36944.36939723913,
+            "drive": 0.22648453041115243,
+            "drive_frequency": 1.0001205854070965,
+            "drive_modulation": 0.7911060897119393,
+            "g1": 58.82172262797483,
+            "g2": 69.50020582364714,
+            "gamma1": 0.001400543504291498,
+            "gamma2": 0.0013601710026399853,
+            "hopping": 0.0033483550700299965,
+            "kappa": 101191.68394769714,
+            "omega1": 1.0769208826004988,
+            "omega2": 1.31479477327257,
+            "theta": 0.0
+          },
+          "replicate": 1
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 1.1160579897533301e-15,
+                "post_capture_residual": 2.0527086745335152e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3375,
+                "first_distance_threshold_period": 2169,
+                "initial_condition": 1,
+                "minimum_distance": 3.262993895836577e-08,
+                "post_capture_residual": 8.770118759346338e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3550,
+                "first_distance_threshold_period": 2378,
+                "initial_condition": 2,
+                "minimum_distance": 7.152261788435867e-08,
+                "post_capture_residual": 9.268955340072599e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3600,
+                "first_distance_threshold_period": 2431,
+                "initial_condition": 3,
+                "minimum_distance": 9.283426909726811e-08,
+                "post_capture_residual": 9.11216395579546e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3625,
+                "first_distance_threshold_period": 2419,
+                "initial_condition": 4,
+                "minimum_distance": 8.863260058204364e-08,
+                "post_capture_residual": 9.245317248185797e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.4475660719677984e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -36557.69331374895,
+            "drive": 0.1739333759441862,
+            "drive_frequency": 1.0037302036704387,
+            "drive_modulation": 0.6970427761598823,
+            "g1": 81.60501473896689,
+            "g2": 58.833096172325945,
+            "gamma1": 0.0012682963773166908,
+            "gamma2": 0.0012544333798468938,
+            "hopping": 0.0047391964662781266,
+            "kappa": 116932.95428902814,
+            "omega1": 0.8456710433368735,
+            "omega2": 1.1577360642096266,
+            "theta": 0.0
+          },
+          "replicate": 2
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 1.1433348755381154e-15,
+                "post_capture_residual": 4.489462771816205e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3825,
+                "first_distance_threshold_period": 2429,
+                "initial_condition": 1,
+                "minimum_distance": 4.9371912450283984e-08,
+                "post_capture_residual": 7.52258045181958e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3775,
+                "first_distance_threshold_period": 2416,
+                "initial_condition": 2,
+                "minimum_distance": 4.642392162548258e-08,
+                "post_capture_residual": 9.440115270920558e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3450,
+                "first_distance_threshold_period": 2120,
+                "initial_condition": 3,
+                "minimum_distance": 1.1003370146385992e-08,
+                "post_capture_residual": 9.421201825296813e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3825,
+                "first_distance_threshold_period": 2509,
+                "initial_condition": 4,
+                "minimum_distance": 6.289893918517438e-08,
+                "post_capture_residual": 9.783609791703717e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 1.1842253691432994e-24,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -33615.81986674103,
+            "drive": 0.2046779700082804,
+            "drive_frequency": 0.9567936445546331,
+            "drive_modulation": 0.7549483734248807,
+            "g1": 74.15144401435607,
+            "g2": 84.52264828479055,
+            "gamma1": 0.0013934452438777902,
+            "gamma2": 0.001163164581674702,
+            "hopping": 0.004115752828291441,
+            "kappa": 116091.96428476284,
+            "omega1": 1.1544889385923127,
+            "omega2": 1.2287376639665293,
+            "theta": 0.0
+          },
+          "replicate": 3
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "first_distance_threshold_period": 1,
+                "initial_condition": 0,
+                "minimum_distance": 2.29558189306822e-13,
+                "post_capture_residual": 4.098570196892462e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3150,
+                "first_distance_threshold_period": 2439,
+                "initial_condition": 1,
+                "minimum_distance": 2.22697468970708e-07,
+                "post_capture_residual": 8.672534716317946e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3500,
+                "first_distance_threshold_period": 2641,
+                "initial_condition": 2,
+                "minimum_distance": 4.6622225737774073e-07,
+                "post_capture_residual": 8.77272671176299e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3425,
+                "first_distance_threshold_period": 2546,
+                "initial_condition": 3,
+                "minimum_distance": 3.45194337439823e-07,
+                "post_capture_residual": 9.397576917100824e-08,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 3300,
+                "first_distance_threshold_period": 2253,
+                "initial_condition": 4,
+                "minimum_distance": 7.713286917092318e-08,
+                "post_capture_residual": 9.683322520239574e-08,
+                "status": "PASS"
+              }
+            ],
+            "reference_residual": 6.617444900424221e-23,
+            "status": "PASS"
+          },
+          "parameters": {
+            "detuning": -42411.2200771375,
+            "drive": 0.2193838218518314,
+            "drive_frequency": 1.0992101561602174,
+            "drive_modulation": 0.6948465296625591,
+            "g1": 72.29813768722164,
+            "g2": 76.36138979473495,
+            "gamma1": 0.0014553845048513579,
+            "gamma2": 0.0012390073138535771,
+            "hopping": 0.004217045104746517,
+            "kappa": 86409.17606210153,
+            "omega1": 0.966054809994228,
+            "omega2": 1.108470152795132,
+            "theta": 0.0
+          },
+          "replicate": 4
+        }
+      ],
+      "sample": 15
+    }
+  ],
+  "design": {
+    "candidate_count": 3,
+    "capture_tolerance": 1e-05,
+    "initial_conditions_per_replicate": 5,
+    "integrator": "vectorized classical RK4; independently compared with DOP853",
+    "max_periods": 5000,
+    "parameter_replicates_per_candidate": 5,
+    "post_capture_residual_tolerance": 1e-07,
+    "residual_check_interval": 25,
+    "rk4_substeps_per_period": 320,
+    "samples": [
+      5,
+      10,
+      15
+    ],
+    "seed": 20260815
+  },
+  "interpretation": "Finite-time capture validation for the tested ensemble only; it does not prove global basin structure, SI calibration, or experimental optimality.",
+  "kind": "vectorized_finite_time_basin_capture_validation",
+  "limitations": [
+    "adiabatic optical elimination",
+    "assumed J_m and g_i proxies",
+    "finite ensemble",
+    "Fisher information not computed",
+    "normalized drive"
+  ],
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "recorded_at_utc": "2026-08-14T12:07:25.356015+00:00",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_BASIN_CAPTURE_VALIDATION",
+  "source_screen": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json",
+  "status": "PASS"
+}

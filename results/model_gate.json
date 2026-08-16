@@ -1,0 +1,37 @@
+{
+  "expected_trace": -1.04,
+  "flux_base": 1.1999999999999997,
+  "flux_gauge_transformed": 1.2,
+  "flux_phase_residual": 2.220446049250313e-16,
+  "gate": "N1_N2_MODEL_JACOBIAN_FLUX",
+  "jacobian_max_abs_error": 2.9193358841439476e-10,
+  "jacobian_max_abs_errors": [
+    2.631779238981835e-10,
+    2.9193358841439476e-10,
+    2.631779238981835e-10,
+    1.9149593022405043e-10,
+    1.9632002794256476e-10
+  ],
+  "parameters": {
+    "detuning": -1.0,
+    "drive": 0.2,
+    "drive_frequency": 1.0,
+    "drive_modulation": 0.1,
+    "g1": 0.02,
+    "g2": 0.018,
+    "gamma1": 0.02,
+    "gamma2": 0.02,
+    "hopping": 0.08,
+    "kappa": 1.0,
+    "omega1": 1.0,
+    "omega2": 1.03,
+    "theta": 0.0
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-13T13:17:37.129772+00:00",
+  "seed": 20260813,
+  "status": "PASS",
+  "trace": -1.04,
+  "workspace_revision": "715a38987ebbe7a695af2221472be0a38a7a45e0"
+}

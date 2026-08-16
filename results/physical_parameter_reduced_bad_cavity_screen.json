@@ -1,0 +1,135 @@
+{
+  "candidate_count": 2,
+  "candidate_records": [
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -37333.33335,
+        "drive": 0.19999999999999998,
+        "drive_frequency": 1.0,
+        "drive_modulation": 0.6799999999999999,
+        "g1": 69.47440230000001,
+        "g2": 69.47440230000001,
+        "gamma1": 0.0012499999999999998,
+        "gamma2": 0.0012499999999999998,
+        "hopping": 0.004166666649999999,
+        "kappa": 106666.66665,
+        "omega1": 1.0,
+        "omega2": 1.20833335,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960807097281646,
+          "replicate": 0,
+          "residual": 3.3087224502121107e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281631,
+          "replicate": 0,
+          "residual": 5.823351512373315e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9969291633796964,
+          "replicate": 1,
+          "residual": 4.549493369041652e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9969291633796957,
+          "replicate": 1,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 0
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -37333.33335,
+        "drive": 0.19999999999999998,
+        "drive_frequency": 1.0,
+        "drive_modulation": 0.6799999999999999,
+        "g1": 69.47440230000001,
+        "g2": 69.47440230000001,
+        "gamma1": 0.0012499999999999998,
+        "gamma2": 0.0012499999999999998,
+        "hopping": 0.004166666649999999,
+        "kappa": 106666.66665,
+        "omega1": 1.0,
+        "omega2": 1.20833335,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9960807097281646,
+          "replicate": 0,
+          "residual": 3.3087224502121107e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 26,
+          "poincare_spectral_radius": 0.9960807097281633,
+          "replicate": 0,
+          "residual": 9.529120656610879e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 11,
+          "poincare_spectral_radius": 0.9958341259829963,
+          "replicate": 1,
+          "residual": 8.271806125530277e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 21,
+          "poincare_spectral_radius": 0.9958341259829966,
+          "replicate": 1,
+          "residual": 1.7464496917379354e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 1
+    }
+  ],
+  "design": {
+    "initial_condition_replicates": 2,
+    "initial_condition_scale": 0.1,
+    "orbit_max_iter": 80,
+    "orbit_residual_tolerance": 1e-08,
+    "robust_replicates": 2,
+    "samples": 2,
+    "seed": 20260814
+  },
+  "feasible_count": 2,
+  "interpretation": "Reduced bad-cavity diagnostic only; no SI calibration or manuscript claim is authorized.",
+  "kind": "adiabatic_bad_cavity_diagnostic",
+  "limitations": [
+    "optical mode adiabatically eliminated",
+    "drive remains model coordinate",
+    "J_m and g_i are assumed proxies",
+    "reduced/full-model agreement remains to be tested"
+  ],
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_assumed_closure_optimizer.json",
+  "pareto_count": 0,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "recorded_at_utc": "2026-08-14T07:21:05.555432+00:00",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_SCREEN",
+  "status": "PROVISIONAL"
+}

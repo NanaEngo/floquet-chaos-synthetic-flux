@@ -1,0 +1,95 @@
+{
+  "gain_vs_flux_off": {
+    "baseline_percentile_rank": 96.66666666666667,
+    "deterministic_baseline": 1.3231588389876912,
+    "fraction_above_unity": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.0,
+      "ci_high": 1.0,
+      "ci_low": 1.0,
+      "point": 1.0
+    },
+    "gain_distinguishable_from_unity_at_5pct": true,
+    "median": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.0097894243425763,
+      "ci_high": 1.0527440269148858,
+      "ci_low": 1.0246755091646658,
+      "point": 1.0386065247760312
+    },
+    "median_excess_over_unity": {
+      "ci_high": 0.05274402691488578,
+      "ci_low": 0.024675509164665765,
+      "point": 0.038606524776031215
+    },
+    "n": 60,
+    "p05": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.00132403731383225,
+      "ci_high": 1.0074225858613595,
+      "ci_low": 1.0038687675633444,
+      "point": 1.0042592026919441
+    },
+    "p05_ci_low_above_unity": true,
+    "p95": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.06608681562324602,
+      "ci_high": 1.3445021200928997,
+      "ci_low": 1.1351113505377708,
+      "point": 1.1723777304974763
+    }
+  },
+  "gain_vs_single_mode": {
+    "baseline_percentile_rank": 96.66666666666667,
+    "deterministic_baseline": 1.1590040901013756,
+    "fraction_above_unity": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.0,
+      "ci_high": 1.0,
+      "ci_low": 1.0,
+      "point": 1.0
+    },
+    "gain_distinguishable_from_unity_at_5pct": true,
+    "median": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.004863903357257463,
+      "ci_high": 1.0262590545774688,
+      "ci_low": 1.0123063629950724,
+      "point": 1.019230738085022
+    },
+    "median_excess_over_unity": {
+      "ci_high": 0.0262590545774688,
+      "ci_low": 0.012306362995072373,
+      "point": 0.01923073808502207
+    },
+    "n": 60,
+    "p05": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.0006611794692108112,
+      "ci_high": 1.0037082280528862,
+      "ci_low": 1.0019335000211067,
+      "point": 1.0021285400826867
+    },
+    "p05_ci_low_above_unity": true,
+    "p95": {
+      "alpha": 0.1,
+      "bootstrap_std": 0.032257049275618996,
+      "ci_high": 1.1693576281647131,
+      "ci_low": 1.0670370117768777,
+      "point": 1.0853822218788136
+    }
+  },
+  "gate": "FISHER_GAIN_SIGNIFICANCE",
+  "interpretation": "The deterministic 1.323 (flux-off) / 1.159 (single-mode) gain is the value at the maximum-gain phase; across the sampled unmeasured coordinates the gain distribution is much lower (median ~1.08/1.04, 5th percentile ~1.004/1.002). The bootstrap places a confidence interval on these statistics. The gain is 'distinguishable from unity at the conservative end' only if the 5th-percentile CI lower bound exceeds 1.0; otherwise the enhancement is real but weak and not robustly separable from unity at the conservative end. Classical Fisher information, not QFI.",
+  "kind": "bootstrap_confidence_intervals_classical_fisher_gain",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-16T15:52:07.292594+00:00",
+  "settings": {
+    "alpha": 0.1,
+    "n_boot": 20000,
+    "seed": 42,
+    "source": "results/matched_fisher_uq.json"
+  },
+  "status": "PASS"
+}

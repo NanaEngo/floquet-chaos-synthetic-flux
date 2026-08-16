@@ -1,0 +1,45 @@
+{
+  "comparison": {
+    "coherent_occupation_langevin": 0.028816079582749725,
+    "correct_noise_strength": "kappa/4",
+    "occupation_master": 0.03200000000000126,
+    "ratio_kappa_over_2": 1.9630743190855762,
+    "ratio_kappa_over_4": 0.9815371595427987,
+    "var_X_master": 0.25000000000000067,
+    "var_re_langevin_kappa_over_2": 0.4907685797713954,
+    "var_re_langevin_kappa_over_4": 0.24538428988570035
+  },
+  "gate": "LANGEVIN_MASTER_CROSSCHECK",
+  "interpretation": "The isolated optical sector of the reference point is a driven damped linear cavity. Re(alpha) is the amplitude quadrature X=(a+a^dag)/2 with vacuum variance 1/4, so the correct Langevin noise strength for it is kappa/4 (giving variance 1/4). kappa/2 is the diffusion for the *normalized* quadrature X=(a+a^dag)/sqrt(2) (variance 1/2), i.e. a factor 2 larger. This script determines which strength reproduces the master equation for the amplitude quadrature that the semiclassical state Re(alpha) actually represents.",
+  "kind": "semiclassical_noise_model_vs_master_equation",
+  "langevin_kappa_over_2": {
+    "coherent_occupation_abs2": 0.028816079582749725,
+    "mean_im": -0.13667310171676064,
+    "mean_re": 0.1006803995317347,
+    "var_im": 0.5006464282035512,
+    "var_re": 0.4907685797713954
+  },
+  "langevin_kappa_over_4": {
+    "coherent_occupation_abs2": 0.029547357126359468,
+    "mean_im": -0.14350539203987164,
+    "mean_re": 0.09462325074653806,
+    "var_im": 0.2503232141017722,
+    "var_re": 0.24538428988570035
+  },
+  "master_equation": {
+    "mean_X": -0.1599999999999986,
+    "n_fock": 16,
+    "n_occ": 0.03200000000000126,
+    "var_P": 0.25000000000000044,
+    "var_X": 0.25000000000000067
+  },
+  "parameters": {
+    "detuning": -1.0,
+    "drive": 0.2,
+    "kappa": 1.0
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-16T15:44:05.600229+00:00",
+  "status": "PASS"
+}

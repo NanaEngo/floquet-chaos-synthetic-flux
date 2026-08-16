@@ -1,0 +1,109 @@
+{
+  "calibration_status": "PROVISIONAL",
+  "candidate_count": 1,
+  "candidate_records": [
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 9.5121612574394e-24,
+        "floquet_max_rate": -5.066066900408666e-06,
+        "resource_cost": 0.05860507227973172,
+        "robustness_margin": 5.066066900408666e-06,
+        "stability_margin": 5.066066900408666e-06
+      },
+      "normalized_parameters": {
+        "detuning": 1.0047233779852043,
+        "drive": 0.05860507227973172,
+        "drive_frequency": 1.0666373663775222,
+        "drive_modulation": 0.0945161163138194,
+        "g1": 9.7479359592872e-05,
+        "g2": 0.00010862756400915091,
+        "gamma1": 1.0472252594429958e-05,
+        "gamma2": 1.013259097135736e-05,
+        "hopping": 0.0002074777938034654,
+        "kappa": 0.0797454687706679,
+        "omega1": 1.0461990744857126,
+        "omega2": 1.0770977269565238
+      },
+      "robust_replicates": 1,
+      "status": "PASS"
+    }
+  ],
+  "feasible_count": 1,
+  "interpretation": "Provisional literature-anchored numerical Pareto screening; not an experimental optimum.",
+  "kind": "robust_pareto_optimization",
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_literature_scenario.json",
+  "objective": {
+    "candidate_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "constraint_scope": "numerical screening only; no hardware power, bandwidth, temperature, or fabrication constraint has been supplied",
+    "constraints": [
+      {
+        "metric": "stability_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "robustness_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "resource_cost",
+        "operator": "<=",
+        "value": 0.5
+      }
+    ],
+    "secondary_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "selection_note": "This scenario is permitted only for exploratory numerical screening. It must not be called physically optimized until the drive mapping and hardware constraints are supplied.",
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY"
+  },
+  "orbit_max_iter": 600,
+  "orbit_residual_tol": 0.0001,
+  "pareto_candidates": [
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 9.5121612574394e-24,
+        "floquet_max_rate": -5.066066900408666e-06,
+        "resource_cost": 0.05860507227973172,
+        "robustness_margin": 5.066066900408666e-06,
+        "stability_margin": 5.066066900408666e-06
+      },
+      "normalized_parameters": {
+        "detuning": 1.0047233779852043,
+        "drive": 0.05860507227973172,
+        "drive_frequency": 1.0666373663775222,
+        "drive_modulation": 0.0945161163138194,
+        "g1": 9.7479359592872e-05,
+        "g2": 0.00010862756400915091,
+        "gamma1": 1.0472252594429958e-05,
+        "gamma2": 1.013259097135736e-05,
+        "hopping": 0.0002074777938034654,
+        "kappa": 0.0797454687706679,
+        "omega1": 1.0461990744857126,
+        "omega2": 1.0770977269565238
+      },
+      "robust_replicates": 1,
+      "status": "PASS"
+    }
+  ],
+  "pareto_count": 1,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-13T21:31:01.181070+00:00",
+  "robust_replicates": 1,
+  "samples": 1,
+  "seed": 20260813,
+  "status": "PROVISIONAL"
+}

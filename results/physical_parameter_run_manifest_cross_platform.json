@@ -1,0 +1,37 @@
+{
+  "status": "PROVISIONAL",
+  "scientific_status": "NO_ROBUST_FEASIBLE_CANDIDATE",
+  "purpose": "Cross-platform sensitivity screening using Mayor 2025 single-mode scales and Mathew 2020 coupling context; not SI calibration",
+  "manifest": "physical_parameter_manifest_cross_platform_scenario.json",
+  "output": "physical_parameter_optimization_cross_platform.json",
+  "command": "mamba run -n qom python scripts/pareto_robust_optimizer.py --manifest physical_parameter_manifest_cross_platform_scenario.json --output results/physical_parameter_optimization_cross_platform.json --allow-provisional-literature-scenario --samples 4 --seed 20260814 --robust-replicates 3 --uncertainty-fraction 0.02 --initial-condition-replicates 3 --initial-condition-scale 0.1 --orbit-max-iter 600 --orbit-residual-tol 1e-8 --compute-fisher --fisher-eps 1e-4 --n-th1 0.1 --n-th2 0.1 --detector-variance 0.01",
+  "design": {
+    "samples": 4,
+    "parameter_replicates": 3,
+    "initial_condition_replicates": 3,
+    "initial_condition_scale": 0.1,
+    "uncertainty_fraction": 0.02,
+    "orbit_max_iter": 600,
+    "orbit_residual_tolerance": 1e-8,
+    "classical_fisher": true
+  },
+  "result": {
+    "candidate_count": 4,
+    "feasible_count": 0,
+    "pareto_count": 0,
+    "failure_mode": "periodic orbit failed under robustness replicate or initial condition"
+  },
+  "interpretation": "The independent published single-mode scales plus provisional two-mode coupling proxy did not yield a robust feasible candidate under the declared strict orbit and initial-condition gates. This is a negative cross-platform sensitivity result, not evidence that the physical device is infeasible.",
+  "not_authorized": [
+    "physical optimum claim",
+    "experimental feasibility claim",
+    "laser-power claim",
+    "manuscript quantitative claim"
+  ],
+  "next_required_measurements": [
+    "present-device mechanical hopping J_m and phase calibration",
+    "input-output coupling fraction",
+    "alpha_in convention and calibrated input power",
+    "temperature-dependent damping and noise parameters"
+  ]
+}

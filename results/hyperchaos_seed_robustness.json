@@ -1,0 +1,1880 @@
+{
+  "coupling": {
+    "detuning": -1.0,
+    "g1": 0.3,
+    "g2": 0.27,
+    "gamma1": 0.02,
+    "gamma2": 0.02
+  },
+  "drives": [
+    4.0,
+    8.0
+  ],
+  "gate": "HYPERCHAOS_SEED_ROBUSTNESS",
+  "interpretation": "Per-phase hyperchaos-order (n_pos) statistics over independent initial conditions at strong coupling. The flux-phase modulation of n_pos is robust if the min/max spread at each phase is small and the phase-to-phase variation exceeds the seed spread.",
+  "kind": "full_spectrum_hyperchaos_seed_robustness",
+  "n_phases": 12,
+  "n_seeds_per_point": 3,
+  "passed_records": 72,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "positive_exponent_threshold": 0.001,
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-15T10:06:25.169033+00:00",
+  "records": [
+    {
+      "divergence_residual": 0.001213192630464155,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -3.141592653589793,
+      "kaplan_yorke_dimension": 4.022585094917821,
+      "largest_exponent": 0.03812310106055438,
+      "lyapunov_spectrum": [
+        -0.7136190126912512,
+        -0.33516388816647885,
+        -0.013576688069937832,
+        -0.0101078431299163,
+        -0.00686886163343442,
+        0.03812310106055438
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260815,
+      "status": "PASS",
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "divergence_residual": 0.0012068713679398435,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -3.141592653589793,
+      "kaplan_yorke_dimension": 4.027009148961258,
+      "largest_exponent": 0.044615311737606654,
+      "lyapunov_spectrum": [
+        -0.7105737352026147,
+        -0.3398111460270661,
+        -0.015944552947691027,
+        -0.010391340477482143,
+        -0.009101408450692542,
+        0.044615311737606654
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260816,
+      "status": "PASS",
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "divergence_residual": 0.0012111549134372623,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -3.141592653589793,
+      "kaplan_yorke_dimension": 4.005520726792062,
+      "largest_exponent": 0.0360328202173801,
+      "lyapunov_spectrum": [
+        -0.7086205887987925,
+        -0.33443690087355155,
+        -0.016322015396881325,
+        -0.010186646476028427,
+        -0.007677823585563467,
+        0.0360328202173801
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260817,
+      "status": "PASS",
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "divergence_residual": 0.001197809584782883,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -2.6179938779914944,
+      "kaplan_yorke_dimension": 4.011828184985991,
+      "largest_exponent": 0.0431549076203938,
+      "lyapunov_spectrum": [
+        -0.715059305249687,
+        -0.3300423057810778,
+        -0.023395713054370704,
+        -0.012390906367531781,
+        -0.0034644867525096016,
+        0.0431549076203938
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260818,
+      "status": "PASS",
+      "theta": -2.6179938779914944,
+      "theta_index": 1
+    },
+    {
+      "divergence_residual": 0.0012003088948178142,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -2.6179938779914944,
+      "kaplan_yorke_dimension": 4.021095583478867,
+      "largest_exponent": 0.048061715111699405,
+      "lyapunov_spectrum": [
+        -0.7162247035600519,
+        -0.3319788938021916,
+        -0.02431831336634839,
+        -0.01345429392172808,
+        -0.003285819356197052,
+        0.048061715111699405
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260819,
+      "status": "PASS",
+      "theta": -2.6179938779914944,
+      "theta_index": 1
+    },
+    {
+      "divergence_residual": 0.0012017476082901712,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -2.6179938779914944,
+      "kaplan_yorke_dimension": 4.062028611161803,
+      "largest_exponent": 0.055316377853006665,
+      "lyapunov_spectrum": [
+        -0.7266823886711942,
+        -0.3353187130011184,
+        -0.01962213072151093,
+        -0.01384252755620621,
+        -0.0010523655112671551,
+        0.055316377853006665
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260820,
+      "status": "PASS",
+      "theta": -2.6179938779914944,
+      "theta_index": 1
+    },
+    {
+      "divergence_residual": 0.001153580662753395,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -2.0943951023931957,
+      "kaplan_yorke_dimension": 4.077633770380866,
+      "largest_exponent": 0.08111146401388986,
+      "lyapunov_spectrum": [
+        -0.7478022796529225,
+        -0.3180421090773915,
+        -0.03626138761826456,
+        -0.02112420533347298,
+        0.0009649370054082178,
+        0.08111146401388986
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260821,
+      "status": "PASS",
+      "theta": -2.0943951023931957,
+      "theta_index": 2
+    },
+    {
+      "divergence_residual": 0.0011434213067600396,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -2.0943951023931957,
+      "kaplan_yorke_dimension": 4.058434181369671,
+      "largest_exponent": 0.07883145827858035,
+      "lyapunov_spectrum": [
+        -0.7434953531999748,
+        -0.3161202989927627,
+        -0.03839787142724185,
+        -0.021960276456519774,
+        -1.079508840936361e-06,
+        0.07883145827858035
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260822,
+      "status": "PASS",
+      "theta": -2.0943951023931957,
+      "theta_index": 2
+    },
+    {
+      "divergence_residual": 0.0011577179917412472,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -2.0943951023931957,
+      "kaplan_yorke_dimension": 4.0579121090006005,
+      "largest_exponent": 0.07557450488939657,
+      "lyapunov_spectrum": [
+        -0.7464884151800072,
+        -0.31278323989403867,
+        -0.037782617878172664,
+        -0.01942234299466924,
+        -0.0002556069342500092,
+        0.07557450488939657
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260823,
+      "status": "PASS",
+      "theta": -2.0943951023931957,
+      "theta_index": 2
+    },
+    {
+      "divergence_residual": 0.001013711059759892,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -1.5707963267948966,
+      "kaplan_yorke_dimension": 4.350596409232031,
+      "largest_exponent": 0.12901622970580207,
+      "lyapunov_spectrum": [
+        -0.7721188783382001,
+        -0.4140642838201297,
+        -0.013956389832523883,
+        0.0043334109632101195,
+        0.025776200262081828,
+        0.12901622970580207
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260824,
+      "status": "PASS",
+      "theta": -1.5707963267948966,
+      "theta_index": 3
+    },
+    {
+      "divergence_residual": 0.001034123077380933,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -1.5707963267948966,
+      "kaplan_yorke_dimension": 4.283323479623586,
+      "largest_exponent": 0.12738529784666403,
+      "lyapunov_spectrum": [
+        -0.7625175447935788,
+        -0.38862244034103355,
+        -0.02890132169108664,
+        -0.008012277078297566,
+        0.0196341629799515,
+        0.12738529784666403
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260825,
+      "status": "PASS",
+      "theta": -1.5707963267948966,
+      "theta_index": 3
+    },
+    {
+      "divergence_residual": 0.0010685253573814446,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -1.5707963267948966,
+      "kaplan_yorke_dimension": 4.196656437245348,
+      "largest_exponent": 0.11429970876438447,
+      "lyapunov_spectrum": [
+        -0.765923603749547,
+        -0.34249969049900275,
+        -0.039158334858056164,
+        -0.01930830724423864,
+        0.011521702229078641,
+        0.11429970876438447
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260826,
+      "status": "PASS",
+      "theta": -1.5707963267948966,
+      "theta_index": 3
+    },
+    {
+      "divergence_residual": 0.001003164623902153,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -1.0471975511965979,
+      "kaplan_yorke_dimension": 4.2514010106260125,
+      "largest_exponent": 0.1015530421016686,
+      "lyapunov_spectrum": [
+        -0.7408137734523081,
+        -0.40100159822901443,
+        -0.013523150050578284,
+        -0.0009061636566906953,
+        0.01368847866302095,
+        0.1015530421016686
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260827,
+      "status": "PASS",
+      "theta": -1.0471975511965979,
+      "theta_index": 4
+    },
+    {
+      "divergence_residual": 0.000993726883773638,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -1.0471975511965979,
+      "kaplan_yorke_dimension": 4.285971475241845,
+      "largest_exponent": 0.11727841472499562,
+      "lyapunov_spectrum": [
+        -0.7480608177298901,
+        -0.41025379098559306,
+        -0.011049357728679952,
+        -4.995660180851447e-05,
+        0.011141781437202266,
+        0.11727841472499562
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260828,
+      "status": "PASS",
+      "theta": -1.0471975511965979,
+      "theta_index": 4
+    },
+    {
+      "divergence_residual": 0.0010058389049074634,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -1.0471975511965979,
+      "kaplan_yorke_dimension": 4.2420037520124945,
+      "largest_exponent": 0.10063462126108023,
+      "lyapunov_spectrum": [
+        -0.7368087459893959,
+        -0.4013174124847727,
+        -0.01557410636526813,
+        -0.00017392486868971044,
+        0.012233729542138591,
+        0.10063462126108023
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260829,
+      "status": "PASS",
+      "theta": -1.0471975511965979,
+      "theta_index": 4
+    },
+    {
+      "divergence_residual": 0.0010296410566694725,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -0.523598775598299,
+      "kaplan_yorke_dimension": 4.183420926738673,
+      "largest_exponent": 0.08745518202798316,
+      "lyapunov_spectrum": [
+        -0.722411743188201,
+        -0.3901862150299099,
+        -0.013153814664893394,
+        -0.005936667502491412,
+        0.0032036173008429462,
+        0.08745518202798316
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260830,
+      "status": "PASS",
+      "theta": -0.5235987755982991,
+      "theta_index": 5
+    },
+    {
+      "divergence_residual": 0.0010116564392690375,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -0.523598775598299,
+      "kaplan_yorke_dimension": 4.199337881318601,
+      "largest_exponent": 0.09152228816745753,
+      "lyapunov_spectrum": [
+        -0.7268297628251138,
+        -0.3924025956561776,
+        -0.01340575237701833,
+        -0.0026525356007105305,
+        0.0027567018522934865,
+        0.09152228816745753
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260831,
+      "status": "PASS",
+      "theta": -0.5235987755982991,
+      "theta_index": 5
+    },
+    {
+      "divergence_residual": 0.0009984213804585806,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": -0.523598775598299,
+      "kaplan_yorke_dimension": 4.198767485807485,
+      "largest_exponent": 0.09375816098451993,
+      "lyapunov_spectrum": [
+        -0.7339635913521961,
+        -0.3832031583711919,
+        -0.015140238059272745,
+        -0.005463638234209078,
+        0.0030140436518911423,
+        0.09375816098451993
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260832,
+      "status": "PASS",
+      "theta": -0.5235987755982991,
+      "theta_index": 5
+    },
+    {
+      "divergence_residual": 0.0010865834147051334,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 0.0,
+      "kaplan_yorke_dimension": 4.178418382251893,
+      "largest_exponent": 0.08813115370470359,
+      "lyapunov_spectrum": [
+        -0.7242039932492059,
+        -0.3856982475265823,
+        -0.010325750167371365,
+        -0.008844802276371081,
+        -0.0001449438998779664,
+        0.08813115370470359
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260833,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_index": 6
+    },
+    {
+      "divergence_residual": 0.0010455607300721148,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 0.0,
+      "kaplan_yorke_dimension": 4.182227548534072,
+      "largest_exponent": 0.08764941212102313,
+      "lyapunov_spectrum": [
+        -0.7252608235810682,
+        -0.38615232951774364,
+        -0.011937681442754085,
+        -0.00782676147951273,
+        0.0024826231699832673,
+        0.08764941212102313
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260834,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_index": 6
+    },
+    {
+      "divergence_residual": 0.0010670797802669885,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 0.0,
+      "kaplan_yorke_dimension": 4.1782441993814645,
+      "largest_exponent": 0.08719533724554146,
+      "lyapunov_spectrum": [
+        -0.7309055465380639,
+        -0.37743759521836623,
+        -0.012246498746099123,
+        -0.0077719441092615185,
+        9.916758598224293e-05,
+        0.08719533724554146
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260835,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_index": 6
+    },
+    {
+      "divergence_residual": 0.0009736184643296397,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 0.5235987755982987,
+      "kaplan_yorke_dimension": 4.202565288618988,
+      "largest_exponent": 0.09517542942119042,
+      "lyapunov_spectrum": [
+        -0.7279981184666574,
+        -0.39247789885601475,
+        -0.014079093371573013,
+        -0.004587022435617292,
+        0.0029930852443424438,
+        0.09517542942119042
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260836,
+      "status": "PASS",
+      "theta": 0.5235987755982987,
+      "theta_index": 7
+    },
+    {
+      "divergence_residual": 0.0010164188049988088,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 0.5235987755982987,
+      "kaplan_yorke_dimension": 4.220321549322321,
+      "largest_exponent": 0.0988839774030172,
+      "lyapunov_spectrum": [
+        -0.7311998557408945,
+        -0.3973645325131393,
+        -0.010894183953176853,
+        -0.004402949764168329,
+        0.003961125763362646,
+        0.0988839774030172
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260837,
+      "status": "PASS",
+      "theta": 0.5235987755982987,
+      "theta_index": 7
+    },
+    {
+      "divergence_residual": 0.001017861014726229,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 0.5235987755982987,
+      "kaplan_yorke_dimension": 4.206358146868888,
+      "largest_exponent": 0.0955925003348909,
+      "lyapunov_spectrum": [
+        -0.7327276450342606,
+        -0.38845004804646477,
+        -0.013735140701980278,
+        -0.004304803728242695,
+        0.0026072761613312703,
+        0.0955925003348909
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260838,
+      "status": "PASS",
+      "theta": 0.5235987755982987,
+      "theta_index": 7
+    },
+    {
+      "divergence_residual": 0.0010212999601240114,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 1.0471975511965974,
+      "kaplan_yorke_dimension": 4.265330381538265,
+      "largest_exponent": 0.11234014609067049,
+      "lyapunov_spectrum": [
+        -0.7391795281236844,
+        -0.410853755554016,
+        -0.012558332853930772,
+        -0.0015212535360789887,
+        0.010751424016915407,
+        0.11234014609067049
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260839,
+      "status": "PASS",
+      "theta": 1.0471975511965974,
+      "theta_index": 8
+    },
+    {
+      "divergence_residual": 0.0009976845251922217,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 1.0471975511965974,
+      "kaplan_yorke_dimension": 4.234126676117181,
+      "largest_exponent": 0.1059754760286497,
+      "lyapunov_spectrum": [
+        -0.7229771040651016,
+        -0.41523914013324326,
+        -0.016419840531426422,
+        -0.001216937521703086,
+        0.008879861697632432,
+        0.1059754760286497
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260840,
+      "status": "PASS",
+      "theta": 1.0471975511965974,
+      "theta_index": 8
+    },
+    {
+      "divergence_residual": 0.001004548036003916,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 1.0471975511965974,
+      "kaplan_yorke_dimension": 4.244102483196316,
+      "largest_exponent": 0.10454870081357208,
+      "lyapunov_spectrum": [
+        -0.7337649462144886,
+        -0.4064566888917417,
+        -0.01428193561135671,
+        0.00026762785787129054,
+        0.008682694010139656,
+        0.10454870081357208
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260841,
+      "status": "PASS",
+      "theta": 1.0471975511965974,
+      "theta_index": 8
+    },
+    {
+      "divergence_residual": 0.0010444651553398465,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 1.5707963267948966,
+      "kaplan_yorke_dimension": 4.238354132921224,
+      "largest_exponent": 0.12318631729698486,
+      "lyapunov_spectrum": [
+        -0.7614914281051407,
+        -0.36703808046960185,
+        -0.03670506006889357,
+        -0.015128721996677849,
+        0.016132508187989197,
+        0.12318631729698486
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260842,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_index": 9
+    },
+    {
+      "divergence_residual": 0.0010125569178689453,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 1.5707963267948966,
+      "kaplan_yorke_dimension": 4.340315336442678,
+      "largest_exponent": 0.11959449305292054,
+      "lyapunov_spectrum": [
+        -0.7661193560321056,
+        -0.41670394367426,
+        -0.008498627498180006,
+        0.002918661620279121,
+        0.027796215613476744,
+        0.11959449305292054
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260843,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_index": 9
+    },
+    {
+      "divergence_residual": 0.0010222397408998773,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 1.5707963267948966,
+      "kaplan_yorke_dimension": 4.291369195638066,
+      "largest_exponent": 0.12036011077553299,
+      "lyapunov_spectrum": [
+        -0.7584355163559015,
+        -0.39877849176969615,
+        -0.021510738698242982,
+        -0.003234577863416954,
+        0.020576974170824512,
+        0.12036011077553299
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260844,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_index": 9
+    },
+    {
+      "divergence_residual": 0.0011569337673904556,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 2.094395102393195,
+      "kaplan_yorke_dimension": 4.06047982482989,
+      "largest_exponent": 0.07834299876764293,
+      "lyapunov_spectrum": [
+        -0.7482190591709548,
+        -0.3117951932680914,
+        -0.03827965933320169,
+        -0.022597199416749262,
+        0.0013911786539637615,
+        0.07834299876764293
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260845,
+      "status": "PASS",
+      "theta": 2.094395102393195,
+      "theta_index": 10
+    },
+    {
+      "divergence_residual": 0.0011457566154815524,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 2.094395102393195,
+      "kaplan_yorke_dimension": 4.053677525427069,
+      "largest_exponent": 0.07338938996390316,
+      "lyapunov_spectrum": [
+        -0.7447712321385799,
+        -0.3131855497890963,
+        -0.03523639545665828,
+        -0.020652323064078458,
+        -0.0006896461309715874,
+        0.07338938996390316
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260846,
+      "status": "PASS",
+      "theta": 2.094395102393195,
+      "theta_index": 10
+    },
+    {
+      "divergence_residual": 0.0011516007214074087,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 2.094395102393195,
+      "kaplan_yorke_dimension": 4.043863444913612,
+      "largest_exponent": 0.0706578539340853,
+      "lyapunov_spectrum": [
+        -0.7411631115686391,
+        -0.3137506745839915,
+        -0.03749494807419699,
+        -0.019921726696939503,
+        0.0005210062682745686,
+        0.0706578539340853
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260847,
+      "status": "PASS",
+      "theta": 2.094395102393195,
+      "theta_index": 10
+    },
+    {
+      "divergence_residual": 0.0011932177895754847,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 2.617993877991494,
+      "kaplan_yorke_dimension": 4.021861549648228,
+      "largest_exponent": 0.04875243595272544,
+      "lyapunov_spectrum": [
+        -0.7217331058077098,
+        -0.32660009620005936,
+        -0.02452190679194928,
+        -0.012336020016194256,
+        -0.004754524926388382,
+        0.04875243595272544
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260848,
+      "status": "PASS",
+      "theta": 2.617993877991494,
+      "theta_index": 11
+    },
+    {
+      "divergence_residual": 0.0011955638235114918,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 2.617993877991494,
+      "kaplan_yorke_dimension": 4.046150948309581,
+      "largest_exponent": 0.055135799632817645,
+      "lyapunov_spectrum": [
+        -0.7262984952132225,
+        -0.3301330205782832,
+        -0.022758731079922292,
+        -0.013761057848694897,
+        -0.003380058736206283,
+        0.055135799632817645
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260849,
+      "status": "PASS",
+      "theta": 2.617993877991494,
+      "theta_index": 11
+    },
+    {
+      "divergence_residual": 0.001198190176207925,
+      "drive": 4.0,
+      "drive_index": 0,
+      "flux": 2.617993877991494,
+      "kaplan_yorke_dimension": 4.023531640512698,
+      "largest_exponent": 0.047543302341833425,
+      "lyapunov_spectrum": [
+        -0.717732601708253,
+        -0.3312606960841942,
+        -0.02514279017988324,
+        -0.01176978697803108,
+        -0.0028356175676798015,
+        0.047543302341833425
+      ],
+      "n_positive_exponents": 1,
+      "seed": 20260850,
+      "status": "PASS",
+      "theta": 2.617993877991494,
+      "theta_index": 11
+    },
+    {
+      "divergence_residual": 0.004679122326298746,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -3.141592653589793,
+      "kaplan_yorke_dimension": 4.657924253410093,
+      "largest_exponent": 0.2645213525924962,
+      "lyapunov_spectrum": [
+        -0.890615674305918,
+        -0.4230209385211438,
+        -0.010219750932116795,
+        -0.010162559471186767,
+        0.03417669296416779,
+        0.2645213525924962
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260851,
+      "status": "PASS",
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "divergence_residual": 0.00497928957259508,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -3.141592653589793,
+      "kaplan_yorke_dimension": 4.607563351290616,
+      "largest_exponent": 0.24498311839347528,
+      "lyapunov_spectrum": [
+        -0.8665488036312256,
+        -0.4292970785227041,
+        -0.010218985357807108,
+        -0.010182327950051627,
+        0.03624336664090832,
+        0.24498311839347528
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260852,
+      "status": "PASS",
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "divergence_residual": 0.004807088018616623,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -3.141592653589793,
+      "kaplan_yorke_dimension": 4.657216788976623,
+      "largest_exponent": 0.26234578263679237,
+      "lyapunov_spectrum": [
+        -0.8904849592537745,
+        -0.4221558935036056,
+        -0.009824843862573636,
+        -0.009733653786292663,
+        0.03466065578807061,
+        0.26234578263679237
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260853,
+      "status": "PASS",
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "divergence_residual": 0.004225765431810746,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -2.6179938779914944,
+      "kaplan_yorke_dimension": 4.632050486119276,
+      "largest_exponent": 0.25549238248269773,
+      "lyapunov_spectrum": [
+        -0.8841611408158815,
+        -0.4120486317627134,
+        -0.014918908564023363,
+        -0.012988926562470198,
+        0.03285099065420138,
+        0.25549238248269773
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260854,
+      "status": "PASS",
+      "theta": -2.6179938779914944,
+      "theta_index": 1
+    },
+    {
+      "divergence_residual": 0.003957363988152496,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -2.6179938779914944,
+      "kaplan_yorke_dimension": 4.6627273131576015,
+      "largest_exponent": 0.2690150803884574,
+      "lyapunov_spectrum": [
+        -0.8946900581674768,
+        -0.41910472848464675,
+        -0.014326637144843649,
+        -0.010669668591623853,
+        0.0337333759882861,
+        0.2690150803884574
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260855,
+      "status": "PASS",
+      "theta": -2.6179938779914944,
+      "theta_index": 1
+    },
+    {
+      "divergence_residual": 0.004002618020550575,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -2.6179938779914944,
+      "kaplan_yorke_dimension": 4.653992155303471,
+      "largest_exponent": 0.2660435965971165,
+      "lyapunov_spectrum": [
+        -0.8901514378872717,
+        -0.42151051291942354,
+        -0.014367216693101549,
+        -0.01186125474475062,
+        0.035849443667981214,
+        0.2660435965971165
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260856,
+      "status": "PASS",
+      "theta": -2.6179938779914944,
+      "theta_index": 1
+    },
+    {
+      "divergence_residual": 0.0030923367937705226,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -2.0943951023931957,
+      "kaplan_yorke_dimension": 4.6541937899303525,
+      "largest_exponent": 0.26550589027990906,
+      "lyapunov_spectrum": [
+        -0.9009875821492935,
+        -0.3930527477501366,
+        -0.022400836083585344,
+        -0.015106939645395393,
+        0.02913455214227236,
+        0.26550589027990906
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260857,
+      "status": "PASS",
+      "theta": -2.0943951023931957,
+      "theta_index": 2
+    },
+    {
+      "divergence_residual": 0.0030924650665635767,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -2.0943951023931957,
+      "kaplan_yorke_dimension": 4.656166552727957,
+      "largest_exponent": 0.26164031685715466,
+      "lyapunov_spectrum": [
+        -0.9044864279975035,
+        -0.3851315454809752,
+        -0.024529150132381463,
+        -0.015304318990277385,
+        0.03090359081054635,
+        0.26164031685715466
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260858,
+      "status": "PASS",
+      "theta": -2.0943951023931957,
+      "theta_index": 2
+    },
+    {
+      "divergence_residual": 0.003396996380289119,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -2.0943951023931957,
+      "kaplan_yorke_dimension": 4.646685135314255,
+      "largest_exponent": 0.2597012251492863,
+      "lyapunov_spectrum": [
+        -0.8977141377233127,
+        -0.3931022432920633,
+        -0.023590639142850266,
+        -0.01519399488028612,
+        0.03329678626951508,
+        0.2597012251492863
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260859,
+      "status": "PASS",
+      "theta": -2.0943951023931957,
+      "theta_index": 2
+    },
+    {
+      "divergence_residual": 0.0018056116500113628,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -1.5707963267948966,
+      "kaplan_yorke_dimension": 4.787528063186883,
+      "largest_exponent": 0.3188304925914076,
+      "lyapunov_spectrum": [
+        -0.934279031642329,
+        -0.4890780319805734,
+        -0.000317100792836403,
+        0.016346166080519572,
+        0.05030311739382282,
+        0.3188304925914076
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260860,
+      "status": "PASS",
+      "theta": -1.5707963267948966,
+      "theta_index": 3
+    },
+    {
+      "divergence_residual": 0.0014212252108449785,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -1.5707963267948966,
+      "kaplan_yorke_dimension": 4.797329714337895,
+      "largest_exponent": 0.3225086403201,
+      "lyapunov_spectrum": [
+        -0.9379924050539306,
+        -0.49630546188168895,
+        0.0027046690023383867,
+        0.01941832464613318,
+        0.051087458177892724,
+        0.3225086403201
+      ],
+      "n_positive_exponents": 4,
+      "seed": 20260861,
+      "status": "PASS",
+      "theta": -1.5707963267948966,
+      "theta_index": 3
+    },
+    {
+      "divergence_residual": 0.0014736417641256772,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -1.5707963267948966,
+      "kaplan_yorke_dimension": 4.756958877896427,
+      "largest_exponent": 0.29727611261585773,
+      "lyapunov_spectrum": [
+        -0.9250661669557312,
+        -0.4668353663697759,
+        -0.0024218254273886655,
+        0.012832087557642534,
+        0.04568880034352116,
+        0.29727611261585773
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260862,
+      "status": "PASS",
+      "theta": -1.5707963267948966,
+      "theta_index": 3
+    },
+    {
+      "divergence_residual": 0.0018331214550446617,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -1.0471975511965979,
+      "kaplan_yorke_dimension": 4.735034263917948,
+      "largest_exponent": 0.2982630985419291,
+      "lyapunov_spectrum": [
+        -0.9147695609413635,
+        -0.46571047044882535,
+        -4.193380414919601e-05,
+        0.009515708232089836,
+        0.03457627987536376,
+        0.2982630985419291
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260863,
+      "status": "PASS",
+      "theta": -1.0471975511965979,
+      "theta_index": 4
+    },
+    {
+      "divergence_residual": 0.0018108138427184173,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -1.0471975511965979,
+      "kaplan_yorke_dimension": 4.734480593970148,
+      "largest_exponent": 0.29358008143955117,
+      "lyapunov_spectrum": [
+        -0.9164918186882763,
+        -0.45833699799450073,
+        -0.004590020736053121,
+        0.008623652581930893,
+        0.03902591724006661,
+        0.29358008143955117
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260864,
+      "status": "PASS",
+      "theta": -1.0471975511965979,
+      "theta_index": 4
+    },
+    {
+      "divergence_residual": 0.0019585075908497007,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -1.0471975511965979,
+      "kaplan_yorke_dimension": 4.719346148704148,
+      "largest_exponent": 0.28156909291508553,
+      "lyapunov_spectrum": [
+        -0.9104650339859298,
+        -0.45456870744572747,
+        -0.0022888595768847074,
+        0.007133598984042904,
+        0.040578416700263124,
+        0.28156909291508553
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260865,
+      "status": "PASS",
+      "theta": -1.0471975511965979,
+      "theta_index": 4
+    },
+    {
+      "divergence_residual": 0.003976145651952034,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -0.523598775598299,
+      "kaplan_yorke_dimension": 4.669367846211425,
+      "largest_exponent": 0.25902135216013333,
+      "lyapunov_spectrum": [
+        -0.8981624160259105,
+        -0.41696319230432094,
+        -0.009249817114967059,
+        -0.0031087375301448185,
+        0.03243895646716218,
+        0.25902135216013333
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260866,
+      "status": "PASS",
+      "theta": -0.5235987755982991,
+      "theta_index": 5
+    },
+    {
+      "divergence_residual": 0.00357957283896293,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -0.523598775598299,
+      "kaplan_yorke_dimension": 4.671984012513357,
+      "largest_exponent": 0.2534257974873693,
+      "lyapunov_spectrum": [
+        -0.9003164076884779,
+        -0.4149310541703439,
+        -0.008850835289372468,
+        -0.002549236289081964,
+        0.036801308788869745,
+        0.2534257974873693
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260867,
+      "status": "PASS",
+      "theta": -0.5235987755982991,
+      "theta_index": 5
+    },
+    {
+      "divergence_residual": 0.0037373116961769703,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": -0.523598775598299,
+      "kaplan_yorke_dimension": 4.663695896822745,
+      "largest_exponent": 0.2562028272859941,
+      "lyapunov_spectrum": [
+        -0.8956684237024559,
+        -0.4180569409445001,
+        -0.008458561365417465,
+        -0.0021897045477070483,
+        0.03190811497026364,
+        0.2562028272859941
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260868,
+      "status": "PASS",
+      "theta": -0.5235987755982991,
+      "theta_index": 5
+    },
+    {
+      "divergence_residual": 0.0054191712973830075,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 0.0,
+      "kaplan_yorke_dimension": 4.631434474175337,
+      "largest_exponent": 0.24109682008633954,
+      "lyapunov_spectrum": [
+        -0.8858278456810006,
+        -0.4035998285210814,
+        -0.009473737317526659,
+        -0.008152086432442592,
+        0.03137584916309492,
+        0.24109682008633954
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260869,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_index": 6
+    },
+    {
+      "divergence_residual": 0.006044917477168399,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 0.0,
+      "kaplan_yorke_dimension": 4.617953370969881,
+      "largest_exponent": 0.23672384708917613,
+      "lyapunov_spectrum": [
+        -0.878517276327613,
+        -0.4068555887793589,
+        -0.010978547798060295,
+        -0.008274804081599654,
+        0.033947287374624296,
+        0.23672384708917613
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260870,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_index": 6
+    },
+    {
+      "divergence_residual": 0.005443688336117969,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 0.0,
+      "kaplan_yorke_dimension": 4.624776779611754,
+      "largest_exponent": 0.23686798013037894,
+      "lyapunov_spectrum": [
+        -0.8837394542337031,
+        -0.401939030516629,
+        -0.01121799130838192,
+        -0.008681401376681048,
+        0.034153585641134,
+        0.23686798013037894
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260871,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_index": 6
+    },
+    {
+      "divergence_residual": 0.0038202533692393015,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 0.5235987755982987,
+      "kaplan_yorke_dimension": 4.677489459210332,
+      "largest_exponent": 0.2625134885339982,
+      "lyapunov_spectrum": [
+        -0.900109653943938,
+        -0.4219089780869013,
+        -0.008159804447477171,
+        -0.003483713500806737,
+        0.03496891481436438,
+        0.2625134885339982
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260872,
+      "status": "PASS",
+      "theta": 0.5235987755982987,
+      "theta_index": 7
+    },
+    {
+      "divergence_residual": 0.0031910568514934567,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 0.5235987755982987,
+      "kaplan_yorke_dimension": 4.679588873559879,
+      "largest_exponent": 0.2725005823932384,
+      "lyapunov_spectrum": [
+        -0.8980071036170046,
+        -0.4331991871619399,
+        -0.009705431862435297,
+        -0.0023323199551330154,
+        0.03393451705476786,
+        0.2725005823932384
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260873,
+      "status": "PASS",
+      "theta": 0.5235987755982987,
+      "theta_index": 7
+    },
+    {
+      "divergence_residual": 0.0038149367738100626,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 0.5235987755982987,
+      "kaplan_yorke_dimension": 4.67097618131098,
+      "largest_exponent": 0.2630759371242559,
+      "lyapunov_spectrum": [
+        -0.8985704383887105,
+        -0.41825125422772846,
+        -0.009695800102880136,
+        -0.004334530893882723,
+        0.03159102326275594,
+        0.2630759371242559
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260874,
+      "status": "PASS",
+      "theta": 0.5235987755982987,
+      "theta_index": 7
+    },
+    {
+      "divergence_residual": 0.001861457255645016,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 1.0471975511965974,
+      "kaplan_yorke_dimension": 4.7208095708137785,
+      "largest_exponent": 0.2852181433074927,
+      "lyapunov_spectrum": [
+        -0.9100416470526999,
+        -0.4588154975979284,
+        -0.00223426458621605,
+        0.008222047240360192,
+        0.03951267594463618,
+        0.2852181433074927
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260875,
+      "status": "PASS",
+      "theta": 1.0471975511965974,
+      "theta_index": 8
+    },
+    {
+      "divergence_residual": 0.0016290360103397017,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 1.0471975511965974,
+      "kaplan_yorke_dimension": 4.751553419711851,
+      "largest_exponent": 0.29601473232900205,
+      "lyapunov_spectrum": [
+        -0.9255196326352321,
+        -0.4542277507846683,
+        -0.001907971571148681,
+        0.011028170400382961,
+        0.0362414882720037,
+        0.29601473232900205
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260876,
+      "status": "PASS",
+      "theta": 1.0471975511965974,
+      "theta_index": 8
+    },
+    {
+      "divergence_residual": 0.001897915921429183,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 1.0471975511965974,
+      "kaplan_yorke_dimension": 4.727324835499494,
+      "largest_exponent": 0.2920433338903273,
+      "lyapunov_spectrum": [
+        -0.9127135028893749,
+        -0.4598459908106637,
+        -0.0024549991506097315,
+        0.009880528075241621,
+        0.034988546806508446,
+        0.2920433338903273
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260877,
+      "status": "PASS",
+      "theta": 1.0471975511965974,
+      "theta_index": 8
+    },
+    {
+      "divergence_residual": 0.001541891942183904,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 1.5707963267948966,
+      "kaplan_yorke_dimension": 4.79853965067602,
+      "largest_exponent": 0.325622521786828,
+      "lyapunov_spectrum": [
+        -0.9378097128015317,
+        -0.49959406699144415,
+        0.003034466821182854,
+        0.020159514565186103,
+        0.05012916856196276,
+        0.325622521786828
+      ],
+      "n_positive_exponents": 4,
+      "seed": 20260878,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_index": 9
+    },
+    {
+      "divergence_residual": 0.001534810401355502,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 1.5707963267948966,
+      "kaplan_yorke_dimension": 4.787002600067731,
+      "largest_exponent": 0.3134089000787153,
+      "lyapunov_spectrum": [
+        -0.9330845663989361,
+        -0.4947507492261333,
+        0.00391222105396015,
+        0.019200778706331665,
+        0.05284822618741767,
+        0.3134089000787153
+      ],
+      "n_positive_exponents": 4,
+      "seed": 20260879,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_index": 9
+    },
+    {
+      "divergence_residual": 0.0019108293304861412,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 1.5707963267948966,
+      "kaplan_yorke_dimension": 4.767573528838105,
+      "largest_exponent": 0.3045595918891779,
+      "lyapunov_spectrum": [
+        -0.9342900968493218,
+        -0.44658886443227824,
+        -0.011513883383812666,
+        0.006582622030180799,
+        0.043161460076540134,
+        0.3045595918891779
+      ],
+      "n_positive_exponents": 3,
+      "seed": 20260880,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_index": 9
+    },
+    {
+      "divergence_residual": 0.003197312957877063,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 2.094395102393195,
+      "kaplan_yorke_dimension": 4.658967376150009,
+      "largest_exponent": 0.2658657329154649,
+      "lyapunov_spectrum": [
+        -0.9000705867794188,
+        -0.4009355431134609,
+        -0.021350541775302708,
+        -0.013637545635969375,
+        0.033325797346563664,
+        0.2658657329154649
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260881,
+      "status": "PASS",
+      "theta": 2.094395102393195,
+      "theta_index": 10
+    },
+    {
+      "divergence_residual": 0.0030246330344154693,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 2.094395102393195,
+      "kaplan_yorke_dimension": 4.676516620213828,
+      "largest_exponent": 0.2700659938226534,
+      "lyapunov_spectrum": [
+        -0.9052579764056735,
+        -0.407184414380048,
+        -0.020467714450953498,
+        -0.012070923269430742,
+        0.03793966771786788,
+        0.2700659938226534
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260882,
+      "status": "PASS",
+      "theta": 2.094395102393195,
+      "theta_index": 10
+    },
+    {
+      "divergence_residual": 0.00270566498838809,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 2.094395102393195,
+      "kaplan_yorke_dimension": 4.6731482900129615,
+      "largest_exponent": 0.26601468362603276,
+      "lyapunov_spectrum": [
+        -0.9108213022982589,
+        -0.3869431575510758,
+        -0.022090467950874385,
+        -0.01621421642849591,
+        0.03276012559106013,
+        0.26601468362603276
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260883,
+      "status": "PASS",
+      "theta": 2.094395102393195,
+      "theta_index": 10
+    },
+    {
+      "divergence_residual": 0.0036720376868886184,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 2.617993877991494,
+      "kaplan_yorke_dimension": 4.668521022657344,
+      "largest_exponent": 0.26851439584808523,
+      "lyapunov_spectrum": [
+        -0.898186418852702,
+        -0.41674300001719217,
+        -0.013977840334850123,
+        -0.010213863575345886,
+        0.034278764618893384,
+        0.26851439584808523
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260884,
+      "status": "PASS",
+      "theta": 2.617993877991494,
+      "theta_index": 11
+    },
+    {
+      "divergence_residual": 0.003994993530782587,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 2.617993877991494,
+      "kaplan_yorke_dimension": 4.633116182624265,
+      "largest_exponent": 0.2590665303564651,
+      "lyapunov_spectrum": [
+        -0.8824081522280705,
+        -0.4186525732854662,
+        -0.015086661454177728,
+        -0.011094335817799634,
+        0.03217018595983189,
+        0.2590665303564651
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260885,
+      "status": "PASS",
+      "theta": 2.617993877991494,
+      "theta_index": 11
+    },
+    {
+      "divergence_residual": 0.003618773551437915,
+      "drive": 8.0,
+      "drive_index": 1,
+      "flux": 2.617993877991494,
+      "kaplan_yorke_dimension": 4.661018768365045,
+      "largest_exponent": 0.2663297689806649,
+      "lyapunov_spectrum": [
+        -0.8942812251394302,
+        -0.41919725355814974,
+        -0.013948014118076568,
+        -0.011120840285496801,
+        0.03583633767192609,
+        0.2663297689806649
+      ],
+      "n_positive_exponents": 2,
+      "seed": 20260886,
+      "status": "PASS",
+      "theta": 2.617993877991494,
+      "theta_index": 11
+    }
+  ],
+  "summary_by_drive": {
+    "4.0": [
+      {
+        "largest_exponent_max": 0.044615311737606654,
+        "largest_exponent_min": 0.0360328202173801,
+        "n_pos_max": 1,
+        "n_pos_mean": 1.0,
+        "n_pos_min": 1,
+        "n_pos_values": [
+          1,
+          1,
+          1
+        ],
+        "seeds_passed": 3,
+        "theta": -3.141592653589793
+      },
+      {
+        "largest_exponent_max": 0.055316377853006665,
+        "largest_exponent_min": 0.0431549076203938,
+        "n_pos_max": 1,
+        "n_pos_mean": 1.0,
+        "n_pos_min": 1,
+        "n_pos_values": [
+          1,
+          1,
+          1
+        ],
+        "seeds_passed": 3,
+        "theta": -2.6179938779914944
+      },
+      {
+        "largest_exponent_max": 0.08111146401388986,
+        "largest_exponent_min": 0.07557450488939657,
+        "n_pos_max": 1,
+        "n_pos_mean": 1.0,
+        "n_pos_min": 1,
+        "n_pos_values": [
+          1,
+          1,
+          1
+        ],
+        "seeds_passed": 3,
+        "theta": -2.0943951023931957
+      },
+      {
+        "largest_exponent_max": 0.12901622970580207,
+        "largest_exponent_min": 0.11429970876438447,
+        "n_pos_max": 3,
+        "n_pos_mean": 2.3333333333333335,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          3,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": -1.5707963267948966
+      },
+      {
+        "largest_exponent_max": 0.11727841472499562,
+        "largest_exponent_min": 0.10063462126108023,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": -1.0471975511965979
+      },
+      {
+        "largest_exponent_max": 0.09375816098451993,
+        "largest_exponent_min": 0.08745518202798316,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": -0.5235987755982991
+      },
+      {
+        "largest_exponent_max": 0.08813115370470359,
+        "largest_exponent_min": 0.08719533724554146,
+        "n_pos_max": 2,
+        "n_pos_mean": 1.3333333333333333,
+        "n_pos_min": 1,
+        "n_pos_values": [
+          1,
+          2,
+          1
+        ],
+        "seeds_passed": 3,
+        "theta": 0.0
+      },
+      {
+        "largest_exponent_max": 0.0988839774030172,
+        "largest_exponent_min": 0.09517542942119042,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": 0.5235987755982987
+      },
+      {
+        "largest_exponent_max": 0.11234014609067049,
+        "largest_exponent_min": 0.10454870081357208,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": 1.0471975511965974
+      },
+      {
+        "largest_exponent_max": 0.12318631729698486,
+        "largest_exponent_min": 0.11959449305292054,
+        "n_pos_max": 3,
+        "n_pos_mean": 2.3333333333333335,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          3,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": 1.5707963267948966
+      },
+      {
+        "largest_exponent_max": 0.07834299876764293,
+        "largest_exponent_min": 0.0706578539340853,
+        "n_pos_max": 2,
+        "n_pos_mean": 1.3333333333333333,
+        "n_pos_min": 1,
+        "n_pos_values": [
+          2,
+          1,
+          1
+        ],
+        "seeds_passed": 3,
+        "theta": 2.094395102393195
+      },
+      {
+        "largest_exponent_max": 0.055135799632817645,
+        "largest_exponent_min": 0.047543302341833425,
+        "n_pos_max": 1,
+        "n_pos_mean": 1.0,
+        "n_pos_min": 1,
+        "n_pos_values": [
+          1,
+          1,
+          1
+        ],
+        "seeds_passed": 3,
+        "theta": 2.617993877991494
+      }
+    ],
+    "8.0": [
+      {
+        "largest_exponent_max": 0.2645213525924962,
+        "largest_exponent_min": 0.24498311839347528,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": -3.141592653589793
+      },
+      {
+        "largest_exponent_max": 0.2690150803884574,
+        "largest_exponent_min": 0.25549238248269773,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": -2.6179938779914944
+      },
+      {
+        "largest_exponent_max": 0.26550589027990906,
+        "largest_exponent_min": 0.2597012251492863,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": -2.0943951023931957
+      },
+      {
+        "largest_exponent_max": 0.3225086403201,
+        "largest_exponent_min": 0.29727611261585773,
+        "n_pos_max": 4,
+        "n_pos_mean": 3.3333333333333335,
+        "n_pos_min": 3,
+        "n_pos_values": [
+          3,
+          4,
+          3
+        ],
+        "seeds_passed": 3,
+        "theta": -1.5707963267948966
+      },
+      {
+        "largest_exponent_max": 0.2982630985419291,
+        "largest_exponent_min": 0.28156909291508553,
+        "n_pos_max": 3,
+        "n_pos_mean": 3.0,
+        "n_pos_min": 3,
+        "n_pos_values": [
+          3,
+          3,
+          3
+        ],
+        "seeds_passed": 3,
+        "theta": -1.0471975511965979
+      },
+      {
+        "largest_exponent_max": 0.25902135216013333,
+        "largest_exponent_min": 0.2534257974873693,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": -0.5235987755982991
+      },
+      {
+        "largest_exponent_max": 0.24109682008633954,
+        "largest_exponent_min": 0.23672384708917613,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": 0.0
+      },
+      {
+        "largest_exponent_max": 0.2725005823932384,
+        "largest_exponent_min": 0.2625134885339982,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": 0.5235987755982987
+      },
+      {
+        "largest_exponent_max": 0.29601473232900205,
+        "largest_exponent_min": 0.2852181433074927,
+        "n_pos_max": 3,
+        "n_pos_mean": 3.0,
+        "n_pos_min": 3,
+        "n_pos_values": [
+          3,
+          3,
+          3
+        ],
+        "seeds_passed": 3,
+        "theta": 1.0471975511965974
+      },
+      {
+        "largest_exponent_max": 0.325622521786828,
+        "largest_exponent_min": 0.3045595918891779,
+        "n_pos_max": 4,
+        "n_pos_mean": 3.6666666666666665,
+        "n_pos_min": 3,
+        "n_pos_values": [
+          4,
+          4,
+          3
+        ],
+        "seeds_passed": 3,
+        "theta": 1.5707963267948966
+      },
+      {
+        "largest_exponent_max": 0.2700659938226534,
+        "largest_exponent_min": 0.2658657329154649,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": 2.094395102393195
+      },
+      {
+        "largest_exponent_max": 0.26851439584808523,
+        "largest_exponent_min": 0.2590665303564651,
+        "n_pos_max": 2,
+        "n_pos_mean": 2.0,
+        "n_pos_min": 2,
+        "n_pos_values": [
+          2,
+          2,
+          2
+        ],
+        "seeds_passed": 3,
+        "theta": 2.617993877991494
+      }
+    ]
+  },
+  "total_records": 72
+}

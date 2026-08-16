@@ -1,0 +1,12 @@
+{
+  "gate": "DRIVE_AXIS_BIFURCATION_FIGURE",
+  "input": [
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/drive_axis_bifurcation_scan.json",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/full_spectrum_hyperchaos_map_g03.json"
+  ],
+  "outputs": [
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/drive_axis_bifurcation.pdf",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/drive_axis_bifurcation.png"
+  ],
+  "note": "(a) max Floquet multiplier vs drive for theta=0 and theta=pi/2 (up/down continuation; E* markers); (b) largest Floquet rate with the stored full-spectrum Lyapunov largest exponent overlaid at the canonical drives; (c) number of unstable multipliers; (d) mean cavity amplitude over the orbit period."
+}

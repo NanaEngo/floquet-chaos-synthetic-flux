@@ -1,0 +1,996 @@
+{
+  "backend": "python",
+  "dt": 0.01,
+  "gate_thresholds": {
+    "max_block_std": 0.005,
+    "max_divergence_residual": 0.005,
+    "max_rate_difference": 0.0005
+  },
+  "interpretation": "Grid diagnostics only; no chaos or sensing claim is accepted from this file without independent review.",
+  "kind": "exploratory_flux_grid",
+  "n_steps": 2000000,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "points": 9,
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "qr_interval": 10,
+  "recorded_at_utc": "2026-08-13T20:44:52.232020+00:00",
+  "records": [
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459063273080915e-05,
+      "floquet_rates": [
+        -0.499956410385803,
+        -0.499956410385803,
+        -0.010043520411768408,
+        -0.010043520411768408,
+        -0.010000069202429046,
+        -0.010000069202429046
+      ],
+      "flux": -3.141592653589793,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997058310464955,
+        -0.4996847877474872,
+        -0.010317178836571253,
+        -0.010293421145036657,
+        -0.010023278499816289,
+        -0.01002296174663623
+      ],
+      "max_rate_difference": 0.0002736584248028452,
+      "orbit_residual": 9.572710699671432e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260813,
+      "status": "PASS",
+      "tail_block_std": 5.9751123812873944e-09,
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459063272636826e-05,
+      "floquet_rates": [
+        -0.49995641038579475,
+        -0.49995641038579475,
+        -0.010043520411776368,
+        -0.010043520411776368,
+        -0.010000069202429046,
+        -0.010000069202429046
+      ],
+      "flux": -3.141592653589793,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997058310464951,
+        -0.49968478774748726,
+        -0.01031717883657128,
+        -0.010293421145036657,
+        -0.01002327849981629,
+        -0.010022961746636257
+      ],
+      "max_rate_difference": 0.00027365842479491233,
+      "orbit_residual": 8.418232879349647e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260814,
+      "status": "PASS",
+      "tail_block_std": 5.975112372917072e-09,
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459063273080915e-05,
+      "floquet_rates": [
+        -0.49995641038579464,
+        -0.49995641038579464,
+        -0.010043520411776577,
+        -0.010043520411776577,
+        -0.010000069202429063,
+        -0.010000069202429063
+      ],
+      "flux": -3.141592653589793,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997058310464954,
+        -0.4996847877474872,
+        -0.010317178836571284,
+        -0.01029342114503666,
+        -0.010023278499816287,
+        -0.010022961746636227
+      ],
+      "max_rate_difference": 0.00027365842479470763,
+      "orbit_residual": 9.014581249408527e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260815,
+      "status": "PASS",
+      "tail_block_std": 5.9751123812873944e-09,
+      "theta": -3.141592653589793,
+      "theta_index": 0
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745914755810432e-05,
+      "floquet_rates": [
+        -0.49995646834449414,
+        -0.49995646834449414,
+        -0.01003853682347194,
+        -0.01003853682347194,
+        -0.01000499483203429,
+        -0.01000499483203429
+      ],
+      "flux": -2.443460952792061,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4996997074509913,
+        -0.4996756002313538,
+        -0.010304224319802088,
+        -0.010282971098774641,
+        -0.010044771199744583,
+        -0.010040184805661798
+      ],
+      "max_rate_difference": 0.0002808681131403201,
+      "orbit_residual": 9.37321738780049e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260816,
+      "status": "PASS",
+      "tail_block_std": 6.102306531569741e-09,
+      "theta": -2.443460952792061,
+      "theta_index": 1
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459147557438186e-05,
+      "floquet_rates": [
+        -0.49995646834449425,
+        -0.49995646834449425,
+        -0.010038536823471453,
+        -0.010038536823471453,
+        -0.010004994832034007,
+        -0.010004994832034007
+      ],
+      "flux": -2.443460952792061,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4996997074509911,
+        -0.4996756002313532,
+        -0.010304224319802064,
+        -0.010282971098774688,
+        -0.010044771199744552,
+        -0.010040184805661831
+      ],
+      "max_rate_difference": 0.00028086811314104176,
+      "orbit_residual": 8.866308434185913e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260817,
+      "status": "PASS",
+      "tail_block_std": 6.102306522697715e-09,
+      "theta": -2.443460952792061,
+      "theta_index": 1
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459147557438186e-05,
+      "floquet_rates": [
+        -0.4999564683444882,
+        -0.4999564683444882,
+        -0.010038536823476645,
+        -0.010038536823476645,
+        -0.010004994832034894,
+        -0.010004994832034894
+      ],
+      "flux": -2.443460952792061,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4996997074509911,
+        -0.49967560023135354,
+        -0.01030422431980213,
+        -0.010282971098774641,
+        -0.01004477119974454,
+        -0.010040184805661809
+      ],
+      "max_rate_difference": 0.000280868113134658,
+      "orbit_residual": 9.13652011143816e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260818,
+      "status": "PASS",
+      "tail_block_std": 6.102306531067454e-09,
+      "theta": -2.443460952792061,
+      "theta_index": 1
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745936105243764e-05,
+      "floquet_rates": [
+        -0.49995661514995443,
+        -0.49995661514995443,
+        -0.010025917358320794,
+        -0.010025917358320794,
+        -0.010017467491725067,
+        -0.010017467491725067
+      ],
+      "flux": -1.7453292519943295,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49969442417197013,
+        -0.4996716831532452,
+        -0.010293744133420553,
+        -0.010273926762003466,
+        -0.010059772951211902,
+        -0.010053908147971198
+      ],
+      "max_rate_difference": 0.00028493199670920344,
+      "orbit_residual": 8.723467551726045e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260819,
+      "status": "PASS",
+      "tail_block_std": 5.995837188142385e-09,
+      "theta": -1.7453292519943295,
+      "theta_index": 2
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745936105265969e-05,
+      "floquet_rates": [
+        -0.4999566151499524,
+        -0.4999566151499524,
+        -0.010025917358321902,
+        -0.010025917358321902,
+        -0.01001746749172597,
+        -0.01001746749172597
+      ],
+      "flux": -1.7453292519943295,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49969442417197035,
+        -0.4996716831532451,
+        -0.01029374413342056,
+        -0.010273926762003466,
+        -0.010059772951211915,
+        -0.010053908147971214
+      ],
+      "max_rate_difference": 0.00028493199670726055,
+      "orbit_residual": 8.80898153764664e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260820,
+      "status": "PASS",
+      "tail_block_std": 5.995837191263527e-09,
+      "theta": -1.7453292519943295,
+      "theta_index": 2
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745936105243764e-05,
+      "floquet_rates": [
+        -0.4999566151499422,
+        -0.4999566151499422,
+        -0.010025917358328695,
+        -0.010025917358328695,
+        -0.010017467491728735,
+        -0.010017467491728735
+      ],
+      "flux": -1.7453292519943295,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49969442417197013,
+        -0.4996716831532451,
+        -0.010293744133420617,
+        -0.010273926762003449,
+        -0.010059772951211932,
+        -0.010053908147971207
+      ],
+      "max_rate_difference": 0.000284931996697102,
+      "orbit_residual": 7.767611724727834e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260821,
+      "status": "PASS",
+      "tail_block_std": 5.995837191263527e-09,
+      "theta": -1.7453292519943295,
+      "theta_index": 2
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745960393170989e-05,
+      "floquet_rates": [
+        -0.49995678217612904,
+        -0.49995678217612904,
+        -0.010031651795433846,
+        -0.010031651795433846,
+        -0.010011566028437243,
+        -0.010011566028437243
+      ],
+      "flux": -1.0471975511965979,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4996938916933514,
+        -0.4996775514574643,
+        -0.010295920851023491,
+        -0.010276850534171269,
+        -0.010054081971227546,
+        -0.010049163055463774
+      ],
+      "max_rate_difference": 0.000279230718664758,
+      "orbit_residual": 9.682400182577729e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260822,
+      "status": "PASS",
+      "tail_block_std": 5.5970286039457e-09,
+      "theta": -1.0471975511965979,
+      "theta_index": 3
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745960393215398e-05,
+      "floquet_rates": [
+        -0.4999567821761238,
+        -0.4999567821761238,
+        -0.010031651795438043,
+        -0.010031651795438043,
+        -0.010011566028438147,
+        -0.010011566028438147
+      ],
+      "flux": -1.0471975511965979,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4996938916933514,
+        -0.49967755145746473,
+        -0.010295920851023542,
+        -0.010276850534171215,
+        -0.010054081971227575,
+        -0.010049163055463715
+      ],
+      "max_rate_difference": 0.0002792307186590959,
+      "orbit_residual": 9.602303471020063e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260823,
+      "status": "PASS",
+      "tail_block_std": 5.59702861868847e-09,
+      "theta": -1.0471975511965979,
+      "theta_index": 3
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745960393148785e-05,
+      "floquet_rates": [
+        -0.49995678217611544,
+        -0.49995678217611544,
+        -0.010031651795444876,
+        -0.010031651795444876,
+        -0.010011566028439672,
+        -0.010011566028439672
+      ],
+      "flux": -1.0471975511965979,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49969389169335077,
+        -0.49967755145746473,
+        -0.010295920851023512,
+        -0.010276850534171248,
+        -0.010054081971227601,
+        -0.010049163055463729
+      ],
+      "max_rate_difference": 0.0002792307186507137,
+      "orbit_residual": 7.98204510235774e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260824,
+      "status": "PASS",
+      "tail_block_std": 5.59702861868847e-09,
+      "theta": -1.0471975511965979,
+      "theta_index": 3
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.74597625481632e-05,
+      "floquet_rates": [
+        -0.49995689124359227,
+        -0.49995689124359227,
+        -0.010040910468702133,
+        -0.010040910468702133,
+        -0.010002198287705653,
+        -0.010002198287705653
+      ],
+      "flux": -0.34906585039886595,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49969847812899965,
+        -0.4996878539148998,
+        -0.010307067987832028,
+        -0.010289979302608731,
+        -0.01003382295804716,
+        -0.01003025742893075
+      ],
+      "max_rate_difference": 0.00026903732869248964,
+      "orbit_residual": 9.187333592248353e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260825,
+      "status": "PASS",
+      "tail_block_std": 5.200768211606635e-09,
+      "theta": -0.34906585039886595,
+      "theta_index": 4
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.74597625481632e-05,
+      "floquet_rates": [
+        -0.4999568912435875,
+        -0.4999568912435875,
+        -0.01004091046870682,
+        -0.01004091046870682,
+        -0.010002198287705709,
+        -0.010002198287705709
+      ],
+      "flux": -0.34906585039886595,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4996984781289994,
+        -0.4996878539148999,
+        -0.010307067987832074,
+        -0.010289979302608747,
+        -0.010033822958047185,
+        -0.010030257428930805
+      ],
+      "max_rate_difference": 0.00026903732868760466,
+      "orbit_residual": 9.729958439159189e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260826,
+      "status": "PASS",
+      "tail_block_std": 5.200768220831127e-09,
+      "theta": -0.34906585039886595,
+      "theta_index": 4
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745976254882933e-05,
+      "floquet_rates": [
+        -0.4999568912435819,
+        -0.4999568912435819,
+        -0.010040910468712335,
+        -0.010040910468712335,
+        -0.010002198287705898,
+        -0.010002198287705898
+      ],
+      "flux": -0.34906585039886595,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49969847812899965,
+        -0.4996878539149005,
+        -0.010307067987832026,
+        -0.010289979302608747,
+        -0.010033822958047178,
+        -0.010030257428930815
+      ],
+      "max_rate_difference": 0.0002690373286813874,
+      "orbit_residual": 9.39883110532766e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260827,
+      "status": "PASS",
+      "tail_block_std": 5.200768214500126e-09,
+      "theta": -0.34906585039886595,
+      "theta_index": 4
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745976254927342e-05,
+      "floquet_rates": [
+        -0.49995689124358195,
+        -0.49995689124358195,
+        -0.010040910468711788,
+        -0.010040910468711788,
+        -0.010002198287705915,
+        -0.010002198287705915
+      ],
+      "flux": 0.34906585039886595,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997045690722482,
+        -0.4996958859686157,
+        -0.010307067987832019,
+        -0.010289979302608774,
+        -0.010025526056024348,
+        -0.0100244313339903
+      ],
+      "max_rate_difference": 0.0002661575191202307,
+      "orbit_residual": 7.882759012591348e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260828,
+      "status": "PASS",
+      "tail_block_std": 5.102671255951319e-09,
+      "theta": 0.34906585039886595,
+      "theta_index": 5
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.74597625501616e-05,
+      "floquet_rates": [
+        -0.4999568912435874,
+        -0.4999568912435874,
+        -0.010040910468706933,
+        -0.010040910468706933,
+        -0.010002198287705596,
+        -0.010002198287705596
+      ],
+      "flux": 0.34906585039886595,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997045690722485,
+        -0.4996958859686163,
+        -0.010307067987832009,
+        -0.0102899793026087,
+        -0.010025526056024341,
+        -0.010024431333990287
+      ],
+      "max_rate_difference": 0.00026615751912507576,
+      "orbit_residual": 9.159110661636875e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260829,
+      "status": "PASS",
+      "tail_block_std": 5.102671255861208e-09,
+      "theta": 0.34906585039886595,
+      "theta_index": 5
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459762549495466e-05,
+      "floquet_rates": [
+        -0.49995689124359,
+        -0.49995689124359,
+        -0.010040910468704712,
+        -0.010040910468704712,
+        -0.010002198287705277,
+        -0.010002198287705277
+      ],
+      "flux": 0.34906585039886595,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.499704569072248,
+        -0.499695885968616,
+        -0.01030706798783203,
+        -0.010289979302608762,
+        -0.010025526056024376,
+        -0.010024431333990304
+      ],
+      "max_rate_difference": 0.00026615751912731703,
+      "orbit_residual": 9.9642663883414e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260830,
+      "status": "PASS",
+      "tail_block_std": 5.102671256036522e-09,
+      "theta": 0.34906585039886595,
+      "theta_index": 5
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745960393637283e-05,
+      "floquet_rates": [
+        -0.4999567821761259,
+        -0.4999567821761259,
+        -0.010031651795435314,
+        -0.010031651795435314,
+        -0.010011566028438524,
+        -0.010011566028438524
+      ],
+      "flux": 1.0471975511965974,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997091946974407,
+        -0.499699475525528,
+        -0.010295920851023523,
+        -0.010276850534171248,
+        -0.010034451829239212,
+        -0.010031566125303686
+      ],
+      "max_rate_difference": 0.00026426905558820865,
+      "orbit_residual": 9.935215785357145e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260831,
+      "status": "PASS",
+      "tail_block_std": 5.20072794986875e-09,
+      "theta": 1.0471975511965974,
+      "theta_index": 6
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459603936150785e-05,
+      "floquet_rates": [
+        -0.49995678217612266,
+        -0.49995678217612266,
+        -0.01003165179543923,
+        -0.01003165179543923,
+        -0.010011566028438147,
+        -0.010011566028438147
+      ],
+      "flux": 1.0471975511965974,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49970919469744046,
+        -0.499699475525528,
+        -0.010295920851023528,
+        -0.010276850534171256,
+        -0.010034451829239191,
+        -0.01003156612530366
+      ],
+      "max_rate_difference": 0.0002642690555842986,
+      "orbit_residual": 7.184029420827243e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260832,
+      "status": "PASS",
+      "tail_block_std": 5.20072794986875e-09,
+      "theta": 1.0471975511965974,
+      "theta_index": 6
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745960393548465e-05,
+      "floquet_rates": [
+        -0.4999567821761202,
+        -0.4999567821761202,
+        -0.010031651795440171,
+        -0.010031651795440171,
+        -0.010011566028439898,
+        -0.010011566028439898
+      ],
+      "flux": 1.0471975511965974,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997091946974401,
+        -0.49969947552552774,
+        -0.010295920851023524,
+        -0.010276850534171256,
+        -0.010034451829239201,
+        -0.010031566125303652
+      ],
+      "max_rate_difference": 0.00026426905558335316,
+      "orbit_residual": 9.77065655940741e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260833,
+      "status": "PASS",
+      "tail_block_std": 5.2007279561107495e-09,
+      "theta": 1.0471975511965974,
+      "theta_index": 6
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745936104955106e-05,
+      "floquet_rates": [
+        -0.4999566151499444,
+        -0.4999566151499444,
+        -0.010025917358326985,
+        -0.010025917358326985,
+        -0.01001746749172866,
+        -0.01001746749172866
+      ],
+      "flux": 1.7453292519943293,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49971112107662113,
+        -0.49969847431005493,
+        -0.010293744133420551,
+        -0.010273926762003434,
+        -0.010035652338173445,
+        -0.010034540699546225
+      ],
+      "max_rate_difference": 0.00026782677509356624,
+      "orbit_residual": 9.735442293279774e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260834,
+      "status": "PASS",
+      "tail_block_std": 5.458184951483071e-09,
+      "theta": 1.7453292519943293,
+      "theta_index": 7
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745936104999515e-05,
+      "floquet_rates": [
+        -0.4999566151499478,
+        -0.4999566151499478,
+        -0.010025917358326024,
+        -0.010025917358326024,
+        -0.010017467491726252,
+        -0.010017467491726252
+      ],
+      "flux": 1.7453292519943293,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49971112107662147,
+        -0.4996984743100548,
+        -0.010293744133420582,
+        -0.010273926762003434,
+        -0.010035652338173415,
+        -0.010034540699546266
+      ],
+      "max_rate_difference": 0.0002678267750945585,
+      "orbit_residual": 9.153706119913868e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260835,
+      "status": "PASS",
+      "tail_block_std": 5.458184959389166e-09,
+      "theta": 1.7453292519943293,
+      "theta_index": 7
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.745936104977311e-05,
+      "floquet_rates": [
+        -0.4999566151499508,
+        -0.4999566151499508,
+        -0.010025917358323616,
+        -0.010025917358323616,
+        -0.010017467491725425,
+        -0.010017467491725425
+      ],
+      "flux": 1.7453292519943293,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.49971112107662147,
+        -0.49969847431005493,
+        -0.010293744133420586,
+        -0.010273926762003434,
+        -0.010035652338173513,
+        -0.010034540699546223
+      ],
+      "max_rate_difference": 0.00026782677509696977,
+      "orbit_residual": 9.626399877178454e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260836,
+      "status": "PASS",
+      "tail_block_std": 5.458184951483071e-09,
+      "theta": 1.7453292519943293,
+      "theta_index": 7
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459147557438186e-05,
+      "floquet_rates": [
+        -0.49995646834449375,
+        -0.49995646834449375,
+        -0.010038536823471753,
+        -0.010038536823471753,
+        -0.01000499483203429,
+        -0.01000499483203429
+      ],
+      "flux": 2.443460952792061,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997099665282283,
+        -0.4996932750021335,
+        -0.010304224319802074,
+        -0.010282971098774657,
+        -0.010028793096576198,
+        -0.010028229060812965
+      ],
+      "max_rate_difference": 0.00026568749633032115,
+      "orbit_residual": 9.124470524090288e-09,
+      "orbit_status": "PASS",
+      "replicate": 0,
+      "seed": 20260837,
+      "status": "PASS",
+      "tail_block_std": 5.739680674621048e-09,
+      "theta": 2.443460952792061,
+      "theta_index": 8
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.74591475569941e-05,
+      "floquet_rates": [
+        -0.4999564683444898,
+        -0.4999564683444898,
+        -0.010038536823475762,
+        -0.010038536823475762,
+        -0.010004994832034254,
+        -0.010004994832034254
+      ],
+      "flux": 2.443460952792061,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997099665282283,
+        -0.499693275002133,
+        -0.010304224319802071,
+        -0.010282971098774688,
+        -0.01002879309657619,
+        -0.010028229060812946
+      ],
+      "max_rate_difference": 0.00026568749632630874,
+      "orbit_residual": 9.954798242347608e-09,
+      "orbit_status": "PASS",
+      "replicate": 1,
+      "seed": 20260838,
+      "status": "PASS",
+      "tail_block_std": 5.739680674621048e-09,
+      "theta": 2.443460952792061,
+      "theta_index": 8
+    },
+    {
+      "backend": "python",
+      "divergence_residual": 4.7459147557882275e-05,
+      "floquet_rates": [
+        -0.49995646834449226,
+        -0.49995646834449226,
+        -0.01003853682347371,
+        -0.01003853682347371,
+        -0.010004994832034196,
+        -0.010004994832034196
+      ],
+      "flux": 2.443460952792061,
+      "gate_thresholds": {
+        "max_block_std": 0.005,
+        "max_divergence_residual": 0.005,
+        "max_rate_difference": 0.0005
+      },
+      "is_chaotic": false,
+      "lyapunov_spectrum": [
+        -0.4997099665282284,
+        -0.4996932750021335,
+        -0.010304224319802102,
+        -0.01028297109877462,
+        -0.010028793096576253,
+        -0.010028229060812934
+      ],
+      "max_rate_difference": 0.00026568749632839214,
+      "orbit_residual": 9.138963486259206e-09,
+      "orbit_status": "PASS",
+      "replicate": 2,
+      "seed": 20260839,
+      "status": "PASS",
+      "tail_block_std": 5.739680674621048e-09,
+      "theta": 2.443460952792061,
+      "theta_index": 8
+    }
+  ],
+  "replicates": 3,
+  "seed": 20260813,
+  "status": "PASS",
+  "transient_steps": 200000,
+  "workers": 24
+}

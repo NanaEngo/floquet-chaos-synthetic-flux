@@ -1,0 +1,140 @@
+{
+  "eps_convergence_check_theta_pi_over_2": [],
+  "force_eps": 0.0001,
+  "gains": [
+    {
+      "gain_vs_flux_off": 1.0,
+      "gain_vs_single_mode": 0.8759456825660384,
+      "theta": 0.0
+    },
+    {
+      "gain_vs_flux_off": 1.0423492142552433,
+      "gain_vs_single_mode": 0.913041293952983,
+      "theta": 0.7853981633974483
+    },
+    {
+      "gain_vs_flux_off": 1.1527710799521365,
+      "gain_vs_single_mode": 1.0097648504710635,
+      "theta": 1.5707963267948966
+    },
+    {
+      "gain_vs_flux_off": 1.2705810740577106,
+      "gain_vs_single_mode": 1.1129600061709717,
+      "theta": 2.356194490192345
+    },
+    {
+      "gain_vs_flux_off": 1.3231523120002942,
+      "gain_vs_single_mode": 1.1590095550739294,
+      "theta": 3.141592653589793
+    }
+  ],
+  "gate": "MATCHED_MEASUREMENT_FISHER_REFERENCE",
+  "interpretation": "Matched classical measurement Fisher information for force sensing. A gain > 1 relative to both references would indicate a flux-mediated sensing advantage; a gain ~ 1 or < 1 indicates no advantage. Not QFI and not a claim of quantum advantage.",
+  "kind": "classical_measurement_fisher_force_sensing",
+  "matched_resources": {
+    "bandwidth": "detector noise variance (matched)",
+    "baths": [
+      0.1,
+      0.1
+    ],
+    "drive": 0.2,
+    "estimator": "eq:fisher (mean + variance terms)",
+    "observation_time": "1 drive period"
+  },
+  "measurement": {
+    "detector_noise_variance": 0.01,
+    "observable": "cavity amplitude quadrature X_a = Re(alpha)",
+    "observation_time": "one drive period (matched across all configurations)",
+    "record": "y(t) = X_a(t) + nu_det(t)",
+    "thermal_occupations": [
+      0.1,
+      0.1
+    ]
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "recorded_at_utc": "2026-08-15T09:45:22.565485+00:00",
+  "records": [
+    {
+      "classical_fisher_information": 4.503008099534932e-05,
+      "d_mean_dF": 0.00479230712439882,
+      "d_variance_dF": 1.7371298843826821e-06,
+      "force_eps": 0.0001,
+      "hopping": 0.08,
+      "mean_variance": 0.5100193032136644,
+      "min_physicality_eigenvalue": 2.4236447035419495e-07,
+      "status": "PASS",
+      "theta": 0.0
+    },
+    {
+      "classical_fisher_information": 4.693706954335233e-05,
+      "d_mean_dF": 0.00489273101443588,
+      "d_variance_dF": 1.8932105882996098e-06,
+      "force_eps": 0.0001,
+      "hopping": 0.08,
+      "mean_variance": 0.5100194904870432,
+      "min_physicality_eigenvalue": 2.4472262814129175e-07,
+      "status": "PASS",
+      "theta": 0.7853981633974483
+    },
+    {
+      "classical_fisher_information": 5.1909375099341006e-05,
+      "d_mean_dF": 0.00514536791798581,
+      "d_variance_dF": 2.294485157428028e-06,
+      "force_eps": 0.0001,
+      "hopping": 0.08,
+      "mean_variance": 0.5100199361291375,
+      "min_physicality_eigenvalue": 2.50396504308803e-07,
+      "status": "PASS",
+      "theta": 1.5707963267948966
+    },
+    {
+      "classical_fisher_information": 5.721436867597664e-05,
+      "d_mean_dF": 0.0054018965502805605,
+      "d_variance_dF": 2.7270757874120477e-06,
+      "force_eps": 0.0001,
+      "hopping": 0.08,
+      "mean_variance": 0.5100203726098987,
+      "min_physicality_eigenvalue": 2.560464011924779e-07,
+      "status": "PASS",
+      "theta": 2.356194490192345
+    },
+    {
+      "classical_fisher_information": 5.9581655778556957e-05,
+      "d_mean_dF": 0.005512518530606525,
+      "d_variance_dF": 2.9171937088179334e-06,
+      "force_eps": 0.0001,
+      "hopping": 0.08,
+      "mean_variance": 0.5100205507218641,
+      "min_physicality_eigenvalue": 2.58380011441961e-07,
+      "status": "PASS",
+      "theta": 3.141592653589793
+    }
+  ],
+  "references": {
+    "flux_off_theta_0_hopping_0.08": {
+      "classical_fisher_information": 4.503008099534932e-05,
+      "d_mean_dF": 0.00479230712439882,
+      "d_variance_dF": 1.7371298843826821e-06,
+      "force_eps": 0.0001,
+      "hopping": 0.08,
+      "mean_variance": 0.5100193032136644,
+      "min_physicality_eigenvalue": 2.4236447035419495e-07,
+      "status": "PASS",
+      "theta": 0.0
+    },
+    "single_mode_hopping_0": {
+      "classical_fisher_information": 5.140738962653024e-05,
+      "d_mean_dF": 0.00512042989675443,
+      "d_variance_dF": 2.2966462065454607e-06,
+      "force_eps": 0.0001,
+      "hopping": 0.0,
+      "mean_variance": 0.5100202069976596,
+      "min_physicality_eigenvalue": 2.5419553193600786e-07,
+      "status": "PASS",
+      "theta": 0.0
+    }
+  },
+  "sensing_parameter": "external force F on mechanical mode 1 (momentum-quadrature drive d(beta1_i)/dt += F)",
+  "status": "PASS"
+}

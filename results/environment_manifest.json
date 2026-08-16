@@ -1,0 +1,44 @@
+{
+  "compatibility_patch_files": {
+    "src/fl_qom/analysis/non_gaussian.py": "/home/nanaengo/FL_QOM/src/fl_qom/analysis/non_gaussian.py",
+    "src/fl_qom/analysis/quantum/master_equation_solver.py": "/home/nanaengo/FL_QOM/src/fl_qom/analysis/quantum/master_equation_solver.py",
+    "tests/test_trackb_benchmark_consistency.py": "/home/nanaengo/FL_QOM/tests/test_trackb_benchmark_consistency.py"
+  },
+  "compatibility_patch_sha256": {
+    "src/fl_qom/analysis/non_gaussian.py": "4e6602024fe3a106ab0c3cdd30257d729f99922ab60d3f584eb1205b8146b4de",
+    "src/fl_qom/analysis/quantum/master_equation_solver.py": "56135e1d1f1bd9ca9bdc7c3d64c08f8fdc72018dc443ae95cd5b4845f80ec629",
+    "tests/test_trackb_benchmark_consistency.py": "2981090a6094b3f851d7501b3a28acd8a94785c875ccb493ba602c428d9ffeb6"
+  },
+  "executable": "/home/nanaengo/miniforge3/envs/qom/bin/python",
+  "fl_qom_pyproject_sha256": "76b9ea74ac81d2fd578054211755511ff5d3ea0665d9778f27ac34af583aa0ab",
+  "fl_qom_revision": "5fb5b3d98cdecc977c865525d4225cc5d434a0c2",
+  "fl_qom_root": "/home/nanaengo/FL_QOM",
+  "fl_qom_worktree_status": [
+    " M pyproject.toml",
+    " M src/fl_qom/analysis/__init__.py",
+    " M src/fl_qom/analysis/non_gaussian.py",
+    " M src/fl_qom/analysis/quantum/master_equation_solver.py",
+    " M src/fl_qom/analysis/virtual_state_metrology.py",
+    " M src/fl_qom/config.py",
+    " M src/fl_qom/core/__init__.py",
+    " M tests/test_trackb_benchmark_consistency.py",
+    " M tests/test_virtual_metrology.py",
+    "?? src/fl_qom/analysis/rabi_metrology.py",
+    "?? src/fl_qom/core/rabi_system.py"
+  ],
+  "missing_or_failed_modules": [],
+  "modules": {
+    "h5py": "3.16.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.11.1",
+    "numpy": "1.26.4",
+    "quimb": "1.11.2",
+    "qutip": "5.3.1",
+    "scipy": "1.13.1",
+    "sympy": "1.14.0"
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-13T13:24:33.766452+00:00",
+  "status": "PASS"
+}

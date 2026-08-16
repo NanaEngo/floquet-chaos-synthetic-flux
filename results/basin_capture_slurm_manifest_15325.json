@@ -1,0 +1,33 @@
+{
+  "job_id": "15325",
+  "job_name": "qom_basin_v2",
+  "status_at_recording": "SUPERSEDED_BY_COMPLETED_FAST_VALIDATION",
+  "recorded_date": "2026-08-14",
+  "partition": "production",
+  "node": "penavoraserver",
+  "time_limit": "04:00:00",
+  "resources": {
+    "nodes": 1,
+    "ntasks": 1,
+    "cpus_per_task": 1,
+    "memory": "8G"
+  },
+  "working_directory": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos",
+  "script": "scripts/basin_capture_v2.sbatch",
+  "command": "python3 scripts/fast_basin_capture.py --screen results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json --output results/fast_basin_capture_validation_v2.json --samples 5 10 15 --initial-condition-replicates 5 --max-periods 5000 --substeps 320 --capture-tol 1e-5 --residual-tol 1e-7 --residual-check-interval 25",
+  "design": {
+    "candidates": [5, 10, 15],
+    "parameter_replicates_per_candidate": 5,
+    "initial_conditions_per_replicate": 5,
+    "maximum_drive_periods": 5000,
+    "rk4_substeps_per_period": 320,
+    "capture_tolerance": 1e-5,
+    "post_capture_residual_tolerance": 1e-7
+  },
+  "paths": {
+    "stdout": "logs/slurm_basin_v2_15325.log",
+    "stderr": "logs/slurm_basin_v2_15325.err",
+    "expected_output": "results/fast_basin_capture_validation_v2.json"
+  },
+  "provenance_note": "Historical execution manifest retained after the workspace rename. The finite-time result is now recorded and audited in results/fast_basin_capture_validation_v2.json; this manifest is not the source of truth for the completed validation."
+}

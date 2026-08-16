@@ -1,0 +1,34 @@
+{
+  "status": "PROVISIONAL_MODEL_LEVEL",
+  "scientific_status": "PROVISIONAL_PARETO_FOUND",
+  "purpose": "Positive model-level robust Pareto recovery around the validated normalized pilot; not an experimental calibration",
+  "manifest": "physical_parameter_manifest_model_recovery.json",
+  "output": "physical_parameter_optimization_model_recovery.json",
+  "figure": [
+    "../figures/physical_parameter_pareto_model_recovery.pdf",
+    "../figures/physical_parameter_pareto_model_recovery.png"
+  ],
+  "command": "python3 scripts/pareto_robust_optimizer.py --manifest physical_parameter_manifest_model_recovery.json --output results/physical_parameter_optimization_model_recovery.json --allow-provisional-literature-scenario --samples 4 --seed 20260815 --robust-replicates 3 --initial-condition-replicates 3 --initial-condition-scale 0.1 --orbit-max-iter 600 --orbit-residual-tol 1e-8 --compute-fisher",
+  "design": {
+    "samples": 4,
+    "seed": 20260815,
+    "parameter_replicates": 3,
+    "initial_condition_replicates": 3,
+    "initial_condition_scale": 0.1,
+    "orbit_max_iter": 600,
+    "orbit_residual_tolerance": 1e-8,
+    "classical_fisher": true
+  },
+  "result": {
+    "candidate_count": 4,
+    "feasible_count": 4,
+    "pareto_count": 2
+  },
+  "interpretation": "The normalized pilot envelope contains a robust numerical Pareto region under the declared model-level constraints. This does not establish SI calibration, experimental feasibility, or physical optimality.",
+  "limitations": [
+    "all parameters remain normalized model coordinates",
+    "alpha_in-to-power mapping remains unresolved",
+    "hardware ranges and measured uncertainties are absent",
+    "the result is not authorized as a manuscript claim of physical optimality"
+  ]
+}

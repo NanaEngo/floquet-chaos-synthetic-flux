@@ -1,0 +1,334 @@
+{
+  "candidate_pass_count": 0,
+  "candidate_results": [
+    {
+      "candidate_pass": false,
+      "replicate_results": [
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "final_distance_at_capture": 1.9704381702023208e-08,
+                "initial_condition": 0,
+                "post_capture_residual": 4.473467144378911e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 2044,
+                "final_distance_at_capture": 9.983026312214915e-06,
+                "initial_condition": 1,
+                "post_capture_residual": 1.333924297356887e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2650,
+                "final_distance_at_capture": 9.692946266379998e-06,
+                "initial_condition": 2,
+                "post_capture_residual": 1.9388555299926733e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2491,
+                "final_distance_at_capture": 9.949788575303429e-06,
+                "initial_condition": 3,
+                "post_capture_residual": 1.9524371658556834e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2300,
+                "final_distance_at_capture": 9.994293253713355e-06,
+                "initial_condition": 4,
+                "post_capture_residual": 1.9829417138681764e-05,
+                "status": "FAIL"
+              }
+            ],
+            "reference_residual": 1.9852334701272664e-23,
+            "status": "FAIL"
+          },
+          "parameters": {
+            "detuning": -34655.353966533745,
+            "drive": 0.22025850962654964,
+            "drive_frequency": 0.995207013039976,
+            "drive_modulation": 0.8106931172173473,
+            "g1": 64.69996076594252,
+            "g2": 66.00116295942748,
+            "gamma1": 0.0013031551466702476,
+            "gamma2": 0.0011793030751959337,
+            "hopping": 0.004014611354398934,
+            "kappa": 100974.552520153,
+            "omega1": 1.0304789295724543,
+            "omega2": 1.2586125037330957,
+            "theta": 0.0
+          },
+          "replicate": 0
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "final_distance_at_capture": 3.610263758698985e-09,
+                "initial_condition": 0,
+                "post_capture_residual": 3.798844173406943e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 1863,
+                "final_distance_at_capture": 9.460852238024806e-06,
+                "initial_condition": 1,
+                "post_capture_residual": 2.1095803058912528e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2008,
+                "final_distance_at_capture": 9.872314564396232e-06,
+                "initial_condition": 2,
+                "post_capture_residual": 2.196220472966102e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 1955,
+                "final_distance_at_capture": 9.437619947066147e-06,
+                "initial_condition": 3,
+                "post_capture_residual": 2.1032903450881687e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2064,
+                "final_distance_at_capture": 9.345605191805877e-06,
+                "initial_condition": 4,
+                "post_capture_residual": 2.0461244394015373e-05,
+                "status": "FAIL"
+              }
+            ],
+            "reference_residual": 3.622146354187281e-24,
+            "status": "FAIL"
+          },
+          "parameters": {
+            "detuning": -37122.547776028856,
+            "drive": 0.2139366648971936,
+            "drive_frequency": 0.816649568845141,
+            "drive_modulation": 0.7316462191886743,
+            "g1": 74.23472242060343,
+            "g2": 78.27088784996666,
+            "gamma1": 0.0013105356737034353,
+            "gamma2": 0.0012275071735211058,
+            "hopping": 0.004882195702960788,
+            "kappa": 114817.88644694838,
+            "omega1": 1.0176682763298681,
+            "omega2": 1.2628267374993218,
+            "theta": 0.0
+          },
+          "replicate": 1
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "final_distance_at_capture": 6.100174821170508e-09,
+                "initial_condition": 0,
+                "post_capture_residual": 4.383428311192496e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 2321,
+                "final_distance_at_capture": 9.870570673763003e-06,
+                "initial_condition": 1,
+                "post_capture_residual": 1.4410629729087687e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2565,
+                "final_distance_at_capture": 9.804603665512932e-06,
+                "initial_condition": 2,
+                "post_capture_residual": 1.2260588382513065e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2635,
+                "final_distance_at_capture": 9.86913811655084e-06,
+                "initial_condition": 3,
+                "post_capture_residual": 8.190252501393537e-06,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2557,
+                "final_distance_at_capture": 9.848972489647216e-06,
+                "initial_condition": 4,
+                "post_capture_residual": 1.3823075673461888e-05,
+                "status": "FAIL"
+              }
+            ],
+            "reference_residual": 1.6543612251060553e-24,
+            "status": "FAIL"
+          },
+          "parameters": {
+            "detuning": -39792.90539584593,
+            "drive": 0.2181588776433173,
+            "drive_frequency": 1.089884704403276,
+            "drive_modulation": 0.5876633794257649,
+            "g1": 60.05738320127786,
+            "g2": 72.53321428096216,
+            "gamma1": 0.0013061685819400228,
+            "gamma2": 0.0012875416481515029,
+            "hopping": 0.004649507405474995,
+            "kappa": 86398.90479380602,
+            "omega1": 1.1700034318487502,
+            "omega2": 1.2834717656992547,
+            "theta": 0.0
+          },
+          "replicate": 2
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "final_distance_at_capture": 2.325399285768059e-08,
+                "initial_condition": 0,
+                "post_capture_residual": 3.551990030229087e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 2201,
+                "final_distance_at_capture": 9.950733470972331e-06,
+                "initial_condition": 1,
+                "post_capture_residual": 1.6243207980764023e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2589,
+                "final_distance_at_capture": 9.898679385804193e-06,
+                "initial_condition": 2,
+                "post_capture_residual": 1.7718250184203302e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2354,
+                "final_distance_at_capture": 9.766513180812377e-06,
+                "initial_condition": 3,
+                "post_capture_residual": 1.6961704559406906e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2664,
+                "final_distance_at_capture": 9.962647008436748e-06,
+                "initial_condition": 4,
+                "post_capture_residual": 1.6725310657697476e-05,
+                "status": "FAIL"
+              }
+            ],
+            "reference_residual": 1.0960143116327617e-23,
+            "status": "FAIL"
+          },
+          "parameters": {
+            "detuning": -36777.968303064255,
+            "drive": 0.2142909310769874,
+            "drive_frequency": 0.9980422922381754,
+            "drive_modulation": 0.572397790105165,
+            "g1": 69.36337924440313,
+            "g2": 64.75817289858848,
+            "gamma1": 0.0013299763566649134,
+            "gamma2": 0.0011802179855032611,
+            "hopping": 0.005217828806602635,
+            "kappa": 93460.97964323041,
+            "omega1": 0.9777443840111314,
+            "omega2": 1.2194338969930607,
+            "theta": 0.0
+          },
+          "replicate": 3
+        },
+        {
+          "capture": {
+            "initial_condition_records": [
+              {
+                "capture_period": 1,
+                "final_distance_at_capture": 1.8408767371426865e-09,
+                "initial_condition": 0,
+                "post_capture_residual": 3.3357463959616863e-09,
+                "status": "PASS"
+              },
+              {
+                "capture_period": 2520,
+                "final_distance_at_capture": 9.662531593336931e-06,
+                "initial_condition": 1,
+                "post_capture_residual": 1.0082181742512376e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2629,
+                "final_distance_at_capture": 9.999587539177192e-06,
+                "initial_condition": 2,
+                "post_capture_residual": 9.39956616939276e-06,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2453,
+                "final_distance_at_capture": 9.993775617603163e-06,
+                "initial_condition": 3,
+                "post_capture_residual": 2.1884231577476876e-05,
+                "status": "FAIL"
+              },
+              {
+                "capture_period": 2570,
+                "final_distance_at_capture": 9.76111888771587e-06,
+                "initial_condition": 4,
+                "post_capture_residual": 8.953990556244306e-06,
+                "status": "FAIL"
+              }
+            ],
+            "reference_residual": 1.7593743888090764e-24,
+            "status": "FAIL"
+          },
+          "parameters": {
+            "detuning": -40603.82365417761,
+            "drive": 0.20029979453888552,
+            "drive_frequency": 1.0066018468165547,
+            "drive_modulation": 0.7022192540592186,
+            "g1": 64.72317994974173,
+            "g2": 80.82816821080567,
+            "gamma1": 0.0011425815235413983,
+            "gamma2": 0.0012433580995502083,
+            "hopping": 0.0040802432006337664,
+            "kappa": 121340.85725040111,
+            "omega1": 0.886785989433552,
+            "omega2": 1.324259761195392,
+            "theta": 0.0
+          },
+          "replicate": 4
+        }
+      ],
+      "sample": 5
+    }
+  ],
+  "design": {
+    "candidate_count": 1,
+    "capture_tolerance": 1e-05,
+    "initial_conditions_per_replicate": 5,
+    "max_periods": 3000,
+    "max_step_fraction": 20,
+    "parameter_replicates_per_candidate": 5,
+    "post_capture_residual_tolerance": 1e-07,
+    "reference_orbit": "root from zero initial guess, residual gate 1e-8",
+    "samples": [
+      5
+    ],
+    "seed": 20260815
+  },
+  "interpretation": "Finite-time capture validation for the tested 3-candidate, 5-replica, 5-initial-condition ensemble only; it does not prove global basin structure, SI calibration, or experimental optimality.",
+  "kind": "finite_time_basin_capture_validation",
+  "limitations": [
+    "adiabatic optical elimination",
+    "assumed J_m and g_i proxies",
+    "finite ensemble rather than global basin proof",
+    "Fisher information not computed",
+    "drive remains a normalized model coordinate"
+  ],
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "recorded_at_utc": "2026-08-14T09:56:24.549862+00:00",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_BASIN_CAPTURE_VALIDATION",
+  "source_screen": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json",
+  "status": "FAIL"
+}

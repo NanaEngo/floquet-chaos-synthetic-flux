@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/covariance_fisher.json",
+  "outputs": [
+    "figures/covariance_fisher_pilot.pdf",
+    "figures/covariance_fisher_pilot.png"
+  ],
+  "no_mock_data": true,
+  "interpretation": "Pilot classical Fisher/physicality diagnostic; not QFI and not a gain comparison."
+}

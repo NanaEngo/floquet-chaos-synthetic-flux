@@ -1,0 +1,172 @@
+{
+  "gate": "NOISE_OBSERVABILITY_CONVERGENCE",
+  "interpretation": "The observability ratio (chaotic measured-record variance over the stable noise floor) is bootstrapped over ensemble size. The ratio is converged if the largest-size estimate lies within two standard errors of the second-largest-size estimate. This rules out the objection that the N=32 ratio is a small-ensemble artifact.",
+  "kind": "bootstrap_ensemble_size_convergence",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-16T15:48:15.743650+00:00",
+  "records": [
+    {
+      "converged_ratio": 8.49383476188825,
+      "converged_ratio_std": 1.850312494866527e-15,
+      "converged_within_2sigma": true,
+      "convergence": [
+        {
+          "ensemble_size": 8,
+          "ratio_mean": 8.508792137106624,
+          "ratio_p05": 8.031922157134067,
+          "ratio_p95": 9.113522473564215,
+          "ratio_std": 0.31952980586528346
+        },
+        {
+          "ensemble_size": 16,
+          "ratio_mean": 8.510787150470598,
+          "ratio_p05": 8.158553126337242,
+          "ratio_p95": 8.906931553645249,
+          "ratio_std": 0.21653375726210175
+        },
+        {
+          "ensemble_size": 32,
+          "ratio_mean": 8.485704461142527,
+          "ratio_p05": 8.297841955054475,
+          "ratio_p95": 8.721745284874288,
+          "ratio_std": 0.1400103517997774
+        },
+        {
+          "ensemble_size": 64,
+          "ratio_mean": 8.491815323421196,
+          "ratio_p05": 8.372645585102616,
+          "ratio_p95": 8.640203813042145,
+          "ratio_std": 0.08028581090844815
+        },
+        {
+          "ensemble_size": 128,
+          "ratio_mean": 8.49383476188825,
+          "ratio_p05": 8.493834761888246,
+          "ratio_p95": 8.49383476188825,
+          "ratio_std": 1.850312494866527e-15
+        }
+      ],
+      "coupling": "strong",
+      "drive": 3.950000000000002,
+      "label": "chaotic_E4_th0.5pi",
+      "status": "PASS",
+      "theta_over_pi": 0.5
+    },
+    {
+      "converged_ratio": 16.50851609466332,
+      "converged_ratio_std": 1.3987047740492307e-15,
+      "converged_within_2sigma": true,
+      "convergence": [
+        {
+          "ensemble_size": 8,
+          "ratio_mean": 16.482520342235304,
+          "ratio_p05": 15.483834265067493,
+          "ratio_p95": 17.441588257222385,
+          "ratio_std": 0.6050252000944406
+        },
+        {
+          "ensemble_size": 16,
+          "ratio_mean": 16.5417628412511,
+          "ratio_p05": 15.798359753481355,
+          "ratio_p95": 17.18015239888926,
+          "ratio_std": 0.42603777207694266
+        },
+        {
+          "ensemble_size": 32,
+          "ratio_mean": 16.499603260929817,
+          "ratio_p05": 16.063217874075313,
+          "ratio_p95": 16.96874138231659,
+          "ratio_std": 0.27600678022612823
+        },
+        {
+          "ensemble_size": 64,
+          "ratio_mean": 16.509397874265893,
+          "ratio_p05": 16.268408155178637,
+          "ratio_p95": 16.793872885512904,
+          "ratio_std": 0.15430462206228707
+        },
+        {
+          "ensemble_size": 128,
+          "ratio_mean": 16.50851609466332,
+          "ratio_p05": 16.50851609466332,
+          "ratio_p95": 16.508516094663324,
+          "ratio_std": 1.3987047740492307e-15
+        }
+      ],
+      "coupling": "strong",
+      "drive": 8.049999999999988,
+      "label": "hyperchaotic_E8_th0.5pi",
+      "status": "PASS",
+      "theta_over_pi": 0.5
+    },
+    {
+      "converged_ratio": 13.87590886331097,
+      "converged_ratio_std": 5.136098584586421e-15,
+      "converged_within_2sigma": true,
+      "convergence": [
+        {
+          "ensemble_size": 8,
+          "ratio_mean": 13.827898334583496,
+          "ratio_p05": 12.994317661385022,
+          "ratio_p95": 14.768766839646682,
+          "ratio_std": 0.5531411941661819
+        },
+        {
+          "ensemble_size": 16,
+          "ratio_mean": 13.845678430609569,
+          "ratio_p05": 13.175219046457578,
+          "ratio_p95": 14.510325701516061,
+          "ratio_std": 0.40564221778292736
+        },
+        {
+          "ensemble_size": 32,
+          "ratio_mean": 13.886000526345484,
+          "ratio_p05": 13.420577377243829,
+          "ratio_p95": 14.289718186599872,
+          "ratio_std": 0.26537941556729666
+        },
+        {
+          "ensemble_size": 64,
+          "ratio_mean": 13.855064473677476,
+          "ratio_p05": 13.606382527966142,
+          "ratio_p95": 14.102578140564097,
+          "ratio_std": 0.1497916236921324
+        },
+        {
+          "ensemble_size": 128,
+          "ratio_mean": 13.87590886331097,
+          "ratio_p05": 13.875908863310974,
+          "ratio_p95": 13.875908863310976,
+          "ratio_std": 5.136098584586421e-15
+        }
+      ],
+      "coupling": "strong",
+      "drive": 8.024999999999988,
+      "label": "hyperchaotic_E8_th0pi",
+      "status": "PASS",
+      "theta_over_pi": 0.0
+    }
+  ],
+  "settings": {
+    "detector_variance": 0.01,
+    "dt": 0.01,
+    "n_boot": 200,
+    "n_max": 128,
+    "n_steps": 30000,
+    "seed": 42,
+    "sizes": [
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "thermal_occupations": [
+      0.1,
+      0.1
+    ],
+    "transient_steps": 3000
+  },
+  "status": "PASS"
+}

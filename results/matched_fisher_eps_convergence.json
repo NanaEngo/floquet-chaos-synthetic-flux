@@ -1,0 +1,102 @@
+{
+  "force_eps_list": [
+    0.001,
+    0.0001,
+    1e-05
+  ],
+  "gate": "MATCHED_FISHER_EPS_CONVERGENCE",
+  "interpretation": "Central-difference force-step convergence of the matched measurement Fisher information at the two flux extrema. Not QFI and not a claim of quantum advantage.",
+  "kind": "classical_measurement_fisher_force_sensing_eps_convergence",
+  "matched_resources": {
+    "baths": [
+      0.1,
+      0.1
+    ],
+    "detector_noise_variance": 0.01,
+    "drive": 0.2,
+    "estimator": "eq:fisher (mean + variance terms)",
+    "observation_time": "1 drive period"
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-16T07:11:02.149465+00:00",
+  "records": [
+    {
+      "classical_fisher_information": 5.190751287377284e-05,
+      "d_mean_dF": 0.005145275623272272,
+      "d_variance_dF": 2.2944479094455517e-06,
+      "force_eps": 0.001,
+      "min_physicality_eigenvalue": 2.503790116695215e-07,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "classical_fisher_information": 5.1909375099341006e-05,
+      "d_mean_dF": 0.00514536791798581,
+      "d_variance_dF": 2.294485157428028e-06,
+      "force_eps": 0.0001,
+      "min_physicality_eigenvalue": 2.503965040936973e-07,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "classical_fisher_information": 5.190763054055145e-05,
+      "d_mean_dF": 0.005145281455065653,
+      "d_variance_dF": 2.294447964956703e-06,
+      "force_eps": 1e-05,
+      "min_physicality_eigenvalue": 2.5039825309047803e-07,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "classical_fisher_information": 5.958193635643146e-05,
+      "d_mean_dF": 0.005512531510140639,
+      "d_variance_dF": 2.917275698788302e-06,
+      "force_eps": 0.001,
+      "min_physicality_eigenvalue": 2.5835665888596093e-07,
+      "status": "PASS",
+      "theta": 3.141592653589793,
+      "theta_over_pi": 1.0
+    },
+    {
+      "classical_fisher_information": 5.958165577855695e-05,
+      "d_mean_dF": 0.005512518530606525,
+      "d_variance_dF": 2.9171937088179334e-06,
+      "force_eps": 0.0001,
+      "min_physicality_eigenvalue": 2.5838001127542753e-07,
+      "status": "PASS",
+      "theta": 3.141592653589793,
+      "theta_over_pi": 1.0
+    },
+    {
+      "classical_fisher_information": 5.9581810469836775e-05,
+      "d_mean_dF": 0.005512525686618418,
+      "d_variance_dF": 2.9172608773109228e-06,
+      "force_eps": 1e-05,
+      "min_physicality_eigenvalue": 2.5838234670588767e-07,
+      "status": "PASS",
+      "theta": 3.141592653589793,
+      "theta_over_pi": 1.0
+    }
+  ],
+  "relative_spread": {
+    "0.5": {
+      "converged_below_1e-4_relative": true,
+      "max_minus_min": 1.8622255681672705e-09,
+      "relative_spread": 3.587538274527761e-05
+    },
+    "1.0": {
+      "converged_below_1e-4_relative": true,
+      "max_minus_min": 2.8057787451236547e-10,
+      "relative_spread": 4.709120409647806e-06
+    }
+  },
+  "status": "PASS",
+  "thetas": [
+    1.5707963267948966,
+    3.141592653589793
+  ]
+}

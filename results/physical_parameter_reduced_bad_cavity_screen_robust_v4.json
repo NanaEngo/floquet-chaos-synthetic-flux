@@ -1,0 +1,4824 @@
+{
+  "candidate_count": 16,
+  "candidate_records": [
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -39808.41054969491,
+        "drive": 0.20665216615138543,
+        "drive_frequency": 1.0386023218531555,
+        "drive_modulation": 0.48789646426624905,
+        "g1": 67.19012165802603,
+        "g2": 69.349665365591,
+        "gamma1": 0.0011544186955758859,
+        "gamma2": 0.0013717956354485866,
+        "hopping": 0.0045666812248647375,
+        "kappa": 112390.9440291604,
+        "omega1": 0.9522989877166074,
+        "omega2": 1.3106411919613594,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -39808.41054969491,
+          "drive": 0.20665216615138543,
+          "drive_frequency": 1.0386023218531555,
+          "drive_modulation": 0.48789646426624905,
+          "g1": 67.19012165802603,
+          "g2": 69.349665365591,
+          "gamma1": 0.0011544186955758859,
+          "gamma2": 0.0013717956354485866,
+          "hopping": 0.0045666812248647375,
+          "kappa": 112390.9440291604,
+          "omega1": 0.9522989877166074,
+          "omega2": 1.3106411919613594,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -44916.68622889281,
+          "drive": 0.21453298427692688,
+          "drive_frequency": 1.0901298929017984,
+          "drive_modulation": 0.6395989963191893,
+          "g1": 61.94952498183708,
+          "g2": 77.9592499965673,
+          "gamma1": 0.0012306090737702166,
+          "gamma2": 0.0011803338414535518,
+          "hopping": 0.003961291706479545,
+          "kappa": 118805.55779962456,
+          "omega1": 0.9792385536552047,
+          "omega2": 1.1096251348736847,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -42032.7393814161,
+          "drive": 0.1986725144330885,
+          "drive_frequency": 0.9655738947593463,
+          "drive_modulation": 0.782107903821097,
+          "g1": 67.37339466597855,
+          "g2": 85.86005794939666,
+          "gamma1": 0.0012274540887171593,
+          "gamma2": 0.0012995689736973572,
+          "hopping": 0.003920129191874923,
+          "kappa": 116979.57654443827,
+          "omega1": 0.8501973149081343,
+          "omega2": 1.2248229129404233,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -38129.54381010073,
+          "drive": 0.21544379796223756,
+          "drive_frequency": 0.9835757893324457,
+          "drive_modulation": 0.6366183131143593,
+          "g1": 66.91972831103563,
+          "g2": 72.36858122248105,
+          "gamma1": 0.0012883283255256937,
+          "gamma2": 0.0012043087139526872,
+          "hopping": 0.003752499572592564,
+          "kappa": 116836.49317678012,
+          "omega1": 0.9504446149643339,
+          "omega2": 1.140037534417348,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -32866.19444554019,
+          "drive": 0.19246261471821344,
+          "drive_frequency": 0.97023355887405,
+          "drive_modulation": 0.8095913539977473,
+          "g1": 73.51412617577053,
+          "g2": 73.43839104918831,
+          "gamma1": 0.0009270601494968354,
+          "gamma2": 0.001145299757090805,
+          "hopping": 0.004273949720414021,
+          "kappa": 112010.55419482973,
+          "omega1": 0.9101645687879646,
+          "omega2": 1.3699264566851546,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965140661071162,
+          "replicate": 0,
+          "residual": 1.6042780239553838e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965140661071163,
+          "replicate": 0,
+          "residual": 4.549493369041652e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965140661071166,
+          "replicate": 0,
+          "residual": 3.7966297646476856e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965140661071165,
+          "replicate": 0,
+          "residual": 2.895132143935597e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965140661071166,
+          "replicate": 0,
+          "residual": 6.2038545941477076e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996604098744276,
+          "replicate": 1,
+          "residual": 3.5155176033503676e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966040987442769,
+          "replicate": 1,
+          "residual": 2.3161057151484775e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966040987442759,
+          "replicate": 1,
+          "residual": 2.6469779601696886e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966040987442761,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966040987442761,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9960142919792009,
+          "replicate": 2,
+          "residual": 4.6755091654852775e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960142919792006,
+          "replicate": 2,
+          "residual": 7.031035206700735e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960142919792009,
+          "replicate": 2,
+          "residual": 1.1276798194570573e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960142919792006,
+          "replicate": 2,
+          "residual": 4.164983631175206e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960142919792006,
+          "replicate": 2,
+          "residual": 2.5340484195105936e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961606589929799,
+          "replicate": 3,
+          "residual": 9.460878256075254e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961606589929802,
+          "replicate": 3,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961606589929792,
+          "replicate": 3,
+          "residual": 1.747419044018271e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961606589929805,
+          "replicate": 3,
+          "residual": 1.9128551665288765e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961606589929799,
+          "replicate": 3,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9970026418196287,
+          "replicate": 4,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9970026418196289,
+          "replicate": 4,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9970026418196283,
+          "replicate": 4,
+          "residual": 2.150669592637872e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9970026418196287,
+          "replicate": 4,
+          "residual": 4.1152235474513127e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9970026418196287,
+          "replicate": 4,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 0
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -38743.05864409931,
+        "drive": 0.15414090030670613,
+        "drive_frequency": 0.988583004002626,
+        "drive_modulation": 0.9711842817986586,
+        "g1": 68.0717044900046,
+        "g2": 69.95361494104728,
+        "gamma1": 0.0013416729488380894,
+        "gamma2": 0.0011537439331477026,
+        "hopping": 0.0043705689701760255,
+        "kappa": 97961.75663513801,
+        "omega1": 1.0002553699661916,
+        "omega2": 1.1043327259746445,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -38743.05864409931,
+          "drive": 0.15414090030670613,
+          "drive_frequency": 0.988583004002626,
+          "drive_modulation": 0.9711842817986586,
+          "g1": 68.0717044900046,
+          "g2": 69.95361494104728,
+          "gamma1": 0.0013416729488380894,
+          "gamma2": 0.0011537439331477026,
+          "hopping": 0.0043705689701760255,
+          "kappa": 97961.75663513801,
+          "omega1": 1.0002553699661916,
+          "omega2": 1.1043327259746445,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -40922.5501026522,
+          "drive": 0.17167162924535917,
+          "drive_frequency": 0.9344415188142283,
+          "drive_modulation": 0.7660324924813396,
+          "g1": 73.60232081252298,
+          "g2": 65.33537115584953,
+          "gamma1": 0.0009729838777628912,
+          "gamma2": 0.0013027233168772206,
+          "hopping": 0.004209771086304805,
+          "kappa": 115851.42340289355,
+          "omega1": 0.9580096347601016,
+          "omega2": 1.032769721599763,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -35877.769814344596,
+          "drive": 0.19360541030855738,
+          "drive_frequency": 0.7830284467658911,
+          "drive_modulation": 0.6274311188534142,
+          "g1": 72.71278003146425,
+          "g2": 74.83864902114342,
+          "gamma1": 0.0013345900972135116,
+          "gamma2": 0.0010726021465470785,
+          "hopping": 0.004612800384973579,
+          "kappa": 94735.28259380622,
+          "omega1": 0.916089165331965,
+          "omega2": 1.1511683143737061,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -38568.47060032419,
+          "drive": 0.22524324807217852,
+          "drive_frequency": 0.9787601617722034,
+          "drive_modulation": 0.5844115864981264,
+          "g1": 64.08091550531621,
+          "g2": 49.579658835381935,
+          "gamma1": 0.0013371041556074598,
+          "gamma2": 0.001344937902920357,
+          "hopping": 0.0044453358041608845,
+          "kappa": 106064.42215330254,
+          "omega1": 0.816649568845141,
+          "omega2": 1.1487675306095078,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -44749.862742424084,
+          "drive": 0.22386455418762424,
+          "drive_frequency": 1.0318442071478535,
+          "drive_modulation": 0.6904922598711336,
+          "g1": 75.7062220419976,
+          "g2": 66.04751684990262,
+          "gamma1": 0.0013634929852707328,
+          "gamma2": 0.0010802635651208912,
+          "hopping": 0.0037224052523570643,
+          "kappa": 113694.01534818173,
+          "omega1": 1.089884704403276,
+          "omega2": 1.2025155254104227,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9963392161005276,
+          "replicate": 0,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963392161005267,
+          "replicate": 0,
+          "residual": 3.88774887899923e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963392161005277,
+          "replicate": 0,
+          "residual": 1.8611563782443123e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963392161005276,
+          "replicate": 0,
+          "residual": 1.9852334701272664e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963392161005263,
+          "replicate": 0,
+          "residual": 1.9852334701272664e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9967307016946753,
+          "replicate": 1,
+          "residual": 1.5251142543946448e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967307016946757,
+          "replicate": 1,
+          "residual": 1.3493383742271264e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967307016946761,
+          "replicate": 1,
+          "residual": 2.0679515313825692e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967307016946757,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967307016946759,
+          "replicate": 1,
+          "residual": 1.819797347616661e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9957054509537507,
+          "replicate": 2,
+          "residual": 3.6124528313839255e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957054509537501,
+          "replicate": 2,
+          "residual": 2.9763153974137016e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.99570545095375,
+          "replicate": 2,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.99570545095375,
+          "replicate": 2,
+          "residual": 3.460587640798018e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957054509537493,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9957173985078064,
+          "replicate": 3,
+          "residual": 1.3651711281392742e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957173985078069,
+          "replicate": 3,
+          "residual": 2.274746684520826e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957173985078067,
+          "replicate": 3,
+          "residual": 4.342698215903395e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9957173985078064,
+          "replicate": 3,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957173985078076,
+          "replicate": 3,
+          "residual": 9.011745032853102e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9967154550330543,
+          "replicate": 4,
+          "residual": 4.355622912974536e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9967154550330543,
+          "replicate": 4,
+          "residual": 2.895132143935597e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967154550330549,
+          "replicate": 4,
+          "residual": 6.242628685361131e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967154550330549,
+          "replicate": 4,
+          "residual": 5.86781247029804e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9967154550330555,
+          "replicate": 4,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 1
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -34304.600708594924,
+        "drive": 0.20209656464478898,
+        "drive_frequency": 1.0267335507983575,
+        "drive_modulation": 0.9272146241844201,
+        "g1": 64.25099922333338,
+        "g2": 69.38367275523343,
+        "gamma1": 0.001132496661256842,
+        "gamma2": 0.0013370232680511246,
+        "hopping": 0.004413952535601792,
+        "kappa": 115111.45787260156,
+        "omega1": 0.9758142125779756,
+        "omega2": 1.198072119692148,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -34304.600708594924,
+          "drive": 0.20209656464478898,
+          "drive_frequency": 1.0267335507983575,
+          "drive_modulation": 0.9272146241844201,
+          "g1": 64.25099922333338,
+          "g2": 69.38367275523343,
+          "gamma1": 0.001132496661256842,
+          "gamma2": 0.0013370232680511246,
+          "hopping": 0.004413952535601792,
+          "kappa": 115111.45787260156,
+          "omega1": 0.9758142125779756,
+          "omega2": 1.198072119692148,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -37101.69225838502,
+          "drive": 0.17258192593052177,
+          "drive_frequency": 0.8381213591394127,
+          "drive_modulation": 0.7800267885388938,
+          "g1": 78.96465970277329,
+          "g2": 55.92469079317952,
+          "gamma1": 0.0012518737158680345,
+          "gamma2": 0.0012908442170206224,
+          "hopping": 0.004182862973620053,
+          "kappa": 116010.92465630446,
+          "omega1": 1.0066018468165547,
+          "omega2": 0.9973881246317229,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -41922.44219679816,
+          "drive": 0.16744074059278566,
+          "drive_frequency": 0.9498837973422932,
+          "drive_modulation": 0.7214464121543027,
+          "g1": 54.29947741950291,
+          "g2": 65.01437408814239,
+          "gamma1": 0.0012407537787960513,
+          "gamma2": 0.0010313270488641103,
+          "hopping": 0.004820975105675704,
+          "kappa": 98388.25038457202,
+          "omega1": 0.9068605265118731,
+          "omega2": 1.137764038419159,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -41007.44441589465,
+          "drive": 0.20207194652277202,
+          "drive_frequency": 1.0143755766440996,
+          "drive_modulation": 0.7914272901709415,
+          "g1": 71.7878968590499,
+          "g2": 54.68933546363589,
+          "gamma1": 0.00116871046206905,
+          "gamma2": 0.0012629758650183143,
+          "hopping": 0.003638432681442328,
+          "kappa": 115858.83929512242,
+          "omega1": 0.9744373229729291,
+          "omega2": 1.1366466761670524,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -34098.1383594231,
+          "drive": 0.19368503329785802,
+          "drive_frequency": 1.1425268106920403,
+          "drive_modulation": 0.6420599458193454,
+          "g1": 59.86032386189078,
+          "g2": 68.02264292669945,
+          "gamma1": 0.0014202530217136877,
+          "gamma2": 0.0010640194326413917,
+          "hopping": 0.004481677689056213,
+          "kappa": 117000.81385301886,
+          "omega1": 1.0889621269106955,
+          "omega2": 1.0920091713875657,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965405452879892,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965405452879896,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965405452879895,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965405452879895,
+          "replicate": 0,
+          "residual": 1.9852334701272664e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965405452879893,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9952996261919849,
+          "replicate": 1,
+          "residual": 1.3853659673129321e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952996261919843,
+          "replicate": 1,
+          "residual": 2.0049436331607565e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952996261919848,
+          "replicate": 1,
+          "residual": 2.1907361535584092e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952996261919851,
+          "replicate": 1,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952996261919843,
+          "replicate": 1,
+          "residual": 3.565600804501039e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965945566569999,
+          "replicate": 2,
+          "residual": 4.3685476100456774e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965945566569999,
+          "replicate": 2,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965945566569994,
+          "replicate": 2,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996594556657,
+          "replicate": 2,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965945566570001,
+          "replicate": 2,
+          "residual": 3.0243791146470074e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9963868179725538,
+          "replicate": 3,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963868179725531,
+          "replicate": 3,
+          "residual": 7.961613395822891e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963868179725531,
+          "replicate": 3,
+          "residual": 1.819797347616661e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963868179725534,
+          "replicate": 3,
+          "residual": 1.3183191012563879e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963868179725527,
+          "replicate": 3,
+          "residual": 8.271806125530277e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9967474723664175,
+          "replicate": 4,
+          "residual": 6.772541265277914e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9967474723664183,
+          "replicate": 4,
+          "residual": 1.819797347616661e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996747472366417,
+          "replicate": 4,
+          "residual": 2.0679515313825692e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967474723664177,
+          "replicate": 4,
+          "residual": 1.075334796318936e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967474723664175,
+          "replicate": 4,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 2
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -34842.05541628577,
+        "drive": 0.33144471371486117,
+        "drive_frequency": 0.9928681533884355,
+        "drive_modulation": 0.4990503998412327,
+        "g1": 63.69009098028949,
+        "g2": 72.13429381010538,
+        "gamma1": 0.0012147983464573066,
+        "gamma2": 0.0012286274507808206,
+        "hopping": 0.004492571844345313,
+        "kappa": 108773.57429531723,
+        "omega1": 0.9354610320404743,
+        "omega2": 1.120142759895135,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -34842.05541628577,
+          "drive": 0.33144471371486117,
+          "drive_frequency": 0.9928681533884355,
+          "drive_modulation": 0.4990503998412327,
+          "g1": 63.69009098028949,
+          "g2": 72.13429381010538,
+          "gamma1": 0.0012147983464573066,
+          "gamma2": 0.0012286274507808206,
+          "hopping": 0.004492571844345313,
+          "kappa": 108773.57429531723,
+          "omega1": 0.9354610320404743,
+          "omega2": 1.120142759895135,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -35056.71662592045,
+          "drive": 0.19834376713267088,
+          "drive_frequency": 0.8168462017983578,
+          "drive_modulation": 0.6833821994282844,
+          "g1": 68.14853523655688,
+          "g2": 68.38658159770556,
+          "gamma1": 0.0011658709579280937,
+          "gamma2": 0.0011596840854729772,
+          "hopping": 0.0037646694104377727,
+          "kappa": 109838.55645940336,
+          "omega1": 1.2033096898259588,
+          "omega2": 1.1500088168819653,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -36906.4856361421,
+          "drive": 0.21907137733249943,
+          "drive_frequency": 0.8515106233913794,
+          "drive_modulation": 0.5640721287610344,
+          "g1": 85.8737197430898,
+          "g2": 70.8983692306319,
+          "gamma1": 0.0013844926304585642,
+          "gamma2": 0.001276330332523652,
+          "hopping": 0.004076273932479176,
+          "kappa": 105829.19413419167,
+          "omega1": 0.9292604011286113,
+          "omega2": 1.0506147875026808,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -39078.69989865467,
+          "drive": 0.21795352036597934,
+          "drive_frequency": 1.245323164084559,
+          "drive_modulation": 0.6377513375484387,
+          "g1": 79.95828519352581,
+          "g2": 58.31068822983994,
+          "gamma1": 0.0013225376888414562,
+          "gamma2": 0.0012611200357880588,
+          "hopping": 0.004909313338700913,
+          "kappa": 104019.73083818109,
+          "omega1": 0.9860248930622579,
+          "omega2": 1.079533197330302,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -41391.78079693447,
+          "drive": 0.2079144878290464,
+          "drive_frequency": 1.0110098277458281,
+          "drive_modulation": 0.7720136671089591,
+          "g1": 76.93099303269845,
+          "g2": 62.9843745934983,
+          "gamma1": 0.0012075012633840116,
+          "gamma2": 0.0014292445135097806,
+          "hopping": 0.003695064734875016,
+          "kappa": 109967.43429835356,
+          "omega1": 0.7725180793619597,
+          "omega2": 1.12526063122917,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996163537191938,
+          "replicate": 0,
+          "residual": 2.3161057151484775e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961635371919381,
+          "replicate": 0,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996163537191937,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961635371919374,
+          "replicate": 0,
+          "residual": 2.150669592637872e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961635371919372,
+          "replicate": 0,
+          "residual": 8.497988324275245e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9955496671917479,
+          "replicate": 1,
+          "residual": 1.4766466403778658e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955496671917481,
+          "replicate": 1,
+          "residual": 3.4056576782456686e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955496671917476,
+          "replicate": 1,
+          "residual": 5.400099995036123e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955496671917474,
+          "replicate": 1,
+          "residual": 2.895132143935597e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955496671917471,
+          "replicate": 1,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9953016859050768,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9953016859050767,
+          "replicate": 2,
+          "residual": 5.0487097934144756e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.995301685905077,
+          "replicate": 2,
+          "residual": 5.544695043519514e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9953016859050767,
+          "replicate": 2,
+          "residual": 2.494466534730224e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9953016859050766,
+          "replicate": 2,
+          "residual": 6.539896717997375e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9968231895774595,
+          "replicate": 3,
+          "residual": 3.702925710881913e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968231895774587,
+          "replicate": 3,
+          "residual": 8.023005706910811e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996823189577459,
+          "replicate": 3,
+          "residual": 2.895132143935597e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996823189577459,
+          "replicate": 3,
+          "residual": 7.924454891743361e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968231895774595,
+          "replicate": 3,
+          "residual": 1.8918525337882723e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962547888866734,
+          "replicate": 4,
+          "residual": 2.982373849165799e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962547888866736,
+          "replicate": 4,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962547888866728,
+          "replicate": 4,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962547888866734,
+          "replicate": 4,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962547888866734,
+          "replicate": 4,
+          "residual": 2.256975226048007e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 3
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -35553.449290783305,
+        "drive": 0.28168824690881605,
+        "drive_frequency": 1.03170937460037,
+        "drive_modulation": 0.5564222136110973,
+        "g1": 69.81279061570473,
+        "g2": 76.19747000926033,
+        "gamma1": 0.0011679176916838323,
+        "gamma2": 0.001281292103963347,
+        "hopping": 0.0043341427834141565,
+        "kappa": 116446.58038320857,
+        "omega1": 0.985685854649444,
+        "omega2": 1.326392209390672,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -35553.449290783305,
+          "drive": 0.28168824690881605,
+          "drive_frequency": 1.03170937460037,
+          "drive_modulation": 0.5564222136110973,
+          "g1": 69.81279061570473,
+          "g2": 76.19747000926033,
+          "gamma1": 0.0011679176916838323,
+          "gamma2": 0.001281292103963347,
+          "hopping": 0.0043341427834141565,
+          "kappa": 116446.58038320857,
+          "omega1": 0.985685854649444,
+          "omega2": 1.326392209390672,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -40892.77263651824,
+          "drive": 0.206132532084111,
+          "drive_frequency": 0.9504446149643339,
+          "drive_modulation": 0.6551439403902618,
+          "g1": 67.21759118077921,
+          "g2": 73.5569852086405,
+          "gamma1": 0.0011914635856355219,
+          "gamma2": 0.0014063121628606842,
+          "hopping": 0.004588640072113867,
+          "kappa": 98198.10684508167,
+          "omega1": 1.0902751162632445,
+          "omega2": 1.472653753845311,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -39203.693991817636,
+          "drive": 0.14832962391949367,
+          "drive_frequency": 0.9101645687879646,
+          "drive_modulation": 0.6230430678573979,
+          "g1": 66.59403423161962,
+          "g2": 70.74126372585086,
+          "gamma1": 0.00099666040780178,
+          "gamma2": 0.0014044311930266702,
+          "hopping": 0.0041685935613952904,
+          "kappa": 116436.91877813457,
+          "omega1": 1.0353178376791692,
+          "omega2": 1.2613169565239917,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -40154.44680797777,
+          "drive": 0.16182688436076095,
+          "drive_frequency": 0.9993249830462264,
+          "drive_modulation": 0.4964647467453364,
+          "g1": 67.13430350206683,
+          "g2": 60.210345220281674,
+          "gamma1": 0.0012269200164135017,
+          "gamma2": 0.0012613194162083925,
+          "hopping": 0.004203690982259986,
+          "kappa": 99149.23812009672,
+          "omega1": 0.9978686626751072,
+          "omega2": 0.9949608018274831,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -40547.99821545015,
+          "drive": 0.1556774204420626,
+          "drive_frequency": 0.9580096347601016,
+          "drive_modulation": 0.7086814843812081,
+          "g1": 64.13549750193917,
+          "g2": 72.81604540140998,
+          "gamma1": 0.0012124667167911812,
+          "gamma2": 0.0014272889057540252,
+          "hopping": 0.004661307056992775,
+          "kappa": 109818.93834541025,
+          "omega1": 1.2397732772881687,
+          "omega2": 1.2079894987553625,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9964499087440576,
+          "replicate": 0,
+          "residual": 1.0675799780762513e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964499087440568,
+          "replicate": 0,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964499087440574,
+          "replicate": 0,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964499087440575,
+          "replicate": 0,
+          "residual": 3.970466940254533e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964499087440574,
+          "replicate": 0,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9960693879446344,
+          "replicate": 1,
+          "residual": 1.6398209409010217e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960693879446343,
+          "replicate": 1,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960693879446344,
+          "replicate": 1,
+          "residual": 8.489910388605782e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960693879446344,
+          "replicate": 1,
+          "residual": 2.494466534730224e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960693879446343,
+          "replicate": 1,
+          "residual": 4.295846189020509e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965652855848974,
+          "replicate": 2,
+          "residual": 2.867667162659422e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996565285584897,
+          "replicate": 2,
+          "residual": 4.1359030627651384e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965652855848964,
+          "replicate": 2,
+          "residual": 8.271806125530277e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996565285584897,
+          "replicate": 2,
+          "residual": 9.782380095719888e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965652855848971,
+          "replicate": 2,
+          "residual": 1.1327285292504717e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961140865728622,
+          "replicate": 3,
+          "residual": 2.183756817139993e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961140865728615,
+          "replicate": 3,
+          "residual": 2.117582368135751e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961140865728615,
+          "replicate": 3,
+          "residual": 1.852884572118782e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961140865728619,
+          "replicate": 3,
+          "residual": 6.617444900424221e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961140865728623,
+          "replicate": 3,
+          "residual": 2.117582368135751e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996017679838704,
+          "replicate": 4,
+          "residual": 1.5873143590495111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960176798387043,
+          "replicate": 4,
+          "residual": 2.5982680080828257e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960176798387038,
+          "replicate": 4,
+          "residual": 2.895132143935597e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960176798387038,
+          "replicate": 4,
+          "residual": 3.568024185201878e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960176798387034,
+          "replicate": 4,
+          "residual": 1.2407709188295415e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 4
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -34655.353966533745,
+        "drive": 0.22025850962654964,
+        "drive_frequency": 0.995207013039976,
+        "drive_modulation": 0.8106931172173473,
+        "g1": 64.69996076594252,
+        "g2": 66.00116295942748,
+        "gamma1": 0.0013031551466702476,
+        "gamma2": 0.0011793030751959337,
+        "hopping": 0.004014611354398934,
+        "kappa": 100974.552520153,
+        "omega1": 1.0304789295724543,
+        "omega2": 1.2586125037330957,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -34655.353966533745,
+          "drive": 0.22025850962654964,
+          "drive_frequency": 0.995207013039976,
+          "drive_modulation": 0.8106931172173473,
+          "g1": 64.69996076594252,
+          "g2": 66.00116295942748,
+          "gamma1": 0.0013031551466702476,
+          "gamma2": 0.0011793030751959337,
+          "hopping": 0.004014611354398934,
+          "kappa": 100974.552520153,
+          "omega1": 1.0304789295724543,
+          "omega2": 1.2586125037330957,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -37122.547776028856,
+          "drive": 0.2139366648971936,
+          "drive_frequency": 0.816649568845141,
+          "drive_modulation": 0.7316462191886743,
+          "g1": 74.23472242060343,
+          "g2": 78.27088784996666,
+          "gamma1": 0.0013105356737034353,
+          "gamma2": 0.0012275071735211058,
+          "hopping": 0.004882195702960788,
+          "kappa": 114817.88644694838,
+          "omega1": 1.0176682763298681,
+          "omega2": 1.2628267374993218,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -39792.90539584593,
+          "drive": 0.2181588776433173,
+          "drive_frequency": 1.089884704403276,
+          "drive_modulation": 0.5876633794257649,
+          "g1": 60.05738320127786,
+          "g2": 72.53321428096216,
+          "gamma1": 0.0013061685819400228,
+          "gamma2": 0.0012875416481515029,
+          "hopping": 0.004649507405474995,
+          "kappa": 86398.90479380602,
+          "omega1": 1.1700034318487502,
+          "omega2": 1.2834717656992547,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -36777.968303064255,
+          "drive": 0.2142909310769874,
+          "drive_frequency": 0.9980422922381754,
+          "drive_modulation": 0.572397790105165,
+          "g1": 69.36337924440313,
+          "g2": 64.75817289858848,
+          "gamma1": 0.0013299763566649134,
+          "gamma2": 0.0011802179855032611,
+          "hopping": 0.005217828806602635,
+          "kappa": 93460.97964323041,
+          "omega1": 0.9777443840111314,
+          "omega2": 1.2194338969930607,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -40603.82365417761,
+          "drive": 0.20029979453888552,
+          "drive_frequency": 1.0066018468165547,
+          "drive_modulation": 0.7022192540592186,
+          "g1": 64.72317994974173,
+          "g2": 80.82816821080567,
+          "gamma1": 0.0011425815235413983,
+          "gamma2": 0.0012433580995502083,
+          "hopping": 0.0040802432006337664,
+          "kappa": 121340.85725040111,
+          "omega1": 0.886785989433552,
+          "omega2": 1.324259761195392,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962840673803274,
+          "replicate": 0,
+          "residual": 1.9852334701272664e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962840673803274,
+          "replicate": 0,
+          "residual": 1.2976395859425622e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962840673803272,
+          "replicate": 0,
+          "residual": 2.1661792291232412e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996284067380327,
+          "replicate": 0,
+          "residual": 3.277703177241372e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962840673803276,
+          "replicate": 0,
+          "residual": 3.639594695233322e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9952888732552834,
+          "replicate": 1,
+          "residual": 3.622146354187281e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952888732552836,
+          "replicate": 1,
+          "residual": 4.371778784313463e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952888732552831,
+          "replicate": 1,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952888732552836,
+          "replicate": 1,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952888732552831,
+          "replicate": 1,
+          "residual": 7.593259529295371e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962954503449063,
+          "replicate": 2,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962954503449056,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962954503449057,
+          "replicate": 2,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962954503449057,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962954503449057,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962916365101158,
+          "replicate": 3,
+          "residual": 1.0960143116327617e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962916365101145,
+          "replicate": 3,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962916365101149,
+          "replicate": 3,
+          "residual": 1.5923226791645783e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962916365101147,
+          "replicate": 3,
+          "residual": 3.3190622078690235e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996291636510115,
+          "replicate": 3,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9964403396702985,
+          "replicate": 4,
+          "residual": 1.7593743888090764e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964403396702998,
+          "replicate": 4,
+          "residual": 4.314021544276801e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964403396702993,
+          "replicate": 4,
+          "residual": 3.751797221682165e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964403396702993,
+          "replicate": 4,
+          "residual": 2.5740342010744362e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964403396702993,
+          "replicate": 4,
+          "residual": 3.0348804310173095e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 5
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -36855.222094289216,
+        "drive": 0.16336022694972563,
+        "drive_frequency": 1.0425380775370623,
+        "drive_modulation": 0.895663199293456,
+        "g1": 75.93108832145198,
+        "g2": 68.91602591565845,
+        "gamma1": 0.0012434615294977978,
+        "gamma2": 0.0012333840764361778,
+        "hopping": 0.0037687465155759685,
+        "kappa": 97557.95532320412,
+        "omega1": 0.9376063954044973,
+        "omega2": 1.3245290174760824,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -36855.222094289216,
+          "drive": 0.16336022694972563,
+          "drive_frequency": 1.0425380775370623,
+          "drive_modulation": 0.895663199293456,
+          "g1": 75.93108832145198,
+          "g2": 68.91602591565845,
+          "gamma1": 0.0012434615294977978,
+          "gamma2": 0.0012333840764361778,
+          "hopping": 0.0037687465155759685,
+          "kappa": 97557.95532320412,
+          "omega1": 0.9376063954044973,
+          "omega2": 1.3245290174760824,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -40550.593777731825,
+          "drive": 0.18699367393104802,
+          "drive_frequency": 0.9744373229729291,
+          "drive_modulation": 0.6870588705699631,
+          "g1": 82.54610991245433,
+          "g2": 62.555758137453736,
+          "gamma1": 0.001197040675042245,
+          "gamma2": 0.001271589629915523,
+          "hopping": 0.004576838388506894,
+          "kappa": 104744.76887118153,
+          "omega1": 0.7705958036069384,
+          "omega2": 1.2869160257475167,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -40950.284873236466,
+          "drive": 0.22724048347419007,
+          "drive_frequency": 1.0889621269106955,
+          "drive_modulation": 0.5788265713569171,
+          "g1": 70.42953626179096,
+          "g2": 81.1513628500919,
+          "gamma1": 0.0012895433885408158,
+          "gamma2": 0.001303487398045711,
+          "hopping": 0.003710385992707918,
+          "kappa": 125360.29063007908,
+          "omega1": 1.1155673822169305,
+          "omega2": 1.2709035385244825,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -40675.04257712452,
+          "drive": 0.17505449676541204,
+          "drive_frequency": 0.9717761429680196,
+          "drive_modulation": 0.7263357100723489,
+          "g1": 65.84224957919814,
+          "g2": 72.2755794971206,
+          "gamma1": 0.0010832037311602415,
+          "gamma2": 0.0013479100738634881,
+          "hopping": 0.00503384664142865,
+          "kappa": 121596.41974761861,
+          "omega1": 1.112829154685186,
+          "omega2": 1.346455424190691,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -38443.49478396025,
+          "drive": 0.186539353268495,
+          "drive_frequency": 1.2033096898259588,
+          "drive_modulation": 0.6308681424972997,
+          "g1": 61.45071877635606,
+          "g2": 69.87936193930052,
+          "gamma1": 0.0012182968986805074,
+          "gamma2": 0.0011964274454469282,
+          "hopping": 0.005092320886879461,
+          "kappa": 108584.23604416326,
+          "omega1": 1.0392187919445175,
+          "omega2": 1.1982244287544694,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962902059456371,
+          "replicate": 0,
+          "residual": 2.920981538077879e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962902059456367,
+          "replicate": 0,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962902059456367,
+          "replicate": 0,
+          "residual": 8.097322715069872e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962902059456368,
+          "replicate": 0,
+          "residual": 1.1302647588712855e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962902059456366,
+          "replicate": 0,
+          "residual": 2.2327414190396177e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961481511965108,
+          "replicate": 1,
+          "residual": 1.34416849539867e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961481511965118,
+          "replicate": 1,
+          "residual": 3.891949405547351e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961481511965111,
+          "replicate": 1,
+          "residual": 3.907701380102804e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961481511965113,
+          "replicate": 1,
+          "residual": 1.9516292577422997e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961481511965115,
+          "replicate": 1,
+          "residual": 1.9645539548134407e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962866307846049,
+          "replicate": 2,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962866307846046,
+          "replicate": 2,
+          "residual": 1.649191346277599e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962866307846043,
+          "replicate": 2,
+          "residual": 2.150669592637872e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962866307846049,
+          "replicate": 2,
+          "residual": 2.481541837659083e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962866307846042,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965039091283936,
+          "replicate": 3,
+          "residual": 1.2407709188295415e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965039091283936,
+          "replicate": 3,
+          "residual": 1.9389065090628952e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965039091283936,
+          "replicate": 3,
+          "residual": 1.906392817993306e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965039091283939,
+          "replicate": 3,
+          "residual": 2.233549212606564e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965039091283936,
+          "replicate": 3,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9968811907017257,
+          "replicate": 4,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996881190701725,
+          "replicate": 4,
+          "residual": 5.293955920339377e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968811907017257,
+          "replicate": 4,
+          "residual": 4.7873077951506477e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968811907017261,
+          "replicate": 4,
+          "residual": 3.970466940254533e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968811907017254,
+          "replicate": 4,
+          "residual": 1.5881867761018131e-22,
+          "status": "PASS"
+        }
+      ],
+      "sample": 6
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -36313.22248479282,
+        "drive": 0.2247289186389484,
+        "drive_frequency": 1.0477367393585708,
+        "drive_modulation": 0.6861006896863733,
+        "g1": 76.3796751159871,
+        "g2": 64.30072058009826,
+        "gamma1": 0.001325120522750152,
+        "gamma2": 0.001291542361857208,
+        "hopping": 0.004536760769440269,
+        "kappa": 96956.76659038723,
+        "omega1": 1.0568529915177611,
+        "omega2": 1.2493992940743057,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -36313.22248479282,
+          "drive": 0.2247289186389484,
+          "drive_frequency": 1.0477367393585708,
+          "drive_modulation": 0.6861006896863733,
+          "g1": 76.3796751159871,
+          "g2": 64.30072058009826,
+          "gamma1": 0.001325120522750152,
+          "gamma2": 0.001291542361857208,
+          "hopping": 0.004536760769440269,
+          "kappa": 96956.76659038723,
+          "omega1": 1.0568529915177611,
+          "omega2": 1.2493992940743057,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -36406.90581530504,
+          "drive": 0.211606030214633,
+          "drive_frequency": 0.9860248930622579,
+          "drive_modulation": 0.686049299468704,
+          "g1": 70.26333355130123,
+          "g2": 71.68554465491793,
+          "gamma1": 0.0012689206816264577,
+          "gamma2": 0.0011722296789426975,
+          "hopping": 0.0036970414978203733,
+          "kappa": 114251.30946108645,
+          "omega1": 0.956001628164497,
+          "omega2": 1.359904369534508,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -38488.60202762,
+          "drive": 0.19320020214144185,
+          "drive_frequency": 0.7725180793619597,
+          "drive_modulation": 0.7775090153493207,
+          "g1": 68.27191633963628,
+          "g2": 75.65707536431519,
+          "gamma1": 0.001383587446023502,
+          "gamma2": 0.0011787322117368956,
+          "hopping": 0.004939631241632946,
+          "kappa": 108801.54144113733,
+          "omega1": 0.9172057270213801,
+          "omega2": 1.2810801637869262,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -36749.52297889873,
+          "drive": 0.17186775529028606,
+          "drive_frequency": 1.0536284669228813,
+          "drive_modulation": 0.7254628783761983,
+          "g1": 73.82517185648176,
+          "g2": 69.16757261557453,
+          "gamma1": 0.0011046504162596066,
+          "gamma2": 0.0013633561544441931,
+          "hopping": 0.00498747142771791,
+          "kappa": 91936.21640864006,
+          "omega1": 1.0403546641212524,
+          "omega2": 1.1118892814390624,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -35417.08940303912,
+          "drive": 0.2240869606866397,
+          "drive_frequency": 1.0769208826004988,
+          "drive_modulation": 0.739933025436152,
+          "g1": 73.84979349052131,
+          "g2": 69.55701374588828,
+          "gamma1": 0.0012618465065891882,
+          "gamma2": 0.001244954020539193,
+          "hopping": 0.003913042124139414,
+          "kappa": 129696.99099302024,
+          "omega1": 0.9952491059878875,
+          "omega2": 1.2656538384896245,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961348002683588,
+          "replicate": 0,
+          "residual": 9.26442286059391e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996134800268359,
+          "replicate": 0,
+          "residual": 1.1911400820763599e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961348002683588,
+          "replicate": 0,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961348002683591,
+          "replicate": 0,
+          "residual": 4.0531850015098356e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961348002683589,
+          "replicate": 0,
+          "residual": 2.6469779601696886e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962720769574558,
+          "replicate": 1,
+          "residual": 1.2924697071141057e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962720769574567,
+          "replicate": 1,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962720769574558,
+          "replicate": 1,
+          "residual": 1.7525889228467274e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962720769574562,
+          "replicate": 1,
+          "residual": 5.0664812518872945e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962720769574558,
+          "replicate": 1,
+          "residual": 3.3087224502121107e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9952177777885166,
+          "replicate": 2,
+          "residual": 1.870849901047668e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952177777885173,
+          "replicate": 2,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952177777885179,
+          "replicate": 2,
+          "residual": 2.652794073851702e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952177777885168,
+          "replicate": 2,
+          "residual": 1.5671195198758532e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9952177777885172,
+          "replicate": 2,
+          "residual": 1.8288446355664596e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9967080103893586,
+          "replicate": 3,
+          "residual": 3.143286327701505e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967080103893587,
+          "replicate": 3,
+          "residual": 3.3294019655259364e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967080103893596,
+          "replicate": 3,
+          "residual": 3.639594695233322e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967080103893595,
+          "replicate": 3,
+          "residual": 4.301339185275744e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996708010389359,
+          "replicate": 3,
+          "residual": 6.28657265540301e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9963747978802487,
+          "replicate": 4,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963747978802495,
+          "replicate": 4,
+          "residual": 1.2407709188295415e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996374797880249,
+          "replicate": 4,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963747978802495,
+          "replicate": 4,
+          "residual": 8.271806125530277e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963747978802493,
+          "replicate": 4,
+          "residual": 3.2957977531409696e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 7
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -35526.546564477176,
+        "drive": 0.11776101246699044,
+        "drive_frequency": 0.9785050976757391,
+        "drive_modulation": 0.8729807727543972,
+        "g1": 67.6564125068497,
+        "g2": 71.62666583553889,
+        "gamma1": 0.0011969490192085665,
+        "gamma2": 0.0013129821572975557,
+        "hopping": 0.004116073043074967,
+        "kappa": 115016.75724000324,
+        "omega1": 1.0294061761159456,
+        "omega2": 1.2429804104596782,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -35526.546564477176,
+          "drive": 0.11776101246699044,
+          "drive_frequency": 0.9785050976757391,
+          "drive_modulation": 0.8729807727543972,
+          "g1": 67.6564125068497,
+          "g2": 71.62666583553889,
+          "gamma1": 0.0011969490192085665,
+          "gamma2": 0.0013129821572975557,
+          "hopping": 0.004116073043074967,
+          "kappa": 115016.75724000324,
+          "omega1": 1.0294061761159456,
+          "omega2": 1.2429804104596782,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -34702.23336294814,
+          "drive": 0.19630720262616028,
+          "drive_frequency": 0.9978686626751072,
+          "drive_modulation": 0.6861577624173656,
+          "g1": 71.1778237178794,
+          "g2": 64.88393188234525,
+          "gamma1": 0.0013389144767000706,
+          "gamma2": 0.0011934568788802883,
+          "hopping": 0.003673732824104099,
+          "kappa": 120565.94242924248,
+          "omega1": 1.0206178251539042,
+          "omega2": 1.0849081368773807,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -38436.62844405852,
+          "drive": 0.193994674686589,
+          "drive_frequency": 1.2397732772881687,
+          "drive_modulation": 0.7764451647301899,
+          "g1": 69.33784765736296,
+          "g2": 73.29582840857032,
+          "gamma1": 0.0012242931090419584,
+          "gamma2": 0.0013121630741498378,
+          "hopping": 0.004045141439436723,
+          "kappa": 110160.39600670867,
+          "omega1": 0.9676609742234442,
+          "omega2": 1.2817426369381444,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -45508.10815236234,
+          "drive": 0.21648651591909943,
+          "drive_frequency": 0.9613968568322316,
+          "drive_modulation": 0.6134145574710785,
+          "g1": 67.737644819328,
+          "g2": 66.79881478561828,
+          "gamma1": 0.0013449724331632063,
+          "gamma2": 0.0011939285517778807,
+          "hopping": 0.004364270296916263,
+          "kappa": 70257.4426094777,
+          "omega1": 0.919262823608675,
+          "omega2": 1.2647128275469075,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -40186.26028065133,
+          "drive": 0.20968570779254966,
+          "drive_frequency": 1.0176682763298681,
+          "drive_modulation": 0.6677639023954816,
+          "g1": 61.27879247490362,
+          "g2": 62.141093466396725,
+          "gamma1": 0.0013605047307915707,
+          "gamma2": 0.0011993876998168402,
+          "hopping": 0.004020133193323251,
+          "kappa": 102635.34633538476,
+          "omega1": 1.1535423795724427,
+          "omega2": 1.2156463571714127,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961643072772555,
+          "replicate": 0,
+          "residual": 1.3593146247789134e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961643072772559,
+          "replicate": 0,
+          "residual": 1.669911251269772e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961643072772555,
+          "replicate": 0,
+          "residual": 1.2250189442740883e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961643072772558,
+          "replicate": 0,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961643072772559,
+          "replicate": 0,
+          "residual": 2.7529604761530452e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996248211202874,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962482112028737,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962482112028744,
+          "replicate": 1,
+          "residual": 1.9852334701272664e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996248211202874,
+          "replicate": 1,
+          "residual": 2.9778502051908996e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962482112028748,
+          "replicate": 1,
+          "residual": 2.9778502051908996e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9969024047447893,
+          "replicate": 2,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9969024047447893,
+          "replicate": 2,
+          "residual": 8.271806125530277e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9969024047447892,
+          "replicate": 2,
+          "residual": 1.819797347616661e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969024047447891,
+          "replicate": 2,
+          "residual": 1.8921756512150508e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996902404744789,
+          "replicate": 2,
+          "residual": 3.748162150630907e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961060771007759,
+          "replicate": 3,
+          "residual": 1.73449434694713e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961060771007768,
+          "replicate": 3,
+          "residual": 3.6964633623463424e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961060771007773,
+          "replicate": 3,
+          "residual": 5.624828165360588e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961060771007761,
+          "replicate": 3,
+          "residual": 1.0107113109632307e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961060771007767,
+          "replicate": 3,
+          "residual": 9.40917946779069e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9963022258042672,
+          "replicate": 4,
+          "residual": 2.481541837659083e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963022258042671,
+          "replicate": 4,
+          "residual": 2.4476145078473377e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963022258042671,
+          "replicate": 4,
+          "residual": 1.770683498746325e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963022258042669,
+          "replicate": 4,
+          "residual": 1.5606571713402827e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996302225804267,
+          "replicate": 4,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 8
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -35577.37522748335,
+        "drive": 0.21516787965132034,
+        "drive_frequency": 0.9606834069676093,
+        "drive_modulation": 0.8665133713662938,
+        "g1": 70.4861499616624,
+        "g2": 75.94307677402514,
+        "gamma1": 0.0011936085433582307,
+        "gamma2": 0.0013271917835194812,
+        "hopping": 0.004381045725800652,
+        "kappa": 105240.08926656749,
+        "omega1": 1.009667000659147,
+        "omega2": 1.293737855311702,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -35577.37522748335,
+          "drive": 0.21516787965132034,
+          "drive_frequency": 0.9606834069676093,
+          "drive_modulation": 0.8665133713662938,
+          "g1": 70.4861499616624,
+          "g2": 75.94307677402514,
+          "gamma1": 0.0011936085433582307,
+          "gamma2": 0.0013271917835194812,
+          "hopping": 0.004381045725800652,
+          "kappa": 105240.08926656749,
+          "omega1": 1.009667000659147,
+          "omega2": 1.293737855311702,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -32711.34289484507,
+          "drive": 0.21279621706638616,
+          "drive_frequency": 0.9777443840111314,
+          "drive_modulation": 0.6420385841137741,
+          "g1": 75.26382512013505,
+          "g2": 70.90383200810359,
+          "gamma1": 0.0012840965779779602,
+          "gamma2": 0.001425638129417626,
+          "hopping": 0.004533509418094574,
+          "kappa": 99773.67916335657,
+          "omega1": 0.9498937025114519,
+          "omega2": 1.544946135934201,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -42469.30006323573,
+          "drive": 0.18281304376662375,
+          "drive_frequency": 0.886785989433552,
+          "drive_modulation": 0.6763868061553134,
+          "g1": 69.00158881537644,
+          "g2": 66.5035618451622,
+          "gamma1": 0.0012831704154208916,
+          "gamma2": 0.0012676756129069754,
+          "hopping": 0.004895636285695908,
+          "kappa": 96372.93143447989,
+          "omega1": 1.1496432959871528,
+          "omega2": 1.0717171903240545,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -45863.23402026257,
+          "drive": 0.23461832666166818,
+          "drive_frequency": 1.1554885986404764,
+          "drive_modulation": 0.7122033432466492,
+          "g1": 56.095089903565835,
+          "g2": 86.75981116500495,
+          "gamma1": 0.001155951199304632,
+          "gamma2": 0.001248273022661194,
+          "hopping": 0.0043485410934806824,
+          "kappa": 109769.3718991933,
+          "omega1": 1.0036453158566132,
+          "omega2": 1.1278476700968072,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -36660.669127008136,
+          "drive": 0.19152650800675922,
+          "drive_frequency": 0.7705958036069384,
+          "drive_modulation": 0.6917447586740446,
+          "g1": 66.816203632478,
+          "g2": 79.01669415940353,
+          "gamma1": 0.0011222520381683147,
+          "gamma2": 0.0012490579237457882,
+          "hopping": 0.004553551832802282,
+          "kappa": 104125.32066155573,
+          "omega1": 1.0753324774212296,
+          "omega2": 1.3065860230187178,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961042083982754,
+          "replicate": 0,
+          "residual": 1.4708305266958523e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996104208398275,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961042083982752,
+          "replicate": 0,
+          "residual": 4.3943970041879595e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996104208398275,
+          "replicate": 0,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961042083982752,
+          "replicate": 0,
+          "residual": 1.4217166778255163e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9958825401163137,
+          "replicate": 1,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958825401163137,
+          "replicate": 1,
+          "residual": 1.2614504341433672e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958825401163139,
+          "replicate": 1,
+          "residual": 2.0576117737256563e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9958825401163139,
+          "replicate": 1,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958825401163133,
+          "replicate": 1,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9955188961340431,
+          "replicate": 2,
+          "residual": 1.8902369466543796e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340448,
+          "replicate": 2,
+          "residual": 1.1166938269465874e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340447,
+          "replicate": 2,
+          "residual": 2.5001210896988483e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340438,
+          "replicate": 2,
+          "residual": 2.739227985514958e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340431,
+          "replicate": 2,
+          "residual": 2.514661373903882e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996861777589115,
+          "replicate": 3,
+          "residual": 1.5613034061938397e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968617775891145,
+          "replicate": 3,
+          "residual": 2.3161057151484775e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968617775891147,
+          "replicate": 3,
+          "residual": 3.3087224502121107e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968617775891149,
+          "replicate": 3,
+          "residual": 2.3781442610899546e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968617775891142,
+          "replicate": 3,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9954350137378593,
+          "replicate": 4,
+          "residual": 2.115611351832402e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9954350137378588,
+          "replicate": 4,
+          "residual": 1.2407709188295415e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.995435013737859,
+          "replicate": 4,
+          "residual": 1.3663828184896937e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9954350137378583,
+          "replicate": 4,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.995435013737859,
+          "replicate": 4,
+          "residual": 3.1172753748458338e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 9
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -38082.69211931381,
+        "drive": 0.08002407081169909,
+        "drive_frequency": 1.0155624631858635,
+        "drive_modulation": 0.6938170120907063,
+        "g1": 70.37304220574225,
+        "g2": 74.6366003684148,
+        "gamma1": 0.0013484091893826446,
+        "gamma2": 0.0013479164132444799,
+        "hopping": 0.004039816056571554,
+        "kappa": 104825.10146051543,
+        "omega1": 0.9247071904484381,
+        "omega2": 1.091115836029028,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -38082.69211931381,
+          "drive": 0.08002407081169909,
+          "drive_frequency": 1.0155624631858635,
+          "drive_modulation": 0.6938170120907063,
+          "g1": 70.37304220574225,
+          "g2": 74.6366003684148,
+          "gamma1": 0.0013484091893826446,
+          "gamma2": 0.0013479164132444799,
+          "hopping": 0.004039816056571554,
+          "kappa": 104825.10146051543,
+          "omega1": 0.9247071904484381,
+          "omega2": 1.091115836029028,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -30877.782351810944,
+          "drive": 0.22799328706240882,
+          "drive_frequency": 1.0783280590907907,
+          "drive_modulation": 0.5892628297511714,
+          "g1": 75.06188738964701,
+          "g2": 72.19909912653723,
+          "gamma1": 0.0011870670766302943,
+          "gamma2": 0.0014815747154779616,
+          "hopping": 0.003546561611829405,
+          "kappa": 121869.52645477552,
+          "omega1": 0.9153185846122027,
+          "omega2": 1.191318015508903,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -37148.95317020347,
+          "drive": 0.2035954426146179,
+          "drive_frequency": 0.9571419563575427,
+          "drive_modulation": 0.6627535128821961,
+          "g1": 68.62365511680083,
+          "g2": 59.130392063038144,
+          "gamma1": 0.0012421804558646861,
+          "gamma2": 0.0012423269398077466,
+          "hopping": 0.004272354116224578,
+          "kappa": 112592.35991262108,
+          "omega1": 1.0262977010360714,
+          "omega2": 1.184913990624947,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -39640.574202584634,
+          "drive": 0.21667865196274805,
+          "drive_frequency": 0.9220666623114592,
+          "drive_modulation": 0.7566449959547304,
+          "g1": 72.32995163394672,
+          "g2": 69.82685121326428,
+          "gamma1": 0.0011220668134395892,
+          "gamma2": 0.0012063447636813291,
+          "hopping": 0.0046467959234208645,
+          "kappa": 87130.26151154406,
+          "omega1": 0.8831458856682188,
+          "omega2": 1.2122616201047427,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -42264.43490297192,
+          "drive": 0.21422120527300914,
+          "drive_frequency": 0.9377837431541581,
+          "drive_modulation": 0.690292850804793,
+          "g1": 74.94800695853661,
+          "g2": 58.62599601758264,
+          "gamma1": 0.0012002287953240829,
+          "gamma2": 0.0012640511252122277,
+          "hopping": 0.004260843802135681,
+          "kappa": 90827.79981422196,
+          "omega1": 1.1557493034287054,
+          "omega2": 1.191466529086988,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9958389669992873,
+          "replicate": 0,
+          "residual": 1.0339757656912846e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992875,
+          "replicate": 0,
+          "residual": 1.1325265808587352e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992881,
+          "replicate": 0,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992873,
+          "replicate": 0,
+          "residual": 1.4475660719677984e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992873,
+          "replicate": 0,
+          "residual": 1.7577588016751838e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965474401646408,
+          "replicate": 1,
+          "residual": 4.756288522179909e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646407,
+          "replicate": 1,
+          "residual": 2.1761958693533755e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646413,
+          "replicate": 1,
+          "residual": 6.927637630131607e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646407,
+          "replicate": 1,
+          "residual": 2.68833699079734e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646413,
+          "replicate": 1,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9959311357239783,
+          "replicate": 2,
+          "residual": 3.980806697911446e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239786,
+          "replicate": 2,
+          "residual": 1.075334796318936e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239783,
+          "replicate": 2,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239785,
+          "replicate": 2,
+          "residual": 9.098986738083304e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239783,
+          "replicate": 2,
+          "residual": 5.2603517079544104e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961842240772654,
+          "replicate": 3,
+          "residual": 9.305781891221561e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961842240772658,
+          "replicate": 3,
+          "residual": 2.3161057151484775e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961842240772654,
+          "replicate": 3,
+          "residual": 8.633697643522226e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961842240772651,
+          "replicate": 3,
+          "residual": 3.639594695233322e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961842240772656,
+          "replicate": 3,
+          "residual": 1.6285118309637732e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9959843772523794,
+          "replicate": 4,
+          "residual": 1.8417693326376007e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523785,
+          "replicate": 4,
+          "residual": 3.597912547178892e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523794,
+          "replicate": 4,
+          "residual": 2.481541837659083e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523794,
+          "replicate": 4,
+          "residual": 5.871043644565825e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523795,
+          "replicate": 4,
+          "residual": 2.0501800729097502e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 10
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -36140.56581217468,
+        "drive": 0.28158274917511966,
+        "drive_frequency": 0.9541503267189356,
+        "drive_modulation": 0.9679542875078457,
+        "g1": 75.84806713549143,
+        "g2": 74.09054703334552,
+        "gamma1": 0.001341922389102659,
+        "gamma2": 0.0013041029100608742,
+        "hopping": 0.00446039949799912,
+        "kappa": 111562.75837353733,
+        "omega1": 0.9155076586182862,
+        "omega2": 1.141575185417769,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -36140.56581217468,
+          "drive": 0.28158274917511966,
+          "drive_frequency": 0.9541503267189356,
+          "drive_modulation": 0.9679542875078457,
+          "g1": 75.84806713549143,
+          "g2": 74.09054703334552,
+          "gamma1": 0.001341922389102659,
+          "gamma2": 0.0013041029100608742,
+          "hopping": 0.00446039949799912,
+          "kappa": 111562.75837353733,
+          "omega1": 0.9155076586182862,
+          "omega2": 1.141575185417769,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -34975.916742954636,
+          "drive": 0.17238040579313454,
+          "drive_frequency": 1.0906849235553546,
+          "drive_modulation": 0.600929826445226,
+          "g1": 58.50116326237998,
+          "g2": 67.21030298487634,
+          "gamma1": 0.0011047436504151573,
+          "gamma2": 0.0012138920933170202,
+          "hopping": 0.0037898269438137247,
+          "kappa": 107841.04827603817,
+          "omega1": 0.9815741886419983,
+          "omega2": 1.2892722307988416,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -34161.42136307968,
+          "drive": 0.24318185814991009,
+          "drive_frequency": 0.9959632164313545,
+          "drive_modulation": 0.6864444995845185,
+          "g1": 60.846961311842335,
+          "g2": 68.53089458592402,
+          "gamma1": 0.0013069483933059436,
+          "gamma2": 0.0011860912972513928,
+          "hopping": 0.004263627783909015,
+          "kappa": 106845.78874939056,
+          "omega1": 1.1050564742855493,
+          "omega2": 1.245154780526606,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -35187.302894444525,
+          "drive": 0.2505512234967673,
+          "drive_frequency": 1.109268229995649,
+          "drive_modulation": 0.7331205075598559,
+          "g1": 65.83359549687275,
+          "g2": 76.28527300060522,
+          "gamma1": 0.001345531651292813,
+          "gamma2": 0.0010941605774851249,
+          "hopping": 0.00466474038470448,
+          "kappa": 106679.52909342162,
+          "omega1": 1.028769611509634,
+          "omega2": 1.3421512977598302,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -40908.10319424967,
+          "drive": 0.21212764789205288,
+          "drive_frequency": 1.0864652377451636,
+          "drive_modulation": 0.6781609400075747,
+          "g1": 74.56401592888237,
+          "g2": 61.263602560412515,
+          "gamma1": 0.001297476558901254,
+          "gamma2": 0.0011233689657087927,
+          "hopping": 0.0041631251416348386,
+          "kappa": 107064.5550414513,
+          "omega1": 1.004358360666449,
+          "omega2": 1.21848661807099,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9957153262364489,
+          "replicate": 0,
+          "residual": 2.0265925007549178e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957153262364495,
+          "replicate": 0,
+          "residual": 4.228960881677354e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9957153262364493,
+          "replicate": 0,
+          "residual": 3.360421238496675e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.99571532623645,
+          "replicate": 0,
+          "residual": 1.6268962438298806e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9957153262364504,
+          "replicate": 0,
+          "residual": 4.632211430296955e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9968229227518459,
+          "replicate": 1,
+          "residual": 1.6721326835788743e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968229227518456,
+          "replicate": 1,
+          "residual": 2.9129036024084158e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968229227518446,
+          "replicate": 1,
+          "residual": 2.0679515313825692e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996822922751845,
+          "replicate": 1,
+          "residual": 1.4475660719677984e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996822922751845,
+          "replicate": 1,
+          "residual": 2.274746684520826e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962653206273465,
+          "replicate": 2,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962653206273465,
+          "replicate": 2,
+          "residual": 2.9040178731720063e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996265320627346,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996265320627346,
+          "replicate": 2,
+          "residual": 4.396012591321852e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962653206273465,
+          "replicate": 2,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9969058333911517,
+          "replicate": 3,
+          "residual": 2.481541837659083e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911526,
+          "replicate": 3,
+          "residual": 6.2571689695661644e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911521,
+          "replicate": 3,
+          "residual": 8.023005706910811e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911518,
+          "replicate": 3,
+          "residual": 1.1541754484528964e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911522,
+          "replicate": 3,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9967567781103228,
+          "replicate": 4,
+          "residual": 2.8450489427849253e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996756778110323,
+          "replicate": 4,
+          "residual": 3.890333818413458e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996756778110323,
+          "replicate": 4,
+          "residual": 6.119844063185291e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967567781103227,
+          "replicate": 4,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9967567781103238,
+          "replicate": 4,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 11
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -38474.71539190633,
+        "drive": 0.34559214089932927,
+        "drive_frequency": 0.9523145113154241,
+        "drive_modulation": 0.6114980240157563,
+        "g1": 69.95361494104728,
+        "g2": 72.87424050748415,
+        "gamma1": 0.0011537439331477026,
+        "gamma2": 0.0012503192124577393,
+        "hopping": 0.004009331244707938,
+        "kappa": 114489.42493862724,
+        "omega1": 0.9139305299196328,
+        "omega2": 1.1839369294335063,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -38474.71539190633,
+          "drive": 0.34559214089932927,
+          "drive_frequency": 0.9523145113154241,
+          "drive_modulation": 0.6114980240157563,
+          "g1": 69.95361494104728,
+          "g2": 72.87424050748415,
+          "gamma1": 0.0011537439331477026,
+          "gamma2": 0.0012503192124577393,
+          "hopping": 0.004009331244707938,
+          "kappa": 114489.42493862724,
+          "omega1": 0.9139305299196328,
+          "omega2": 1.1839369294335063,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -32045.37080677302,
+          "drive": 0.22530367425921755,
+          "drive_frequency": 0.6586635245667696,
+          "drive_modulation": 0.6354202327936752,
+          "g1": 65.33537115584953,
+          "g2": 70.19311949057602,
+          "gamma1": 0.0013027233168772206,
+          "gamma2": 0.0011975120434501267,
+          "hopping": 0.004567248875077344,
+          "kappa": 83027.95755612694,
+          "omega1": 0.854705964707308,
+          "omega2": 1.2801281613209445,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -36139.6766070645,
+          "drive": 0.1845385643686512,
+          "drive_frequency": 0.9622063720445769,
+          "drive_modulation": 0.532459343800806,
+          "g1": 74.83864902114342,
+          "g2": 76.91317222971254,
+          "gamma1": 0.0010726021465470785,
+          "gamma2": 0.0011451114566649562,
+          "hopping": 0.004004215363260787,
+          "kappa": 113885.02161109181,
+          "omega1": 0.952691005651467,
+          "omega2": 1.2646568257447575,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -42045.40632557693,
+          "drive": 0.17188576073474307,
+          "drive_frequency": 0.9479954373023601,
+          "drive_modulation": 0.6655569100050982,
+          "g1": 49.579658835381935,
+          "g2": 74.12089182053174,
+          "gamma1": 0.001344937902920357,
+          "gamma2": 0.001020811961056426,
+          "hopping": 0.004304516788932168,
+          "kappa": 114099.55459400853,
+          "omega1": 0.9507041501498803,
+          "omega2": 1.1145271458291577,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -41788.050133678575,
+          "drive": 0.20308595878562755,
+          "drive_frequency": 0.9353782423026208,
+          "drive_modulation": 0.7016540608605404,
+          "g1": 66.04751684990262,
+          "g2": 62.06685145448047,
+          "gamma1": 0.0010802635651208912,
+          "gamma2": 0.0013623558805040948,
+          "hopping": 0.0049944043017239965,
+          "kappa": 116351.40139158932,
+          "omega1": 0.9951852486819327,
+          "omega2": 1.316720257640141,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962010753780516,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962010753780517,
+          "replicate": 0,
+          "residual": 6.28657265540301e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962010753780512,
+          "replicate": 0,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962010753780515,
+          "replicate": 0,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962010753780525,
+          "replicate": 0,
+          "residual": 2.4298430493745188e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9943045133168937,
+          "replicate": 1,
+          "residual": 4.7369014765731975e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9943045133168931,
+          "replicate": 1,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9943045133168935,
+          "replicate": 1,
+          "residual": 7.444625512977249e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.994304513316894,
+          "replicate": 1,
+          "residual": 1.4372263143108856e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9943045133168937,
+          "replicate": 1,
+          "residual": 9.422104164861831e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965040525423182,
+          "replicate": 2,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965040525423176,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965040525423173,
+          "replicate": 2,
+          "residual": 6.617444900424221e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965040525423173,
+          "replicate": 2,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996504052542318,
+          "replicate": 2,
+          "residual": 2.481541837659083e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9966220763401894,
+          "replicate": 3,
+          "residual": 5.293955920339377e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966220763401882,
+          "replicate": 3,
+          "residual": 5.293955920339377e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966220763401892,
+          "replicate": 3,
+          "residual": 8.933550615572699e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966220763401888,
+          "replicate": 3,
+          "residual": 6.617444900424221e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9966220763401887,
+          "replicate": 3,
+          "residual": 1.0587911840678754e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9963781370519336,
+          "replicate": 4,
+          "residual": 6.565746112139657e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963781370519337,
+          "replicate": 4,
+          "residual": 7.748355894149064e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963781370519332,
+          "replicate": 4,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963781370519332,
+          "replicate": 4,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963781370519331,
+          "replicate": 4,
+          "residual": 9.04728794979874e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 12
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -37281.15218527452,
+        "drive": 0.32360731209221005,
+        "drive_frequency": 0.9937016699695974,
+        "drive_modulation": 0.8404013047901442,
+        "g1": 69.38367275523343,
+        "g2": 73.59761189033098,
+        "gamma1": 0.0013370232680511246,
+        "gamma2": 0.0012197677657224694,
+        "hopping": 0.004504694831555205,
+        "kappa": 96639.71509291763,
+        "omega1": 0.9915079485027504,
+        "omega2": 1.1174853160623879,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -37281.15218527452,
+          "drive": 0.32360731209221005,
+          "drive_frequency": 0.9937016699695974,
+          "drive_modulation": 0.8404013047901442,
+          "g1": 69.38367275523343,
+          "g2": 73.59761189033098,
+          "gamma1": 0.0013370232680511246,
+          "gamma2": 0.0012197677657224694,
+          "hopping": 0.004504694831555205,
+          "kappa": 96639.71509291763,
+          "omega1": 0.9915079485027504,
+          "omega2": 1.1174853160623879,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -32215.292854745898,
+          "drive": 0.22941964368790999,
+          "drive_frequency": 1.0290878617157322,
+          "drive_modulation": 0.5699225242148006,
+          "g1": 55.92469079317952,
+          "g2": 69.74445747779077,
+          "gamma1": 0.0012908442170206224,
+          "gamma2": 0.0012582523085206932,
+          "hopping": 0.004140813849711494,
+          "kappa": 106826.55707071397,
+          "omega1": 0.8254246434824652,
+          "omega2": 1.3733926256500093,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -31255.60492460672,
+          "drive": 0.21219012122185374,
+          "drive_frequency": 0.9761748813546123,
+          "drive_modulation": 0.6459209821927593,
+          "g1": 65.01437408814239,
+          "g2": 80.38424767433675,
+          "gamma1": 0.0010313270488641103,
+          "gamma2": 0.0011335756581398412,
+          "hopping": 0.0046788439743742204,
+          "kappa": 105877.65577405301,
+          "omega1": 0.9415978119110583,
+          "omega2": 0.9444035109540956,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -37720.096701090115,
+          "drive": 0.23277273240321808,
+          "drive_frequency": 0.9836039015587666,
+          "drive_modulation": 0.6897753921179877,
+          "g1": 54.68933546363589,
+          "g2": 60.66670484714492,
+          "gamma1": 0.0012629758650183143,
+          "gamma2": 0.0012180466537161613,
+          "hopping": 0.004576723686781023,
+          "kappa": 99729.95941430949,
+          "omega1": 0.9406730983358627,
+          "omega2": 1.248570797724592,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -36154.53956507392,
+          "drive": 0.1888411605351016,
+          "drive_frequency": 0.9496536613042356,
+          "drive_modulation": 0.7769182312705873,
+          "g1": 68.02264292669945,
+          "g2": 74.72685119852959,
+          "gamma1": 0.0010640194326413917,
+          "gamma2": 0.0013612026586383693,
+          "hopping": 0.0038055957821214468,
+          "kappa": 121194.92450063133,
+          "omega1": 0.903731715579617,
+          "omega2": 1.041120517335108,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996150653904149,
+          "replicate": 0,
+          "residual": 6.352747104407253e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961506539041491,
+          "replicate": 0,
+          "residual": 7.411538288475128e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961506539041485,
+          "replicate": 0,
+          "residual": 4.235164736271502e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961506539041483,
+          "replicate": 0,
+          "residual": 4.235164736271502e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961506539041485,
+          "replicate": 0,
+          "residual": 2.117582368135751e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961661778839463,
+          "replicate": 1,
+          "residual": 1.2407709188295415e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961661778839465,
+          "replicate": 1,
+          "residual": 3.41858237531681e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961661778839471,
+          "replicate": 1,
+          "residual": 2.274746684520826e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961661778839466,
+          "replicate": 1,
+          "residual": 2.68833699079734e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961661778839465,
+          "replicate": 1,
+          "residual": 4.1617524569074205e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965695322951078,
+          "replicate": 2,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965695322951069,
+          "replicate": 2,
+          "residual": 2.248897290378544e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965695322951085,
+          "replicate": 2,
+          "residual": 2.9778502051908996e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965695322951084,
+          "replicate": 2,
+          "residual": 1.4734154661100805e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996569532295108,
+          "replicate": 2,
+          "residual": 2.6469779601696886e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961171325174474,
+          "replicate": 3,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961171325174459,
+          "replicate": 3,
+          "residual": 9.874468562351768e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996117132517446,
+          "replicate": 3,
+          "residual": 2.481541837659083e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996117132517446,
+          "replicate": 3,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961171325174464,
+          "replicate": 3,
+          "residual": 1.819797347616661e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996485506474778,
+          "replicate": 4,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964855064747788,
+          "replicate": 4,
+          "residual": 1.4889251025954498e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964855064747786,
+          "replicate": 4,
+          "residual": 8.271806125530277e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964855064747784,
+          "replicate": 4,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964855064747786,
+          "replicate": 4,
+          "residual": 1.2407709188295415e-23,
+          "status": "PASS"
+        }
+      ],
+      "sample": 13
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -34061.82046071404,
+        "drive": 0.10952519992061634,
+        "drive_frequency": 1.0141865757159916,
+        "drive_modulation": 0.637208920330613,
+        "g1": 72.13429381010538,
+        "g2": 74.9084990321814,
+        "gamma1": 0.0012286274507808206,
+        "gamma2": 0.0011693262900505927,
+        "hopping": 0.004444711049881845,
+        "kappa": 103662.7922190504,
+        "omega1": 0.927014694118085,
+        "omega2": 1.1077297198826541,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -34061.82046071404,
+          "drive": 0.10952519992061634,
+          "drive_frequency": 1.0141865757159916,
+          "drive_modulation": 0.637208920330613,
+          "g1": 72.13429381010538,
+          "g2": 74.9084990321814,
+          "gamma1": 0.0012286274507808206,
+          "gamma2": 0.0011693262900505927,
+          "hopping": 0.004444711049881845,
+          "kappa": 103662.7922190504,
+          "omega1": 0.927014694118085,
+          "omega2": 1.1077297198826541,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -37024.169881293885,
+          "drive": 0.20099476453773069,
+          "drive_frequency": 0.8976534507516716,
+          "drive_modulation": 0.5554554172228833,
+          "g1": 68.38658159770556,
+          "g2": 62.771557966428084,
+          "gamma1": 0.0011596840854729772,
+          "gamma2": 0.0015041371122824483,
+          "hopping": 0.003912579963174472,
+          "kappa": 99487.65506098572,
+          "omega1": 0.9517314215336069,
+          "omega2": 1.1852732107632944,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -40893.323786989175,
+          "drive": 0.1659035672826572,
+          "drive_frequency": 0.9601830362592665,
+          "drive_modulation": 0.5790272239061379,
+          "g1": 70.8983692306319,
+          "g2": 67.96720708868357,
+          "gamma1": 0.001276330332523652,
+          "gamma2": 0.001161575501410764,
+          "hopping": 0.00411902739643304,
+          "kappa": 118143.37111400427,
+          "omega1": 0.8694742949060213,
+          "omega2": 1.4935584333070082,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -40684.65715314561,
+          "drive": 0.18757392280836432,
+          "drive_frequency": 0.869973262896811,
+          "drive_modulation": 0.8468197515775,
+          "g1": 58.31068822983994,
+          "g2": 81.85718670574798,
+          "gamma1": 0.0012611200357880588,
+          "gamma2": 0.0012325311163278222,
+          "hopping": 0.004361462022867636,
+          "kappa": 112856.54943017045,
+          "omega1": 0.8934067716746393,
+          "omega2": 1.390674254251892,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -38810.70441208154,
+          "drive": 0.2270628432673409,
+          "drive_frequency": 0.883794920332126,
+          "drive_modulation": 0.6874866828671631,
+          "g1": 62.9843745934983,
+          "g2": 61.610979586103866,
+          "gamma1": 0.0014292445135097806,
+          "gamma2": 0.0009656475992024495,
+          "hopping": 0.004619618371974204,
+          "kappa": 103040.10779266898,
+          "omega1": 0.9312501647241385,
+          "omega2": 1.3380220837110701,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996384280769417,
+          "replicate": 0,
+          "residual": 1.106677186716453e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963842807694173,
+          "replicate": 0,
+          "residual": 1.515420731591289e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963842807694169,
+          "replicate": 0,
+          "residual": 2.5946329370315673e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963842807694173,
+          "replicate": 0,
+          "residual": 1.0775966183063857e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963842807694171,
+          "replicate": 0,
+          "residual": 2.0679515313825692e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9959492453414809,
+          "replicate": 1,
+          "residual": 4.963083675318166e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959492453414805,
+          "replicate": 1,
+          "residual": 4.963083675318166e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959492453414811,
+          "replicate": 1,
+          "residual": 3.6964633623463424e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9959492453414804,
+          "replicate": 1,
+          "residual": 6.255553382432272e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959492453414803,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962066742316976,
+          "replicate": 2,
+          "residual": 2.68833699079734e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962066742316972,
+          "replicate": 2,
+          "residual": 3.308722450212111e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996206674231697,
+          "replicate": 2,
+          "residual": 1.8611563782443123e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962066742316976,
+          "replicate": 2,
+          "residual": 2.5752458914248557e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962066742316976,
+          "replicate": 2,
+          "residual": 1.8740810753154533e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9955590436601077,
+          "replicate": 3,
+          "residual": 1.0132962503774589e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.995559043660109,
+          "replicate": 3,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9955590436601081,
+          "replicate": 3,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9955590436601076,
+          "replicate": 3,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9955590436601077,
+          "replicate": 3,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965731214345389,
+          "replicate": 4,
+          "residual": 4.963083675318166e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965731214345387,
+          "replicate": 4,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965731214345392,
+          "replicate": 4,
+          "residual": 9.021438555656458e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9965731214345394,
+          "replicate": 4,
+          "residual": 4.963083675318166e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965731214345396,
+          "replicate": 4,
+          "residual": 5.482656497578037e-23,
+          "status": "PASS"
+        }
+      ],
+      "sample": 14
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -34045.250688166445,
+        "drive": 0.13120321582088784,
+        "drive_frequency": 1.000340265414901,
+        "drive_modulation": 0.47389019990362347,
+        "g1": 68.80711913423593,
+        "g2": 69.27639376718086,
+        "gamma1": 0.00117022671826345,
+        "gamma2": 0.001142896594214222,
+        "hopping": 0.004310590216834489,
+        "kappa": 106602.66816001435,
+        "omega1": 1.0944836396346986,
+        "omega2": 1.166123199538343,
+        "theta": 0.0
+      },
+      "replicate_parameters": {
+        "0": {
+          "detuning": -34045.250688166445,
+          "drive": 0.13120321582088784,
+          "drive_frequency": 1.000340265414901,
+          "drive_modulation": 0.47389019990362347,
+          "g1": 68.80711913423593,
+          "g2": 69.27639376718086,
+          "gamma1": 0.00117022671826345,
+          "gamma2": 0.001142896594214222,
+          "hopping": 0.004310590216834489,
+          "kappa": 106602.66816001435,
+          "omega1": 1.0944836396346986,
+          "omega2": 1.166123199538343,
+          "theta": 0.0
+        },
+        "1": {
+          "detuning": -36944.36939723913,
+          "drive": 0.22648453041115243,
+          "drive_frequency": 1.0001205854070965,
+          "drive_modulation": 0.7911060897119393,
+          "g1": 58.82172262797483,
+          "g2": 69.50020582364714,
+          "gamma1": 0.001400543504291498,
+          "gamma2": 0.0013601710026399853,
+          "hopping": 0.0033483550700299965,
+          "kappa": 101191.68394769714,
+          "omega1": 1.0769208826004988,
+          "omega2": 1.31479477327257,
+          "theta": 0.0
+        },
+        "2": {
+          "detuning": -36557.69331374895,
+          "drive": 0.1739333759441862,
+          "drive_frequency": 1.0037302036704387,
+          "drive_modulation": 0.6970427761598823,
+          "g1": 81.60501473896689,
+          "g2": 58.833096172325945,
+          "gamma1": 0.0012682963773166908,
+          "gamma2": 0.0012544333798468938,
+          "hopping": 0.0047391964662781266,
+          "kappa": 116932.95428902814,
+          "omega1": 0.8456710433368735,
+          "omega2": 1.1577360642096266,
+          "theta": 0.0
+        },
+        "3": {
+          "detuning": -33615.81986674103,
+          "drive": 0.2046779700082804,
+          "drive_frequency": 0.9567936445546331,
+          "drive_modulation": 0.7549483734248807,
+          "g1": 74.15144401435607,
+          "g2": 84.52264828479055,
+          "gamma1": 0.0013934452438777902,
+          "gamma2": 0.001163164581674702,
+          "hopping": 0.004115752828291441,
+          "kappa": 116091.96428476284,
+          "omega1": 1.1544889385923127,
+          "omega2": 1.2287376639665293,
+          "theta": 0.0
+        },
+        "4": {
+          "detuning": -42411.2200771375,
+          "drive": 0.2193838218518314,
+          "drive_frequency": 1.0992101561602174,
+          "drive_modulation": 0.6948465296625591,
+          "g1": 72.29813768722164,
+          "g2": 76.36138979473495,
+          "gamma1": 0.0014553845048513579,
+          "gamma2": 0.0012390073138535771,
+          "hopping": 0.004217045104746517,
+          "kappa": 86409.17606210153,
+          "omega1": 0.966054809994228,
+          "omega2": 1.108470152795132,
+          "theta": 0.0
+        }
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9964168332714018,
+          "replicate": 0,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964168332714023,
+          "replicate": 0,
+          "residual": 8.558572841796219e-25,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964168332714025,
+          "replicate": 0,
+          "residual": 1.4475660719677984e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964168332714018,
+          "replicate": 0,
+          "residual": 1.8611563782443123e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9964168332714021,
+          "replicate": 0,
+          "residual": 3.1019272970738538e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9957365014952501,
+          "replicate": 1,
+          "residual": 1.6907119356186396e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957365014952503,
+          "replicate": 1,
+          "residual": 4.549493369041652e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957365014952501,
+          "replicate": 1,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957365014952506,
+          "replicate": 1,
+          "residual": 5.997059441009451e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957365014952497,
+          "replicate": 1,
+          "residual": 3.799860938915471e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9960814148776475,
+          "replicate": 2,
+          "residual": 1.4475660719677984e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9960814148776476,
+          "replicate": 2,
+          "residual": 2.5259704838411304e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960814148776475,
+          "replicate": 2,
+          "residual": 3.7223127564886245e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960814148776469,
+          "replicate": 2,
+          "residual": 3.9291079096268815e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9960814148776472,
+          "replicate": 2,
+          "residual": 2.68833699079734e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961857873868479,
+          "replicate": 3,
+          "residual": 1.1842253691432994e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961857873868474,
+          "replicate": 3,
+          "residual": 1.975863064750689e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996185787386848,
+          "replicate": 3,
+          "residual": 1.88135121741797e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961857873868479,
+          "replicate": 3,
+          "residual": 2.0679515313825692e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961857873868474,
+          "replicate": 3,
+          "residual": 2.287671381591967e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9964645842510436,
+          "replicate": 4,
+          "residual": 6.617444900424221e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964645842510452,
+          "replicate": 4,
+          "residual": 7.940933880509066e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964645842510444,
+          "replicate": 4,
+          "residual": 4.963083675318166e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964645842510441,
+          "replicate": 4,
+          "residual": 1.3234889800848443e-22,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9964645842510444,
+          "replicate": 4,
+          "residual": 3.88774887899923e-23,
+          "status": "PASS"
+        }
+      ],
+      "sample": 15
+    }
+  ],
+  "design": {
+    "global_candidate_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "initial_condition_protocol": "independent root-solver starts; finite-time basin capture is NOT_COMPUTED",
+    "initial_condition_replicates": 5,
+    "initial_condition_scale": 0.1,
+    "orbit_max_iter": 80,
+    "orbit_residual_tolerance": 1e-08,
+    "parameter_replication_protocol": "independent uniform perturbation draws; exact replicate parameters stored per candidate",
+    "robust_replicates": 5,
+    "samples": 16,
+    "sampling": "independent uniform stream, executed as deterministic chunks",
+    "seed": 20260814
+  },
+  "feasible_count": 16,
+  "interpretation": "Reduced bad-cavity multi-start fixed-point diagnostic only; all residual/radius gates passed for the recorded starts, but finite-time basin capture, SI calibration, and manuscript claims are not authorized.",
+  "kind": "adiabatic_bad_cavity_diagnostic_chunked",
+  "limitations": [
+    "optical mode adiabatically eliminated",
+    "drive remains model coordinate",
+    "J_m and g_i are assumed proxies",
+    "full/reduced agreement tested only at kappa=20 and 100",
+    "comparison does not validate the assumed closure or an experimental device"
+  ],
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_assumed_closure_optimizer.json",
+  "pareto_count": 0,
+  "recorded_at_utc": "2026-08-14T09:08:22.778839+00:00",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_MULTI_START_SCREEN",
+  "source_chunks": [
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk0.json",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk1.json",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk2.json",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk3.json"
+  ],
+  "status": "PROVISIONAL"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PROVISIONAL",
+  "scientific_status": "REDUCED_MODEL_BASELINE_CONVERGED_BUT_ROBUST_GATE_FAILED",
+  "kind": "adiabatic_bad_cavity_diagnostic",
+  "manifest": "physical_parameter_manifest_assumed_closure_optimizer.json",
+  "output": "physical_parameter_reduced_bad_cavity_screen.json",
+  "command": "mamba run -n qom python scripts/reduced_bad_cavity_screen.py --manifest physical_parameter_manifest_assumed_closure_optimizer.json --output results/physical_parameter_reduced_bad_cavity_screen.json --samples 2 --seed 20260814 --robust-replicates 2 --initial-condition-replicates 2 --initial-condition-scale 0.1 --orbit-max-iter 40 --orbit-residual-tol 1e-8",
+  "design": {
+    "samples": 2,
+    "robust_replicates": 2,
+    "initial_condition_replicates": 2,
+    "initial_condition_scale": 0.1,
+    "orbit_residual_tolerance": 1e-8,
+    "stability_metric": "Poincare spectral radius"
+  },
+  "result": {
+    "candidate_count": 2,
+    "feasible_count": 0,
+    "pareto_count": 0,
+    "base_candidate_orbits": "PASS",
+    "robust_gate": "FAIL: at least one perturbed replicate root solve did not converge"
+  },
+  "comparison": {
+    "file": "results/reduced_full_common_regime_comparison.json",
+    "kappa_20_mechanical_inf_error": 9.270964667811284e-07,
+    "kappa_100_mechanical_inf_error": 2.0768420381516927e-08,
+    "comparison_status": "PASS"
+  },
+  "interpretation": "The adiabatic reduction resolves the raw stiff integration bottleneck and reproduces the full model in common kappa=20 and 100 dimensionless tests. The assumed Mathew scenario has convergent base orbits but does not pass the declared robustness gate. No physical Pareto or manuscript claim is authorized.",
+  "limitations": [
+    "optical mode eliminated adiabatically",
+    "J_m and g_i remain assumed proxies",
+    "drive remains a model-coordinate closure",
+    "robustness design here is a diagnostic smaller than production",
+    "no SI calibration"
+  ]
+}

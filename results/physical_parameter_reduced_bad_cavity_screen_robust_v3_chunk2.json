@@ -1,0 +1,916 @@
+{
+  "candidate_count": 4,
+  "candidate_records": [
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -35526.546564477176,
+        "drive": 0.11776101246699044,
+        "drive_frequency": 0.9785050976757391,
+        "drive_modulation": 0.8729807727543972,
+        "g1": 67.6564125068497,
+        "g2": 71.62666583553889,
+        "gamma1": 0.0011969490192085665,
+        "gamma2": 0.0013129821572975557,
+        "hopping": 0.004116073043074967,
+        "kappa": 115016.75724000324,
+        "omega1": 1.0294061761159456,
+        "omega2": 1.2429804104596782,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961643072772555,
+          "replicate": 0,
+          "residual": 1.3593146247789134e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961643072772559,
+          "replicate": 0,
+          "residual": 1.669911251269772e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961643072772555,
+          "replicate": 0,
+          "residual": 1.2250189442740883e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961643072772558,
+          "replicate": 0,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961643072772559,
+          "replicate": 0,
+          "residual": 2.7529604761530452e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996248211202874,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962482112028737,
+          "replicate": 1,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962482112028744,
+          "replicate": 1,
+          "residual": 1.9852334701272664e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996248211202874,
+          "replicate": 1,
+          "residual": 2.9778502051908996e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962482112028748,
+          "replicate": 1,
+          "residual": 2.9778502051908996e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9969024047447893,
+          "replicate": 2,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9969024047447893,
+          "replicate": 2,
+          "residual": 8.271806125530277e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9969024047447892,
+          "replicate": 2,
+          "residual": 1.819797347616661e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969024047447891,
+          "replicate": 2,
+          "residual": 1.8921756512150508e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996902404744789,
+          "replicate": 2,
+          "residual": 3.748162150630907e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961060771007759,
+          "replicate": 3,
+          "residual": 1.73449434694713e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961060771007768,
+          "replicate": 3,
+          "residual": 3.6964633623463424e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961060771007773,
+          "replicate": 3,
+          "residual": 5.624828165360588e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961060771007761,
+          "replicate": 3,
+          "residual": 1.0107113109632307e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961060771007767,
+          "replicate": 3,
+          "residual": 9.40917946779069e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9963022258042672,
+          "replicate": 4,
+          "residual": 2.481541837659083e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9963022258042671,
+          "replicate": 4,
+          "residual": 2.4476145078473377e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963022258042671,
+          "replicate": 4,
+          "residual": 1.770683498746325e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9963022258042669,
+          "replicate": 4,
+          "residual": 1.5606571713402827e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996302225804267,
+          "replicate": 4,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 8
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -35577.37522748335,
+        "drive": 0.21516787965132034,
+        "drive_frequency": 0.9606834069676093,
+        "drive_modulation": 0.8665133713662938,
+        "g1": 70.4861499616624,
+        "g2": 75.94307677402514,
+        "gamma1": 0.0011936085433582307,
+        "gamma2": 0.0013271917835194812,
+        "hopping": 0.004381045725800652,
+        "kappa": 105240.08926656749,
+        "omega1": 1.009667000659147,
+        "omega2": 1.293737855311702,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961042083982754,
+          "replicate": 0,
+          "residual": 1.4708305266958523e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996104208398275,
+          "replicate": 0,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961042083982752,
+          "replicate": 0,
+          "residual": 4.3943970041879595e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996104208398275,
+          "replicate": 0,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961042083982752,
+          "replicate": 0,
+          "residual": 1.4217166778255163e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9958825401163137,
+          "replicate": 1,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958825401163137,
+          "replicate": 1,
+          "residual": 1.2614504341433672e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958825401163139,
+          "replicate": 1,
+          "residual": 2.0576117737256563e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9958825401163139,
+          "replicate": 1,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958825401163133,
+          "replicate": 1,
+          "residual": 1.3234889800848443e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9955188961340431,
+          "replicate": 2,
+          "residual": 1.8902369466543796e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340448,
+          "replicate": 2,
+          "residual": 1.1166938269465874e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340447,
+          "replicate": 2,
+          "residual": 2.5001210896988483e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340438,
+          "replicate": 2,
+          "residual": 2.739227985514958e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9955188961340431,
+          "replicate": 2,
+          "residual": 2.514661373903882e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.996861777589115,
+          "replicate": 3,
+          "residual": 1.5613034061938397e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968617775891145,
+          "replicate": 3,
+          "residual": 2.3161057151484775e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968617775891147,
+          "replicate": 3,
+          "residual": 3.3087224502121107e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9968617775891149,
+          "replicate": 3,
+          "residual": 2.3781442610899546e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968617775891142,
+          "replicate": 3,
+          "residual": 1.6543612251060553e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9954350137378593,
+          "replicate": 4,
+          "residual": 2.115611351832402e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9954350137378588,
+          "replicate": 4,
+          "residual": 1.2407709188295415e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.995435013737859,
+          "replicate": 4,
+          "residual": 1.3663828184896937e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9954350137378583,
+          "replicate": 4,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.995435013737859,
+          "replicate": 4,
+          "residual": 3.1172753748458338e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 9
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -38082.69211931381,
+        "drive": 0.08002407081169909,
+        "drive_frequency": 1.0155624631858635,
+        "drive_modulation": 0.6938170120907063,
+        "g1": 70.37304220574225,
+        "g2": 74.6366003684148,
+        "gamma1": 0.0013484091893826446,
+        "gamma2": 0.0013479164132444799,
+        "hopping": 0.004039816056571554,
+        "kappa": 104825.10146051543,
+        "omega1": 0.9247071904484381,
+        "omega2": 1.091115836029028,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9958389669992873,
+          "replicate": 0,
+          "residual": 1.0339757656912846e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992875,
+          "replicate": 0,
+          "residual": 1.1325265808587352e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992881,
+          "replicate": 0,
+          "residual": 1.6543612251060553e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992873,
+          "replicate": 0,
+          "residual": 1.4475660719677984e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9958389669992873,
+          "replicate": 0,
+          "residual": 1.7577588016751838e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9965474401646408,
+          "replicate": 1,
+          "residual": 4.756288522179909e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646407,
+          "replicate": 1,
+          "residual": 2.1761958693533755e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646413,
+          "replicate": 1,
+          "residual": 6.927637630131607e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646407,
+          "replicate": 1,
+          "residual": 2.68833699079734e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9965474401646413,
+          "replicate": 1,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9959311357239783,
+          "replicate": 2,
+          "residual": 3.980806697911446e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239786,
+          "replicate": 2,
+          "residual": 1.075334796318936e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239783,
+          "replicate": 2,
+          "residual": 9.926167350636332e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239785,
+          "replicate": 2,
+          "residual": 9.098986738083304e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959311357239783,
+          "replicate": 2,
+          "residual": 5.2603517079544104e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9961842240772654,
+          "replicate": 3,
+          "residual": 9.305781891221561e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961842240772658,
+          "replicate": 3,
+          "residual": 2.3161057151484775e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961842240772654,
+          "replicate": 3,
+          "residual": 8.633697643522226e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9961842240772651,
+          "replicate": 3,
+          "residual": 3.639594695233322e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9961842240772656,
+          "replicate": 3,
+          "residual": 1.6285118309637732e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9959843772523794,
+          "replicate": 4,
+          "residual": 1.8417693326376007e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523785,
+          "replicate": 4,
+          "residual": 3.597912547178892e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523794,
+          "replicate": 4,
+          "residual": 2.481541837659083e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523794,
+          "replicate": 4,
+          "residual": 5.871043644565825e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9959843772523795,
+          "replicate": 4,
+          "residual": 2.0501800729097502e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 10
+    },
+    {
+      "feasible": true,
+      "parameters": {
+        "detuning": -36140.56581217468,
+        "drive": 0.28158274917511966,
+        "drive_frequency": 0.9541503267189356,
+        "drive_modulation": 0.9679542875078457,
+        "g1": 75.84806713549143,
+        "g2": 74.09054703334552,
+        "gamma1": 0.001341922389102659,
+        "gamma2": 0.0013041029100608742,
+        "hopping": 0.00446039949799912,
+        "kappa": 111562.75837353733,
+        "omega1": 0.9155076586182862,
+        "omega2": 1.141575185417769,
+        "theta": 0.0
+      },
+      "replicate_records": [
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9957153262364489,
+          "replicate": 0,
+          "residual": 2.0265925007549178e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9957153262364495,
+          "replicate": 0,
+          "residual": 4.228960881677354e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9957153262364493,
+          "replicate": 0,
+          "residual": 3.360421238496675e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.99571532623645,
+          "replicate": 0,
+          "residual": 1.6268962438298806e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9957153262364504,
+          "replicate": 0,
+          "residual": 4.632211430296955e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9968229227518459,
+          "replicate": 1,
+          "residual": 1.6721326835788743e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968229227518456,
+          "replicate": 1,
+          "residual": 2.9129036024084158e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9968229227518446,
+          "replicate": 1,
+          "residual": 2.0679515313825692e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996822922751845,
+          "replicate": 1,
+          "residual": 1.4475660719677984e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.996822922751845,
+          "replicate": 1,
+          "residual": 2.274746684520826e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9962653206273465,
+          "replicate": 2,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9962653206273465,
+          "replicate": 2,
+          "residual": 2.9040178731720063e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996265320627346,
+          "replicate": 2,
+          "residual": 6.617444900424222e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996265320627346,
+          "replicate": 2,
+          "residual": 4.396012591321852e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9962653206273465,
+          "replicate": 2,
+          "residual": 5.790264287871194e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9969058333911517,
+          "replicate": 3,
+          "residual": 2.481541837659083e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911526,
+          "replicate": 3,
+          "residual": 6.2571689695661644e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911521,
+          "replicate": 3,
+          "residual": 8.023005706910811e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911518,
+          "replicate": 3,
+          "residual": 1.1541754484528964e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9969058333911522,
+          "replicate": 3,
+          "residual": 1.1580528575742387e-23,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 0,
+          "iterations": 13,
+          "poincare_spectral_radius": 0.9967567781103228,
+          "replicate": 4,
+          "residual": 2.8450489427849253e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 1,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996756778110323,
+          "replicate": 4,
+          "residual": 3.890333818413458e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 2,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.996756778110323,
+          "replicate": 4,
+          "residual": 6.119844063185291e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 3,
+          "iterations": 28,
+          "poincare_spectral_radius": 0.9967567781103227,
+          "replicate": 4,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        },
+        {
+          "initial_condition": 4,
+          "iterations": 23,
+          "poincare_spectral_radius": 0.9967567781103238,
+          "replicate": 4,
+          "residual": 4.1359030627651384e-24,
+          "status": "PASS"
+        }
+      ],
+      "sample": 11
+    }
+  ],
+  "design": {
+    "global_sample_end": 12,
+    "initial_condition_replicates": 5,
+    "initial_condition_scale": 0.1,
+    "orbit_max_iter": 80,
+    "orbit_residual_tolerance": 1e-08,
+    "robust_replicates": 5,
+    "sample_start": 8,
+    "samples": 4,
+    "seed": 20260814
+  },
+  "feasible_count": 4,
+  "interpretation": "Reduced bad-cavity diagnostic only; no SI calibration or manuscript claim is authorized.",
+  "kind": "adiabatic_bad_cavity_diagnostic",
+  "limitations": [
+    "optical mode adiabatically eliminated",
+    "drive remains model coordinate",
+    "J_m and g_i are assumed proxies",
+    "full/reduced agreement tested only at kappa=20 and 100",
+    "comparison does not validate the assumed closure or an experimental device"
+  ],
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_assumed_closure_optimizer.json",
+  "pareto_count": 0,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "recorded_at_utc": "2026-08-14T08:42:12.625419+00:00",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_SCREEN",
+  "status": "PROVISIONAL"
+}

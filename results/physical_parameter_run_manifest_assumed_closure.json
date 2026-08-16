@@ -1,0 +1,28 @@
+{
+  "status": "PROVISIONAL",
+  "scientific_status": "TIMEOUT_STIFF_REGIME",
+  "purpose": "Exploratory assumed-closure run using Mathew 2020 values; not a physical calibration",
+  "manifest": "physical_parameter_manifest_assumed_closure_optimizer.json",
+  "command": "mamba run -n qom python scripts/pareto_robust_optimizer.py --manifest physical_parameter_manifest_assumed_closure_optimizer.json --output results/physical_parameter_optimization_assumed_closure.json --allow-provisional-literature-scenario --samples 2 --seed 20260814 --robust-replicates 3 --uncertainty-fraction 0.10 --initial-condition-replicates 3 --initial-condition-scale 0.1 --orbit-max-iter 600 --orbit-residual-tol 1e-8 --compute-fisher --fisher-eps 1e-4 --n-th1 0.1 --n-th2 0.1 --detector-variance 0.01",
+  "wall_time_limit_seconds": 600,
+  "result": {
+    "output_written": false,
+    "candidate_count": null,
+    "feasible_count": null,
+    "pareto_count": null,
+    "process_orphaned": false
+  },
+  "diagnosis": {
+    "kappa_over_omega1": 106666.6667,
+    "g_over_omega1": 69.4744,
+    "hopping_over_omega1": 0.0041667,
+    "interpretation": "The assumed optical bad-cavity scaling is extremely stiff for the current normalized orbit solver. The timeout is a numerical compatibility diagnostic, not evidence of physical infeasibility."
+  },
+  "not_authorized": [
+    "physical optimum claim",
+    "feasibility claim",
+    "manuscript quantitative claim",
+    "Pareto-front claim"
+  ],
+  "next_required_method": "Use a stiffness-aware nondimensional reduction or an experimentally matched model before rerunning; do not loosen residual gates to force completion."
+}

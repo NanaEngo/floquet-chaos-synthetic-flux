@@ -1,0 +1,166 @@
+{
+  "gate": "ATTRACTOR_STRUCTURE",
+  "interpretation": "The continued drive-locked orbit has unstable Floquet directions (n_unstable >= 1) beyond the Neimark--Sacker onset; a small perturbation along the most unstable direction departs the orbit, and the forward trajectory settles onto an attractor whose Lyapunov spectrum reproduces the stored strong-coupling map. The orbit is the unstable seed; the attractor is a distinct object. Deterministic dynamics only.",
+  "kind": "deterministic_dynamics_attractor_connection",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-16T13:43:54.796776+00:00",
+  "records": [
+    {
+      "attractor_kaplan_yorke_dimension": 4.189919554997695,
+      "attractor_largest_exponent": 0.09129727219377724,
+      "attractor_lyapunov_spectrum": [
+        0.09129727219377724,
+        0.002032897461280243,
+        -0.007684004570334631,
+        -0.010168137564072187,
+        -0.3974210424069651,
+        -0.7191553907366505
+      ],
+      "attractor_n_positive": 2,
+      "cross_validation_vs_stored_map": {
+        "largest_exponent_relative_diff": -0.0459343931090661,
+        "map_kaplan_yorke_dimension": 4.205486245575404,
+        "map_largest_exponent": 0.09569286591442352,
+        "map_n_positive": 2
+      },
+      "departure_final_distance": 9.390450732099293,
+      "departure_initial_distance": 0.00010000000000006426,
+      "departure_slope": 0.007629424631911836,
+      "drive": 4.025000000000002,
+      "drive_target": 4.0,
+      "mean_divergence": -1.039999999999337,
+      "orbit_floquet_rates": [
+        0.6658598699467456,
+        0.6658598699467456,
+        -0.009886423143330157,
+        -0.009886423143330157,
+        -1.175973446803922,
+        -1.175973446803922
+      ],
+      "orbit_largest_floquet_rate": 0.6658598699467456,
+      "orbit_n_unstable": 2,
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "attractor_kaplan_yorke_dimension": 4.678054090183563,
+      "attractor_largest_exponent": 0.2598290905268171,
+      "attractor_lyapunov_spectrum": [
+        0.2598290905268171,
+        0.037739216241912815,
+        -0.008634125541211983,
+        -0.01042468690469626,
+        -0.4107481959845173,
+        -0.9035141833091211
+      ],
+      "attractor_n_positive": 2,
+      "cross_validation_vs_stored_map": {
+        "largest_exponent_relative_diff": 0.07769604938700268,
+        "map_kaplan_yorke_dimension": 4.631434474175337,
+        "map_largest_exponent": 0.24109682008633954,
+        "map_n_positive": 2
+      },
+      "departure_final_distance": 17.582190809113268,
+      "departure_initial_distance": 9.9999999999905e-05,
+      "departure_slope": 0.010117635902547741,
+      "drive": 8.024999999999988,
+      "drive_target": 8.0,
+      "mean_divergence": -1.039999999999337,
+      "orbit_floquet_rates": [
+        0.694131300651922,
+        0.694131300651922,
+        -0.009957000407555596,
+        -0.009957000407555596,
+        -1.20417430024683,
+        -1.20417430024683
+      ],
+      "orbit_largest_floquet_rate": 0.694131300651922,
+      "orbit_n_unstable": 2,
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "attractor_kaplan_yorke_dimension": 4.2355237880168355,
+      "attractor_largest_exponent": 0.11455194565620923,
+      "attractor_lyapunov_spectrum": [
+        0.11455194565620923,
+        0.013631160428091526,
+        -0.010777270665810289,
+        -0.031140388925011482,
+        -0.36627063117426073,
+        -0.7610318297313642
+      ],
+      "attractor_n_positive": 2,
+      "cross_validation_vs_stored_map": {
+        "largest_exponent_relative_diff": -0.024337414571933197,
+        "map_kaplan_yorke_dimension": 4.277009912598569,
+        "map_largest_exponent": 0.11740938657184458,
+        "map_n_positive": 2
+      },
+      "departure_final_distance": 14.372479791174024,
+      "departure_initial_distance": 9.999999999997257e-05,
+      "departure_slope": 0.006828688161596033,
+      "drive": 3.950000000000002,
+      "drive_target": 4.0,
+      "mean_divergence": -1.039999999999337,
+      "orbit_floquet_rates": [
+        0.6227343699491296,
+        0.6227343699491296,
+        -0.007985501836918308,
+        -0.007985501836918308,
+        -1.1347488681122748,
+        -1.1347488681122748
+      ],
+      "orbit_largest_floquet_rate": 0.6227343699491296,
+      "orbit_n_unstable": 2,
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "attractor_kaplan_yorke_dimension": 4.798846701888718,
+      "attractor_largest_exponent": 0.3349719774153399,
+      "attractor_lyapunov_spectrum": [
+        0.3349719774153399,
+        0.04425084273632777,
+        0.025245720033752722,
+        0.0031842527703612638,
+        -0.5103016536113445,
+        -0.9361090175559157
+      ],
+      "attractor_n_positive": 4,
+      "cross_validation_vs_stored_map": {
+        "largest_exponent_relative_diff": 0.03943731836897553,
+        "map_kaplan_yorke_dimension": 4.801606545905644,
+        "map_largest_exponent": 0.32226279689568815,
+        "map_n_positive": 3
+      },
+      "departure_final_distance": 27.168984310346506,
+      "departure_initial_distance": 0.00010000000000001994,
+      "departure_slope": 0.007484868427771938,
+      "drive": 8.049999999999988,
+      "drive_target": 8.0,
+      "mean_divergence": -1.039999999999337,
+      "orbit_floquet_rates": [
+        0.5980285218077597,
+        0.5980285218077597,
+        -0.009192519548443889,
+        -0.009192519548443889,
+        -1.1088360022581476,
+        -1.1088360022581476
+      ],
+      "orbit_largest_floquet_rate": 0.5980285218077597,
+      "orbit_n_unstable": 2,
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    }
+  ],
+  "settings": {
+    "depart_steps": 20000,
+    "dt": 0.01,
+    "lyap_steps": 300000,
+    "lyap_transient": 30000,
+    "perturbation": 0.0001
+  },
+  "status": "PASS"
+}

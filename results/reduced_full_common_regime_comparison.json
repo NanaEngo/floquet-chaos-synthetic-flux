@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "full_residual": 9.306274306019192e-09,
+      "full_status": "PASS",
+      "kappa": 20.0,
+      "mechanical_inf_error": 9.270964667811068e-07,
+      "reduced_residual": 1.418780186650953e-20,
+      "reduced_status": "PASS"
+    },
+    {
+      "full_residual": 9.451823073602628e-09,
+      "full_status": "PASS",
+      "kappa": 100.0,
+      "mechanical_inf_error": 2.0768420381518217e-08,
+      "reduced_residual": 6.352747104407253e-22,
+      "reduced_status": "PASS"
+    }
+  ],
+  "interpretation": "The comparison checks implementation consistency only; it does not validate the experimental parameter mapping or the assumed Mathew closure.",
+  "kind": "full_reduced_common_regime_comparison",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "recorded_at_utc": "2026-08-14T08:19:54.598719+00:00",
+  "status": "PASS"
+}

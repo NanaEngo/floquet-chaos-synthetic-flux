@@ -1,0 +1,36 @@
+{
+  "status": "PROVISIONAL",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_PARETO",
+  "kind": "adiabatic_bad_cavity_two_objective_screen",
+  "manifest": "physical_parameter_manifest_assumed_closure_optimizer.json",
+  "screen_output": "results/physical_parameter_reduced_bad_cavity_screen_production_v2.json",
+  "pareto_output": "results/physical_parameter_reduced_bad_cavity_pareto.json",
+  "command": "mamba run -n qom python scripts/reduced_bad_cavity_screen.py --manifest physical_parameter_manifest_assumed_closure_optimizer.json --output results/physical_parameter_reduced_bad_cavity_screen_production_v2.json --samples 4 --seed 20260814 --robust-replicates 3 --initial-condition-replicates 3 --initial-condition-scale 0.1 --orbit-max-iter 80 --orbit-residual-tol 1e-8",
+  "design": {
+    "samples": 4,
+    "robust_replicates": 3,
+    "initial_condition_replicates": 3,
+    "initial_condition_scale": 0.1,
+    "orbit_residual_tolerance": 1e-8,
+    "parameter_sampling": "independent uniform sampling within each declared normalized range",
+    "root_method": "LM first, HYBR fallback; residual gate is authoritative"
+  },
+  "result": {
+    "candidate_count": 4,
+    "feasible_count": 4,
+    "pareto_count": 3,
+    "maximum_poincare_radius": 0.9967001485789899,
+    "minimum_robust_stability_margin": 0.0032998514210101
+  },
+  "pareto_objectives": {
+    "maximize": "1 - maximum Poincare spectral radius across all replicates and initial conditions",
+    "minimize": "absolute normalized drive",
+    "fisher_information": "NOT_COMPUTED"
+  },
+  "interpretation": "The corrected reduced screen finds a provisional model-level front with 3 non-dominated points. The result resolves the numerical bottleneck but remains based on assumed J_m and effective g proxies; it is not an SI-calibrated or experimental optimum.",
+  "not_authorized": [
+    "physical optimum claim",
+    "experimental feasibility claim",
+    "manuscript quantitative claim"
+  ]
+}

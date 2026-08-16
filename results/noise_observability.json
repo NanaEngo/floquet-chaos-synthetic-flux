@@ -1,0 +1,91 @@
+{
+  "classifier": "measured-record variance of y = X_a + detector noise",
+  "gate": "NOISE_DEPENDENT_OBSERVABILITY",
+  "interpretation": "The deterministic spread of the cavity amplitude quadrature is compared with the measured-record variance under the declared Langevin (thermal + vacuum) and detector noise. A chaos signature is observable whenever the deterministic spread exceeds the noise-only floor set by the stable reference (observability ratio well above unity); at the stable reference the ratio is unity by construction. Deterministic spread alone is not a metrological gain and not QFI.",
+  "kind": "noise_resolved_chaos_observability",
+  "noise_floor_measured_record_var": 0.25536319996324863,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-16T15:47:31.016056+00:00",
+  "records": [
+    {
+      "coupling": "weak",
+      "deterministic_spread_var": 0.00023571135359103015,
+      "drive": 0.2,
+      "label": "stable_E0.2_th0.00pi",
+      "measured_record_var": 0.2555586949587767,
+      "observability_ratio_vs_noise_floor": 1.0007655566485547,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "coupling": "weak",
+      "deterministic_spread_var": 0.0002355915376854225,
+      "drive": 0.2,
+      "label": "stable_E0.2_th0.50pi",
+      "measured_record_var": 0.2551677049677205,
+      "observability_ratio_vs_noise_floor": 0.9992344433514451,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "coupling": "strong",
+      "deterministic_spread_var": 1.7764406997830087,
+      "drive": 4.025000000000002,
+      "label": "chaotic_E4.03_th0.00pi",
+      "measured_record_var": 1.9411168316432101,
+      "observability_ratio_vs_noise_floor": 7.601396097490053,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "coupling": "strong",
+      "deterministic_spread_var": 1.9383868581028785,
+      "drive": 3.950000000000002,
+      "label": "chaotic_E3.95_th0.50pi",
+      "measured_record_var": 2.221291025667159,
+      "observability_ratio_vs_noise_floor": 8.698555727633593,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "coupling": "strong",
+      "deterministic_spread_var": 3.4224288198439,
+      "drive": 8.024999999999988,
+      "label": "hyperchaotic_E8.02_th0.00pi",
+      "measured_record_var": 3.670741274932485,
+      "observability_ratio_vs_noise_floor": 14.374589899644,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "coupling": "strong",
+      "deterministic_spread_var": 4.122170059129853,
+      "drive": 8.049999999999988,
+      "label": "hyperchaotic_E8.05_th0.50pi",
+      "measured_record_var": 4.352255315892645,
+      "observability_ratio_vs_noise_floor": 17.04339276966694,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    }
+  ],
+  "settings": {
+    "detector_variance": 0.01,
+    "dt": 0.01,
+    "n_ens": 32,
+    "n_steps": 50000,
+    "seed": 42,
+    "thermal_occupations": [
+      0.1,
+      0.1
+    ],
+    "transient_steps": 5000
+  },
+  "status": "PASS"
+}

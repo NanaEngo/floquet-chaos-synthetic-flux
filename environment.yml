@@ -1,0 +1,25 @@
+name: qom
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24,<2
+  - scipy>=1.10,<1.14
+  - numba>=0.57
+  - sympy>=1.12
+  - matplotlib>=3.6,<4
+  - h5py>=3.8
+  - joblib>=1.3
+  - pyyaml>=6
+  - pytest>=7
+  - pytest-cov>=4
+  - pip
+  - pip:
+      - pydantic>=2
+      - typer>=0.9
+      - rich>=13
+      - qutip>=5.3
+      - quimb>=1.4
+      # FL_QOM is a separate Floquet optomechanics framework repository.
+      # Install it from its own repository before running the generators:
+      #   pip install -e /path/to/FL_QOM

@@ -1,0 +1,214 @@
+{
+  "detector_variance": 0.01,
+  "drives": [
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "eps": 0.0001,
+  "gain_vs_flux_off_stats": {
+    "max": 1.323516537128735,
+    "mean": 1.3232487652838323,
+    "min": 1.3231523120002942,
+    "std": 0.00011792640481095908
+  },
+  "gain_vs_single_mode_stats": {
+    "max": 1.1590580288927805,
+    "mean": 1.1589565871625527,
+    "min": 1.1586300785796204,
+    "std": 0.00013029471206423473
+  },
+  "gate": "MATCHED_FISHER_DRIVE_TEMPERATURE_SWEEP",
+  "interpretation": "Gain stability across drive amplitude and bath temperature. The ~1.3x (flux-off) enhancement is stable if gain_vs_flux_off varies only weakly across the grid.",
+  "kind": "classical_measurement_fisher_sweep",
+  "n_ths": [
+    0.0,
+    0.1,
+    0.5,
+    1.0
+  ],
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-15T10:54:17.541547+00:00",
+  "records": [
+    {
+      "F_C_flux_off_theta_0": 1.1255146628370261e-05,
+      "F_C_flux_theta_pi": 1.4892485628241554e-05,
+      "F_C_single_mode_J0": 1.2848810376327845e-05,
+      "drive": 0.1,
+      "gain_vs_flux_off": 1.3231711784813929,
+      "gain_vs_single_mode": 1.1590556006397992,
+      "min_physicality_eigenvalue": 1.8588466660684343e-08,
+      "n_th": 0.0,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 1.1255073094096254e-05,
+      "F_C_flux_theta_pi": 1.4892387914301193e-05,
+      "F_C_single_mode_J0": 1.2848724259949162e-05,
+      "drive": 0.1,
+      "gain_vs_flux_off": 1.3231711415639635,
+      "gain_vs_single_mode": 1.1590557640591874,
+      "min_physicality_eigenvalue": 6.053625875579449e-08,
+      "n_th": 0.1,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 1.1254780165643867e-05,
+      "F_C_flux_theta_pi": 1.4892002793649647e-05,
+      "F_C_single_mode_J0": 1.2848382786630509e-05,
+      "drive": 0.1,
+      "gain_vs_flux_off": 1.3231713613659641,
+      "gain_vs_single_mode": 1.1590565941999833,
+      "min_physicality_eigenvalue": 2.2703138655654447e-07,
+      "n_th": 0.5,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 1.1254416724173551e-05,
+      "F_C_flux_theta_pi": 1.489153429516214e-05,
+      "F_C_single_mode_J0": 1.2847962676543171e-05,
+      "drive": 0.1,
+      "gain_vs_flux_off": 1.3231724628764068,
+      "gain_vs_single_mode": 1.1590580288927805,
+      "min_physicality_eigenvalue": 4.34707383498005e-07,
+      "n_th": 1.0,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 4.503125431206399e-05,
+      "F_C_flux_theta_pi": 5.958321473645124e-05,
+      "F_C_single_mode_J0": 5.140876501199474e-05,
+      "drive": 0.2,
+      "gain_vs_flux_off": 1.323152455926344,
+      "gain_vs_single_mode": 1.1590088717857594,
+      "min_physicality_eigenvalue": 7.457518926660354e-08,
+      "n_th": 0.0,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 4.503008099534932e-05,
+      "F_C_flux_theta_pi": 5.9581655778556957e-05,
+      "F_C_single_mode_J0": 5.140738962653024e-05,
+      "drive": 0.2,
+      "gain_vs_flux_off": 1.3231523120002942,
+      "gain_vs_single_mode": 1.1590095550739294,
+      "min_physicality_eigenvalue": 2.4236447035419495e-07,
+      "n_th": 0.1,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 4.5025407342432e-05,
+      "F_C_flux_theta_pi": 5.957551128793007e-05,
+      "F_C_single_mode_J0": 5.1401936160714485e-05,
+      "drive": 0.2,
+      "gain_vs_flux_off": 1.323153188484006,
+      "gain_vs_single_mode": 1.1590129815666845,
+      "min_physicality_eigenvalue": 9.082806510149416e-07,
+      "n_th": 0.5,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 4.5019609384937e-05,
+      "F_C_flux_theta_pi": 5.956803608403052e-05,
+      "F_C_single_mode_J0": 5.139522744171494e-05,
+      "drive": 0.2,
+      "gain_vs_flux_off": 1.323157550628621,
+      "gain_vs_single_mode": 1.159018824298112,
+      "min_physicality_eigenvalue": 1.7389105611602985e-06,
+      "n_th": 1.0,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.0002819358789099601,
+      "F_C_flux_theta_pi": 0.0003730623759098193,
+      "F_C_single_mode_J0": 0.00032189960858470764,
+      "drive": 0.5,
+      "gain_vs_flux_off": 1.323217099406357,
+      "gain_vs_single_mode": 1.1589401352491804,
+      "min_physicality_eigenvalue": 4.757697845025272e-07,
+      "n_th": 0.0,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.0002818909048022276,
+      "F_C_flux_theta_pi": 0.0003730026566136901,
+      "F_C_single_mode_J0": 0.0003218465500167845,
+      "drive": 0.5,
+      "gain_vs_flux_off": 1.3232163587377386,
+      "gain_vs_single_mode": 1.158945642245467,
+      "min_physicality_eigenvalue": 1.5243842038936695e-06,
+      "n_th": 0.1,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.00028171184686883675,
+      "F_C_flux_theta_pi": 0.00037276724125267705,
+      "F_C_single_mode_J0": 0.0003216362472839365,
+      "drive": 0.5,
+      "gain_vs_flux_off": 1.3232217437637086,
+      "gain_vs_single_mode": 1.158971491554566,
+      "min_physicality_eigenvalue": 5.68355048985475e-06,
+      "n_th": 0.5,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.0002814899055605286,
+      "F_C_flux_theta_pi": 0.00037248073675935525,
+      "F_C_single_mode_J0": 0.00032137770110696564,
+      "drive": 0.5,
+      "gain_vs_flux_off": 1.323247226282013,
+      "gain_vs_single_mode": 1.1590123878426175,
+      "min_physicality_eigenvalue": 1.0871751408022993e-05,
+      "n_th": 1.0,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.001134751365472288,
+      "F_C_flux_theta_pi": 0.0015017451641297366,
+      "F_C_single_mode_J0": 0.0012961385966871715,
+      "drive": 1.0,
+      "gain_vs_flux_off": 1.3234134012297083,
+      "gain_vs_single_mode": 1.1586300785796204,
+      "min_physicality_eigenvalue": 2.0408838465017873e-06,
+      "n_th": 0.0,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.001134076443916646,
+      "F_C_flux_theta_pi": 0.0015008508917599358,
+      "F_C_single_mode_J0": 0.0012953257689672533,
+      "drive": 1.0,
+      "gain_vs_flux_off": 1.3234124558452143,
+      "gain_vs_single_mode": 1.1586667444719678,
+      "min_physicality_eigenvalue": 6.2350450359682785e-06,
+      "n_th": 0.1,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.001131393680917153,
+      "F_C_flux_theta_pi": 0.001497324605419067,
+      "F_C_single_mode_J0": 0.0012921081371410513,
+      "drive": 1.0,
+      "gain_vs_flux_off": 1.323433770820848,
+      "gain_vs_single_mode": 1.1588229826739445,
+      "min_physicality_eigenvalue": 2.283224217357179e-05,
+      "n_th": 0.5,
+      "status": "PASS"
+    },
+    {
+      "F_C_flux_off_theta_0": 0.0011280779601074013,
+      "F_C_flux_theta_pi": 0.001493029835372595,
+      "F_C_single_mode_J0": 0.0012881610704110812,
+      "drive": 1.0,
+      "gain_vs_flux_off": 1.323516537128735,
+      "gain_vs_single_mode": 1.1590397114672435,
+      "min_physicality_eigenvalue": 4.3539215833982676e-05,
+      "n_th": 1.0,
+      "status": "PASS"
+    }
+  ],
+  "sensing_parameter": "external force F on mechanical mode 1 (momentum-quadrature drive)",
+  "status": "PASS"
+}

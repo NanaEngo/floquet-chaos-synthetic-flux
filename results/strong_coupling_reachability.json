@@ -1,0 +1,47 @@
+{
+  "all_reachable": false,
+  "anchor": {
+    "J_m_over_omega_m_range": [
+      0.001,
+      0.1
+    ],
+    "g0_over_omega_m": 0.000118,
+    "gamma_m_over_omega_m": 2.78e-05,
+    "kappa_over_omega_m": 0.108
+  },
+  "anchor_sources": [
+    "Mayor et al., Nat. Commun. 16, 2576 (2025) [omega_m, kappa, gamma_m, g0]",
+    "Mathew, del Pino, Verhagen, Nat. Nanotechnol. 15, 198-202 (2020) [J_m scale]"
+  ],
+  "gate": "STRONG_COUPLING_REACHABILITY",
+  "interpretation": "The strong-coupling hyperchaos regime requires optomechanical coupling and mechanical damping that are 2-3 orders of magnitude above the anchored Mayor/Mathew values (limiting coordinate: g1, 2542x). The inter-resonator hopping is within the scanned Mathew range. The regime is therefore a model-level demonstration, not a prediction for the anchored device; the drive amplitude is not convertible to input power without the pump frequency and external coupling.",
+  "kind": "experimental_feasibility_bound",
+  "limiting_coordinate": "g1",
+  "limiting_ratio": 2542.3728813559323,
+  "model": {
+    "J_m_over_omega_m": 0.08,
+    "detuning_over_omega_m": -1.0,
+    "g1_over_omega_m": 0.3,
+    "g2_over_omega_m": 0.27,
+    "gamma_m_over_omega_m": 0.02,
+    "kappa_over_omega_m": 1.0
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "ratios_required_over_anchor": {
+    "J_m": 0.7999999999999999,
+    "g1": 2542.3728813559323,
+    "g2": 2288.135593220339,
+    "gamma_m": 719.4244604316547,
+    "kappa": 9.25925925925926
+  },
+  "reachable_within_anchor": {
+    "J_m": true,
+    "g1": false,
+    "g2": false,
+    "gamma_m": false,
+    "kappa": false
+  },
+  "recorded_at_utc": "2026-08-16T13:45:34.890371+00:00",
+  "status": "PASS"
+}

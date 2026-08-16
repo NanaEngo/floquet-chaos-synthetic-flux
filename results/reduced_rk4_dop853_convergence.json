@@ -1,0 +1,166 @@
+{
+  "design": {
+    "reference": "DOP853 rtol=1e-9 atol=1e-11 max_step=T/400",
+    "replicates": 5,
+    "samples": [
+      5,
+      10,
+      15
+    ],
+    "seed": 20260816,
+    "states_per_case": 5,
+    "substeps": [
+      20,
+      40,
+      80
+    ]
+  },
+  "interpretation": "This validates the one-period map approximation used by the vectorized basin screen; it does not validate SI calibration or global basin structure.",
+  "kind": "one_period_integrator_comparison",
+  "maximum_error_by_substeps": {
+    "20": 0.001004165893853437,
+    "40": 6.15049406057222e-05,
+    "80": 4.151762999171638e-06
+  },
+  "recorded_at_utc": "2026-08-14T10:17:21.480960+00:00",
+  "records": [
+    {
+      "errors_inf_norm": {
+        "20": 0.0002733607503900559,
+        "40": 1.530630221435736e-05,
+        "80": 8.907128578594659e-07
+      },
+      "replicate": 0,
+      "sample": 5
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.001004165893853437,
+        "40": 6.15049406057222e-05,
+        "80": 4.151762999171638e-06
+      },
+      "replicate": 1,
+      "sample": 5
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00023415508997317452,
+        "40": 1.573580700381383e-05,
+        "80": 1.008806274439833e-06
+      },
+      "replicate": 2,
+      "sample": 5
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00022845740112752838,
+        "40": 1.4041247993000494e-05,
+        "80": 8.613876560092937e-07
+      },
+      "replicate": 3,
+      "sample": 5
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.0002598048591842244,
+        "40": 1.682375595579884e-05,
+        "80": 1.0575734158309313e-06
+      },
+      "replicate": 4,
+      "sample": 5
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00014109768268705638,
+        "40": 9.117935950900009e-06,
+        "80": 5.748577441432208e-07
+      },
+      "replicate": 0,
+      "sample": 10
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00011287857768957181,
+        "40": 7.1667551307368765e-06,
+        "80": 4.4777597908197964e-07
+      },
+      "replicate": 1,
+      "sample": 10
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.0002064115057132873,
+        "40": 1.394861886487575e-05,
+        "80": 8.956137433138722e-07
+      },
+      "replicate": 2,
+      "sample": 10
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.0002620528577471151,
+        "40": 1.8044734622420233e-05,
+        "80": 1.1668228621017351e-06
+      },
+      "replicate": 3,
+      "sample": 10
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00027066595183738995,
+        "40": 1.8344689629412603e-05,
+        "80": 1.1787768374182939e-06
+      },
+      "replicate": 4,
+      "sample": 10
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00018376475663822722,
+        "40": 1.0887592760633336e-05,
+        "80": 7.260450105850413e-07
+      },
+      "replicate": 0,
+      "sample": 15
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00037172856919356206,
+        "40": 2.300103691609684e-05,
+        "80": 1.4136244437315537e-06
+      },
+      "replicate": 1,
+      "sample": 15
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00021455985207834496,
+        "40": 1.4083195501241735e-05,
+        "80": 8.934417503707326e-07
+      },
+      "replicate": 2,
+      "sample": 15
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.0002958844321634124,
+        "40": 1.8058234597079226e-05,
+        "80": 1.1026047671836015e-06
+      },
+      "replicate": 3,
+      "sample": 15
+    },
+    {
+      "errors_inf_norm": {
+        "20": 0.00011117025394737426,
+        "40": 7.274345974504076e-06,
+        "80": 4.6178633536161917e-07
+      },
+      "replicate": 4,
+      "sample": 15
+    }
+  ],
+  "scientific_status": "REDUCED_RK4_DOP853_CONVERGENCE",
+  "source_screen": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json",
+  "status": "INCOMPLETE"
+}

@@ -1,0 +1,57 @@
+{
+  "status": "PASS_WITH_LIMITATIONS",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_BASIN_CAPTURE_VALIDATION",
+  "kind": "finite_time_basin_capture_validation_status",
+  "source_screen": "results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json",
+  "completed_output": "results/fast_basin_capture_validation_v2.json",
+  "design": {
+    "candidate_count": 3,
+    "samples": [5, 10, 15],
+    "parameter_replicates_per_candidate": 5,
+    "initial_conditions_per_replicate": 5,
+    "max_periods": 5000,
+    "rk4_substeps_per_period": 320,
+    "capture_tolerance": 1e-5,
+    "post_capture_residual_tolerance": 1e-7,
+    "residual_check_interval": 25,
+    "independent_comparator": "DOP853"
+  },
+  "result": {
+    "candidate_pass_count": 3,
+    "total_candidate_replicates": 15,
+    "total_initial_conditions": 75,
+    "passed_initial_conditions": 75,
+    "failed_initial_conditions": 0
+  },
+  "interpretation": "The completed finite-time, finite-ensemble joint gate passed for all three tested non-dominated reduced-model candidates. This is not a global basin-of-attraction proof, not a validation of the adiabatic model outside the tested ensemble, not an SI calibration, and not an experimental optimum.",
+  "superseded_history": {
+    "previous_status": "NOT_COMPUTED",
+    "historical_manifest": "results/basin_capture_slurm_manifest_15325.json",
+    "historical_attempts": [
+      {
+        "output": "results/basin_capture_sample5_probe.json",
+        "candidate": 5,
+        "max_periods": 5000,
+        "max_step_fraction": 100,
+        "status": "TIMEOUT_NO_OUTPUT",
+        "timeout_seconds": 600
+      },
+      {
+        "output": "results/basin_capture_sample5_cost_probe.json",
+        "candidate": 5,
+        "max_periods": 3000,
+        "max_step_fraction": 20,
+        "status": "FAIL_JOINT_GATE",
+        "candidate_pass_count": 0
+      },
+      {
+        "output": "results/basin_capture_sample5_v2.json",
+        "candidate": 5,
+        "max_periods": 5000,
+        "max_step_fraction": 20,
+        "status": "TIMEOUT_NO_OUTPUT",
+        "timeout_seconds": 600
+      }
+    ]
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "calibration_status": "PROVISIONAL",
+  "candidate_count": 4,
+  "candidate_records": [
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 5.922265557419116e-25,
+        "floquet_max_rate": -0.009992082556406564,
+        "resource_cost": 0.3401752501669761,
+        "robustness_margin": 0.009992082556406564,
+        "stability_margin": 0.01025483526145579
+      },
+      "normalized_parameters": {
+        "detuning": -0.9313475203877472,
+        "drive": 0.3401752501669761,
+        "drive_frequency": 1.0462604354008542,
+        "drive_modulation": 0.08693651091318565,
+        "g1": 0.020244748606783693,
+        "g2": 0.016523978830789883,
+        "gamma1": 0.02115953662718832,
+        "gamma2": 0.020079852570618277,
+        "hopping": 0.07544106297066921,
+        "kappa": 1.0189333106052276,
+        "omega1": 0.9633446813847094,
+        "omega2": 1.0680249737631557
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 0.0,
+        "floquet_max_rate": -0.00926872862784815,
+        "resource_cost": 0.13642728170631535,
+        "robustness_margin": 0.00926872862784815,
+        "stability_margin": 0.009431244003792067
+      },
+      "normalized_parameters": {
+        "detuning": -0.9822060570485698,
+        "drive": 0.13642728170631535,
+        "drive_frequency": 0.9548640401870313,
+        "drive_modulation": 0.09412713252943407,
+        "g1": 0.01816095203339229,
+        "g2": 0.01802883725235469,
+        "gamma1": 0.01981993471826686,
+        "gamma2": 0.01802911233233749,
+        "hopping": 0.07614363002493961,
+        "kappa": 0.9387344217000316,
+        "omega1": 0.9947072878170009,
+        "omega2": 0.984125126629842
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 5.947107995263049e-25,
+        "floquet_max_rate": -0.010009499492274232,
+        "resource_cost": 0.12496583473157982,
+        "robustness_margin": 0.010009499492274232,
+        "stability_margin": 0.01010864849514715
+      },
+      "normalized_parameters": {
+        "detuning": -1.0910674073355953,
+        "drive": 0.12496583473157982,
+        "drive_frequency": 1.0051999470933672,
+        "drive_modulation": 0.1170093854850805,
+        "g1": 0.02137512796709348,
+        "g2": 0.01741604004719964,
+        "gamma1": 0.020723926030486034,
+        "gamma2": 0.019735420162631374,
+        "hopping": 0.08708023328333515,
+        "kappa": 0.9507573003957852,
+        "omega1": 1.0153068611101308,
+        "omega2": 1.0316153983139187
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 9.440303997222011e-27,
+        "floquet_max_rate": -0.009790408410125854,
+        "resource_cost": 0.2692550902298658,
+        "robustness_margin": 0.009790408410125854,
+        "stability_margin": 0.010007622288409701
+      },
+      "normalized_parameters": {
+        "detuning": -1.0362953368989694,
+        "drive": 0.2692550902298658,
+        "drive_frequency": 0.9986287779153626,
+        "drive_modulation": 0.10895528608848179,
+        "g1": 0.01901428208162949,
+        "g2": 0.01940801302583096,
+        "gamma1": 0.018350288382897515,
+        "gamma2": 0.021687566718733925,
+        "hopping": 0.08102959065376189,
+        "kappa": 1.099068461355965,
+        "omega1": 1.0329542783056305,
+        "omega2": 1.0196495871537847
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    }
+  ],
+  "feasible_count": 4,
+  "initial_condition_replicates": 3,
+  "initial_condition_scale": 0.1,
+  "interpretation": "Provisional literature-anchored numerical Pareto screening; not an experimental optimum.",
+  "kind": "robust_pareto_optimization",
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_model_recovery.json",
+  "objective": {
+    "constraint_scope": "normalized model only; no hardware constraint",
+    "constraints": [
+      {
+        "metric": "stability_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "robustness_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "resource_cost",
+        "operator": "<=",
+        "value": 0.5
+      }
+    ],
+    "secondary_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "selection_note": "A positive result is a model-level robust operating region only and must not be called physically optimal.",
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY"
+  },
+  "orbit_max_iter": 600,
+  "orbit_residual_tol": 1e-08,
+  "pareto_candidates": [
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 5.922265557419116e-25,
+        "floquet_max_rate": -0.009992082556406564,
+        "resource_cost": 0.3401752501669761,
+        "robustness_margin": 0.009992082556406564,
+        "stability_margin": 0.01025483526145579
+      },
+      "normalized_parameters": {
+        "detuning": -0.9313475203877472,
+        "drive": 0.3401752501669761,
+        "drive_frequency": 1.0462604354008542,
+        "drive_modulation": 0.08693651091318565,
+        "g1": 0.020244748606783693,
+        "g2": 0.016523978830789883,
+        "gamma1": 0.02115953662718832,
+        "gamma2": 0.020079852570618277,
+        "hopping": 0.07544106297066921,
+        "kappa": 1.0189333106052276,
+        "omega1": 0.9633446813847094,
+        "omega2": 1.0680249737631557
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": 5.947107995263049e-25,
+        "floquet_max_rate": -0.010009499492274232,
+        "resource_cost": 0.12496583473157982,
+        "robustness_margin": 0.010009499492274232,
+        "stability_margin": 0.01010864849514715
+      },
+      "normalized_parameters": {
+        "detuning": -1.0910674073355953,
+        "drive": 0.12496583473157982,
+        "drive_frequency": 1.0051999470933672,
+        "drive_modulation": 0.1170093854850805,
+        "g1": 0.02137512796709348,
+        "g2": 0.01741604004719964,
+        "gamma1": 0.020723926030486034,
+        "gamma2": 0.019735420162631374,
+        "hopping": 0.08708023328333515,
+        "kappa": 0.9507573003957852,
+        "omega1": 1.0153068611101308,
+        "omega2": 1.0316153983139187
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    }
+  ],
+  "pareto_count": 2,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "recorded_at_utc": "2026-08-14T06:03:46.164690+00:00",
+  "robust_replicates": 3,
+  "samples": 4,
+  "scientific_status": "PROVISIONAL_PARETO_FOUND",
+  "seed": 20260815,
+  "status": "PROVISIONAL"
+}

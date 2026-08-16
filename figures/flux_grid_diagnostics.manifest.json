@@ -1,0 +1,13 @@
+{
+  "interpretation": "Diagnostics for the sampled production grid; not evidence that chaos is absent outside the grid.",
+  "no_mock_data": true,
+  "outputs": [
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/flux_grid_diagnostics.pdf",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/flux_grid_diagnostics.png"
+  ],
+  "points": 9,
+  "replicates": 3,
+  "source": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/flux_grid.json",
+  "source_status": "PASS",
+  "status": "PASS"
+}

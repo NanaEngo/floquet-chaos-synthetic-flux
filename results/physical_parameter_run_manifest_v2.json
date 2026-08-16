@@ -1,0 +1,35 @@
+{
+  "status": "PROVISIONAL",
+  "scientific_status": "NO_ROBUST_FEASIBLE_CANDIDATE",
+  "purpose": "Second literature-anchored exploratory robustness screening; not an experimental calibration",
+  "manifest": "physical_parameter_manifest_literature_scenario.json",
+  "output": "physical_parameter_optimization_provisional_v2.json",
+  "command": "python3 scripts/pareto_robust_optimizer.py --manifest physical_parameter_manifest_literature_scenario.json --output results/physical_parameter_optimization_provisional_v2.json --allow-provisional-literature-scenario --samples 8 --seed 20260814 --robust-replicates 3 --initial-condition-replicates 3 --initial-condition-scale 0.1 --orbit-max-iter 600 --orbit-residual-tol 1e-8 --compute-fisher",
+  "design": {
+    "samples": 8,
+    "seed": 20260814,
+    "parameter_replicates": 3,
+    "initial_condition_replicates": 3,
+    "initial_condition_scale": 0.1,
+    "uncertainty_fraction": 0.02,
+    "orbit_max_iter": 600,
+    "orbit_residual_tolerance": 1e-8,
+    "classical_fisher": true
+  },
+  "result": {
+    "candidate_count": 8,
+    "feasible_count": 0,
+    "pareto_count": 0
+  },
+  "interpretation": "No robust Pareto front was identified in the tested provisional literature envelope. Earlier parameter-only screens are superseded because they did not apply the three-initial-condition gate.",
+  "limitations": [
+    "alpha_in-to-power mapping remains conditional",
+    "hardware ranges and measured uncertainties are absent",
+    "the scenario is not an experimental calibration",
+    "no manuscript claim or physical optimum is authorized"
+  ],
+  "supersedes": [
+    "physical_parameter_optimization_provisional.json parameter-only subset for robust interpretation",
+    "physical_parameter_stability_screening_provisional.json for final robustness interpretation"
+  ]
+}

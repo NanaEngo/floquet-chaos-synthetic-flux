@@ -1,0 +1,71 @@
+{
+  "gate": "SEMICLASSICAL_VALIDITY",
+  "interpretation": "The weak-coupling reference has a mean cavity occupation <|alpha|^2> ~ 0.03 (sub-photon) and a single-photon cooperativity C ~ 0.08; the truncated-Fock master equation for the driven linear optical mode reproduces this occupation (the driven linear cavity has a coherent steady state), so the sub-photon scale is a genuine feature of the operating point rather than a mean-field artifact. The strong-coupling hyperchaos regime operates at mean occupations of order 1-10^2, where the semiclassical factorization is standard. No full quantum treatment of the hyperchaos regime is claimed.",
+  "kind": "semiclassical_validity_check",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-16T13:46:54.414081+00:00",
+  "single_mode_quantum_cross_check": {
+    "n_fock": 8,
+    "quantum_mean_photon_number": 0.03199999999999797,
+    "semiclassical_abs2": 0.032
+  },
+  "status": "PASS",
+  "strong_coupling_orbits": [
+    {
+      "drive": 4.025000000000002,
+      "max_abs": 2.822576668109139,
+      "mean_abs": 2.8039592427683546,
+      "mean_abs2": 7.862325909681245,
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "drive": 8.024999999999988,
+      "max_abs": 3.371619984961579,
+      "mean_abs": 3.348176238627008,
+      "mean_abs2": 11.210508257213755,
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "drive": 3.950000000000002,
+      "max_abs": 2.785690354516688,
+      "mean_abs": 2.7071681266949272,
+      "mean_abs2": 7.332490097996799,
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "drive": 8.049999999999988,
+      "max_abs": 3.3603847543817067,
+      "mean_abs": 3.2535953763516425,
+      "mean_abs2": 10.593010191855045,
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    }
+  ],
+  "weak_coupling_reference": {
+    "g_over_kappa": 0.02,
+    "max_abs_alpha": 0.20236583325449062,
+    "mean_abs_alpha": 0.1793215889451554,
+    "mean_photon_number_abs2": 0.03242843231818638,
+    "parameters": {
+      "detuning": -1.0,
+      "drive": 0.2,
+      "drive_frequency": 1.0,
+      "drive_modulation": 0.1,
+      "force": 0.0,
+      "g1": 0.02,
+      "g2": 0.018,
+      "gamma1": 0.02,
+      "gamma2": 0.02,
+      "hopping": 0.08,
+      "kappa": 1.0,
+      "omega1": 1.0,
+      "omega2": 1.03,
+      "theta": 0.0
+    },
+    "single_photon_cooperativity": 0.08
+  }
+}

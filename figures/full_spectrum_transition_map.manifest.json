@@ -1,0 +1,15 @@
+{
+  "gate": "FULL_SPECTRUM_TRANSITION_MAP_FIGURE",
+  "inputs": [
+    "results/flux_grid.json",
+    "results/full_spectrum_transition_map.json"
+  ],
+  "outputs": [
+    "figures/full_spectrum_transition_map.pdf",
+    "figures/full_spectrum_transition_map.png"
+  ],
+  "n_flux_phases": 9,
+  "n_drives": 6,
+  "any_positive_exponent": false,
+  "note": "Figure (a) plots all six exponents; (b) the largest exponent vs drive; (c) the positive-exponent (hyperchaos-order) count. Zero positive exponents were found across the tested (drive x phase) domain."
+}

@@ -1,0 +1,67 @@
+{
+  "calibration_status": "PROVISIONAL",
+  "candidate_count": 2,
+  "candidate_records": [
+    {
+      "reason": "periodic orbit failed under robustness replicate or initial condition",
+      "status": "FAIL"
+    },
+    {
+      "reason": "periodic orbit failed under robustness replicate or initial condition",
+      "status": "FAIL"
+    }
+  ],
+  "feasible_count": 0,
+  "initial_condition_replicates": 3,
+  "initial_condition_scale": 0.1,
+  "interpretation": "Provisional literature-anchored numerical Pareto screening; not an experimental optimum.",
+  "kind": "robust_pareto_optimization",
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_literature_scenario.json",
+  "objective": {
+    "candidate_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "constraint_scope": "numerical screening only; no hardware power, bandwidth, temperature, or fabrication constraint has been supplied",
+    "constraints": [
+      {
+        "metric": "stability_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "robustness_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "resource_cost",
+        "operator": "<=",
+        "value": 0.5
+      }
+    ],
+    "secondary_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "selection_note": "This scenario is permitted only for exploratory numerical screening. It must not be called physically optimized until the drive mapping and hardware constraints are supplied.",
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY"
+  },
+  "orbit_max_iter": 600,
+  "orbit_residual_tol": 0.0001,
+  "pareto_candidates": [],
+  "pareto_count": 0,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-13T21:42:23.488163+00:00",
+  "robust_replicates": 2,
+  "samples": 2,
+  "scientific_status": "NO_ROBUST_FEASIBLE_CANDIDATE",
+  "seed": 20260813,
+  "status": "PROVISIONAL"
+}

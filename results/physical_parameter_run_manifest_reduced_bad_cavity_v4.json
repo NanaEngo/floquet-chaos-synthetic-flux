@@ -1,0 +1,49 @@
+{
+  "status": "PROVISIONAL",
+  "scientific_status": "PROVISIONAL_REDUCED_MODEL_MULTI_START_PARETO",
+  "kind": "adiabatic_bad_cavity_two_objective_multi_start_screen",
+  "manifest": "physical_parameter_manifest_assumed_closure_optimizer.json",
+  "screen_output": "results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json",
+  "pareto_output": "results/physical_parameter_reduced_bad_cavity_pareto_v4.json",
+  "chunk_outputs": [
+    "results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk0.json",
+    "results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk1.json",
+    "results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk2.json",
+    "results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk3.json"
+  ],
+  "commands": [
+    "python3 reduced_bad_cavity_screen.py --manifest ../physical_parameter_manifest_assumed_closure_optimizer.json --output ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk0.json --samples 4 --sample-start 0 --seed 20260814 --robust-replicates 5 --initial-condition-replicates 5 --initial-condition-scale 0.1 --orbit-max-iter 80 --orbit-residual-tol 1e-8",
+    "python3 reduced_bad_cavity_screen.py --manifest ../physical_parameter_manifest_assumed_closure_optimizer.json --output ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk1.json --samples 4 --sample-start 4 --seed 20260814 --robust-replicates 5 --initial-condition-replicates 5 --initial-condition-scale 0.1 --orbit-max-iter 80 --orbit-residual-tol 1e-8",
+    "python3 reduced_bad_cavity_screen.py --manifest ../physical_parameter_manifest_assumed_closure_optimizer.json --output ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk2.json --samples 4 --sample-start 8 --seed 20260814 --robust-replicates 5 --initial-condition-replicates 5 --initial-condition-scale 0.1 --orbit-max-iter 80 --orbit-residual-tol 1e-8",
+    "python3 reduced_bad_cavity_screen.py --manifest ../physical_parameter_manifest_assumed_closure_optimizer.json --output ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk3.json --samples 4 --sample-start 12 --seed 20260814 --robust-replicates 5 --initial-condition-replicates 5 --initial-condition-scale 0.1 --orbit-max-iter 80 --orbit-residual-tol 1e-8",
+    "python3 combine_reduced_chunks.py --output ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk0.json ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk1.json ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk2.json ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4_chunk3.json",
+    "python3 reduced_pareto_analysis.py --input ../results/physical_parameter_reduced_bad_cavity_screen_robust_v4.json --output ../results/physical_parameter_reduced_bad_cavity_pareto_v4.json"
+  ],
+  "design": {
+    "candidate_count": 16,
+    "parameter_replicates_per_candidate": 5,
+    "root_solver_starts_per_replicate": 5,
+    "total_fixed_point_evaluations": 400,
+    "seed": 20260814,
+    "sampling": "independent uniform draws from the declared normalized ranges, deterministic chunking",
+    "orbit_residual_tolerance": 1e-8,
+    "root_solver": "LM first, HYBR fallback; actual Poincare residual is authoritative",
+    "initial_condition_protocol": "independent root-solver starts; finite-time basin capture is NOT_COMPUTED",
+    "poincare_stability_gate": "maximum local spectral radius < 1 across recorded replicate/start combinations"
+  },
+  "result": {
+    "candidate_count": 16,
+    "multi_start_gate_pass_count": 16,
+    "pareto_count": 3,
+    "maximum_poincare_radius": 0.9970026418196289,
+    "minimum_multi_start_stability_margin": 0.002997358180371057,
+    "fisher_information": "NOT_COMPUTED"
+  },
+  "interpretation": "The assumed closure produces a reproducible provisional multi-start fixed-point Pareto diagnostic in the reduced equations. It does not establish finite-time basin capture, SI calibration, experimental feasibility, or an experimental optimum.",
+  "not_authorized": [
+    "physical optimum claim",
+    "experimental feasibility claim",
+    "device-specific calibration claim",
+    "manuscript quantitative claim"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "gate": "MATCHED_FISHER_REFERENCE_FIGURE",
+  "input": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/matched_fisher_reference.json",
+  "note": "(a) F_C(force) vs synthetic-flux phase with flux-off and single-mode references overlaid; (b) gain relative to each reference. A gain <= 1 indicates no flux-mediated sensing advantage.",
+  "outputs": [
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/matched_fisher_reference.pdf",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/matched_fisher_reference.png"
+  ]
+}

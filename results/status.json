@@ -1,0 +1,12 @@
+{
+  "environment_gate": "PASS",
+  "extended_gates": {
+    "covariance_fisher": "PASS",
+    "flux_grid": "PASS"
+  },
+  "extended_status": "PASS",
+  "floquet_lyapunov_gate": "PASS",
+  "model_gate": "PASS",
+  "reason": null,
+  "status": "PASS"
+}

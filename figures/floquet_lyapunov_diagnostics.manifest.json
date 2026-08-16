@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/results/floquet_lyapunov.json",
+  "outputs": [
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/floquet_lyapunov_diagnostics.pdf",
+    "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/figures/floquet_lyapunov_diagnostics.png"
+  ],
+  "no_mock_data": true
+}

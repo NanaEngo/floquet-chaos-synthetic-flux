@@ -1,0 +1,329 @@
+{
+  "calibration_status": "PROVISIONAL",
+  "candidate_count": 8,
+  "candidate_records": [
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.801652234806506e-06,
+        "resource_cost": 0.15091529866003056,
+        "robustness_margin": 4.801652234806506e-06,
+        "stability_margin": 4.801652234806506e-06
+      },
+      "normalized_parameters": {
+        "detuning": 0.9699842936981067,
+        "drive": 0.15091529866003056,
+        "drive_frequency": 1.014450219823535,
+        "drive_modulation": 0.10434937585172685,
+        "g1": 9.907941404308425e-05,
+        "g2": 0.0001076376741996596,
+        "gamma1": 1.0775255961164313e-05,
+        "gamma2": 1.180318926100363e-05,
+        "hopping": 0.00020326924848744759,
+        "kappa": 0.06913610495600027,
+        "omega1": 0.9592338076693286,
+        "omega2": 0.9344546202905488
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "reason": "periodic orbit failed under robustness replicate",
+      "status": "FAIL"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.505417265145481e-06,
+        "resource_cost": 0.08555793107378042,
+        "robustness_margin": 4.505417265145481e-06,
+        "stability_margin": 4.505417265145481e-06
+      },
+      "normalized_parameters": {
+        "detuning": 0.920175248427716,
+        "drive": 0.08555793107378042,
+        "drive_frequency": 1.0596080920601816,
+        "drive_modulation": 0.08522337301537872,
+        "g1": 0.00010384294220938561,
+        "g2": 9.816288121012474e-05,
+        "gamma1": 1.1828281015419746e-05,
+        "gamma2": 1.0665528279423045e-05,
+        "hopping": 0.00018243399229917192,
+        "kappa": 0.06669108887264161,
+        "omega1": 0.9985593686833844,
+        "omega2": 1.0569381340372186
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.324168500919258e-06,
+        "resource_cost": 0.19120901189656442,
+        "robustness_margin": 4.324168500919258e-06,
+        "stability_margin": 4.324168500919258e-06
+      },
+      "normalized_parameters": {
+        "detuning": 1.0404117904301073,
+        "drive": 0.19120901189656442,
+        "drive_frequency": 0.987010882149815,
+        "drive_modulation": 0.06531666664243865,
+        "g1": 0.0001146211327658375,
+        "g2": 0.0001160147306368653,
+        "gamma1": 1.1199613160598503e-05,
+        "gamma2": 9.892029890965889e-06,
+        "hopping": 0.00020580881996003442,
+        "kappa": 0.0706036743422831,
+        "omega1": 0.9269527401721133,
+        "omega2": 1.006795460773461
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -5.321264935314243e-06,
+        "resource_cost": 0.33458246951962944,
+        "robustness_margin": 5.321264935314243e-06,
+        "stability_margin": 5.321264935314243e-06
+      },
+      "normalized_parameters": {
+        "detuning": 0.994541631385871,
+        "drive": 0.33458246951962944,
+        "drive_frequency": 1.028917443086337,
+        "drive_modulation": 0.06000021072216259,
+        "g1": 0.00010144740653600933,
+        "g2": 0.00011037621433856143,
+        "gamma1": 1.0646504652685013e-05,
+        "gamma2": 1.0957430714716179e-05,
+        "hopping": 0.00019545162738020724,
+        "kappa": 0.07943060082411499,
+        "omega1": 1.090208928914586,
+        "omega2": 1.0922232463388033
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "reason": "periodic orbit failed under robustness replicate",
+      "status": "FAIL"
+    },
+    {
+      "reason": "periodic orbit failed under robustness replicate",
+      "status": "FAIL"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.765973890287664e-06,
+        "resource_cost": 0.24231609490338513,
+        "robustness_margin": 4.765973890287664e-06,
+        "stability_margin": 4.765973890287664e-06
+      },
+      "normalized_parameters": {
+        "detuning": 1.0189037037657633,
+        "drive": 0.24231609490338513,
+        "drive_frequency": 0.9608225656494594,
+        "drive_modulation": 0.12555754307664896,
+        "g1": 0.00010736604695009205,
+        "g2": 0.00011115809330471402,
+        "gamma1": 1.0394897783363203e-05,
+        "gamma2": 1.1533084583762957e-05,
+        "hopping": 0.00018717574986041864,
+        "kappa": 0.07634556596819489,
+        "omega1": 1.0249665907644383,
+        "omega2": 0.9736238299669476
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    }
+  ],
+  "feasible_count": 5,
+  "interpretation": "Provisional literature-anchored numerical Pareto screening; not an experimental optimum.",
+  "kind": "robust_pareto_optimization",
+  "manifest": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos/physical_parameter_manifest_literature_scenario.json",
+  "objective": {
+    "candidate_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "constraint_scope": "numerical screening only; no hardware power, bandwidth, temperature, or fabrication constraint has been supplied",
+    "constraints": [
+      {
+        "metric": "stability_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "robustness_margin",
+        "operator": ">=",
+        "value": 0.0
+      },
+      {
+        "metric": "resource_cost",
+        "operator": "<=",
+        "value": 0.5
+      }
+    ],
+    "secondary_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "selection_note": "This scenario is permitted only for exploratory numerical screening. It must not be called physically optimized until the drive mapping and hardware constraints are supplied.",
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY"
+  },
+  "orbit_max_iter": 600,
+  "orbit_residual_tol": 0.0001,
+  "pareto_candidates": [
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.801652234806506e-06,
+        "resource_cost": 0.15091529866003056,
+        "robustness_margin": 4.801652234806506e-06,
+        "stability_margin": 4.801652234806506e-06
+      },
+      "normalized_parameters": {
+        "detuning": 0.9699842936981067,
+        "drive": 0.15091529866003056,
+        "drive_frequency": 1.014450219823535,
+        "drive_modulation": 0.10434937585172685,
+        "g1": 9.907941404308425e-05,
+        "g2": 0.0001076376741996596,
+        "gamma1": 1.0775255961164313e-05,
+        "gamma2": 1.180318926100363e-05,
+        "hopping": 0.00020326924848744759,
+        "kappa": 0.06913610495600027,
+        "omega1": 0.9592338076693286,
+        "omega2": 0.9344546202905488
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.505417265145481e-06,
+        "resource_cost": 0.08555793107378042,
+        "robustness_margin": 4.505417265145481e-06,
+        "stability_margin": 4.505417265145481e-06
+      },
+      "normalized_parameters": {
+        "detuning": 0.920175248427716,
+        "drive": 0.08555793107378042,
+        "drive_frequency": 1.0596080920601816,
+        "drive_modulation": 0.08522337301537872,
+        "g1": 0.00010384294220938561,
+        "g2": 9.816288121012474e-05,
+        "gamma1": 1.1828281015419746e-05,
+        "gamma2": 1.0665528279423045e-05,
+        "hopping": 0.00018243399229917192,
+        "kappa": 0.06669108887264161,
+        "omega1": 0.9985593686833844,
+        "omega2": 1.0569381340372186
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.324168500919258e-06,
+        "resource_cost": 0.19120901189656442,
+        "robustness_margin": 4.324168500919258e-06,
+        "stability_margin": 4.324168500919258e-06
+      },
+      "normalized_parameters": {
+        "detuning": 1.0404117904301073,
+        "drive": 0.19120901189656442,
+        "drive_frequency": 0.987010882149815,
+        "drive_modulation": 0.06531666664243865,
+        "g1": 0.0001146211327658375,
+        "g2": 0.0001160147306368653,
+        "gamma1": 1.1199613160598503e-05,
+        "gamma2": 9.892029890965889e-06,
+        "hopping": 0.00020580881996003442,
+        "kappa": 0.0706036743422831,
+        "omega1": 0.9269527401721133,
+        "omega2": 1.006795460773461
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -5.321264935314243e-06,
+        "resource_cost": 0.33458246951962944,
+        "robustness_margin": 5.321264935314243e-06,
+        "stability_margin": 5.321264935314243e-06
+      },
+      "normalized_parameters": {
+        "detuning": 0.994541631385871,
+        "drive": 0.33458246951962944,
+        "drive_frequency": 1.028917443086337,
+        "drive_modulation": 0.06000021072216259,
+        "g1": 0.00010144740653600933,
+        "g2": 0.00011037621433856143,
+        "gamma1": 1.0646504652685013e-05,
+        "gamma2": 1.0957430714716179e-05,
+        "hopping": 0.00019545162738020724,
+        "kappa": 0.07943060082411499,
+        "omega1": 1.090208928914586,
+        "omega2": 1.0922232463388033
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    },
+    {
+      "feasible": true,
+      "metrics": {
+        "classical_fisher_information": null,
+        "floquet_max_rate": -4.765973890287664e-06,
+        "resource_cost": 0.24231609490338513,
+        "robustness_margin": 4.765973890287664e-06,
+        "stability_margin": 4.765973890287664e-06
+      },
+      "normalized_parameters": {
+        "detuning": 1.0189037037657633,
+        "drive": 0.24231609490338513,
+        "drive_frequency": 0.9608225656494594,
+        "drive_modulation": 0.12555754307664896,
+        "g1": 0.00010736604695009205,
+        "g2": 0.00011115809330471402,
+        "gamma1": 1.0394897783363203e-05,
+        "gamma2": 1.1533084583762957e-05,
+        "hopping": 0.00018717574986041864,
+        "kappa": 0.07634556596819489,
+        "omega1": 1.0249665907644383,
+        "omega2": 0.9736238299669476
+      },
+      "robust_replicates": 3,
+      "status": "PASS"
+    }
+  ],
+  "pareto_count": 5,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-13T21:30:27.411121+00:00",
+  "robust_replicates": 3,
+  "samples": 8,
+  "seed": 20260813,
+  "status": "PROVISIONAL"
+}

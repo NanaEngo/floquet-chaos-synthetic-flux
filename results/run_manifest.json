@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-08-16T07:15:42.326205+00:00",
+  "environment_manifest": "environment_manifest.json",
+  "extended_gates": {
+    "covariance_fisher": "PASS",
+    "flux_grid": "PASS"
+  },
+  "extended_status": "PASS",
+  "fl_qom_revision": "5fb5b3d98cdecc977c865525d4225cc5d434a0c2",
+  "fl_qom_root": "/home/nanaengo/FL_QOM",
+  "input_results": [
+    "model_gate.json",
+    "floquet_lyapunov.json",
+    "flux_grid.json",
+    "covariance_fisher.json"
+  ],
+  "no_mock_data": true,
+  "parameters": "parameters.json",
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "source_hashes": "source_hashes.json",
+  "status": "PASS",
+  "status_file": "status.json",
+  "workspace": "/home/nanaengo/Floquet_COM_Synthetic_Magnetism_Analysis/Q1_Papers/manuscripts/track_D_chaos",
+  "workspace_revision": "8b8ddb59fd17cf006992813abf886434660365bc"
+}

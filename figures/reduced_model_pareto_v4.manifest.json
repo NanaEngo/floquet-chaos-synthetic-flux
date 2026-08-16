@@ -1,0 +1,11 @@
+{
+  "caption_alt": "Scatter of sixteen feasible candidates of the reduced adiabatic model in normalized drive cost versus worst-replicate stability margin, with the three non-dominated candidates marked by crimson stars and joined by a dashed front. The front trades increasing drive cost for increasing stability margin. Model-level only.",
+  "figure": "reduced_model_pareto_v4",
+  "generated_at_utc": "2026-08-16T17:30:59.598417+00:00",
+  "generator": "scripts/plot_reduced_model_pareto_v4.py",
+  "outputs": [
+    "reduced_model_pareto_v4.pdf",
+    "reduced_model_pareto_v4.png"
+  ],
+  "source_json": "results/physical_parameter_reduced_bad_cavity_pareto_v4.json"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "CONDITIONAL_NOT_SI_CALIBRATION",
+  "scientific_status": "MODEL_LEVEL_TRANSLATION_ONLY",
+  "source_result": "physical_parameter_optimization_model_recovery.json",
+  "formula": {
+    "model_drive": "E_model = sqrt(kappa_normalized) * alpha_in_normalized",
+    "required_input_amplitude": "alpha_in_normalized = E_model / sqrt(kappa_normalized)",
+    "conditional_power": "P_in = hbar * omega_p * omega_ref * alpha_in_normalized^2"
+  },
+  "candidates": [
+    {
+      "candidate": 1,
+      "drive_normalized": 0.3401752501669761,
+      "kappa_normalized": 1.0189333106052276,
+      "alpha_in_normalized_required": 0.3369999471053824,
+      "power_expression_coefficient": 0.11356896434903054,
+      "power_expression": "P_in = hbar * omega_p * omega_ref * 0.11356896434903054"
+    },
+    {
+      "candidate": 2,
+      "drive_normalized": 0.12496583473157982,
+      "kappa_normalized": 0.9507573003957852,
+      "alpha_in_normalized_required": 0.12816116899045374,
+      "power_expression_coefficient": 0.01642528523699964,
+      "power_expression": "P_in = hbar * omega_p * omega_ref * 0.01642528523699964"
+    }
+  ],
+  "missing_for_SI_power": [
+    "omega_p_rad_s",
+    "omega_ref_rad_s",
+    "explicit alpha_in convention in sqrt(photons/s)",
+    "physical kappa_rad_s and its relation to the normalized candidate"
+  ],
+  "interpretation": "The translation is algebraically determined at model level. It is not a laser-power estimate and must not be treated as experimental calibration until the missing SI inputs are supplied."
+}
