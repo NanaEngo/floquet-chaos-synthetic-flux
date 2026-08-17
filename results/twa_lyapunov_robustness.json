@@ -1,0 +1,669 @@
+{
+  "coupling": {
+    "detuning": -1.0,
+    "g1": 0.3,
+    "g2": 0.27,
+    "gamma1": 0.02,
+    "gamma2": 0.02,
+    "hopping": 0.08
+  },
+  "gate": "TWA_LYAPUNOV_ROBUSTNESS",
+  "interpretation": "Truncated-Wigner robustness of the finite-time hyperchaos classification: the full six-exponent spectrum is recomputed from vacuum Wigner-sampled initial conditions (variance 1/2 per quadrature, the TWA quantum-fluctuation scale) around each strong-coupling attractor. If the hyperchaos order n_+ is unchanged across the ensemble, quantum fluctuations at the TWA level do not alter the semiclassical classification. This is not a full master-equation solution and supports no quantum-state (Wigner-negativity/QFI) claim.",
+  "kind": "truncated_wigner_quantum_fluctuation_lyapunov_robustness",
+  "n_ens_per_point": 12,
+  "n_steps": 1000000,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "points": [
+    {
+      "attractor_reference": {
+        "divergence_residual": 0.0010336532163888537,
+        "largest_exponent": 0.08746609488323452,
+        "lyapunov_spectrum": [
+          -0.7312491103648419,
+          -0.3754748243793821,
+          -0.011883180249647352,
+          -0.009989185832681694,
+          9.655272692969543e-05,
+          0.08746609488323452
+        ],
+        "n_positive_exponents": 1,
+        "status": "PASS"
+      },
+      "drive": 4.0,
+      "ensemble": [
+        {
+          "divergence_residual": 0.001072649943340255,
+          "largest_exponent": 0.08220230641228628,
+          "lyapunov_spectrum": [
+            -0.7319310016579578,
+            -0.37161622471993444,
+            -0.01243015545961968,
+            -0.0077258010172167385,
+            0.0004282264991022296,
+            0.08220230641228628
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010286033954041499,
+          "largest_exponent": 0.09601488957784451,
+          "lyapunov_spectrum": [
+            -0.7327616926627061,
+            -0.38399359897010615,
+            -0.011904244668780881,
+            -0.008269736306761458,
+            -0.00011422036489399046,
+            0.09601488957784451
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010831444361614553,
+          "largest_exponent": 0.08468484714160569,
+          "lyapunov_spectrum": [
+            -0.7216630903639255,
+            -0.3866298554416313,
+            -0.010594774044916242,
+            -0.008990420416321017,
+            0.0021101486890267324,
+            0.08468484714160569
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.001079785238482546,
+          "largest_exponent": 0.08904941197616104,
+          "lyapunov_spectrum": [
+            -0.7220663355477211,
+            -0.39067232386991385,
+            -0.010619550853926565,
+            -0.007452090428168181,
+            0.0006811034850859964,
+            0.08904941197616104
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010395804949152945,
+          "largest_exponent": 0.08804470743543369,
+          "lyapunov_spectrum": [
+            -0.7235003126326133,
+            -0.38553938451902653,
+            -0.011892313986638186,
+            -0.008613094480989857,
+            0.0004608176889190567,
+            0.08804470743543369
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010923864298051714,
+          "largest_exponent": 0.08603016349524803,
+          "lyapunov_spectrum": [
+            -0.7220108907835989,
+            -0.3874058987474758,
+            -0.010366910207006762,
+            -0.008261238146121432,
+            0.0009223879591494772,
+            0.08603016349524803
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010606721623625318,
+          "largest_exponent": 0.08577603727364218,
+          "lyapunov_spectrum": [
+            -0.7248909703302959,
+            -0.38151239252433455,
+            -0.01257639710921955,
+            -0.008119741950285675,
+            0.00026279247813103956,
+            0.08577603727364218
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010772898294551317,
+          "largest_exponent": 0.08841030712072384,
+          "lyapunov_spectrum": [
+            -0.7217541256221347,
+            -0.3911603921808439,
+            -0.010785438026724404,
+            -0.007953748164028817,
+            0.0021661070435529148,
+            0.08841030712072384
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.001043386078362775,
+          "largest_exponent": 0.09019447481370717,
+          "lyapunov_spectrum": [
+            -0.7223895970149025,
+            -0.39016219420653364,
+            -0.011475381942442978,
+            -0.008336484015112743,
+            0.001125796286921956,
+            0.09019447481370717
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010534095482244502,
+          "largest_exponent": 0.09301148436927806,
+          "lyapunov_spectrum": [
+            -0.7288931731743704,
+            -0.38653339632478906,
+            -0.012158709120247123,
+            -0.008070939777982563,
+            0.0015913244798866995,
+            0.09301148436927806
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010672239612241965,
+          "largest_exponent": 0.08848170218671088,
+          "lyapunov_spectrum": [
+            -0.727273371091184,
+            -0.3797615694053821,
+            -0.013280308078615058,
+            -0.007818965606797838,
+            -0.0014147119659561154,
+            0.08848170218671088
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0010876890303504264,
+          "largest_exponent": 0.08687178602994391,
+          "lyapunov_spectrum": [
+            -0.7223221419326796,
+            -0.3882083795655181,
+            -0.009565402782674112,
+            -0.0070292574960457805,
+            -0.0008342932833766862,
+            0.08687178602994391
+          ],
+          "n_positive_exponents": 1,
+          "status": "PASS"
+        }
+      ],
+      "largest_exponent_spread": {
+        "max": 0.09601488957784451,
+        "min": 0.08220230641228628
+      },
+      "n_ens": 12,
+      "n_pos_ensemble": {
+        "max": 2,
+        "mean": 1.3333333333333333,
+        "min": 1,
+        "values": [
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          1,
+          1
+        ]
+      },
+      "n_pos_reference": 1,
+      "robust": false,
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "attractor_reference": {
+        "divergence_residual": 0.004891134509161975,
+        "largest_exponent": 0.24714881769976543,
+        "lyapunov_spectrum": [
+          -0.8987594215641391,
+          -0.4011825670438722,
+          -0.009654626428258631,
+          -0.0078121293185455035,
+          0.03515106116421203,
+          0.24714881769976543
+        ],
+        "n_positive_exponents": 2,
+        "status": "PASS"
+      },
+      "drive": 8.0,
+      "ensemble": [
+        {
+          "divergence_residual": 0.005310381831410603,
+          "largest_exponent": 0.23341376176833248,
+          "lyapunov_spectrum": [
+            -0.8864465921604038,
+            -0.3978627714340501,
+            -0.010016678008923297,
+            -0.007640087970631632,
+            0.03386274963708679,
+            0.23341376176833248
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.005974489976744178,
+          "largest_exponent": 0.23227699800411872,
+          "lyapunov_spectrum": [
+            -0.8818302735658221,
+            -0.3979584416759717,
+            -0.009997091096558476,
+            -0.009022296542296365,
+            0.03250559485327392,
+            0.23227699800411872
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.006013815082105377,
+          "largest_exponent": 0.23331488312590531,
+          "lyapunov_spectrum": [
+            -0.8728078385420991,
+            -0.40889694757280465,
+            -0.011348161611540805,
+            -0.00847977585489137,
+            0.0342316555375359,
+            0.23331488312590531
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.005326345074819293,
+          "largest_exponent": 0.2456680962627301,
+          "lyapunov_spectrum": [
+            -0.8904040260730172,
+            -0.4047301248193847,
+            -0.01058146717951053,
+            -0.008499424089983264,
+            0.033873290973984976,
+            0.2456680962627301
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.005658669939694071,
+          "largest_exponent": 0.2330376179458789,
+          "lyapunov_spectrum": [
+            -0.8769577748536291,
+            -0.40828679792237244,
+            -0.009852967159173187,
+            -0.00810485718899342,
+            0.03582344911798338,
+            0.2330376179458789
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.005661751183060969,
+          "largest_exponent": 0.2322902138976714,
+          "lyapunov_spectrum": [
+            -0.8809711667174785,
+            -0.39737748863521266,
+            -0.010714724708276033,
+            -0.008021059736939597,
+            0.030455977083296396,
+            0.2322902138976714
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.005507615970406131,
+          "largest_exponent": 0.24275414415253763,
+          "lyapunov_spectrum": [
+            -0.8825283779290618,
+            -0.41271518647000655,
+            -0.009652319647798472,
+            -0.008439482099499867,
+            0.036088837964235246,
+            0.24275414415253763
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.006214106675956198,
+          "largest_exponent": 0.225203147752896,
+          "lyapunov_spectrum": [
+            -0.8802451222960771,
+            -0.39642276489566397,
+            -0.009652137016371845,
+            -0.008620113509274928,
+            0.03595109664044819,
+            0.225203147752896
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.006135078039438656,
+          "largest_exponent": 0.22867354348533947,
+          "lyapunov_spectrum": [
+            -0.8777151517003791,
+            -0.4043517131353792,
+            -0.009909916374274026,
+            -0.0074870851855618455,
+            0.03692540094969307,
+            0.22867354348533947
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.004966832929482044,
+          "largest_exponent": 0.24733866786385403,
+          "lyapunov_spectrum": [
+            -0.8959998488761051,
+            -0.40068940011783094,
+            -0.010007716521142287,
+            -0.007906002027075398,
+            0.032231132607781605,
+            0.24733866786385403
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.006128200346842326,
+          "largest_exponent": 0.22806970192899478,
+          "lyapunov_spectrum": [
+            -0.8731483751574491,
+            -0.4027472551816784,
+            -0.009635213314047323,
+            -0.0075603178591801415,
+            0.031149659930202536,
+            0.22806970192899478
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.006196264740110778,
+          "largest_exponent": 0.22589514357258939,
+          "lyapunov_spectrum": [
+            -0.8769082857718397,
+            -0.3985145926622944,
+            -0.009757339088536189,
+            -0.008453530241438668,
+            0.03393486893163041,
+            0.22589514357258939
+          ],
+          "n_positive_exponents": 2,
+          "status": "PASS"
+        }
+      ],
+      "largest_exponent_spread": {
+        "max": 0.24733866786385403,
+        "min": 0.225203147752896
+      },
+      "n_ens": 12,
+      "n_pos_ensemble": {
+        "max": 2,
+        "mean": 2.0,
+        "min": 2,
+        "values": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      "n_pos_reference": 2,
+      "robust": true,
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "attractor_reference": {
+        "divergence_residual": 0.0013968763437408258,
+        "largest_exponent": 0.31165559606384685,
+        "lyapunov_spectrum": [
+          -0.9326919996447179,
+          -0.49110667275374853,
+          0.0024016745624167407,
+          0.019051516292964154,
+          0.05208676182297936,
+          0.31165559606384685
+        ],
+        "n_positive_exponents": 4,
+        "status": "PASS"
+      },
+      "drive": 8.0,
+      "ensemble": [
+        {
+          "divergence_residual": 0.0016459314055874072,
+          "largest_exponent": 0.3181506923917672,
+          "lyapunov_spectrum": [
+            -0.9344665334332606,
+            -0.4988336866590422,
+            0.005554112448632,
+            0.0202406764579818,
+            0.0510006701995091,
+            0.3181506923917672
+          ],
+          "n_positive_exponents": 4,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.001848316504100743,
+          "largest_exponent": 0.29414142372029045,
+          "lyapunov_spectrum": [
+            -0.9287415443434185,
+            -0.4375070865506542,
+            -0.014305005955447755,
+            0.004279956832813588,
+            0.043980572800517176,
+            0.29414142372029045
+          ],
+          "n_positive_exponents": 3,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.002486189789962144,
+          "largest_exponent": 0.3032954341225595,
+          "lyapunov_spectrum": [
+            -0.9327757460474123,
+            -0.47222113982597136,
+            -0.0031719298822073037,
+            0.014866981573392687,
+            0.05249258984960085,
+            0.3032954341225595
+          ],
+          "n_positive_exponents": 3,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0016769654443986245,
+          "largest_exponent": 0.31927780458759775,
+          "lyapunov_spectrum": [
+            -0.9369580844293216,
+            -0.4946501425373778,
+            0.0024089347685029828,
+            0.019023922425894766,
+            0.0525745306291026,
+            0.31927780458759775
+          ],
+          "n_positive_exponents": 4,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0016921289954059046,
+          "largest_exponent": 0.3062456969036822,
+          "lyapunov_spectrum": [
+            -0.9360128303411415,
+            -0.4846802044851394,
+            0.0027875430021562946,
+            0.017243573362522992,
+            0.05610835055332559,
+            0.3062456969036822
+          ],
+          "n_positive_exponents": 4,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0015472021811748435,
+          "largest_exponent": 0.31095705681516794,
+          "lyapunov_spectrum": [
+            -0.9366067607338529,
+            -0.4621561543653195,
+            -0.008201318819618492,
+            0.008057844504815847,
+            0.04949653477998195,
+            0.31095705681516794
+          ],
+          "n_positive_exponents": 3,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0016849051393976397,
+          "largest_exponent": 0.3187413039398456,
+          "lyapunov_spectrum": [
+            -0.9405281824694574,
+            -0.4898273043815539,
+            0.0009231231777092347,
+            0.017198138682900745,
+            0.055177826189953386,
+            0.3187413039398456
+          ],
+          "n_positive_exponents": 3,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.002809254602219778,
+          "largest_exponent": 0.3197469650941975,
+          "lyapunov_spectrum": [
+            -0.9385366038867166,
+            -0.49085856106203885,
+            0.0006093253988896512,
+            0.016834541774025404,
+            0.055013587283862596,
+            0.3197469650941975
+          ],
+          "n_positive_exponents": 3,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.0014118671514733103,
+          "largest_exponent": 0.3118308030667975,
+          "lyapunov_spectrum": [
+            -0.9340793226586926,
+            -0.4872764485839969,
+            0.0012039157641244966,
+            0.019554090312369668,
+            0.05017882925087083,
+            0.3118308030667975
+          ],
+          "n_positive_exponents": 4,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.001684396747851001,
+          "largest_exponent": 0.32256227746368704,
+          "lyapunov_spectrum": [
+            -0.9367853764124097,
+            -0.4958475940142281,
+            0.0014866060308775136,
+            0.01849726640228213,
+            0.05177121727764179,
+            0.32256227746368704
+          ],
+          "n_positive_exponents": 4,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.001644416946954018,
+          "largest_exponent": 0.3218739892262983,
+          "lyapunov_spectrum": [
+            -0.9418700150995382,
+            -0.4890151947606333,
+            0.0008366835385665178,
+            0.015741353267654044,
+            0.054077600774606736,
+            0.3218739892262983
+          ],
+          "n_positive_exponents": 3,
+          "status": "PASS"
+        },
+        {
+          "divergence_residual": 0.001365377239907116,
+          "largest_exponent": 0.3197468112550598,
+          "lyapunov_spectrum": [
+            -0.9405624729378675,
+            -0.4918640234016272,
+            0.0023045369089880014,
+            0.018987638096040288,
+            0.0527528873193137,
+            0.3197468112550598
+          ],
+          "n_positive_exponents": 4,
+          "status": "PASS"
+        }
+      ],
+      "largest_exponent_spread": {
+        "max": 0.32256227746368704,
+        "min": 0.29414142372029045
+      },
+      "n_ens": 12,
+      "n_pos_ensemble": {
+        "max": 4,
+        "mean": 3.5,
+        "min": 3,
+        "values": [
+          4,
+          3,
+          3,
+          4,
+          4,
+          3,
+          3,
+          3,
+          4,
+          4,
+          3,
+          4
+        ]
+      },
+      "n_pos_reference": 4,
+      "robust": false,
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    }
+  ],
+  "positive_exponent_threshold": 0.001,
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-17T10:01:57.846466+00:00",
+  "status": "PASS",
+  "transient_steps": 100000,
+  "wigner_noise_variance_per_quadrature": 0.5
+}

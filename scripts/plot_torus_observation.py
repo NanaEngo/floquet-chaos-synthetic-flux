@@ -37,6 +37,8 @@ def main() -> int:
         by_phase.setdefault(str(r["theta_over_pi"]), []).append(r)
 
     fig, axes = plt.subplots(2, 2, figsize=(8.2, 7.0))
+    top_letters = ["(a)", "(b)"]
+    bot_letters = ["(c)", "(d)"]
     for col, phase in enumerate(sorted(by_phase, key=float)):
         rs = sorted(by_phase[phase], key=lambda r: r["drive"])
         # Poincare section at the closest-to-onset drive.
@@ -45,10 +47,14 @@ def main() -> int:
         b1r = np.asarray(r0["poincare_points_b1r"])
         b1i = np.asarray(r0["poincare_points_b1i"])
         ax.scatter(b1r, b1i, s=2, alpha=0.5, color="#1f77b4")
-        ax.set_title(rf"$\theta={r0['theta_over_pi']:.2f}\pi$, "
-                     rf"$E={r0['drive']:.3f}$ ($\approx E^*+{r0['offset_above_onset']:.2f}$)"
-                     + "\n" + rf"$\lambda_1={r0['largest_exponent']:+.3f}$, "
-                     rf"$\lambda_2={r0['second_exponent']:+.3f}$", fontsize=8.5)
+        ax.text(0.02, 0.98, top_letters[col], transform=ax.transAxes,
+                va="top", ha="left", fontsize=11)
+        ax.text(0.98, 0.98,
+                rf"$\theta={r0['theta_over_pi']:.2f}\pi$, "
+                rf"$E={r0['drive']:.3f}$ ($\approx E^*+{r0['offset_above_onset']:.2f}$)"
+                + "\n" + rf"$\lambda_1={r0['largest_exponent']:+.3f}$, "
+                rf"$\lambda_2={r0['second_exponent']:+.3f}$",
+                transform=ax.transAxes, va="top", ha="right", fontsize=8.5)
         ax.set_xlabel(r"$\mathrm{Re}\,\beta_1$")
         ax.set_ylabel(r"$\mathrm{Im}\,\beta_1$")
         ax.set_aspect("equal")
@@ -64,15 +70,13 @@ def main() -> int:
                     label=f"onset $E^*={r0['onset_E']:.3f}$")
         ax2.set_xlabel("drive $E$")
         ax2.set_ylabel(r"largest Lyapunov exponent $\lambda_1$")
-        ax2.set_title("Near-marginal just above onset, growing with drive",
-                      fontsize=8.5)
+        ax2.text(0.02, 0.98, bot_letters[col], transform=ax2.transAxes,
+                 va="top", ha="left", fontsize=11)
         ax2.legend(fontsize=7)
 
     axes[0, 0].set_ylabel(r"$\mathrm{Im}\,\beta_1$")
     axes[0, 1].set_ylabel(r"$\mathrm{Im}\,\beta_1$")
-    fig.suptitle("Neimark--Sacker torus: stroboscopic section and largest "
-                 "exponent", fontsize=10)
-    fig.tight_layout(rect=(0, 0, 1, 0.95))
+    fig.tight_layout()
 
     a.output.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(a.output)

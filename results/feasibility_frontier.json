@@ -1,0 +1,881 @@
+{
+  "anchor_g0_over_omega_m": 0.000118,
+  "anchor_sources": [
+    "Mayor et al., Nat. Commun. 16, 2576 (2025)"
+  ],
+  "drives": [
+    0.5,
+    1.0,
+    2.0,
+    4.0,
+    8.0
+  ],
+  "g1_grid": [
+    0.02,
+    0.0294,
+    0.0433,
+    0.0637,
+    0.0937,
+    0.138,
+    0.203,
+    0.3
+  ],
+  "gate": "FEASIBILITY_FRONTIER",
+  "global_hyperchaos_onset": {
+    "drive": 8.0,
+    "g1": 0.203,
+    "n_positive": 2,
+    "reached": true
+  },
+  "global_minimum_hyperchaos_coupling": {
+    "drive": 8.0,
+    "g1": 0.203,
+    "n_positive": 2
+  },
+  "interpretation": "Minimum optomechanical coupling at which n_+ >= 2 (hyperchaos) is reached, as a function of the drive, with all other coordinates at the declared hyperchaos values. If the ratio to the anchor g0/omega_m = 1.18e-4 remains of order 1e3 across the whole envelope, the coupling gap is fundamental to the hyperchaos regime rather than an artefact of the single declared operating point. No input power is reported (drive is a model coordinate).",
+  "kind": "minimum_coupling_for_hyperchaos",
+  "n_steps": 1000000,
+  "parameters": {
+    "detuning": -1.0,
+    "g2": "0.9 * g1",
+    "gamma1": 0.02,
+    "gamma2": 0.02,
+    "hopping": 0.08,
+    "kappa": 1.0,
+    "theta": 0.0
+  },
+  "per_drive_onset": [
+    {
+      "chaos_onset_n_ge_1": {
+        "g1": null,
+        "reached": false
+      },
+      "drive": 0.5,
+      "hyperchaos_onset_n_ge_2": {
+        "g1": null,
+        "reached": false
+      }
+    },
+    {
+      "chaos_onset_n_ge_1": {
+        "g1": null,
+        "reached": false
+      },
+      "drive": 1.0,
+      "hyperchaos_onset_n_ge_2": {
+        "g1": null,
+        "reached": false
+      }
+    },
+    {
+      "chaos_onset_n_ge_1": {
+        "drive": 2.0,
+        "g1": 0.203,
+        "n_positive": 1,
+        "reached": true
+      },
+      "drive": 2.0,
+      "hyperchaos_onset_n_ge_2": {
+        "g1": null,
+        "reached": false
+      }
+    },
+    {
+      "chaos_onset_n_ge_1": {
+        "drive": 4.0,
+        "g1": 0.3,
+        "n_positive": 1,
+        "reached": true
+      },
+      "drive": 4.0,
+      "hyperchaos_onset_n_ge_2": {
+        "g1": null,
+        "reached": false
+      }
+    },
+    {
+      "chaos_onset_n_ge_1": {
+        "drive": 8.0,
+        "g1": 0.0937,
+        "n_positive": 1,
+        "reached": true
+      },
+      "drive": 8.0,
+      "hyperchaos_onset_n_ge_2": {
+        "drive": 8.0,
+        "g1": 0.203,
+        "n_positive": 2,
+        "reached": true
+      }
+    }
+  ],
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "positive_exponent_threshold": 0.001,
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "ratio_to_anchor": 1720.3389830508477,
+  "recorded_at_utc": "2026-08-17T10:24:29.368058+00:00",
+  "records": [
+    {
+      "divergence_residual": 4.7436959191439476e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.02,
+      "g1_index": 0,
+      "g2": 0.018000000000000002,
+      "largest_exponent": -0.01010847932528102,
+      "lyapunov_spectrum": [
+        -0.49930145203445336,
+        -0.49928739982505027,
+        -0.010640646252455453,
+        -0.010590080975161884,
+        -0.01011937854678945,
+        -0.01010847932528102
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.740546094320758e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.0294,
+      "g1_index": 1,
+      "g2": 0.02646,
+      "largest_exponent": -0.010392766085512133,
+      "lyapunov_spectrum": [
+        -0.49903027120051374,
+        -0.4990177154760634,
+        -0.010627434795906858,
+        -0.010572041426094402,
+        -0.010407176476852817,
+        -0.010392766085512133
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.73368645670727e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.0433,
+      "g1_index": 2,
+      "g2": 0.03897,
+      "largest_exponent": -0.010543368260484269,
+      "lyapunov_spectrum": [
+        -0.4983899593810617,
+        -0.4983767596649536,
+        -0.011076565988944237,
+        -0.011061839267512717,
+        -0.010598844301610542,
+        -0.010543368260484269
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.7188456647563604e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.0637,
+      "g1_index": 3,
+      "g2": 0.057330000000000006,
+      "largest_exponent": -0.010531756651096059,
+      "lyapunov_spectrum": [
+        -0.4969458369571383,
+        -0.4969346224385619,
+        -0.012531426923321501,
+        -0.012516211346402606,
+        -0.010587334140127174,
+        -0.010531756651096059
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.686630953502219e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.0937,
+      "g1_index": 4,
+      "g2": 0.08433,
+      "largest_exponent": -0.010558845386861627,
+      "lyapunov_spectrum": [
+        -0.4937313527156588,
+        -0.4937184828742486,
+        -0.015719747858057784,
+        -0.01570382021619517,
+        -0.01061461725851298,
+        -0.010558845386861627
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.6160845968125364e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.138,
+      "g1_index": 5,
+      "g2": 0.12420000000000002,
+      "largest_exponent": -0.010677983376443954,
+      "lyapunov_spectrum": [
+        -0.4864852670966872,
+        -0.4864776263803746,
+        -0.022844175529128135,
+        -0.02282701424153679,
+        -0.010734094221797512,
+        -0.010677983376443954
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.461138611592391e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.203,
+      "g1_index": 6,
+      "g2": 0.18270000000000003,
+      "largest_exponent": -0.011019907464783752,
+      "lyapunov_spectrum": [
+        -0.4698954150291443,
+        -0.46988552992225835,
+        -0.0390958357183645,
+        -0.03907166650574803,
+        -0.011076256745817081,
+        -0.011019907464783752
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.102286523059023e-05,
+      "drive": 0.5,
+      "drive_index": 0,
+      "g1": 0.3,
+      "g1_index": 7,
+      "g2": 0.27,
+      "largest_exponent": -0.011775189131066559,
+      "lyapunov_spectrum": [
+        -0.43126469935168005,
+        -0.4312338801647701,
+        -0.07697944640901822,
+        -0.07695833912541034,
+        -0.01182946868328536,
+        -0.011775189131066559
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.7355531398708683e-05,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.02,
+      "g1_index": 0,
+      "g2": 0.018000000000000002,
+      "largest_exponent": -0.010548285779287887,
+      "lyapunov_spectrum": [
+        -0.49856682012785203,
+        -0.4985547631988098,
+        -0.010894193772851809,
+        -0.010879544222366673,
+        -0.010603748430230866,
+        -0.010548285779287887
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.7229299570385186e-05,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.0294,
+      "g1_index": 1,
+      "g2": 0.02646,
+      "largest_exponent": -0.010531980167412303,
+      "lyapunov_spectrum": [
+        -0.49734736109103683,
+        -0.4973351314378565,
+        -0.012130165254069758,
+        -0.012115060746957066,
+        -0.01058753060223807,
+        -0.010531980167412303
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.6953791734728745e-05,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.0433,
+      "g1_index": 2,
+      "g2": 0.03897,
+      "largest_exponent": -0.010548327984443428,
+      "lyapunov_spectrum": [
+        -0.49461047633381877,
+        -0.49460018996050886,
+        -0.014849803855545973,
+        -0.014834105560979397,
+        -0.010604050096438469,
+        -0.010548327984443428
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.635491524610652e-05,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.0637,
+      "g1_index": 3,
+      "g2": 0.057330000000000006,
+      "largest_exponent": -0.010641139178732373,
+      "lyapunov_spectrum": [
+        -0.488500395285571,
+        -0.4884940418276865,
+        -0.020866307603148646,
+        -0.020847303843130972,
+        -0.01069716717697644,
+        -0.010641139178732373
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.5040976268929944e-05,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.0937,
+      "g1_index": 4,
+      "g2": 0.08433,
+      "largest_exponent": -0.010919888085799955,
+      "lyapunov_spectrum": [
+        -0.4745658729609519,
+        -0.47456462254109893,
+        -0.03451979382697394,
+        -0.03449859765510163,
+        -0.010976265906342772,
+        -0.010919888085799955
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.2071340687267755e-05,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.138,
+      "g1_index": 5,
+      "g2": 0.12420000000000002,
+      "largest_exponent": -0.011589035335869862,
+      "lyapunov_spectrum": [
+        -0.44209606777329635,
+        -0.4420887844255773,
+        -0.06632835436418089,
+        -0.06629563959057738,
+        -0.011644189851185396,
+        -0.011589035335869862
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 3.467924122472349e-05,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.203,
+      "g1_index": 6,
+      "g2": 0.18270000000000003,
+      "largest_exponent": -0.012074206634873524,
+      "lyapunov_spectrum": [
+        -0.3899565152531306,
+        -0.38995445639267357,
+        -0.11797959260255476,
+        -0.11794617575916248,
+        -0.012123732598829776,
+        -0.012074206634873524
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 7.321274159401148e-06,
+      "drive": 1.0,
+      "drive_index": 1,
+      "g1": 0.3,
+      "g1_index": 7,
+      "g2": 0.27,
+      "largest_exponent": -0.01008681162684568,
+      "lyapunov_spectrum": [
+        -0.602467955634739,
+        -0.2101917938978669,
+        -0.10356103441762667,
+        -0.10305393590502987,
+        -0.01064578979205133,
+        -0.01008681162684568
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.7028845939579844e-05,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.02,
+      "g1_index": 0,
+      "g2": 0.018000000000000002,
+      "largest_exponent": -0.010540761092588462,
+      "lyapunov_spectrum": [
+        -0.49536316696448857,
+        -0.49535040002120967,
+        -0.014105903766793194,
+        -0.014090358188502366,
+        -0.010596438812357372,
+        -0.010540761092588462
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.6520116300054204e-05,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.0294,
+      "g1_index": 1,
+      "g2": 0.02646,
+      "largest_exponent": -0.010611748672697234,
+      "lyapunov_spectrum": [
+        -0.4902052521780033,
+        -0.4901945615103328,
+        -0.019192635011872145,
+        -0.019174622818136415,
+        -0.01066769992525824,
+        -0.010611748672697234
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.5399814153669615e-05,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.0433,
+      "g1_index": 2,
+      "g2": 0.03897,
+      "largest_exponent": -0.010838503679157344,
+      "lyapunov_spectrum": [
+        -0.4784355960308021,
+        -0.4784265287010822,
+        -0.030736567432890837,
+        -0.030713360740124734,
+        -0.010894843230096464,
+        -0.010838503679157344
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.290445798441761e-05,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.0637,
+      "g1_index": 3,
+      "g2": 0.057330000000000006,
+      "largest_exponent": -0.011415303951985265,
+      "lyapunov_spectrum": [
+        -0.4511100968198358,
+        -0.45110958029970727,
+        -0.057483316743201514,
+        -0.05745391734656475,
+        -0.011470689296689726,
+        -0.011415303951985265
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 3.689249579012094e-05,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.0937,
+      "g1_index": 4,
+      "g2": 0.08433,
+      "largest_exponent": -0.012098261124069599,
+      "lyapunov_spectrum": [
+        -0.39933397198835197,
+        -0.39932300376740976,
+        -0.10856677249336859,
+        -0.10856595560311927,
+        -0.012148927519470769,
+        -0.012098261124069599
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 8.316556641477235e-07,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.138,
+      "g1_index": 5,
+      "g2": 0.12420000000000002,
+      "largest_exponent": -0.011099081540167624,
+      "lyapunov_spectrum": [
+        -0.7184667134742676,
+        -0.2296202576005184,
+        -0.034686287109764,
+        -0.034652665833346676,
+        -0.011475826097599834,
+        -0.011099081540167624
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.00015339989077082367,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.203,
+      "g1_index": 6,
+      "g2": 0.18270000000000003,
+      "largest_exponent": 0.06261766095075416,
+      "lyapunov_spectrum": [
+        -0.6535701835510092,
+        -0.4250494672791042,
+        -0.01611525199615249,
+        -0.008987747148550627,
+        0.0009515891332913822,
+        0.06261766095075416
+      ],
+      "n_positive_exponents": 1,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.0003724952707324994,
+      "drive": 2.0,
+      "drive_index": 2,
+      "g1": 0.3,
+      "g1_index": 7,
+      "g2": 0.27,
+      "largest_exponent": -0.0002987288700878136,
+      "lyapunov_spectrum": [
+        -0.8113629187593465,
+        -0.15945874569836738,
+        -0.049512311923513845,
+        -0.010032254298678196,
+        -0.009707535720738712,
+        -0.0002987288700878136
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.5706426627302454e-05,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.02,
+      "g1_index": 0,
+      "g2": 0.018000000000000002,
+      "largest_exponent": -0.01077139581185345,
+      "lyapunov_spectrum": [
+        -0.48170390953855763,
+        -0.4816974131489664,
+        -0.027533200078894152,
+        -0.027512123428675633,
+        -0.010827664419680175,
+        -0.01077139581185345
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.360296491138366e-05,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.0294,
+      "g1_index": 1,
+      "g2": 0.02646,
+      "largest_exponent": -0.011256988152372858,
+      "lyapunov_spectrum": [
+        -0.4588022548696895,
+        -0.4587901604149123,
+        -0.049952459131606654,
+        -0.04992885067724502,
+        -0.011312889719085359,
+        -0.011256988152372858
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 3.863335824897535e-05,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.0433,
+      "g1_index": 2,
+      "g2": 0.03897,
+      "largest_exponent": -0.012036766016393623,
+      "lyapunov_spectrum": [
+        -0.4103669679821486,
+        -0.41032100579683684,
+        -0.09762036259880778,
+        -0.09760504110511793,
+        -0.012088489858944144,
+        -0.012036766016393623
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 2.3353478606304157e-05,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.0637,
+      "g1_index": 3,
+      "g2": 0.057330000000000006,
+      "largest_exponent": -0.011584493166250735,
+      "lyapunov_spectrum": [
+        -0.37895048054439323,
+        -0.37893559802282323,
+        -0.12948981510386312,
+        -0.1294297184870258,
+        -0.01163324815425011,
+        -0.011584493166250735
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 5.7705064645786897e-05,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.0937,
+      "g1_index": 4,
+      "g2": 0.08433,
+      "largest_exponent": -0.0035969218273805828,
+      "lyapunov_spectrum": [
+        -0.7183407023554574,
+        -0.28906484788953596,
+        -0.01384070155343974,
+        -0.008487806493444187,
+        -0.006726724945387906,
+        -0.0035969218273805828
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.00037022165796377765,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.138,
+      "g1_index": 5,
+      "g2": 0.12420000000000002,
+      "largest_exponent": -0.00015837681568559134,
+      "lyapunov_spectrum": [
+        -0.427634108071361,
+        -0.4276080098381063,
+        -0.16510231075224724,
+        -0.01010103846517322,
+        -0.00976637771539035,
+        -0.00015837681568559134
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.0010499952766887324,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.203,
+      "g1_index": 6,
+      "g2": 0.18270000000000003,
+      "largest_exponent": -0.000504951119607442,
+      "lyapunov_spectrum": [
+        -0.7576396508853833,
+        -0.1762145496602861,
+        -0.08620081485852105,
+        -0.01026785576552745,
+        -0.010222172987363498,
+        -0.000504951119607442
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.0010491769721175173,
+      "drive": 4.0,
+      "drive_index": 3,
+      "g1": 0.3,
+      "g1_index": 7,
+      "g2": 0.27,
+      "largest_exponent": 0.08611905227580899,
+      "lyapunov_spectrum": [
+        -0.7177120914360693,
+        -0.38760418342254865,
+        -0.012727700277976007,
+        -0.00832712410686052,
+        -0.0007971300044723134,
+        0.08611905227580899
+      ],
+      "n_positive_exponents": 1,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 4.0055579419585874e-05,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.02,
+      "g1_index": 0,
+      "g2": 0.018000000000000002,
+      "largest_exponent": -0.011908680767747646,
+      "lyapunov_spectrum": [
+        -0.42204705667454673,
+        -0.42203055163424563,
+        -0.0860522334578397,
+        -0.08603961002999168,
+        -0.011961923015048219,
+        -0.011908680767747646
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 2.8692786140406545e-05,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.0294,
+      "g1_index": 1,
+      "g2": 0.02646,
+      "largest_exponent": -0.011811841925700877,
+      "lyapunov_spectrum": [
+        -0.3798765095840486,
+        -0.379861192800527,
+        -0.12832805936583247,
+        -0.12829191543588714,
+        -0.011859173674144262,
+        -0.011811841925700877
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 2.9699694316799585e-05,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.0433,
+      "g1_index": 2,
+      "g2": 0.03897,
+      "largest_exponent": -0.006014411891985063,
+      "lyapunov_spectrum": [
+        -0.7489923734053854,
+        -0.22028697225370794,
+        -0.024374383104501667,
+        -0.02022097093869978,
+        -0.020140588100037,
+        -0.006014411891985063
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.0003616658994461189,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.0637,
+      "g1_index": 3,
+      "g2": 0.057330000000000006,
+      "largest_exponent": -0.0004564726127134128,
+      "lyapunov_spectrum": [
+        -0.5660281776331587,
+        -0.31692236551165653,
+        -0.13683524793266627,
+        -0.010079295973551576,
+        -0.010040106235699545,
+        -0.0004564726127134128
+      ],
+      "n_positive_exponents": 0,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.000340087096949028,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.0937,
+      "g1_index": 4,
+      "g2": 0.08433,
+      "largest_exponent": 0.04703267820084541,
+      "lyapunov_spectrum": [
+        -0.7123255178118441,
+        -0.3484342350732553,
+        -0.01380655665696044,
+        -0.007830091276457334,
+        -0.004976364479277398,
+        0.04703267820084541
+      ],
+      "n_positive_exponents": 1,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.0008497279457347143,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.138,
+      "g1_index": 5,
+      "g2": 0.12420000000000002,
+      "largest_exponent": 0.11757011231934426,
+      "lyapunov_spectrum": [
+        -0.7550106515031619,
+        -0.3850898738075314,
+        -0.010549375565244235,
+        -0.008277453697202102,
+        0.0005075143080606332,
+        0.11757011231934426
+      ],
+      "n_positive_exponents": 1,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.0015067220929028471,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.203,
+      "g1_index": 6,
+      "g2": 0.18270000000000003,
+      "largest_exponent": 0.14428688871807666,
+      "lyapunov_spectrum": [
+        -0.7883823089150911,
+        -0.38373873539182135,
+        -0.010361812731514144,
+        -0.00786687847733678,
+        0.00455612470478409,
+        0.14428688871807666
+      ],
+      "n_positive_exponents": 2,
+      "status": "PASS"
+    },
+    {
+      "divergence_residual": 0.006015799232252671,
+      "drive": 8.0,
+      "drive_index": 4,
+      "g1": 0.3,
+      "g1_index": 7,
+      "g2": 0.27,
+      "largest_exponent": 0.22679224764093558,
+      "lyapunov_spectrum": [
+        -0.8800134656835207,
+        -0.3970449343626566,
+        -0.010671226338422192,
+        -0.008150882292608162,
+        0.03510406026852475,
+        0.22679224764093558
+      ],
+      "n_positive_exponents": 2,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "transient_steps": 100000
+}

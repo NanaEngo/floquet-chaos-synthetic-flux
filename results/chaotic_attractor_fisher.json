@@ -1,0 +1,152 @@
+{
+  "gate": "CHAOTIC_ATTRACTOR_MATCHED_FISHER",
+  "interpretation": "Matched classical measurement Fisher information evaluated directly on the chaotic attractor (ensemble+time record moments, central finite difference in the force). On a chaotic attractor the record variance is dominated by the deterministic chaotic spread rather than by detector noise, so F_C is strongly suppressed relative to the stable reference and the flux-phase gain is expected to be of order unity. A derivative is marked resolved only if it exceeds three bootstrap standard deviations of the center sampling error; an unresolved derivative is reported as such and its gain is not claimed. Not QFI and not a quantum-advantage claim.",
+  "kind": "classical_measurement_fisher_on_chaotic_attractor",
+  "measurement": {
+    "detector_noise_variance": 0.01,
+    "moments": "ensemble x time mean and variance over the observation window",
+    "observable": "cavity amplitude quadrature X_a = Re(alpha)",
+    "record": "y(t) = X_a(t) + nu_det(t)",
+    "thermal_occupations": [
+      0.1,
+      0.1
+    ]
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-17T09:31:31.770494+00:00",
+  "records": [
+    {
+      "E": 4.0,
+      "classical_fisher_information": 0.010820108477928523,
+      "d_mean_dF": -0.07113998587489873,
+      "d_variance_dF": -0.24904983398165048,
+      "derivative_resolved": true,
+      "force_eps": 0.1,
+      "gain_vs_flux_off": 1.0,
+      "gain_vs_single_mode": 1.0638003351276528,
+      "hopping": 0.08,
+      "record_mean": 0.4741521452381271,
+      "record_variance": 1.9429359262494788,
+      "sampling_mean_std": 0.017629762144833923,
+      "sampling_variance_std": 0.04419487116537156,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "E": 4.0,
+      "classical_fisher_information": 0.003081494786399797,
+      "d_mean_dF": -0.04499853212620808,
+      "d_variance_dF": -0.1481800920899934,
+      "derivative_resolved": false,
+      "force_eps": 0.1,
+      "gain_vs_flux_off": 0.2847933357309316,
+      "gain_vs_single_mode": 0.30296324599268715,
+      "hopping": 0.08,
+      "record_mean": 0.5600585999459089,
+      "record_variance": 2.2444654685389342,
+      "sampling_mean_std": 0.02574530277070851,
+      "sampling_variance_std": 0.06341090168041319,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "E": 4.0,
+      "classical_fisher_information": 0.005875836380665326,
+      "d_mean_dF": -0.05557353972487966,
+      "d_variance_dF": -0.17640158049374355,
+      "derivative_resolved": true,
+      "force_eps": 0.1,
+      "gain_vs_flux_off": 0.5430478255048176,
+      "gain_vs_single_mode": 0.5776944587623681,
+      "hopping": 0.08,
+      "record_mean": 0.4626315923980688,
+      "record_variance": 1.911136084537312,
+      "sampling_mean_std": 0.013123439374678449,
+      "sampling_variance_std": 0.03826014986141132,
+      "status": "PASS",
+      "theta": 3.141592653589793,
+      "theta_over_pi": 1.0
+    },
+    {
+      "E": 8.0,
+      "classical_fisher_information": 0.0005319782841619854,
+      "d_mean_dF": -0.016433066148721087,
+      "d_variance_dF": -0.11078775972045873,
+      "derivative_resolved": false,
+      "force_eps": 0.1,
+      "gain_vs_flux_off": 1.0,
+      "gain_vs_single_mode": 0.3215926611087011,
+      "hopping": 0.08,
+      "record_mean": 0.4453427692920954,
+      "record_variance": 3.659768944577501,
+      "sampling_mean_std": 0.020743087393370448,
+      "sampling_variance_std": 0.10643592182895807,
+      "status": "PASS",
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "E": 8.0,
+      "classical_fisher_information": 0.000709498900187414,
+      "d_mean_dF": -0.018238612909339258,
+      "d_variance_dF": -0.1537286990811504,
+      "derivative_resolved": false,
+      "force_eps": 0.1,
+      "gain_vs_flux_off": 1.333698989809468,
+      "gain_vs_single_mode": 0.42890780725081323,
+      "hopping": 0.08,
+      "record_mean": 0.537186579879166,
+      "record_variance": 4.322127844727427,
+      "sampling_mean_std": 0.03065505301741188,
+      "sampling_variance_std": 0.13391516633471742,
+      "status": "PASS",
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "E": 8.0,
+      "classical_fisher_information": 0.0011161537581555084,
+      "d_mean_dF": -0.02154161070261368,
+      "d_variance_dF": -0.16039256055324413,
+      "derivative_resolved": false,
+      "force_eps": 0.1,
+      "gain_vs_flux_off": 2.0981190236247382,
+      "gain_vs_single_mode": 0.6747396801302693,
+      "hopping": 0.08,
+      "record_mean": 0.44111807552683524,
+      "record_variance": 3.6089790316962422,
+      "sampling_mean_std": 0.01707749702840871,
+      "sampling_variance_std": 0.08580818573667576,
+      "status": "PASS",
+      "theta": 3.141592653589793,
+      "theta_over_pi": 1.0
+    }
+  ],
+  "sensing_parameter": "external force F on mechanical mode 1 (momentum-quadrature drive d(beta1_i)/dt += F)",
+  "settings": {
+    "detector_variance": 0.01,
+    "drives": [
+      4.0,
+      8.0
+    ],
+    "dt": 0.01,
+    "force_eps": 0.1,
+    "n_ens": 1024,
+    "n_steps": 120000,
+    "seed": 42,
+    "thermal_occupations": [
+      0.1,
+      0.1
+    ],
+    "thetas": [
+      0.0,
+      1.5707963267948966,
+      3.141592653589793
+    ],
+    "transient_steps": 3000
+  },
+  "status": "PASS"
+}

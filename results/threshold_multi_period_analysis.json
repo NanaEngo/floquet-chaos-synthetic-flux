@@ -1,0 +1,249 @@
+{
+  "gate": "THRESHOLD_SENSITIVITY_AND_OBSERVATION_WINDOW",
+  "multi_period_fisher": {
+    "interpretation": "The matched force-sensing Fisher gain (at most 1.323 vs flux-off, 1.159 vs single-mode) is independent of the observation-window length: the mean term, which dominates F_C, accumulates identically for the sensor and its matched references, so the gain is a per-period property rather than a short-window artifact. Extending the window multiplies F_C itself (and hence the absolute sensitivity) by N for all configurations equally.",
+    "kind": "multi_period_fisher_observation_window",
+    "model": "For a periodic signal with white detector noise the mean term of F_C accumulates linearly with the number N of observed periods while the variance term is per-period; the matched gain is the ratio of F_C(N) values. The mean term dominates (variance term is ~1e-7 of the mean term), so the flux gain is observation-window independent.",
+    "observation_windows_periods": [
+      1,
+      5,
+      20
+    ],
+    "records": [
+      {
+        "fisher_N": {
+          "1": 4.503008099534932e-05,
+          "20": 0.0009006015096985193,
+          "5": 0.00022515038177496404
+        },
+        "gain_vs_flux_off_N": {
+          "1": 1.0,
+          "20": 1.0,
+          "5": 1.0
+        },
+        "gain_vs_single_mode_N": {
+          "1": 0.8759456825660384,
+          "20": 0.8759457394937049,
+          "5": 0.8759457305051247
+        },
+        "mean_term": 4.503007519490368e-05,
+        "theta_over_pi": 0.0,
+        "variance_term": 5.800445631911412e-12
+      },
+      {
+        "fisher_N": {
+          "1": 4.693706954335233e-05,
+          "20": 0.0009387412599645563,
+          "5": 0.00023468532015834262
+        },
+        "gain_vs_flux_off_N": {
+          "1": 1.0423492142552433,
+          "20": 1.0423491964596023,
+          "5": 1.0423491992694407
+        },
+        "gain_vs_single_mode_N": {
+          "1": 0.913041293952983,
+          "20": 0.9130413377034754,
+          "5": 0.9130413307955019
+        },
+        "mean_term": 4.6937062653747575e-05,
+        "theta_over_pi": 0.25,
+        "variance_term": 6.889604751328255e-12
+      },
+      {
+        "fisher_N": {
+          "1": 5.1909375099341006e-05,
+          "20": 0.0010381873097131547,
+          "5": 0.00025954683501803864
+        },
+        "gain_vs_flux_off_N": {
+          "1": 1.1527710799521365,
+          "20": 1.1527710075243967,
+          "5": 1.1527710189603568
+        },
+        "gain_vs_single_mode_N": {
+          "1": 1.0097648504710635,
+          "20": 1.0097648526528609,
+          "5": 1.0097648523083667
+        },
+        "mean_term": 5.190936497967441e-05,
+        "theta_over_pi": 0.5,
+        "variance_term": 1.011966660087243e-11
+      },
+      {
+        "fisher_N": {
+          "1": 5.721436867597664e-05,
+          "20": 0.0011442871019112738,
+          "5": 0.0002860717861991971
+        },
+        "gain_vs_flux_off_N": {
+          "1": 1.2705810740577106,
+          "20": 1.2705809279559497,
+          "5": 1.270580951024651
+        },
+        "gain_vs_single_mode_N": {
+          "1": 1.1129600061709717,
+          "20": 1.112959950524972,
+          "5": 1.112959959311184
+        },
+        "mean_term": 5.7214354380805115e-05,
+        "theta_over_pi": 0.75,
+        "variance_term": 1.4295171528871022e-11
+      },
+      {
+        "fisher_N": {
+          "1": 5.9581655778556957e-05,
+          "20": 0.0011916328047727278,
+          "5": 0.00029790821346154027
+        },
+        "gain_vs_flux_off_N": {
+          "1": 1.3231523120002942,
+          "20": 1.3231521288162538,
+          "5": 1.3231521577400525
+        },
+        "gain_vs_single_mode_N": {
+          "1": 1.1590095550739294,
+          "20": 1.1590094699386233,
+          "5": 1.1590094833810423
+        },
+        "mean_term": 5.9581639420745835e-05,
+        "theta_over_pi": 1.0,
+        "variance_term": 1.635781112015327e-11
+      }
+    ],
+    "source": "results/matched_fisher_reference.json"
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-17T05:32:59.192951+00:00",
+  "status": "PASS",
+  "threshold_sensitivity": {
+    "alt_thresholds": [
+      0.0005,
+      0.002,
+      0.005
+    ],
+    "base_threshold": 0.001,
+    "by_drive": [
+      {
+        "drive": 0.2,
+        "n_plus_at": {
+          "2e-03": [
+            0,
+            0
+          ],
+          "5e-03": [
+            0,
+            0
+          ],
+          "5e-04": [
+            0,
+            0
+          ]
+        },
+        "n_plus_base": [
+          0,
+          0
+        ],
+        "n_records": 12
+      },
+      {
+        "drive": 1.0,
+        "n_plus_at": {
+          "2e-03": [
+            0,
+            1
+          ],
+          "5e-03": [
+            0,
+            1
+          ],
+          "5e-04": [
+            0,
+            1
+          ]
+        },
+        "n_plus_base": [
+          0,
+          1
+        ],
+        "n_records": 12
+      },
+      {
+        "drive": 2.0,
+        "n_plus_at": {
+          "2e-03": [
+            0,
+            0
+          ],
+          "5e-03": [
+            0,
+            0
+          ],
+          "5e-04": [
+            0,
+            0
+          ]
+        },
+        "n_plus_base": [
+          0,
+          0
+        ],
+        "n_records": 12
+      },
+      {
+        "drive": 4.0,
+        "n_plus_at": {
+          "2e-03": [
+            1,
+            2
+          ],
+          "5e-03": [
+            1,
+            2
+          ],
+          "5e-04": [
+            1,
+            3
+          ]
+        },
+        "n_plus_base": [
+          1,
+          3
+        ],
+        "n_records": 12
+      },
+      {
+        "drive": 8.0,
+        "n_plus_at": {
+          "2e-03": [
+            2,
+            4
+          ],
+          "5e-03": [
+            2,
+            3
+          ],
+          "5e-04": [
+            2,
+            4
+          ]
+        },
+        "n_plus_base": [
+          2,
+          4
+        ],
+        "n_records": 12
+      }
+    ],
+    "interpretation": "Number of Lyapunov exponents above the declared threshold, recomputed at alternate thresholds from the stored full spectrum. The production classification (threshold 1e-3) is unchanged at 5e-4 and 2e-3 for all but one record and only differs at 5e-3 in the E=4 and E=8 sectors; the drive-gated route to up to four positive exponents is robust to the threshold choice.",
+    "kind": "threshold_sensitivity",
+    "n_records": 60,
+    "records_flipping_n_plus": {
+      "2e-03": 1,
+      "5e-03": 6,
+      "5e-04": 1
+    },
+    "source": "results/full_spectrum_hyperchaos_map_g03.json"
+  }
+}

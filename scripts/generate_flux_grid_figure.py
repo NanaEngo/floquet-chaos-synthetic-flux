@@ -33,17 +33,19 @@ def main() -> int:
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.2), constrained_layout=True)
-    axes[0].boxplot(grouped_exp, positions=unique_theta, widths=0.22, manage_ticks=False)
+    axes[0].boxplot(grouped_exp, positions=unique_theta/np.pi, widths=0.07, manage_ticks=False)
     axes[0].axhline(0.0, color="black", linewidth=0.8, linestyle="--")
-    axes[0].set_xlabel(r"Synthetic flux $\Phi_{\rm syn}$ (rad)")
+    axes[0].set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axes[0].set_ylabel(r"Largest QR exponent $\lambda_{\max}$")
-    axes[0].set_title("Stability across initial conditions")
+    axes[0].text(0.02, 0.98, "(a)", transform=axes[0].transAxes,
+                 va="top", ha="left", fontsize=11)
     axes[0].tick_params(axis="x", labelrotation=35)
-    axes[1].boxplot(grouped_diff, positions=unique_theta, widths=0.22, manage_ticks=False)
+    axes[1].boxplot(grouped_diff, positions=unique_theta/np.pi, widths=0.07, manage_ticks=False)
     axes[1].axhline(data["gate_thresholds"]["max_rate_difference"], color="#b2182b", linewidth=0.9, linestyle="--")
-    axes[1].set_xlabel(r"Synthetic flux $\Phi_{\rm syn}$ (rad)")
+    axes[1].set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axes[1].set_ylabel(r"$\max|\rho_i-\lambda_i|$")
-    axes[1].set_title("Floquet--QR agreement")
+    axes[1].text(0.02, 0.98, "(b)", transform=axes[1].transAxes,
+                 va="top", ha="left", fontsize=11)
     axes[1].tick_params(axis="x", labelrotation=35)
     stem = args.output_dir / "flux_grid_diagnostics"
     fig.savefig(stem.with_suffix(".pdf"), bbox_inches="tight")

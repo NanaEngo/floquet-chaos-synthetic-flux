@@ -43,7 +43,6 @@ def main() -> int:
     ax.set_yscale("log")
     ax.set_xlabel("Worst-replicate stability margin (normalized rate)")
     ax.set_ylabel("Classical measurement Fisher information")
-    ax.set_title("Provisional normalized-model Pareto recovery" if model_level else "Provisional literature-anchored Pareto screening")
     cbar = fig.colorbar(sc, ax=ax)
     cbar.set_label("Effective normalized drive coordinate")
     annotation = ("PROVISIONAL_MODEL_LEVEL; not SI-calibrated"

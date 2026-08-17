@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-"""Full-spectrum transition map figure: (a) complete six-exponent spectrum vs flux
-phase, (b) largest exponent vs drive, (c) positive-exponent (hyperchaos-order) heatmap.
+"""Full-spectrum transition map figure (weak coupling): (a) broken-axis six-exponent
+spectrum vs flux phase separating the cavity and mechanical scales, (b) largest
+exponent vs drive with the phase-to-phase spread shaded, (c) largest-exponent
+heatmap over the drive-phase plane (everywhere negative).
 """
 from __future__ import annotations
 
@@ -28,7 +30,6 @@ def main() -> int:
     fg = load(ROOT / "results" / "flux_grid.json")
     fg_recs = [r for r in fg["records"] if r.get("status") == "PASS"]
     thetas = sorted({round(r["theta"], 6) for r in fg_recs})
-    # per-phase spectrum (average over the 3 replicates for the plotted curves)
     spectra_by_phase = {}
     for t in thetas:
         recs = [r for r in fg_recs if round(r["theta"], 6) == t]
@@ -41,57 +42,115 @@ def main() -> int:
     drives = sorted({r["drive"] for r in tm_recs})
     tm_thetas = sorted({round(r["theta"], 6) for r in tm_recs})
 
-    fig = plt.figure(figsize=(13.5, 4.2))
-    gs = fig.add_gridspec(1, 3, width_ratios=[1.25, 1.0, 1.15], wspace=0.32)
-
-    # ---- (a) full spectrum vs phase (drive = 0.2) ----
-    ax = fig.add_subplot(gs[0, 0])
+    x = np.array(thetas) / np.pi
     colors = plt.cm.viridis(np.linspace(0.05, 0.9, 6))
-    for k in range(6):
+
+    fig = plt.figure(figsize=(13.5, 5.0))
+    gs = fig.add_gridspec(1, 3, width_ratios=[1.2, 1.0, 1.15], wspace=0.35)
+
+    # ---- (a) broken-axis full spectrum vs phase ----
+    gs_a = gs[0, 0].subgridspec(2, 1, height_ratios=[1.0, 1.0], hspace=0.12)
+    ax_m = fig.add_subplot(gs_a[0])              # mechanical exponents (zoom)
+    ax_c = fig.add_subplot(gs_a[1], sharex=ax_m)  # cavity exponents
+
+    # four mechanical exponents (lambda3..lambda6)
+    for k in range(2, 6):
         vals = [spectra_by_phase[t][k] for t in thetas]
-        ax.plot(np.array(thetas) / np.pi, vals, "-o", ms=4, lw=1.6,
-                color=colors[k], label=f"$\\lambda_{{{k+1}}}$")
-    ax.axhline(0.0, color="black", lw=0.8, ls="--")
-    ax.set_xlabel(r"synthetic flux phase $\Phi_{\rm syn}/\pi$")
-    ax.set_ylabel("Lyapunov exponent $\\lambda_k$")
-    ax.set_title("(a) Full spectrum vs phase (drive $=0.2$)")
-    ax.legend(fontsize=7, ncol=2, frameon=False, loc="center right")
-    ax.set_xlim(-1, 1)
+        ax_m.plot(x, vals, "-o", ms=3.5, lw=1.5, color=colors[k],
+                  label=rf"$\lambda_{{{k+1}}}$")
+    ax_m.axhline(-0.01, color="0.5", lw=0.7, ls=":")
+    ax_m.set_ylim(-0.0106, -0.0099)
+    ax_m.set_ylabel(r"Lyapunov exponent $\lambda_k$")
+    ax_m.legend(fontsize=7, ncol=4, frameon=False, loc="upper center",
+                handletextpad=0.3, columnspacing=0.8)
+    ax_m.text(0.02, 0.98, "(a)", transform=ax_m.transAxes,
+              va="top", ha="left", fontsize=11)
+
+    # two cavity exponents (lambda1, lambda2)
+    for k in range(2):
+        vals = [spectra_by_phase[t][k] for t in thetas]
+        ax_c.plot(x, vals, "-o", ms=3.5, lw=1.5, color=colors[k],
+                  label=rf"$\lambda_{{{k+1}}}$")
+    ax_c.axhline(-0.5, color="0.5", lw=0.7, ls=":")
+    ax_c.set_ylim(-0.505, -0.495)
+    ax_c.set_xlabel(r"synthetic flux phase $\Phi_{\rm syn}/\pi$")
+    ax_c.legend(fontsize=7, ncol=2, frameon=False, loc="upper center",
+                handletextpad=0.3, columnspacing=0.8)
+
+    # family labels at the reference lines (blended axes-fraction x / data y)
+    blend_m = matplotlib.transforms.blended_transform_factory(
+        ax_m.transAxes, ax_m.transData)
+    blend_c = matplotlib.transforms.blended_transform_factory(
+        ax_c.transAxes, ax_c.transData)
+    ax_m.text(0.985, -0.00995, r"mechanical $(-\gamma/2)$", transform=blend_m,
+              va="bottom", ha="right", color="0.3", fontsize=8)
+    ax_c.text(0.985, -0.5005, r"cavity $(-\kappa/2)$", transform=blend_c,
+              va="bottom", ha="right", color="0.3", fontsize=8)
+
+    # broken-axis: hide the facing spines and draw the break marks
+    ax_m.spines["bottom"].set_visible(False)
+    ax_c.spines["top"].set_visible(False)
+    ax_m.xaxis.tick_top()
+    ax_m.tick_params(labeltop=False)
+    ax_c.xaxis.tick_bottom()
+    d = 0.02
+    kw = dict(color="k", lw=1.0, clip_on=False)
+    ax_m.plot([-d, d], [-d, d], transform=ax_m.transAxes, **kw)
+    ax_c.plot([-d, d], [1 - d, 1 + d], transform=ax_c.transAxes, **kw)
 
     # ---- (b) largest exponent vs drive ----
     axb = fig.add_subplot(gs[0, 1])
-    # average largest exponent over phases at each drive
-    drive_largest = {d: float(np.max([r["largest_exponent"] for r in tm_recs
-                                      if r["drive"] == d])) for d in drives}
+    drive_largest = {}
+    drive_lowest = {}
+    for d in drives:
+        vals = [r["largest_exponent"] for r in tm_recs if r["drive"] == d]
+        drive_largest[d] = float(np.max(vals))
+        drive_lowest[d] = float(np.min(vals))
     xs = [d for d in drives]
-    ys = [drive_largest[d] for d in drives]
-    axb.plot(xs, ys, "-o", color="crimson", lw=1.8)
+    ymax = [drive_largest[d] for d in drives]
+    ymin = [drive_lowest[d] for d in drives]
+    axb.fill_between(xs, ymin, ymax, color="crimson", alpha=0.18,
+                     lw=0, label="phase spread")
+    axb.plot(xs, ymax, "-o", color="crimson", lw=1.8,
+             label="largest over phases")
     axb.axhline(0.0, color="black", lw=0.8, ls="--")
-    axb.set_xlabel("drive amplitude $E$")
+    axb.set_xlabel(r"drive amplitude $E$")
     axb.set_ylabel(r"largest exponent $\lambda_{\max}$")
-    axb.set_title("(b) $\\lambda_{\\max}$ vs drive")
     axb.set_xscale("log")
-    axb.text(0.5, 0.06, "no positive exponent", transform=axb.transAxes,
+    axb.set_xticks(drives)
+    axb.set_xticklabels([f"{d:g}" for d in drives])
+    axb.xaxis.set_minor_locator(plt.NullLocator())
+    axb.set_ylim(-0.052, 0.006)
+    axb.text(0.02, 0.98, "(b)", transform=axb.transAxes,
+             va="top", ha="left", fontsize=11)
+    axb.text(0.5, 0.90, "no positive exponent", transform=axb.transAxes,
              ha="center", color="crimson", fontsize=8)
+    axb.legend(fontsize=7, frameon=False, loc="lower left")
 
-    # ---- (c) positive-exponent count heatmap ----
+    # ---- (c) largest-exponent heatmap over the drive-phase plane ----
     axc = fig.add_subplot(gs[0, 2])
     Z = np.full((len(drives), len(tm_thetas)), np.nan)
     for di, d in enumerate(drives):
         for ti, t in enumerate(tm_thetas):
             rs = [r for r in tm_recs if r["drive"] == d and round(r["theta"], 6) == t]
             if rs:
-                Z[di, ti] = rs[0]["n_positive_exponents"]
+                Z[di, ti] = rs[0]["largest_exponent"]
     im = axc.imshow(Z, aspect="auto", origin="lower",
                     extent=[tm_thetas[0] / np.pi, tm_thetas[-1] / np.pi,
                             drives[0], drives[-1]],
-                    cmap="RdYlBu_r", vmin=0, vmax=3, interpolation="nearest")
+                    cmap="Blues", vmin=-0.05, vmax=0, interpolation="nearest")
     axc.set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axc.set_ylabel("drive amplitude $E$")
-    axc.set_title("(c) Positive exponents (hyperchaos order)")
     axc.set_yscale("log")
-    cb = fig.colorbar(im, ax=axc, ticks=[0, 1, 2, 3])
-    cb.set_label("$n_{\\rm pos}$")
+    axc.set_yticks(drives)
+    axc.set_yticklabels([f"{d:g}" for d in drives])
+    axc.yaxis.set_minor_locator(plt.NullLocator())
+    axc.text(0.02, 0.98, "(c)", transform=axc.transAxes,
+             va="top", ha="left", fontsize=11)
+    cb = fig.colorbar(im, ax=axc, ticks=[-0.04, -0.03, -0.02, -0.01, 0])
+    cb.set_label(r"largest exponent $\lambda_{\max}$")
+    axc.text(0.5, 0.5, "no positive\nexponent", transform=axc.transAxes,
+             ha="center", va="center", color="0.15", fontsize=8)
 
     fig.savefig(FIG / "full_spectrum_transition_map.pdf", bbox_inches="tight")
     fig.savefig(FIG / "full_spectrum_transition_map.png", dpi=160, bbox_inches="tight")
@@ -106,9 +165,11 @@ def main() -> int:
         "n_flux_phases": len(thetas),
         "n_drives": len(drives),
         "any_positive_exponent": bool(tm.get("any_positive_exponent", False)),
-        "note": "Figure (a) plots all six exponents; (b) the largest exponent vs drive; "
-                "(c) the positive-exponent (hyperchaos-order) count. Zero positive "
-                "exponents were found across the tested (drive x phase) domain.",
+        "note": "Figure (a) shows all six exponents on a broken vertical scale: the two "
+                "cavity-dominated exponents near -kappa/2 and the four mechanical exponents "
+                "near -gamma/2; (b) the largest (most marginal) exponent vs drive with the "
+                "phase-to-phase spread shaded; (c) the largest exponent over the drive-phase "
+                "plane, everywhere negative (no positive exponent across the tested domain).",
     }
     (FIG / "full_spectrum_transition_map.manifest.json").write_text(
         json.dumps(manifest, indent=2) + "\n", encoding="utf-8")

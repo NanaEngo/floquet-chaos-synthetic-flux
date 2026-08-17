@@ -6,5 +6,5 @@
     "figures/covariance_fisher_pilot.png"
   ],
   "no_mock_data": true,
-  "interpretation": "Pilot classical Fisher/physicality diagnostic; not QFI and not a gain comparison."
+  "interpretation": "Pilot classical Fisher/covariance-positivity diagnostic; not QFI and not a gain comparison."
 }

@@ -44,7 +44,8 @@ def main() -> int:
                color="#d62728", label="reference B: single mode ($J=0$)")
     ax.set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     ax.set_ylabel(r"measurement Fisher $F_C(F)$")
-    ax.set_title("(a) force-sensing Fisher information")
+    ax.text(0.02, 0.98, "(a)", transform=ax.transAxes,
+            va="top", ha="left", fontsize=11)
     ax.legend(fontsize=8, loc="best")
 
     axg.plot(thetas, gA, "-o", ms=5, lw=1.6, color="#2ca02c", label="vs flux off")
@@ -52,7 +53,8 @@ def main() -> int:
     axg.axhline(1.0, ls="--", lw=1.0, color="0.5")
     axg.set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axg.set_ylabel("gain $F_C/F_C^{\\rm ref}$")
-    axg.set_title("(b) gain over matched references")
+    axg.text(0.02, 0.98, "(b)", transform=axg.transAxes,
+             va="top", ha="left", fontsize=11)
     axg.legend(fontsize=8, loc="best")
     axg.set_ylim(0.8, 1.3)
 

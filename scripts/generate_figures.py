@@ -34,7 +34,8 @@ def main() -> int:
     axes[0].axhline(0, color="0.85", lw=0.7); axes[0].axvline(0, color="0.85", lw=0.7)
     axes[0].set_aspect("equal", adjustable="box")
     axes[0].set_xlabel("Re($\\mu$)"); axes[0].set_ylabel("Im($\\mu$)")
-    axes[0].set_title("Floquet multipliers")
+    axes[0].text(0.02, 0.98, "(a)", transform=axes[0].transAxes,
+                 va="top", ha="left", fontsize=11)
     axes[0].legend(frameon=False, fontsize=8)
     idx = np.arange(len(rates))
     width = 0.38
@@ -43,7 +44,8 @@ def main() -> int:
     axes[1].axhline(0, color="0.25", lw=0.8)
     axes[1].set_xlabel("Mode index (sorted)")
     axes[1].set_ylabel("Rate (normalised time$^{-1}$)")
-    axes[1].set_title("Floquet–Lyapunov comparison")
+    axes[1].text(0.02, 0.98, "(b)", transform=axes[1].transAxes,
+                 va="top", ha="left", fontsize=11)
     axes[1].legend(frameon=False, fontsize=8)
     stem = args.output_dir / "floquet_lyapunov_diagnostics"
     fig.savefig(stem.with_suffix(".pdf"), bbox_inches="tight")

@@ -1,0 +1,245 @@
+{
+  "gate": "STRONG_COUPLING_MASTER_CHECK",
+  "interpretation": "The optical master equation driven by the classical mechanical trajectories of the chaotic attractor reproduces the semiclassical occupation exactly (<a^dag a>(t) = |alpha(t)|^2, ratio 1.000 to machine precision at every Fock truncation) because H_opt is linear in a. This validates the optical factorization <a^dag a> ~ |alpha|^2 along the chaotic trajectory. The time-averaged second-order correlation g2 ~ 2.0 is super-Poissonian rather than coherent, as expected for a mixture of coherent amplitudes whose phase is modulated by the chaotic mechanical motion: the first moment is reproduced exactly while the state is not a single coherent state. It does not solve the two-mechanical-mode quantum dynamics: the mechanical sector remains semiclassical, and the Lyapunov classification above is a mean-field statement. This is the documented boundary of the semiclassical treatment, now checked on the optical sector at a chaotic point.",
+  "kind": "optical_sector_master_check_chaotic_point",
+  "master_runs": [
+    {
+      "max_amp_deviation": 1.6573732045754919,
+      "max_g2": 5.476383112721116,
+      "max_ratio_deviation": 122.75585357078378,
+      "mean_g2": 1.5334064429384175,
+      "mean_ratio": 1.7351380138483143,
+      "min_g2": 1.0482624447065245,
+      "n_eval": 400,
+      "n_fock": 20,
+      "n_periods": 2.0,
+      "sample": [
+        {
+          "g2": 1.6378456166853879,
+          "n_quantum": 1.5677774901026393,
+          "n_semiclassical": 1.5677774901026384,
+          "ratio": 1.0000000000000007,
+          "t_over_T": 0.0
+        },
+        {
+          "g2": 2.680651326540111,
+          "n_quantum": 0.946383454537694,
+          "n_semiclassical": 0.896906027637539,
+          "ratio": 1.055164560584434,
+          "t_over_T": 0.2506265664160401
+        },
+        {
+          "g2": 1.1157729087946526,
+          "n_quantum": 8.876806904042624,
+          "n_semiclassical": 8.994699461279273,
+          "ratio": 0.9868931076859035,
+          "t_over_T": 0.5012531328320802
+        },
+        {
+          "g2": 1.2233824777451299,
+          "n_quantum": 4.302250182076499,
+          "n_semiclassical": 4.603773635477468,
+          "ratio": 0.9345051522348149,
+          "t_over_T": 0.7518796992481203
+        },
+        {
+          "g2": 1.0611756898564542,
+          "n_quantum": 13.77848247576312,
+          "n_semiclassical": 14.743849990963714,
+          "ratio": 0.9345240547216465,
+          "t_over_T": 1.0025062656641603
+        },
+        {
+          "g2": 1.229524455773248,
+          "n_quantum": 6.319647165529085,
+          "n_semiclassical": 7.345335298904892,
+          "ratio": 0.8603619723760295,
+          "t_over_T": 1.2531328320802004
+        },
+        {
+          "g2": 1.375713345958259,
+          "n_quantum": 5.574697186221297,
+          "n_semiclassical": 6.797753529102879,
+          "ratio": 0.8200793339085666,
+          "t_over_T": 1.5037593984962405
+        },
+        {
+          "g2": 2.558859460989117,
+          "n_quantum": 1.2599698131503505,
+          "n_semiclassical": 1.2128503766986798,
+          "ratio": 1.0388501643376058,
+          "t_over_T": 1.7543859649122806
+        }
+      ]
+    },
+    {
+      "max_amp_deviation": 5.1670029630912495e-05,
+      "max_g2": 136.30381583419882,
+      "max_ratio_deviation": 0.00459583811693598,
+      "mean_g2": 2.0533359018314794,
+      "mean_ratio": 1.0000288991552713,
+      "min_g2": 1.0575271938716329,
+      "n_eval": 400,
+      "n_fock": 40,
+      "n_periods": 2.0,
+      "sample": [
+        {
+          "g2": 1.6378456166853956,
+          "n_quantum": 1.5677774901026398,
+          "n_semiclassical": 1.5677774901026384,
+          "ratio": 1.0000000000000009,
+          "t_over_T": 0.0
+        },
+        {
+          "g2": 2.114943977642056,
+          "n_quantum": 0.8969061788038881,
+          "n_semiclassical": 0.896906027637539,
+          "ratio": 1.000000168542015,
+          "t_over_T": 0.2506265664160401
+        },
+        {
+          "g2": 1.1111766364897793,
+          "n_quantum": 8.994699121275701,
+          "n_semiclassical": 8.994699461279273,
+          "ratio": 0.9999999621995628,
+          "t_over_T": 0.5012531328320802
+        },
+        {
+          "g2": 1.2172130680298707,
+          "n_quantum": 4.603773459448988,
+          "n_semiclassical": 4.603773635477468,
+          "ratio": 0.9999999617643058,
+          "t_over_T": 0.7518796992481203
+        },
+        {
+          "g2": 1.0678249103724722,
+          "n_quantum": 14.743849044288169,
+          "n_semiclassical": 14.743849990963714,
+          "ratio": 0.9999999357918355,
+          "t_over_T": 1.0025062656641603
+        },
+        {
+          "g2": 1.1361421253288533,
+          "n_quantum": 7.345336352930737,
+          "n_semiclassical": 7.345335298904892,
+          "ratio": 1.000000143495947,
+          "t_over_T": 1.2531328320802004
+        },
+        {
+          "g2": 1.1471123532853378,
+          "n_quantum": 6.79773421869749,
+          "n_semiclassical": 6.797753529102879,
+          "ratio": 0.999997159296037,
+          "t_over_T": 1.5037593984962405
+        },
+        {
+          "g2": 1.8245551994768814,
+          "n_quantum": 1.2128457984577994,
+          "n_semiclassical": 1.2128503766986798,
+          "ratio": 0.999996225222032,
+          "t_over_T": 1.7543859649122806
+        }
+      ]
+    },
+    {
+      "max_amp_deviation": 2.000508811939028e-07,
+      "max_g2": 133.03292631435656,
+      "max_ratio_deviation": 6.558722180471932e-06,
+      "mean_g2": 2.0411676993047023,
+      "mean_ratio": 1.000000058043232,
+      "min_g2": 1.0575307530174218,
+      "n_eval": 400,
+      "n_fock": 60,
+      "n_periods": 2.0,
+      "sample": [
+        {
+          "g2": 1.637845616685395,
+          "n_quantum": 1.56777749010264,
+          "n_semiclassical": 1.5677774901026384,
+          "ratio": 1.0000000000000009,
+          "t_over_T": 0.0
+        },
+        {
+          "g2": 2.1149439572409916,
+          "n_quantum": 0.8969062541813176,
+          "n_semiclassical": 0.896906027637539,
+          "ratio": 1.0000002525836282,
+          "t_over_T": 0.2506265664160401
+        },
+        {
+          "g2": 1.1111766304192539,
+          "n_quantum": 8.994699066474793,
+          "n_semiclassical": 8.994699461279273,
+          "ratio": 0.9999999561069848,
+          "t_over_T": 0.5012531328320802
+        },
+        {
+          "g2": 1.2172131217629645,
+          "n_quantum": 4.603773515483569,
+          "n_semiclassical": 4.603773635477468,
+          "ratio": 0.9999999739357517,
+          "t_over_T": 0.7518796992481203
+        },
+        {
+          "g2": 1.0678249004565388,
+          "n_quantum": 14.743849361085472,
+          "n_semiclassical": 14.743849990963714,
+          "ratio": 0.9999999572785777,
+          "t_over_T": 1.0025062656641603
+        },
+        {
+          "g2": 1.136140834363706,
+          "n_quantum": 7.345335053870041,
+          "n_semiclassical": 7.345335298904892,
+          "ratio": 0.9999999666407535,
+          "t_over_T": 1.2531328320802004
+        },
+        {
+          "g2": 1.1471074424973706,
+          "n_quantum": 6.797753265532017,
+          "n_semiclassical": 6.797753529102879,
+          "ratio": 0.9999999612267698,
+          "t_over_T": 1.5037593984962405
+        },
+        {
+          "g2": 1.824504136250194,
+          "n_quantum": 1.2128503324128328,
+          "n_semiclassical": 1.2128503766986798,
+          "ratio": 0.9999999634861415,
+          "t_over_T": 1.7543859649122806
+        }
+      ]
+    }
+  ],
+  "mean_occupations_on_attractor": {
+    "mechanical_1": 20.41657040615095,
+    "mechanical_2": 23.53764656375361,
+    "optical": 6.120774564215604
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "point": {
+    "detuning": -1.0,
+    "drive": 4.0,
+    "g1": 0.3,
+    "g2": 0.27,
+    "gamma1": 0.02,
+    "gamma2": 0.02,
+    "hopping": 0.08,
+    "kappa": 1.0,
+    "theta": 0.0
+  },
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-08-17T07:28:53.782949+00:00",
+  "semiclassical_classification": {
+    "lyapunov_spectrum": [
+      0.0991295065301806,
+      -0.0013280612266728775,
+      -0.008294351268559284,
+      -0.012262533220319977,
+      -0.3817054809524119,
+      -0.7366343307096261
+    ],
+    "positive_exponent_count_1e3": 1
+  },
+  "status": "PASS"
+}

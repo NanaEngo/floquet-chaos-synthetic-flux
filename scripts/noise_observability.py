@@ -39,7 +39,7 @@ def rhs_batch(x, phi, p: ModelParameters) -> np.ndarray:
     out[:, 0] = -0.5 * p.kappa * ar - omega_eff * ai + e
     out[:, 1] = omega_eff * ar - 0.5 * p.kappa * ai
     out[:, 2] = -0.5 * p.gamma1 * b1r + p.omega1 * b1i + p.hopping * (s * b2r + c * b2i)
-    out[:, 3] = p.g1 * (ar * ar + ai * ai) - p.omega1 * b1r - 0.5 * p.gamma1 * b1i - p.hopping * c * b2r + p.hopping * s * b2i
+    out[:, 3] = p.g1 * (ar * ar + ai * ai) - p.omega1 * b1r - 0.5 * p.gamma1 * b1i - p.hopping * c * b2r + p.hopping * s * b2i + p.force
     out[:, 4] = -0.5 * p.gamma2 * b2r + p.omega2 * b2i - p.hopping * s * b1r + p.hopping * c * b1i
     out[:, 5] = p.g2 * (ar * ar + ai * ai) - p.omega2 * b2r - 0.5 * p.gamma2 * b2i - p.hopping * c * b1r - p.hopping * s * b1i
     return out

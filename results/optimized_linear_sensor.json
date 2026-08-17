@@ -1,0 +1,91 @@
+{
+  "estimator": "Gaussian-likelihood Fisher: (d mu/dF)^2/V + 0.5 (dV/dF)^2/V^2",
+  "flux_phases": [
+    {
+      "Xa_readout_fisher": 4.5030080995349324e-05,
+      "gain_matched_Xa_vs_optimized_linear": 0.5607949629152548,
+      "gain_optimized_vs_optimized_linear": 0.8759181358767936,
+      "optimized_angle_over_pi": 0.7944444444444445,
+      "optimized_fisher": 7.033348587652675e-05,
+      "theta": 0.0,
+      "theta_over_pi": 0.0
+    },
+    {
+      "Xa_readout_fisher": 4.693706954335233e-05,
+      "gain_matched_Xa_vs_optimized_linear": 0.584544188953014,
+      "gain_optimized_vs_optimized_linear": 0.9130140108935504,
+      "optimized_angle_over_pi": 0.7944444444444445,
+      "optimized_fisher": 7.3312168580655e-05,
+      "theta": 0.7853981633974483,
+      "theta_over_pi": 0.25
+    },
+    {
+      "Xa_readout_fisher": 5.1909375099341006e-05,
+      "gain_matched_Xa_vs_optimized_linear": 0.6464682150315364,
+      "gain_optimized_vs_optimized_linear": 1.0097322519087382,
+      "optimized_angle_over_pi": 0.7944444444444445,
+      "optimized_fisher": 8.107834073741128e-05,
+      "theta": 1.5707963267948966,
+      "theta_over_pi": 0.5
+    },
+    {
+      "Xa_readout_fisher": 5.721436867597664e-05,
+      "gain_matched_Xa_vs_optimized_linear": 0.7125354663070183,
+      "gain_optimized_vs_optimized_linear": 1.1129520815333238,
+      "optimized_angle_over_pi": 0.7944444444444445,
+      "optimized_fisher": 8.93665701183582e-05,
+      "theta": 2.356194490192345,
+      "theta_over_pi": 0.75
+    },
+    {
+      "Xa_readout_fisher": 5.958165577855695e-05,
+      "gain_matched_Xa_vs_optimized_linear": 0.7420171517394384,
+      "gain_optimized_vs_optimized_linear": 1.1589796293232344,
+      "optimized_angle_over_pi": 0.7944444444444445,
+      "optimized_fisher": 9.306243820216299e-05,
+      "theta": 3.141592653589793,
+      "theta_over_pi": 1.0
+    }
+  ],
+  "gate": "OPTIMIZED_LINEAR_SENSOR_REFERENCE",
+  "interpretation": "The single-mode (J=0) linear reference read out at its optimal homodyne angle is the strongest non-chaotic linear baseline. A flux gain close to or below unity against this optimized reference removes the 'suboptimal reference readout' objection to the order-unity Fisher gain. Classical measurement Fisher information only; not QFI and no quantum-advantage claim.",
+  "kind": "classical_measurement_fisher_optimized_readout",
+  "max_gain_matched_Xa_vs_optimized_linear": {
+    "Xa_readout_fisher": 5.958165577855695e-05,
+    "gain_matched_Xa_vs_optimized_linear": 0.7420171517394384,
+    "gain_optimized_vs_optimized_linear": 1.1589796293232344,
+    "optimized_angle_over_pi": 0.7944444444444445,
+    "optimized_fisher": 9.306243820216299e-05,
+    "theta": 3.141592653589793,
+    "theta_over_pi": 1.0
+  },
+  "max_gain_optimized_vs_optimized_linear": {
+    "Xa_readout_fisher": 5.958165577855695e-05,
+    "gain_matched_Xa_vs_optimized_linear": 0.7420171517394384,
+    "gain_optimized_vs_optimized_linear": 1.1589796293232344,
+    "optimized_angle_over_pi": 0.7944444444444445,
+    "optimized_fisher": 9.306243820216299e-05,
+    "theta": 3.141592653589793,
+    "theta_over_pi": 1.0
+  },
+  "parameters": {
+    "detector_variance": 0.01,
+    "drive": 0.2,
+    "eps": 0.0001,
+    "hopping": 0.08,
+    "n_angles": 360,
+    "n_th1": 0.1,
+    "n_th2": 0.1
+  },
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "readout": "rotated cavity quadrature X_phi = Re(alpha) cos phi + Im(alpha) sin phi",
+  "recorded_at_utc": "2026-08-17T09:58:01.012489+00:00",
+  "sensing_parameter": "external force F on mechanical mode 1",
+  "single_mode_linear_reference": {
+    "Xa_readout_fisher": 5.140738962653024e-05,
+    "optimized_angle_over_pi": 0.7944444444444445,
+    "optimized_fisher": 8.029687135787292e-05
+  },
+  "status": "PASS"
+}

@@ -53,7 +53,8 @@ def main() -> int:
                     alpha=0.08)
     ax.set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     ax.set_ylabel("Lyapunov exponent $\\lambda_k$")
-    ax.set_title("(a) Full spectrum vs phase ($g=0.3$, $E=4$)")
+    ax.text(0.02, 0.98, "(a)", transform=ax.transAxes,
+            va="top", ha="left", fontsize=11)
     ax.legend(fontsize=7, ncol=2, frameon=False, loc="upper center")
     ax.set_xlim(-1, 1)
 
@@ -65,7 +66,8 @@ def main() -> int:
         axb.plot(th_pi, ys, marker, lw=1.6, ms=5, label=label)
     axb.set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axb.set_ylabel("positive exponents $n_{\\rm pos}$")
-    axb.set_title("(b) Hyperchaos order vs phase")
+    axb.text(0.02, 0.98, "(b)", transform=axb.transAxes,
+             va="top", ha="left", fontsize=11)
     axb.legend(fontsize=8, frameon=False)
     axb.set_ylim(-0.3, 4.6)
     axb.set_xlim(-1, 1)
@@ -84,7 +86,8 @@ def main() -> int:
                     cmap="inferno", vmin=0, vmax=4, interpolation="nearest")
     axc.set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axc.set_ylabel("drive amplitude $E$")
-    axc.set_title("(c) Hyperchaos order $n_{\\rm pos}(E,\\Phi)$")
+    axc.text(0.02, 0.98, "(c)", transform=axc.transAxes,
+             va="top", ha="left", fontsize=11)
     axc.set_yscale("log")
     cb = fig.colorbar(im, ax=axc, ticks=[0, 1, 2, 3, 4])
     cb.set_label("$n_{\\rm pos}$")

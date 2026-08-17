@@ -58,8 +58,6 @@ def main() -> int:
 
     ax.set_xlabel("Normalized drive cost (drive amplitude)")
     ax.set_ylabel(r"Worst-replicate stability margin $1-\max|\mu|$")
-    ax.set_title("Reduced-model (adiabatic) Pareto front:\n"
-                 "stability margin vs drive cost", fontsize=10)
     ax.text(0.03, 0.03, "PROVISIONAL REDUCED MODEL; not SI-calibrated",
             transform=ax.transAxes, fontsize=8,
             bbox={"facecolor": "white", "alpha": 0.85, "edgecolor": "0.5"})

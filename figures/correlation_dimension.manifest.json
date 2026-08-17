@@ -1,7 +1,7 @@
 {
-  "caption_alt": "Two-by-two log-log panels of the Theiler-corrected two-point correlation sum versus distance at four strong-coupling points (drive four and eight, flux phases zero and pi over two). Each panel marks the scaling region and its fitted slope, the correlation dimension D2, alongside the Kaplan-Yorke dimension and the number of positive Lyapunov exponents. Every panel shows D2 below the Kaplan-Yorke dimension.",
+  "caption_alt": "Two-panel correlation-dimension cross-check. Left: the Theiler-corrected two-point correlation sum versus distance at the most hyperchaotic point, with the scaling region and its fitted slope giving the correlation dimension D2. Right: grouped bars of the correlation dimension D2 with its scaling-region uncertainty against the Kaplan-Yorke dimension at the four strong-coupling points, showing D2 below the Kaplan-Yorke dimension at every point.",
   "figure": "correlation_dimension",
-  "generated_at_utc": "2026-08-16T15:34:16.001068+00:00",
+  "generated_at_utc": "2026-08-17T12:26:26.806644+00:00",
   "generator": "scripts/plot_correlation_dimension.py",
   "outputs": [
     "correlation_dimension.pdf",

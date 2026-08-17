@@ -11,5 +11,5 @@
   "n_flux_phases": 9,
   "n_drives": 6,
   "any_positive_exponent": false,
-  "note": "Figure (a) plots all six exponents; (b) the largest exponent vs drive; (c) the positive-exponent (hyperchaos-order) count. Zero positive exponents were found across the tested (drive x phase) domain."
+  "note": "Figure (a) shows all six exponents on a broken vertical scale: the two cavity-dominated exponents near -kappa/2 and the four mechanical exponents near -gamma/2; (b) the largest (most marginal) exponent vs drive with the phase-to-phase spread shaded; (c) the largest exponent over the drive-phase plane, everywhere negative (no positive exponent across the tested domain)."
 }

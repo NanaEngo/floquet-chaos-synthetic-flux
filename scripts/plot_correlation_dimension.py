@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Plot the Grassberger--Procaccia correlation-sum curves (log C vs log eps).
+"""Correlation-dimension figure.
 
-Reads results/correlation_dimension.json and renders the four strong-coupling
-points (E = 4, 8 at theta = 0 and pi/2) with their fitted slopes and the
-Kaplan--Yorke dimension annotated. A figure manifest is written next to the
-PDF/PNG for provenance.
+Two panels: (a) the Theiler-corrected two-point correlation sum C(eps) versus
+distance at the most hyperchaotic strong-coupling point, with the scaling region
+and its fitted slope (the correlation dimension D2); (b) the correlation
+dimension D2 (with scaling-region uncertainty) against the Kaplan--Yorke
+dimension at the four strong-coupling points, showing D2 <= D_KY everywhere.
 """
 from __future__ import annotations
 import argparse, json
@@ -18,6 +19,14 @@ RES = ROOT / "results" / "correlation_dimension.json"
 FIG = ROOT / "figures"
 
 
+def theta_label(theta_over_pi: float) -> str:
+    if abs(theta_over_pi) < 0.01:
+        return r"$\theta=0$"
+    if abs(theta_over_pi - 0.5) < 0.01:
+        return r"$\theta=\pi/2$"
+    return rf"$\theta={theta_over_pi:.2f}\pi$"
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--output", type=Path,
@@ -27,42 +36,69 @@ def main() -> int:
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    plt.style.use("seaborn-v0_8-whitegrid")
 
     data = json.loads(RES.read_text())
     records = data["records"]
 
-    fig, axes = plt.subplots(2, 2, figsize=(8.2, 7.4), sharex=True, sharey=True)
-    for ax, r in zip(axes.ravel(), records):
-        eps = np.asarray(r["eps"])
-        C = np.asarray(r["correlation_sum_C"])
-        mask = (C >= 1e-3) & (C <= 0.3)
-        logE = np.log(eps)
-        logC = np.log(C)
-        ax.loglog(eps, C, ".", ms=3, alpha=0.7, color="0.35")
-        ax.loglog(eps[mask], C[mask], "o", ms=4, color="#1f77b4",
-                  label="scaling region")
-        slope = r["correlation_dimension_D2"]
-        xf = np.log(eps[mask])
-        ax.loglog(eps[mask], np.exp(r["fits"]["window_A_C1e-3_0p3"]["fit_intercept"]
-                                    + slope * xf), "-", color="#d62728", lw=1.6,
-                  label=f"$D_2 = {slope:.2f}$")
-        ky = r["cross_check_vs_kaplan_yorke"]["kaplan_yorke_dimension"]
-        npos = r["cross_check_vs_kaplan_yorke"]["n_positive_exponents"]
-        ax.set_title(rf"$\theta={r['theta_over_pi']:.2f}\pi$, "
-                     rf"$E={r['drive']:.2f}$" + "\n"
-                     rf"$D_2={slope:.2f}\pm{r['D2_scaling_region_uncertainty']:.2f}$, "
-                     rf"$D_{{KY}}={ky:.2f}$, $n_+={npos}$", fontsize=8.5)
-        ax.grid(True, which="both", alpha=0.3)
+    # representative point: the most hyperchaotic (largest positive-exponent count)
+    rep = max(records,
+              key=lambda r: r["cross_check_vs_kaplan_yorke"]["n_positive_exponents"])
 
-    for ax in axes[:, 0]:
-        ax.set_ylabel(r"$C(\varepsilon)$")
-    for ax in axes[-1, :]:
-        ax.set_xlabel(r"$\varepsilon$")
-    axes[0, 0].legend(fontsize=7, loc="lower right")
-    fig.suptitle("Theiler-corrected correlation sum and the Kaplan--Yorke "
-                 "inequality $D_2 \\leq D_{\\mathrm{KY}}$", fontsize=10)
-    fig.tight_layout(rect=(0, 0, 1, 0.96))
+    fig, (axa, axb) = plt.subplots(1, 2, figsize=(9.0, 3.9),
+                                   gridspec_kw={"width_ratios": [1.15, 1.0]})
+
+    # ---- (a) correlation-sum scaling at the representative point ----
+    eps = np.asarray(rep["eps"])
+    C = np.asarray(rep["correlation_sum_C"])
+    C_floor = 1e-10  # exclude the no-pairs underflow (C ~ 1e-300)
+    plot_mask = C >= C_floor
+    mask = (C >= 1e-3) & (C <= 0.3)  # scaling region (fit window A)
+    slope = rep["correlation_dimension_D2"]
+    ky = rep["cross_check_vs_kaplan_yorke"]["kaplan_yorke_dimension"]
+    npos = rep["cross_check_vs_kaplan_yorke"]["n_positive_exponents"]
+    unc = rep["D2_scaling_region_uncertainty"]
+
+    axa.loglog(eps[plot_mask], C[plot_mask], ".", ms=3, alpha=0.7, color="0.35")
+    axa.loglog(eps[mask], C[mask], "o", ms=4, color="#1f77b4",
+               label="scaling region")
+    xf = np.log(eps[mask])
+    axa.loglog(eps[mask],
+               np.exp(rep["fits"]["window_A_C1e-3_0p3"]["fit_intercept"]
+                      + slope * xf),
+               "-", color="#d62728", lw=1.6,
+               label=rf"fit, $D_2={slope:.2f}$")
+    axa.text(0.02, 0.98, "(a)", transform=axa.transAxes,
+             va="top", ha="left", fontsize=11)
+    axa.text(0.03, 0.82,
+             rf"{theta_label(rep['theta_over_pi'])}, $E={rep['drive']:.0f}$" + "\n"
+             rf"$D_2={slope:.2f}\pm{unc:.2f}$, $D_{{\mathrm{{KY}}}}={ky:.2f}$, $n_+={npos}$",
+             transform=axa.transAxes, va="top", ha="left", fontsize=8.5)
+    axa.set_xlabel(r"distance $\varepsilon$")
+    axa.set_ylabel(r"correlation sum $C(\varepsilon)$")
+    axa.legend(fontsize=7, loc="lower right", frameon=False)
+
+    # ---- (b) D2 vs D_KY at the four points ----
+    D2 = np.array([r["correlation_dimension_D2"] for r in records])
+    D2e = np.array([r["D2_scaling_region_uncertainty"] for r in records])
+    DKY = np.array([r["cross_check_vs_kaplan_yorke"]["kaplan_yorke_dimension"]
+                    for r in records])
+    x = np.arange(len(records))
+    width = 0.34
+    axb.bar(x - width / 2, D2, width, yerr=D2e, capsize=3,
+            color="#1f77b4", label=r"$D_2$ (correlation)")
+    axb.bar(x + width / 2, DKY, width,
+            color="#d62728", label=r"$D_{\mathrm{KY}}$ (Kaplan--Yorke)")
+    labels = [rf"{theta_label(r['theta_over_pi'])}, $E={r['drive']:.0f}$"
+              for r in records]
+    axb.set_xticks(x)
+    axb.set_xticklabels(labels, fontsize=8)
+    axb.set_ylabel("dimension")
+    axb.set_ylim(0, 5.6)
+    axb.text(0.02, 0.98, "(b)", transform=axb.transAxes,
+             va="top", ha="left", fontsize=11)
+    axb.legend(fontsize=8, loc="upper left", frameon=False)
+
+    fig.tight_layout()
 
     a.output.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(a.output)
@@ -77,13 +113,13 @@ def main() -> int:
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "outputs": [a.output.name, png.name],
         "caption_alt": (
-            "Two-by-two log-log panels of the Theiler-corrected two-point "
-            "correlation sum versus distance at four strong-coupling points "
-            "(drive four and eight, flux phases zero and pi over two). Each "
-            "panel marks the scaling region and its fitted slope, the "
-            "correlation dimension D2, alongside the Kaplan-Yorke dimension "
-            "and the number of positive Lyapunov exponents. Every panel shows "
-            "D2 below the Kaplan-Yorke dimension."),
+            "Two-panel correlation-dimension cross-check. Left: the "
+            "Theiler-corrected two-point correlation sum versus distance at the "
+            "most hyperchaotic point, with the scaling region and its fitted "
+            "slope giving the correlation dimension D2. Right: grouped bars of "
+            "the correlation dimension D2 with its scaling-region uncertainty "
+            "against the Kaplan-Yorke dimension at the four strong-coupling "
+            "points, showing D2 below the Kaplan-Yorke dimension at every point."),
     }
     (FIG / "correlation_dimension.manifest.json").write_text(
         json.dumps(manifest, indent=2, sort_keys=True) + "\n")

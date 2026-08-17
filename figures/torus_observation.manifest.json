@@ -1,7 +1,7 @@
 {
   "caption_alt": "Two-by-two figure of the observed Neimark-Sacker torus. Top row: stroboscopic Poincare sections of the perturbed drive-locked orbit just above the onset, projected onto the first mechanical mode, showing an invariant closed curve at flux phases zero and pi over two. Bottom row: the largest Lyapunov exponent versus drive, near-marginal just above the onset and growing with drive, with the onset drive marked.",
   "figure": "torus_observation",
-  "generated_at_utc": "2026-08-16T15:38:57.433037+00:00",
+  "generated_at_utc": "2026-08-17T04:39:55.728338+00:00",
   "generator": "scripts/plot_torus_observation.py",
   "outputs": [
     "torus_observation.pdf",

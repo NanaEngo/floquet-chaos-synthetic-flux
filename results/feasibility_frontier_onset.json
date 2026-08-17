@@ -1,0 +1,180 @@
+{
+  "anchor_g0_over_omega_m": 0.000118,
+  "drive": 8.0,
+  "first_hyperchaos_appearance_g1": 0.14,
+  "gate": "FEASIBILITY_FRONTIER_ONSET_REFINEMENT",
+  "interpretation": "The hyperchaos onset is a transition interval, not a sharp boundary: for g1 in [0.14, 0.18] the second Lyapunov exponent is marginal and n_+ straddles {1, 2} across seeds, while n_+ = 2 is robust (all seeds) from g1 ~ 0.18 upward. The robust hyperchaos onset therefore lies near g1/omega_m ~ 0.18, about 1.5e3 times the anchored g0/omega_m = 1.18e-4, and no drive retuning within the tested envelope lowers it. No input power is reported.",
+  "kind": "seed_robust_hyperchaos_onset",
+  "n_seeds": 3,
+  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "positive_exponent_threshold": 0.001,
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "ratio_first_appearance": 1186.440677966102,
+  "ratio_robust_onset": 1525.4237288135594,
+  "recorded_at_utc": "2026-08-17T10:28:33.459197+00:00",
+  "robust_hyperchaos_onset_g1": 0.18,
+  "rows": [
+    {
+      "g1": 0.14,
+      "g2": 0.12600000000000003,
+      "largest_exponent": [
+        0.07762509860132637,
+        0.10363681730055445,
+        0.08436547112418856
+      ],
+      "n_positive_per_seed": [
+        2,
+        1,
+        1
+      ],
+      "robust_hyperchaos": false,
+      "second_largest_exponent": [
+        0.0020120789147815895,
+        -0.0019324276638940988,
+        -0.0007218228678938727
+      ]
+    },
+    {
+      "g1": 0.15,
+      "g2": 0.135,
+      "largest_exponent": [
+        0.0870830205538259,
+        0.08591135682391483,
+        0.08522925368718523
+      ],
+      "n_positive_per_seed": [
+        1,
+        1,
+        2
+      ],
+      "robust_hyperchaos": false,
+      "second_largest_exponent": [
+        0.00024326771834657772,
+        0.0007709217986465217,
+        0.0019082929214468648
+      ]
+    },
+    {
+      "g1": 0.16,
+      "g2": 0.14400000000000002,
+      "largest_exponent": [
+        0.0864004498789451,
+        0.08934616922914687,
+        0.0921416731736777
+      ],
+      "n_positive_per_seed": [
+        1,
+        1,
+        1
+      ],
+      "robust_hyperchaos": false,
+      "second_largest_exponent": [
+        -0.002798870303509181,
+        -0.002923414255044257,
+        -0.0025631214202675276
+      ]
+    },
+    {
+      "g1": 0.17,
+      "g2": 0.15300000000000002,
+      "largest_exponent": [
+        0.12201768127224026,
+        0.12246010746280223,
+        0.12696021122343398
+      ],
+      "n_positive_per_seed": [
+        2,
+        2,
+        1
+      ],
+      "robust_hyperchaos": false,
+      "second_largest_exponent": [
+        0.0018018775711745156,
+        0.0020342890463577097,
+        0.0009182769038857235
+      ]
+    },
+    {
+      "g1": 0.18,
+      "g2": 0.162,
+      "largest_exponent": [
+        0.11912033431763212,
+        0.12392031011869267,
+        0.11903299707057881
+      ],
+      "n_positive_per_seed": [
+        2,
+        2,
+        2
+      ],
+      "robust_hyperchaos": true,
+      "second_largest_exponent": [
+        0.0028196770943321615,
+        0.002334747515151136,
+        0.0026195352068484066
+      ]
+    },
+    {
+      "g1": 0.19,
+      "g2": 0.171,
+      "largest_exponent": [
+        0.13652457352069378,
+        0.1315460306963298,
+        0.1365034357203437
+      ],
+      "n_positive_per_seed": [
+        2,
+        2,
+        2
+      ],
+      "robust_hyperchaos": true,
+      "second_largest_exponent": [
+        0.0036909380026897433,
+        0.004738481034960795,
+        0.0042607978373412955
+      ]
+    },
+    {
+      "g1": 0.2,
+      "g2": 0.18000000000000002,
+      "largest_exponent": [
+        0.12380377795996088,
+        0.11037671498865795,
+        0.12327751558073181
+      ],
+      "n_positive_per_seed": [
+        2,
+        2,
+        2
+      ],
+      "robust_hyperchaos": true,
+      "second_largest_exponent": [
+        0.0019443372648363098,
+        0.004347677989624418,
+        0.0016829907283380673
+      ]
+    },
+    {
+      "g1": 0.22,
+      "g2": 0.198,
+      "largest_exponent": [
+        0.1537797372247893,
+        0.14474834821759833,
+        0.13967357260812543
+      ],
+      "n_positive_per_seed": [
+        2,
+        2,
+        2
+      ],
+      "robust_hyperchaos": true,
+      "second_largest_exponent": [
+        0.006645637851656946,
+        0.00769333485851559,
+        0.006587604455044294
+      ]
+    }
+  ],
+  "status": "PASS",
+  "theta": 0.0
+}

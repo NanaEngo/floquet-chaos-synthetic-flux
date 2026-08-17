@@ -22,8 +22,7 @@ in `scripts/` and a machine-readable artifact in `results/`; every figure in
 | `scripts/` | Deterministic generators, validators, and figure scripts (Python). |
 | `results/` | Machine-readable JSON outputs, run manifests, `checksums.sha256`, `source_hashes.json`. |
 | `figures/` | Vector (PDF) and raster (PNG) figures plus `*.manifest.json` provenance. |
-| `manuscript/` | AIP/`Chaos`-formatted LaTeX sources (main + SI) and compiled PDFs. |
-| `submission_SciPost/` | SciPost Physics submission package (main + SI, class, bib style) and compiled PDFs. |
+| `submission_SciPost/` | SciPost Physics submission package — the canonical manuscript (main + SI, class, bib style) and compiled PDFs. |
 | `environment.yml` | Conda environment specification (`fl_qom`). |
 
 ## Environment
