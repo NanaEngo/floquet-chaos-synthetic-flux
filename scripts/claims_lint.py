@@ -16,9 +16,10 @@ def main() -> int:
     for pattern in FORBIDDEN_ACTIVE:
         for m in re.finditer(pattern, text, flags=re.I):
             context=text[max(0,m.start()-220):m.end()+220]
-            negative = context.lower()
+            negative = context.lower().replace('–', '-').replace('—', '-')
             is_withdrawn = any(marker in negative for marker in (
                 'no claim', 'does not', 'do not', 'not made', 'not a ',
+                'no quantum advantage', 'no exceptional-point sensing',
                 'withdrawn', 'earlier claims', 'cannot be obtained', 'without direct evidence',
             ))
             if 'pending' not in negative and not is_withdrawn:
