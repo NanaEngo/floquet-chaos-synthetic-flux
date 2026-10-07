@@ -1,13 +1,13 @@
 # Public code and data deposit
 
-**Paper:** *Floquet–Lyapunov consistency and matched sensing bounds for
-flux-controlled hyperchaos in dissipative optomechanics*
+**Paper:** *Synthetic-flux control of hyperchaos order in a dissipative
+optomechanical model*
 
 **Authors:** Stella Rolande Mbokop Tchounda, Carolle Tchodimou,
 Philippe Djorwe, Sifeu Takougang Kingni, Serge Guy Nana Engo
 (corresponding author).
 
-**Target venue:** SciPost Physics (diamond open access).
+**Target venue:** Chaos, Solitons & Fractals.
 
 This repository is the public, reproducible code and data package for the
 manuscript. Every numerical claim in the paper traces to a deterministic script
@@ -22,7 +22,9 @@ in `scripts/` and a machine-readable artifact in `results/`; every figure in
 | `scripts/` | Deterministic generators, validators, and figure scripts (Python). |
 | `results/` | Machine-readable JSON outputs, run manifests, `checksums.sha256`, `source_hashes.json`. |
 | `figures/` | Vector (PDF) and raster (PNG) figures plus `*.manifest.json` provenance. |
-| `submission_SciPost/` | SciPost Physics submission package — the canonical manuscript (main + SI, class, bib style) and compiled PDFs. |
+| `01_track_D_chaos_main.tex`/`.pdf` | Canonical manuscript (elsarticle), compiled. |
+| `02_track_D_chaos_SI.tex`/`.pdf` | Supplementary Information, compiled. |
+| `03_track_D_chaos_cover_letter.tex`/`.pdf` | Cover letter, `Chaos_Floquet_SyntheticFlux.bib`, `Highlights.txt`. |
 | `environment.yml` | Conda environment specification (`fl_qom`). |
 
 ## Environment
@@ -73,8 +75,7 @@ All commands are run from the repository root with the `fl_qom` environment acti
 
 Each figure is generated from its `results/` artifact by the matching
 `scripts/plot_*.py` script. The figure list and the mapping to the manuscript
-figures are in `figures/README.md` and the individual `figures/*.manifest.json`
-records.
+figures are in the individual `figures/*.manifest.json` provenance records.
 
 ## Integrity and provenance
 
@@ -95,7 +96,7 @@ than a device prediction.
 
 ## License
 
-Code: MIT License. Data and figures: CC BY 4.0 (consistent with SciPost's
+Code: MIT License. Data and figures: CC BY 4.0 (consistent with the journal's
 open-access policy). See `LICENSE` and `LICENSE-DATA`.
 
 ## Citation

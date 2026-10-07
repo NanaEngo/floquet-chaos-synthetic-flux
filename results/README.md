@@ -2,14 +2,14 @@
 
 Only machine-generated outputs from the reconstruction may be stored here.
 The current package is the full production set behind the Chaos, Solitons &
-Fractals resubmission (81 JSON artifacts; `checksums.sha256` is the
+Fractals resubmission (89 JSON artifacts; `checksums.sha256` is the
 authoritative inventory). The headline result is the drive- and
 coupling-gated full-spectrum hyperchaos route with a null matched-sensing
 outcome, not a periodic-orbit pilot.
 
 ## Gate and provenance core
 
-- `environment_manifest.json` — qom environment, FL_QOM revision, worktree state, and dependency versions;
+- `environment_manifest.json` — fl_qom environment, FL_QOM revision, worktree state, and dependency versions;
 - `model_gate.json` — equations/Jacobian/trace/gauge-flux gate;
 - `floquet_lyapunov.json` — periodic orbit, monodromy, Floquet rates, QR spectrum, and convergence history;
 - `parameters.json` — normalized pilot parameters;

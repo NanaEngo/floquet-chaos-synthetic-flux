@@ -15,14 +15,14 @@ is produced by one of these scripts and lands in `results/`.
 Two gates run over the manuscript itself:
 
 ```bash
-mamba run -n qom python scripts/claims_lint.py 01_track_D_chaos_main.tex   # fail-closed forbidden-claim lint
-sha256sum -c results/checksums.sha256                                      # results inventory (82 files)
+mamba run -n fl_qom python scripts/claims_lint.py 01_track_D_chaos_main.tex   # fail-closed forbidden-claim lint
+sha256sum -c results/checksums.sha256                                      # results inventory (90 files)
 ```
 
 ## Order of execution
 
 ```bash
-# after activating qom
+# after activating fl_qom
 bash scripts/run_reconstruction.sh
 ```
 
@@ -47,7 +47,7 @@ Supporting scripts:
 - `pareto_robust_optimizer.py` implements the robust Pareto design. It requires the accepted manifest by default; `--allow-provisional-literature-scenario` is an explicit exploratory override and labels output `PROVISIONAL`. Use `--initial-condition-replicates >= 3` for the robustness gate; a failed orbit under any replicate is retained as a failure, not silently dropped.
 - `convert_drive_calibration.py` converts an explicitly defined coherent input amplitude to input power and normalized additive drive. It requires all SI inputs and the `coherent_input_amplitude_sqrt_photons_per_second` convention; incomplete or quadrature-phase input returns `NOT_COMPUTED`.
 - `generate_pareto_figure.py` creates a diagnostic figure only from the provisional machine-generated JSON and never feeds the manuscript automatically.
-- `bootstrap_qom.sh` creates/verifies the `qom` environment, installs FL_QOM editable, runs the upstream tests, and records the environment manifest.
+- `bootstrap_qom.sh` creates/verifies the `fl_qom` environment, installs FL_QOM editable, runs the upstream tests, and records the environment manifest.
 - `reconstruction_core.py` contains the equations and numerical primitives; it does not write results itself.
 
 ## Failure policy
