@@ -1,0 +1,11 @@
+{
+  "caption_alt": "Three panels of the window-resolved local analysis at the strong-coupling points. (a) The local force-to-observable susceptibility against the local finite-time Lyapunov exponent at E=8, theta=pi/2; the signal responds strongly to local stretching. (b) The local record spread against the same local exponent; the noise responds weakly because the within-window record saturates at the attractor scale. (c) Grouped box plots of the local Fisher proxy logarithm at all six drive and flux-phase points, comparing the flux-phase dependence of the per-window signal-to-noise budget.",
+  "figure": "local_fisher_stretching",
+  "generated_at_utc": "2026-10-05T10:30:23.278458+00:00",
+  "generator": "scripts/plot_local_fisher_stretching.py",
+  "outputs": [
+    "local_fisher_stretching.pdf",
+    "local_fisher_stretching.png"
+  ],
+  "source_json": "results/local_fisher_stretching.json"
+}

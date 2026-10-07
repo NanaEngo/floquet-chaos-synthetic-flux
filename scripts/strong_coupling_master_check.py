@@ -47,11 +47,21 @@ from scipy.interpolate import interp1d
 
 from reconstruction_core import ModelParameters, rhs_phase
 
-# Chaotic point of the main text: (E=4, theta=0), strong coupling.
+# Default point of the main text: (E=4, theta=0), strong coupling. The CLI can
+# override --drive/--theta-over-pi to check other points (e.g. E=8, theta=pi/2).
 P = ModelParameters(kappa=1.0, gamma1=0.02, gamma2=0.02, omega1=1.0,
                     omega2=1.03, g1=0.3, g2=0.27, hopping=0.08,
                     detuning=-1.0, drive=4.0, drive_modulation=0.1,
                     drive_frequency=1.0, theta=0.0)
+
+
+def make_point(drive: float, theta_over_pi: float) -> ModelParameters:
+    """Build the model parameters for the requested (drive, phase) point."""
+    return ModelParameters(kappa=1.0, gamma1=0.02, gamma2=0.02, omega1=1.0,
+                           omega2=1.03, g1=0.3, g2=0.27, hopping=0.08,
+                           detuning=-1.0, drive=drive, drive_modulation=0.1,
+                           drive_frequency=1.0,
+                           theta=theta_over_pi * np.pi)
 
 
 def chaotic_trajectory(p: ModelParameters, n_attr: int = 40,
@@ -152,19 +162,24 @@ def main() -> int:
     ap.add_argument("--output", type=Path, required=True)
     ap.add_argument("--n-fock", type=int, nargs="+", default=[20, 40, 60])
     ap.add_argument("--n-periods", type=float, default=2.0)
+    ap.add_argument("--drive", type=float, default=4.0,
+                    help="Drive amplitude E of the checked point")
+    ap.add_argument("--theta-over-pi", type=float, default=0.0,
+                    help="Synthetic-flux phase of the checked point, in units of pi")
     a = ap.parse_args()
 
-    traj = chaotic_trajectory(P)
+    p = make_point(a.drive, a.theta_over_pi)
+    traj = chaotic_trajectory(p)
 
     # Lyapunov classification at the chosen point (short re-check).
     from reconstruction_core import lyapunov_qr
-    lyap = lyapunov_qr(np.asarray(traj["x0"]), P, n_steps=200000,
-                       transient_steps=20000, dt=0.01, qr_interval=10)
+    lyap = lyapunov_qr(np.asarray(traj["x0"]), p, n_steps=1_000_000,
+                       transient_steps=100_000, dt=0.01, qr_interval=10)
     n_positive = int(sum(1 for lam in lyap["spectrum"] if lam > 1e-3))
 
     runs = []
     for nf in a.n_fock:
-        runs.append(master_check(P, traj, nf, n_periods=a.n_periods))
+        runs.append(master_check(p, traj, nf, n_periods=a.n_periods))
 
     out = {
         "gate": "STRONG_COUPLING_MASTER_CHECK",
@@ -174,9 +189,9 @@ def main() -> int:
         "python": sys.version,
         "platform": platform.platform(),
         "point": {
-            "drive": P.drive, "theta": P.theta, "g1": P.g1, "g2": P.g2,
-            "kappa": P.kappa, "gamma1": P.gamma1, "gamma2": P.gamma2,
-            "detuning": P.detuning, "hopping": P.hopping,
+            "drive": p.drive, "theta": p.theta, "g1": p.g1, "g2": p.g2,
+            "kappa": p.kappa, "gamma1": p.gamma1, "gamma2": p.gamma2,
+            "detuning": p.detuning, "hopping": p.hopping,
         },
         "semiclassical_classification": {
             "lyapunov_spectrum": lyap["spectrum"],
@@ -195,20 +210,20 @@ def main() -> int:
             "The optical master equation driven by the classical mechanical "
             "trajectories of the chaotic attractor converges to the semiclassical "
             "occupation (<a^dag a>(t) = |alpha(t)|^2): the maximum relative "
-            "deviation is 4.6e-3 at N_Fock=40 and 6.6e-6 at N_Fock=60. This "
-            "cutoff dependence is quantified because H_opt is linear in a. The "
-            "result supports the optical factorization <a^dag a> ~ |alpha|^2 "
-            "along the chaotic trajectory at the highest tested cutoff. The "
-            "time-averaged second-order correlation g2 ~ 2.0 is super-Poissonian "
-            "rather than coherent, as expected for a mixture of coherent "
-            "amplitudes whose phase is modulated by the chaotic mechanical motion: "
-            "the first moment agrees within the stated cutoff tolerance while the "
-            "state is not a single coherent state. "
+            "deviation per cutoff is recorded in master_runs "
+            "(max_ratio_deviation), and it decreases with N_Fock because H_opt "
+            "is linear in a. The result supports the optical factorization "
+            "<a^dag a> ~ |alpha|^2 along the chaotic trajectory at the highest "
+            "tested cutoff. The time-averaged second-order correlation g2 is "
+            "super-Poissonian rather than coherent, as expected for a mixture of "
+            "coherent amplitudes whose phase is modulated by the chaotic "
+            "mechanical motion: the first moment agrees within the stated cutoff "
+            "tolerance while the state is not a single coherent state. "
             "It does not solve the "
             "two-mechanical-mode quantum dynamics: the mechanical sector remains "
             "semiclassical, and the Lyapunov classification above is a mean-field "
             "statement. This is the documented boundary of the semiclassical "
-            "treatment, now checked on the optical sector at a chaotic point."
+            "treatment, checked on the optical sector at the declared point."
         ),
     }
     a.output.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,4 @@
+- Synthetic flux selects hyperchaos order up to n+=4 in 6D optomechanics.
+- Neimark-Sacker route localized by Floquet-Lyapunov checks over 432 runs.
+- Matched Fisher lemma: null sensing gain on attractor, ratio 0.54.
+- Model-level result: 2542x beyond silicon anchors; robust onset at 0.18.

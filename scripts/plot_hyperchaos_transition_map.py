@@ -73,17 +73,39 @@ def main() -> int:
     axb.set_xlim(-1, 1)
     axb.set_yticks(range(0, 5))
 
-    # ---- (c) heatmap n_pos vs (drive, phase) ----
+    # ---- (c) heatmap n_pos vs (drive, phase), incl. flank drives ----
+    # Discrete tiles with explicit bin edges (no interpolation): the plane
+    # combines the five-drive production map with the three flank drives
+    # around the re-stabilization (1.5/2.5/3.0), so unsampled regions are
+    # never filled by colormap smoothing.
     axc = fig.add_subplot(gs[0, 2])
-    Z = np.full((len(drives), len(thetas)), np.nan)
-    for di, dr in enumerate(drives):
+    d2 = load(ROOT / "results" / "full_spectrum_hyperchaos_map_g03_extra_drives.json")
+    recs2 = [r for r in d2["records"] if r.get("status") == "PASS"]
+    all_recs = recs + recs2
+    drives_c = sorted({r["drive"] for r in all_recs})
+
+    def rec_at_c(drive, theta):
+        for r in all_recs:
+            if r["drive"] == drive and round(r["theta"], 6) == round(theta, 6):
+                return r
+        return None
+
+    Z = np.full((len(drives_c), len(thetas)), np.nan)
+    for di, dr in enumerate(drives_c):
         for ti, t in enumerate(thetas):
-            r = rec_at(dr, t)
+            r = rec_at_c(dr, t)
             if r:
                 Z[di, ti] = r["n_positive_exponents"]
-    im = axc.imshow(Z, aspect="auto", origin="lower",
-                    extent=[th_pi[0], th_pi[-1], drives[0], drives[-1]],
-                    cmap="inferno", vmin=0, vmax=4, interpolation="nearest")
+    dvals = np.array(drives_c, dtype=float)
+    yed = np.concatenate([[dvals[0] / np.sqrt(dvals[1] / dvals[0])],
+                          np.sqrt(dvals[:-1] * dvals[1:]),
+                          [dvals[-1] * np.sqrt(dvals[-1] / dvals[-2])]])
+    xed = np.concatenate([[th_pi[0] - 1 / 12],
+                          (th_pi[:-1] + th_pi[1:]) / 2,
+                          [th_pi[-1] + 1 / 12]])
+    Xed, Yed = np.meshgrid(xed, yed)
+    im = axc.pcolormesh(Xed, Yed, Z, cmap="inferno", vmin=0, vmax=4,
+                        shading="flat", edgecolors="face")
     axc.set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axc.set_ylabel("drive amplitude $E$")
     axc.text(0.02, 0.98, "(c)", transform=axc.transAxes,
@@ -99,7 +121,8 @@ def main() -> int:
     # manifest
     man = {
         "gate": "HYPERCHAOS_TRANSITION_MAP_FIGURE",
-        "input": "results/full_spectrum_hyperchaos_map_g03.json",
+        "input": ["results/full_spectrum_hyperchaos_map_g03.json",
+                  "results/full_spectrum_hyperchaos_map_g03_extra_drives.json"],
         "outputs": ["figures/hyperchaos_transition_map.pdf",
                     "figures/hyperchaos_transition_map.png"],
         "coupling": d.get("coupling"),

@@ -1,6 +1,6 @@
 {
   "gate": "STRONG_COUPLING_MASTER_CHECK",
-  "interpretation": "The optical master equation driven by the classical mechanical trajectories of the chaotic attractor reproduces the semiclassical occupation exactly (<a^dag a>(t) = |alpha(t)|^2, ratio 1.000 to machine precision at every Fock truncation) because H_opt is linear in a. This validates the optical factorization <a^dag a> ~ |alpha|^2 along the chaotic trajectory. The time-averaged second-order correlation g2 ~ 2.0 is super-Poissonian rather than coherent, as expected for a mixture of coherent amplitudes whose phase is modulated by the chaotic mechanical motion: the first moment is reproduced exactly while the state is not a single coherent state. It does not solve the two-mechanical-mode quantum dynamics: the mechanical sector remains semiclassical, and the Lyapunov classification above is a mean-field statement. This is the documented boundary of the semiclassical treatment, now checked on the optical sector at a chaotic point.",
+  "interpretation": "The optical master equation driven by the classical mechanical trajectories of the chaotic attractor converges to the semiclassical occupation (<a^dag a>(t) = |alpha(t)|^2): the maximum relative deviation per cutoff is recorded in master_runs (max_ratio_deviation), and it decreases with N_Fock because H_opt is linear in a. The result supports the optical factorization <a^dag a> ~ |alpha|^2 along the chaotic trajectory at the highest tested cutoff. The time-averaged second-order correlation g2 is super-Poissonian rather than coherent, as expected for a mixture of coherent amplitudes whose phase is modulated by the chaotic mechanical motion: the first moment agrees within the stated cutoff tolerance while the state is not a single coherent state. It does not solve the two-mechanical-mode quantum dynamics: the mechanical sector remains semiclassical, and the Lyapunov classification above is a mean-field statement. This is the documented boundary of the semiclassical treatment, checked on the optical sector at the declared point.",
   "kind": "optical_sector_master_check_chaotic_point",
   "master_runs": [
     {
@@ -212,11 +212,11 @@
     }
   ],
   "mean_occupations_on_attractor": {
-    "mechanical_1": 20.41657040615095,
-    "mechanical_2": 23.53764656375361,
+    "mechanical_1": 37.53943386837135,
+    "mechanical_2": 44.09920630241258,
     "optical": 6.120774564215604
   },
-  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
   "point": {
     "detuning": -1.0,
     "drive": 4.0,
@@ -229,17 +229,17 @@
     "theta": 0.0
   },
   "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
-  "recorded_at_utc": "2026-08-17T07:28:53.782949+00:00",
+  "recorded_at_utc": "2026-10-05T10:06:02.822817+00:00",
   "semiclassical_classification": {
     "lyapunov_spectrum": [
-      0.0991295065301806,
-      -0.0013280612266728775,
-      -0.008294351268559284,
-      -0.012262533220319977,
-      -0.3817054809524119,
-      -0.7366343307096261
+      0.08620402757460657,
+      0.001657147998078241,
+      -0.008605921226569087,
+      -0.01256217796012629,
+      -0.38195684307310684,
+      -0.7258365460457528
     ],
-    "positive_exponent_count_1e3": 1
+    "positive_exponent_count_1e3": 2
   },
   "status": "PASS"
 }

@@ -109,11 +109,11 @@
       }
     }
   ],
-  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
   "positive_exponent_threshold": 0.001,
   "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
   "ratio_to_anchor": 1720.3389830508477,
-  "recorded_at_utc": "2026-08-17T10:24:29.368058+00:00",
+  "recorded_at_utc": "2026-10-05T22:04:21.239080+00:00",
   "records": [
     {
       "divergence_residual": 4.7436959191439476e-05,

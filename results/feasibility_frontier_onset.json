@@ -6,12 +6,12 @@
   "interpretation": "The hyperchaos onset is a transition interval, not a sharp boundary: for g1 in [0.14, 0.18] the second Lyapunov exponent is marginal and n_+ straddles {1, 2} across seeds, while n_+ = 2 is robust (all seeds) from g1 ~ 0.18 upward. The robust hyperchaos onset therefore lies near g1/omega_m ~ 0.18, about 1.5e3 times the anchored g0/omega_m = 1.18e-4, and no drive retuning within the tested envelope lowers it. No input power is reported.",
   "kind": "seed_robust_hyperchaos_onset",
   "n_seeds": 3,
-  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
   "positive_exponent_threshold": 0.001,
   "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
   "ratio_first_appearance": 1186.440677966102,
   "ratio_robust_onset": 1525.4237288135594,
-  "recorded_at_utc": "2026-08-17T10:28:33.459197+00:00",
+  "recorded_at_utc": "2026-10-05T22:06:24.482696+00:00",
   "robust_hyperchaos_onset_g1": 0.18,
   "rows": [
     {

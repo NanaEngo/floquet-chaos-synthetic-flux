@@ -1,0 +1,586 @@
+{
+  "baseline_deterministic": {
+    "gain_vs_flux_off": 1.3231588389876912,
+    "gain_vs_single_mode": 1.1590040901013756
+  },
+  "gain_vs_flux_off": {
+    "fraction_above_unity": 1.0,
+    "median": 1.0586077733142067,
+    "n": 60,
+    "p05": 1.0043238486306165,
+    "p95": 1.3419403825162692
+  },
+  "gain_vs_single_mode": {
+    "fraction_above_unity": 1.0,
+    "median": 1.0291665362392872,
+    "n": 60,
+    "p05": 1.0021608073667114,
+    "p95": 1.1681161451296675
+  },
+  "gate": "MATCHED_FISHER_UQ",
+  "interpretation": "The order-unity matched force-sensing gain is propagated over the unmeasured coordinates (hopping, bath occupation, drive). The gain is robust if the Monte Carlo median remains near the deterministic value and the 5th percentile stays above or near unity; it is not robust if the spread pushes the gain below unity for a substantial fraction of samples. Classical Fisher information, not QFI.",
+  "kind": "classical_measurement_fisher_uncertainty_quantification",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
+  "recorded_at_utc": "2026-10-07T11:43:41.479403+00:00",
+  "records": [
+    {
+      "drive": 0.19623082911284523,
+      "gain_vs_flux_off": 1.0061563173497567,
+      "gain_vs_single_mode": 1.003076057608799,
+      "hopping": 0.0017584540299794241,
+      "n_th": 0.26553194402504526,
+      "sample": 0,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21429174694227088,
+      "gain_vs_flux_off": 1.3550181262740566,
+      "gain_vs_single_mode": 1.174446906868217,
+      "hopping": 0.08676966011628683,
+      "n_th": 0.17069395353771116,
+      "sample": 1,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20710891269522147,
+      "gain_vs_flux_off": 1.0074214738705458,
+      "gain_vs_single_mode": 1.0037075300692293,
+      "hopping": 0.002118802819308055,
+      "n_th": 0.34458232947625816,
+      "sample": 2,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19645603123469496,
+      "gain_vs_flux_off": 1.0614922016707713,
+      "gain_vs_single_mode": 1.030597613590245,
+      "hopping": 0.017102844343080154,
+      "n_th": 0.9553868024278144,
+      "sample": 3,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20862286967771462,
+      "gain_vs_flux_off": 1.3034819207365798,
+      "gain_vs_single_mode": 1.1494518662767743,
+      "hopping": 0.07573273200183367,
+      "n_th": 0.9274812058260246,
+      "sample": 4,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21603020753812455,
+      "gain_vs_flux_off": 1.0038239520216616,
+      "gain_vs_single_mode": 1.0019110839032466,
+      "hopping": 0.0010937655026360981,
+      "n_th": 0.7994253070548745,
+      "sample": 5,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18723172922589507,
+      "gain_vs_flux_off": 1.0397135208058332,
+      "gain_vs_single_mode": 1.0197844896806059,
+      "hopping": 0.011161579053536933,
+      "n_th": 0.2051910620193987,
+      "sample": 6,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20184825716253624,
+      "gain_vs_flux_off": 1.1871181564366202,
+      "gain_vs_single_mode": 1.0926223333009228,
+      "hopping": 0.04906708729018443,
+      "n_th": 0.09636868238132194,
+      "sample": 7,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.2190861790612174,
+      "gain_vs_flux_off": 1.0089433358331938,
+      "gain_vs_single_mode": 1.0044667440747632,
+      "hopping": 0.0025518066601490155,
+      "n_th": 0.3082675345236526,
+      "sample": 8,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21069540673231,
+      "gain_vs_flux_off": 1.012551932136839,
+      "gain_vs_single_mode": 1.0062667396784248,
+      "hopping": 0.0035747874707439853,
+      "n_th": 0.686675021296109,
+      "sample": 9,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21088642363808724,
+      "gain_vs_flux_off": 1.0132453790143006,
+      "gain_vs_single_mode": 1.0066124050455914,
+      "hopping": 0.00377106946770698,
+      "n_th": 0.1550939554630515,
+      "sample": 10,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18846491280186203,
+      "gain_vs_flux_off": 1.0285853280461816,
+      "gain_vs_single_mode": 1.014252188327443,
+      "hopping": 0.008076789469001602,
+      "n_th": 0.2950008046106399,
+      "sample": 11,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20092255569847656,
+      "gain_vs_flux_off": 1.3837472414600174,
+      "gain_vs_single_mode": 1.1883510108602386,
+      "hopping": 0.09273489211019888,
+      "n_th": 0.6498438445706574,
+      "sample": 12,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19331147344541566,
+      "gain_vs_flux_off": 1.0059231424816686,
+      "gain_vs_single_mode": 1.0029596568699837,
+      "hopping": 0.0016919636057489348,
+      "n_th": 0.9133196542438052,
+      "sample": 13,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18823382948779263,
+      "gain_vs_flux_off": 1.1425982755383257,
+      "gain_vs_single_mode": 1.0707327037272265,
+      "hopping": 0.0381489082769214,
+      "n_th": 0.9062833852513947,
+      "sample": 14,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.202645047321439,
+      "gain_vs_flux_off": 1.3721569232181043,
+      "gain_vs_single_mode": 1.1827497147071109,
+      "hopping": 0.09034336100746343,
+      "n_th": 0.895255915125667,
+      "sample": 15,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20894817056255804,
+      "gain_vs_flux_off": 1.1030719634403203,
+      "gain_vs_single_mode": 1.051205137252263,
+      "hopping": 0.02809495432331987,
+      "n_th": 0.2846201700615388,
+      "sample": 16,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20787487206133254,
+      "gain_vs_flux_off": 1.025730997474118,
+      "gain_vs_single_mode": 1.0128290826754973,
+      "hopping": 0.0072822808975438755,
+      "n_th": 0.33223580067922254,
+      "sample": 17,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21406119364526663,
+      "gain_vs_flux_off": 1.0205755853126697,
+      "gain_vs_single_mode": 1.0102632581241466,
+      "hopping": 0.005837886695744676,
+      "n_th": 0.7074697438135583,
+      "sample": 18,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1928146360008325,
+      "gain_vs_flux_off": 1.0122216070607066,
+      "gain_vs_single_mode": 1.0061027602851653,
+      "hopping": 0.0034804765550110156,
+      "n_th": 0.21443431127055465,
+      "sample": 19,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19749936700480858,
+      "gain_vs_flux_off": 1.0248646743169056,
+      "gain_vs_single_mode": 1.0123998284186106,
+      "hopping": 0.007038800404189602,
+      "n_th": 0.7311395609302707,
+      "sample": 20,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18934855052414692,
+      "gain_vs_flux_off": 1.088828174396839,
+      "gain_vs_single_mode": 1.044160400317632,
+      "hopping": 0.024374436920959332,
+      "n_th": 0.995431829348309,
+      "sample": 21,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19672667060907825,
+      "gain_vs_flux_off": 1.1216877758864006,
+      "gain_vs_single_mode": 1.0604130713132076,
+      "hopping": 0.032873988088652516,
+      "n_th": 0.4820195022608999,
+      "sample": 22,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1926146396100088,
+      "gain_vs_flux_off": 1.0573056343873244,
+      "gain_vs_single_mode": 1.028520352348823,
+      "hopping": 0.015970495626830686,
+      "n_th": 0.12697777398168944,
+      "sample": 23,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18899963572126594,
+      "gain_vs_flux_off": 1.0124008829339015,
+      "gain_vs_single_mode": 1.006192324972405,
+      "hopping": 0.0035310399434455974,
+      "n_th": 0.6143261632847985,
+      "sample": 24,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21098162167026782,
+      "gain_vs_flux_off": 1.0043501589784563,
+      "gain_vs_single_mode": 1.0021739507068939,
+      "hopping": 0.0012438890767652632,
+      "n_th": 0.050240869373411205,
+      "sample": 25,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.2070874306201164,
+      "gain_vs_flux_off": 1.08478317294192,
+      "gain_vs_single_mode": 1.0421480270410661,
+      "hopping": 0.02331533337644229,
+      "n_th": 0.8510666237039048,
+      "sample": 26,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20187976447497788,
+      "gain_vs_flux_off": 1.0044493859979498,
+      "gain_vs_single_mode": 1.0022235660930066,
+      "hopping": 0.0012720430841920822,
+      "n_th": 0.7041202314792815,
+      "sample": 27,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1831123889685491,
+      "gain_vs_flux_off": 1.341252080213228,
+      "gain_vs_single_mode": 1.1677829471434282,
+      "hopping": 0.08386593592383904,
+      "n_th": 0.23748942753512964,
+      "sample": 28,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1987987313824415,
+      "gain_vs_flux_off": 1.1757578697426545,
+      "gain_vs_single_mode": 1.0870457045858337,
+      "hopping": 0.046321323909899875,
+      "n_th": 0.42846138562006253,
+      "sample": 29,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1980410150352944,
+      "gain_vs_flux_off": 1.0994766036776469,
+      "gain_vs_single_mode": 1.0494299401004492,
+      "hopping": 0.02715906153599325,
+      "n_th": 0.1910814853496067,
+      "sample": 30,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21612683861721171,
+      "gain_vs_flux_off": 1.1509708814785915,
+      "gain_vs_single_mode": 1.074849336136526,
+      "hopping": 0.040239388402595395,
+      "n_th": 0.5981433267631405,
+      "sample": 31,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21183038980235708,
+      "gain_vs_flux_off": 1.2069518410945952,
+      "gain_vs_single_mode": 1.1023460141523702,
+      "hopping": 0.053797405134645274,
+      "n_th": 0.2807612336445516,
+      "sample": 32,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19054493827259392,
+      "gain_vs_flux_off": 1.0675086830395697,
+      "gain_vs_single_mode": 1.033586305091589,
+      "hopping": 0.018719237137543508,
+      "n_th": 0.1298784611417979,
+      "sample": 33,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18620491985850834,
+      "gain_vs_flux_off": 1.1189663136164547,
+      "gain_vs_single_mode": 1.059072638400778,
+      "hopping": 0.03217742625520917,
+      "n_th": 0.8474886900162131,
+      "sample": 34,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18734054320408414,
+      "gain_vs_flux_off": 1.0934946488100177,
+      "gain_vs_single_mode": 1.0464723891584182,
+      "hopping": 0.025596858434185382,
+      "n_th": 0.33263367431616847,
+      "sample": 35,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1985184645869431,
+      "gain_vs_flux_off": 1.005510324105982,
+      "gain_vs_single_mode": 1.0027534609110187,
+      "hopping": 0.0015744827731357647,
+      "n_th": 0.107742414139911,
+      "sample": 36,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.2130033130631272,
+      "gain_vs_flux_off": 1.0059742934396163,
+      "gain_vs_single_mode": 1.0029850052445983,
+      "hopping": 0.0017069663206444872,
+      "n_th": 0.6099417635684241,
+      "sample": 37,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21345281724744744,
+      "gain_vs_flux_off": 1.0247154279530593,
+      "gain_vs_single_mode": 1.0123230841935684,
+      "hopping": 0.006998782395502086,
+      "n_th": 0.6234747960922515,
+      "sample": 38,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20262936404330883,
+      "gain_vs_flux_off": 1.1681950802099113,
+      "gain_vs_single_mode": 1.0833276484337118,
+      "hopping": 0.044479277691000296,
+      "n_th": 0.32039853813715674,
+      "sample": 39,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18799077990136928,
+      "gain_vs_flux_off": 1.0315976614539557,
+      "gain_vs_single_mode": 1.0157503057984596,
+      "hopping": 0.008915118171807438,
+      "n_th": 0.1286606122389226,
+      "sample": 40,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.218315430597393,
+      "gain_vs_flux_off": 1.0051586676232664,
+      "gain_vs_single_mode": 1.002577691302411,
+      "hopping": 0.0014746290793506934,
+      "n_th": 0.2300255278293,
+      "sample": 41,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.213859442265362,
+      "gain_vs_flux_off": 1.2559225631436945,
+      "gain_vs_single_mode": 1.126289861746615,
+      "hopping": 0.06514163940706538,
+      "n_th": 0.825131840422058,
+      "sample": 42,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20322117035358755,
+      "gain_vs_flux_off": 1.2730881742697757,
+      "gain_vs_single_mode": 1.1346570835920553,
+      "hopping": 0.06901171984675922,
+      "n_th": 0.19627729764542,
+      "sample": 43,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18547270336864566,
+      "gain_vs_flux_off": 1.0199625758775226,
+      "gain_vs_single_mode": 1.0099610479972874,
+      "hopping": 0.0056633508137971834,
+      "n_th": 0.20060821719370497,
+      "sample": 44,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20832791608710677,
+      "gain_vs_flux_off": 1.2102225368268713,
+      "gain_vs_single_mode": 1.1039502940023342,
+      "hopping": 0.054569077134154195,
+      "n_th": 0.6419481339405035,
+      "sample": 45,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21971935180726898,
+      "gain_vs_flux_off": 1.2358237575913211,
+      "gain_vs_single_mode": 1.1164710750856037,
+      "hopping": 0.0605422550409919,
+      "n_th": 0.19672712056808156,
+      "sample": 46,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21749616965869423,
+      "gain_vs_flux_off": 1.0340735153484684,
+      "gain_vs_single_mode": 1.0169735539087075,
+      "hopping": 0.009607128938796618,
+      "n_th": 0.35057796389267615,
+      "sample": 47,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1864840647419083,
+      "gain_vs_flux_off": 1.011658196870159,
+      "gain_vs_single_mode": 1.0058220120757924,
+      "hopping": 0.0033206387094664733,
+      "n_th": 0.860759947574053,
+      "sample": 48,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19329992273727736,
+      "gain_vs_flux_off": 1.0569901592435136,
+      "gain_vs_single_mode": 1.0283636105301976,
+      "hopping": 0.015885128579059646,
+      "n_th": 0.6241713968525977,
+      "sample": 49,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1949361719019717,
+      "gain_vs_flux_off": 1.0599099122410893,
+      "gain_vs_single_mode": 1.0298127201297516,
+      "hopping": 0.016675341742603916,
+      "n_th": 0.9407305344485752,
+      "sample": 50,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.1840955011212672,
+      "gain_vs_flux_off": 1.0060636745142009,
+      "gain_vs_single_mode": 1.0030299250130688,
+      "hopping": 0.0017318204277406506,
+      "n_th": 0.46323044644607186,
+      "sample": 51,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.18141622962000842,
+      "gain_vs_flux_off": 1.075013954201906,
+      "gain_vs_single_mode": 1.0373145494473113,
+      "hopping": 0.02072112308303007,
+      "n_th": 0.7421795524378368,
+      "sample": 52,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19783761116709453,
+      "gain_vs_flux_off": 1.1739672005086692,
+      "gain_vs_single_mode": 1.0861667668964892,
+      "hopping": 0.04588580494240209,
+      "n_th": 0.6887124359615433,
+      "sample": 53,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19821039830397075,
+      "gain_vs_flux_off": 1.0035909209216458,
+      "gain_vs_single_mode": 1.001794737803853,
+      "hopping": 0.0010270125139494124,
+      "n_th": 0.1868948439768766,
+      "sample": 54,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20788101433506348,
+      "gain_vs_flux_off": 1.1588389746973016,
+      "gain_vs_single_mode": 1.0787236936176554,
+      "hopping": 0.04218379133306742,
+      "n_th": 0.05516884752787506,
+      "sample": 55,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.19137494330094745,
+      "gain_vs_flux_off": 1.0037859414038404,
+      "gain_vs_single_mode": 1.0018921909165612,
+      "hopping": 0.0010825899995277292,
+      "n_th": 0.5365420774336664,
+      "sample": 56,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.21400132328549312,
+      "gain_vs_flux_off": 1.1348657244644393,
+      "gain_vs_single_mode": 1.066911205094302,
+      "hopping": 0.036214455654725586,
+      "n_th": 0.16299849767663166,
+      "sample": 57,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.2018716351307373,
+      "gain_vs_flux_off": 1.1212318884932306,
+      "gain_vs_single_mode": 1.0601869012322773,
+      "hopping": 0.03275856169169422,
+      "n_th": 0.9760349197334547,
+      "sample": 58,
+      "status": "PASS"
+    },
+    {
+      "drive": 0.20143279190930247,
+      "gain_vs_flux_off": 1.0096801960566586,
+      "gain_vs_single_mode": 1.0048348146684158,
+      "hopping": 0.0027603995981088417,
+      "n_th": 0.7453694744097439,
+      "sample": 59,
+      "status": "PASS"
+    }
+  ],
+  "sampling": {
+    "bath_occupation_uniform": [
+      0.01,
+      1.0
+    ],
+    "bath_temperature_note": "n_th in [0.01,1.0] spans cryogenic to ~4 K at omega_m = 2pi*7.436 GHz",
+    "drive_uniform": [
+      0.18,
+      0.22
+    ],
+    "hopping_loguniform": [
+      0.001,
+      0.1
+    ]
+  },
+  "seed": 44,
+  "sensing_phase": 3.141592653589793,
+  "status": "PASS"
+}

@@ -12,7 +12,7 @@
   "kind": "truncated_wigner_quantum_fluctuation_lyapunov_robustness",
   "n_ens_per_point": 12,
   "n_steps": 1000000,
-  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
   "points": [
     {
       "attractor_reference": {
@@ -662,7 +662,7 @@
   ],
   "positive_exponent_threshold": 0.001,
   "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
-  "recorded_at_utc": "2026-08-17T10:01:57.846466+00:00",
+  "recorded_at_utc": "2026-10-05T10:43:38.360999+00:00",
   "status": "PASS",
   "transient_steps": 100000,
   "wigner_noise_variance_per_quadrature": 0.5

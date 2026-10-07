@@ -39,7 +39,7 @@ import numpy as np
 def threshold_sensitivity(spec_path: Path) -> dict:
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
     base_threshold = float(spec["positive_exponent_threshold"])
-    alt_thresholds = [5e-4, 2e-3, 5e-3]
+    alt_thresholds = [1e-4, 5e-4, 2e-3, 5e-3]
 
     def count_positive(spectrum, threshold):
         return int(sum(1 for lam in spectrum if lam > threshold))
@@ -85,11 +85,14 @@ def threshold_sensitivity(spec_path: Path) -> dict:
         "by_drive": drive_summary,
         "interpretation": (
             "Number of Lyapunov exponents above the declared threshold, recomputed "
-            "at alternate thresholds from the stored full spectrum. The production "
-            "classification (threshold 1e-3) is unchanged at 5e-4 and 2e-3 for all "
-            "but one record and only differs at 5e-3 in the E=4 and E=8 sectors; the "
-            "drive-gated route to up to four positive exponents is robust to the "
-            "threshold choice."
+            "at alternate thresholds from the stored full spectrum. At 1e-4 two "
+            "records change their integer count and at 5e-4 one does, without "
+            "altering any per-drive range; at 2e-3 one record changes and the E=4 "
+            "range narrows from 1-3 to 1-2; at 5e-3 six records change and the E=8 "
+            "range narrows from 2-4 to 2-3 as the fourth exponent falls below the "
+            "loosest cut. The drive-gated route from stable (E=0.2, E=2.0) to a "
+            "positive-exponent sector is preserved at every tested threshold, and "
+            "the top count of four survives at every cut looser than 5e-3."
         ),
     }
 

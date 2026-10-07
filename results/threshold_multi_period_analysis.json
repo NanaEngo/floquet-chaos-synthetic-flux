@@ -113,12 +113,13 @@
     ],
     "source": "results/matched_fisher_reference.json"
   },
-  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
   "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
-  "recorded_at_utc": "2026-08-17T05:32:59.192951+00:00",
+  "recorded_at_utc": "2026-10-06T08:25:27.813864+00:00",
   "status": "PASS",
   "threshold_sensitivity": {
     "alt_thresholds": [
+      0.0001,
       0.0005,
       0.002,
       0.005
@@ -128,6 +129,10 @@
       {
         "drive": 0.2,
         "n_plus_at": {
+          "1e-04": [
+            0,
+            0
+          ],
           "2e-03": [
             0,
             0
@@ -150,6 +155,10 @@
       {
         "drive": 1.0,
         "n_plus_at": {
+          "1e-04": [
+            0,
+            1
+          ],
           "2e-03": [
             0,
             1
@@ -172,6 +181,10 @@
       {
         "drive": 2.0,
         "n_plus_at": {
+          "1e-04": [
+            0,
+            0
+          ],
           "2e-03": [
             0,
             0
@@ -194,6 +207,10 @@
       {
         "drive": 4.0,
         "n_plus_at": {
+          "1e-04": [
+            1,
+            3
+          ],
           "2e-03": [
             1,
             2
@@ -216,6 +233,10 @@
       {
         "drive": 8.0,
         "n_plus_at": {
+          "1e-04": [
+            2,
+            4
+          ],
           "2e-03": [
             2,
             4
@@ -236,10 +257,11 @@
         "n_records": 12
       }
     ],
-    "interpretation": "Number of Lyapunov exponents above the declared threshold, recomputed at alternate thresholds from the stored full spectrum. The production classification (threshold 1e-3) is unchanged at 5e-4 and 2e-3 for all but one record and only differs at 5e-3 in the E=4 and E=8 sectors; the drive-gated route to up to four positive exponents is robust to the threshold choice.",
+    "interpretation": "Number of Lyapunov exponents above the declared threshold, recomputed at alternate thresholds from the stored full spectrum. At 1e-4 two records change their integer count and at 5e-4 one does, without altering any per-drive range; at 2e-3 one record changes and the E=4 range narrows from 1-3 to 1-2; at 5e-3 six records change and the E=8 range narrows from 2-4 to 2-3 as the fourth exponent falls below the loosest cut. The drive-gated route from stable (E=0.2, E=2.0) to a positive-exponent sector is preserved at every tested threshold, and the top count of four survives at every cut looser than 5e-3.",
     "kind": "threshold_sensitivity",
     "n_records": 60,
     "records_flipping_n_plus": {
+      "1e-04": 2,
       "2e-03": 1,
       "5e-03": 6,
       "5e-04": 1

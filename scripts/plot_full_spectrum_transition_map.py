@@ -62,7 +62,8 @@ def main() -> int:
     ax_m.set_ylim(-0.0106, -0.0099)
     ax_m.set_ylabel(r"Lyapunov exponent $\lambda_k$")
     ax_m.legend(fontsize=7, ncol=4, frameon=False, loc="upper center",
-                handletextpad=0.3, columnspacing=0.8)
+                bbox_to_anchor=(0.5, 1.22),
+                handletextpad=0.3, columnspacing=1.0)
     ax_m.text(0.02, 0.98, "(a)", transform=ax_m.transAxes,
               va="top", ha="left", fontsize=11)
 

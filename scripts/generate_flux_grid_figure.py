@@ -25,23 +25,43 @@ def main() -> int:
         raise SystemExit("ERROR: all plotted flux-grid records must be PASS")
 
     theta = np.array([record["theta"] for record in records])
+    replicate = np.array([record.get("replicate", 0) for record in records])
     max_exp = np.array([max(record["lyapunov_spectrum"]) for record in records])
     rate_diff = np.array([record["max_rate_difference"] for record in records])
-    unique_theta = np.array(sorted(set(theta)))
-    grouped_exp = [max_exp[np.isclose(theta, value)] for value in unique_theta]
-    grouped_diff = [rate_diff[np.isclose(theta, value)] for value in unique_theta]
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    # Deterministic per-replicate offsets (not random jitter): replicates
+    # coincide to ~1e-17, so markers need visible spacing (0.06, larger than
+    # the marker diameter) to read as three distinct runs per phase.
+    x_phase = theta / np.pi + (replicate - 1.0) * 0.065
     fig, axes = plt.subplots(1, 2, figsize=(7.2, 3.2), constrained_layout=True)
-    axes[0].boxplot(grouped_exp, positions=unique_theta/np.pi, widths=0.07, manage_ticks=False)
-    axes[0].axhline(0.0, color="black", linewidth=0.8, linestyle="--")
+
+    # ponytail: data-range axes instead of full-range boxplots -- the
+    # phase-resolved structure is ~0.3 % of the margin to lambda = 0, so a
+    # full-range axis flattens it; the off-frame zero is annotated instead.
+    axes[0].scatter(x_phase, max_exp, s=8, facecolors="none",
+                    edgecolors="black", linewidths=0.7, zorder=3)
+    pad_a = 0.12 * (max_exp.max() - max_exp.min())
+    axes[0].set_ylim(max_exp.min() - pad_a, max_exp.max() + pad_a)
+    axes[0].annotate(r"$\lambda=0$", xy=(0.5, 1.0), xycoords="axes fraction",
+                     xytext=(0.5, 1.10), textcoords="axes fraction",
+                     ha="center", va="bottom", fontsize=9,
+                     arrowprops={"arrowstyle": "->", "linewidth": 0.8})
+    axes[0].text(0.98, 0.06, rf"$\lambda_{{\max}}<0$ at all {len(records)} runs",
+                 transform=axes[0].transAxes, ha="right", va="bottom",
+                 fontsize=8.5)
     axes[0].set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axes[0].set_ylabel(r"Largest QR exponent $\lambda_{\max}$")
     axes[0].text(0.02, 0.98, "(a)", transform=axes[0].transAxes,
                  va="top", ha="left", fontsize=11)
     axes[0].tick_params(axis="x", labelrotation=35)
-    axes[1].boxplot(grouped_diff, positions=unique_theta/np.pi, widths=0.07, manage_ticks=False)
-    axes[1].axhline(data["gate_thresholds"]["max_rate_difference"], color="#b2182b", linewidth=0.9, linestyle="--")
+
+    threshold = data["gate_thresholds"]["max_rate_difference"]
+    axes[1].scatter(x_phase, rate_diff, s=10, marker="x",
+                    color="#b2182b", linewidths=0.9, zorder=3)
+    pad_b = 0.06 * (threshold - rate_diff.min())
+    axes[1].set_ylim(rate_diff.min() - pad_b, threshold * 1.04)
+    axes[1].axhline(threshold, color="#b2182b", linewidth=0.9, linestyle="--")
     axes[1].set_xlabel(r"flux phase $\Phi_{\rm syn}/\pi$")
     axes[1].set_ylabel(r"$\max|\rho_i-\lambda_i|$")
     axes[1].text(0.02, 0.98, "(b)", transform=axes[1].transAxes,

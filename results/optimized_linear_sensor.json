@@ -29,8 +29,8 @@
       "theta_over_pi": 0.5
     },
     {
-      "Xa_readout_fisher": 5.721436867597664e-05,
-      "gain_matched_Xa_vs_optimized_linear": 0.7125354663070183,
+      "Xa_readout_fisher": 5.7214368675976654e-05,
+      "gain_matched_Xa_vs_optimized_linear": 0.7125354663070185,
       "gain_optimized_vs_optimized_linear": 1.1129520815333238,
       "optimized_angle_over_pi": 0.7944444444444445,
       "optimized_fisher": 8.93665701183582e-05,
@@ -38,8 +38,8 @@
       "theta_over_pi": 0.75
     },
     {
-      "Xa_readout_fisher": 5.958165577855695e-05,
-      "gain_matched_Xa_vs_optimized_linear": 0.7420171517394384,
+      "Xa_readout_fisher": 5.958165577855072e-05,
+      "gain_matched_Xa_vs_optimized_linear": 0.7420171517393608,
       "gain_optimized_vs_optimized_linear": 1.1589796293232344,
       "optimized_angle_over_pi": 0.7944444444444445,
       "optimized_fisher": 9.306243820216299e-05,
@@ -51,8 +51,8 @@
   "interpretation": "The single-mode (J=0) linear reference read out at its optimal homodyne angle is the strongest non-chaotic linear baseline. A flux gain close to or below unity against this optimized reference removes the 'suboptimal reference readout' objection to the order-unity Fisher gain. Classical measurement Fisher information only; not QFI and no quantum-advantage claim.",
   "kind": "classical_measurement_fisher_optimized_readout",
   "max_gain_matched_Xa_vs_optimized_linear": {
-    "Xa_readout_fisher": 5.958165577855695e-05,
-    "gain_matched_Xa_vs_optimized_linear": 0.7420171517394384,
+    "Xa_readout_fisher": 5.958165577855072e-05,
+    "gain_matched_Xa_vs_optimized_linear": 0.7420171517393608,
     "gain_optimized_vs_optimized_linear": 1.1589796293232344,
     "optimized_angle_over_pi": 0.7944444444444445,
     "optimized_fisher": 9.306243820216299e-05,
@@ -60,8 +60,8 @@
     "theta_over_pi": 1.0
   },
   "max_gain_optimized_vs_optimized_linear": {
-    "Xa_readout_fisher": 5.958165577855695e-05,
-    "gain_matched_Xa_vs_optimized_linear": 0.7420171517394384,
+    "Xa_readout_fisher": 5.958165577855072e-05,
+    "gain_matched_Xa_vs_optimized_linear": 0.7420171517393608,
     "gain_optimized_vs_optimized_linear": 1.1589796293232344,
     "optimized_angle_over_pi": 0.7944444444444445,
     "optimized_fisher": 9.306243820216299e-05,
@@ -77,10 +77,10 @@
     "n_th1": 0.1,
     "n_th2": 0.1
   },
-  "platform": "Linux-6.8.0-136-generic-x86_64-with-glibc2.39",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
   "python": "3.11.15 | packaged by conda-forge | (main, Aug 11 2026, 10:26:29) [GCC 14.4.0]",
   "readout": "rotated cavity quadrature X_phi = Re(alpha) cos phi + Im(alpha) sin phi",
-  "recorded_at_utc": "2026-08-17T09:58:01.012489+00:00",
+  "recorded_at_utc": "2026-10-05T22:11:00.051501+00:00",
   "sensing_parameter": "external force F on mechanical mode 1",
   "single_mode_linear_reference": {
     "Xa_readout_fisher": 5.140738962653024e-05,

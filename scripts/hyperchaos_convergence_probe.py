@@ -60,9 +60,15 @@ def main() -> int:
     ap.add_argument("--transient-fraction", type=float, default=0.1)
     ap.add_argument("--threshold", type=float, default=1e-3)
     ap.add_argument("--seed", type=int, default=20260815)
+    ap.add_argument("--points", type=str, default="4:-0.5,8:0.5",
+                    help="Comma-separated drive:theta_over_pi pairs, e.g. "
+                         "'1:0,4:-0.5,8:0.5' (theta_over_pi in units of pi)")
     a = ap.parse_args()
 
-    points = [(4.0, -np.pi / 2), (8.0, np.pi / 2)]
+    points = []
+    for pair in a.points.split(","):
+        d_str, t_str = pair.strip().split(":")
+        points.append((float(d_str), float(t_str) * np.pi))
     records = []
     for pi, (drive, theta) in enumerate(points):
         for ni, n_steps in enumerate(a.n_steps):
@@ -95,9 +101,10 @@ def main() -> int:
                    for d, t in points],
         "records": records,
         "interpretation": (
-            "Representative strong-coupling convergence audit. The canonical map remains "
-            "the primary phase/drive result; this audit tests block-history stability and "
-            "divergence balance at one chaotic and one hyperchaotic point."
+            "Representative strong-coupling convergence audit over the declared "
+            "drive/phase points. The canonical map remains the primary phase/drive "
+            "result; this audit tests block-history stability and divergence balance "
+            "across integration windows at each sampled point."
         ),
     }
     a.output.parent.mkdir(parents=True, exist_ok=True)

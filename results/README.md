@@ -1,10 +1,13 @@
 # Results directory
 
-Only machine-generated outputs from the new reconstruction may be stored here.
-The current package contains a validated stable-periodic-orbit pilot plus a
-long-window production grid; it is not a chaos or sensing-gain conclusion.
+Only machine-generated outputs from the reconstruction may be stored here.
+The current package is the full production set behind the Chaos, Solitons &
+Fractals resubmission (81 JSON artifacts; `checksums.sha256` is the
+authoritative inventory). The headline result is the drive- and
+coupling-gated full-spectrum hyperchaos route with a null matched-sensing
+outcome, not a periodic-orbit pilot.
 
-## Current PASS package
+## Gate and provenance core
 
 - `environment_manifest.json` — qom environment, FL_QOM revision, worktree state, and dependency versions;
 - `model_gate.json` — equations/Jacobian/trace/gauge-flux gate;
@@ -22,17 +25,22 @@ long-window production grid; it is not a chaos or sensing-gain conclusion.
 - `physical_parameter_run_manifest_model_recovery.json` — provenance for the positive normalized-pilot recovery screen;
 - `physical_parameter_pareto_drive_translation.json` — conditional normalized input-amplitude translation; symbolic power only, not SI calibration;
 - `physical_parameter_stability_screening_provisional.json` — superseded parameter-only stage retained for audit;
-- `physical_parameter_manifest_literature_scenario.json` — source and assumptions for the provisional screen;
+- `../physical_parameter_manifest_literature_scenario.json` — source and assumptions for the provisional screen (track root, outside `results/`, not covered by `checksums.sha256`);
 - `physical_parameter_run_manifest.json` — command, environment, design, and limits for the superseded screen;
 - `physical_parameter_run_manifest_v2.json` — exact provenance and interpretation of the definitive eight-candidate robustness screen.
 
-The pilot and extended packages have `extended_status=PASS`: the long-window
-flux grid and the three-phase covariance/Fisher calculation pass their declared
-gates. The grid supports stable drive-locked dynamics in the sampled domain; it
-does not establish a universal absence of chaos, a Fisher-information gain, QFI,
-Wigner negativity, or an exceptional point. The former 30,000-step screening
-output is retained as `flux_grid_screening_30000.json` for audit history and is not
-used by the manuscript.
+The full-spectrum maps, seed/window convergence audits, basin and
+attractor-geometry analyses, semiclassical master-equation cross-checks,
+matched-Fisher sensing results, and reduced-model comparisons are listed
+individually in `checksums.sha256`.
+
+All listed gates have `extended_status=PASS`. The production grid and
+covariance/Fisher calculation pass their declared gates; the manuscript
+reports the resulting hyperchaos classification and the null flux-induced
+sensing gain, and still claims no QFI, Wigner negativity, or exceptional
+point. The former 30,000-step screening output is retained as
+`flux_grid_screening_30000.json` for audit history and is not used by the
+manuscript.
 
 The full QR block history is retained in `floquet_lyapunov.json` for auditability;
 its large size is intentional. No hand-edited values, mock data, representative

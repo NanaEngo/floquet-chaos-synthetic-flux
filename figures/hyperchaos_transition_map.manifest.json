@@ -1,6 +1,9 @@
 {
   "gate": "HYPERCHAOS_TRANSITION_MAP_FIGURE",
-  "input": "results/full_spectrum_hyperchaos_map_g03.json",
+  "input": [
+    "results/full_spectrum_hyperchaos_map_g03.json",
+    "results/full_spectrum_hyperchaos_map_g03_extra_drives.json"
+  ],
   "outputs": [
     "figures/hyperchaos_transition_map.pdf",
     "figures/hyperchaos_transition_map.png"
