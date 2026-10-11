@@ -1,0 +1,56 @@
+{
+  "status": "PROVISIONAL",
+  "calibration_audit_status": "CROSS_PLATFORM_MODEL_SCENARIO_NOT_SI_CALIBRATION",
+  "purpose": "Sensitivity screening using independent published optomechanical scales; not a calibration or physical optimum for the present device",
+  "source_reference": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11910550/",
+    "primary_platform": "Mayor et al., Nature Communications 16, 2576 (2025), DOI 10.1038/s41467-025-57948-7",
+    "coupling_context": "Mathew, del Pino & Verhagen, Nature Nanotechnology 15, 198-202 (2020), DOI 10.1038/s41565-019-0630-8",
+    "retrieved_utc": "2026-08-14",
+    "mapping_note": "Mayor anchors kappa, gamma and g0; Mathew supplies an order-of-magnitude direct-coupling context. The present phase-dependent J_m and drive power are not measured by these sources."
+  },
+  "normalization": {
+    "status": "LITERATURE_ANCHORED_CROSS_PLATFORM",
+    "reference_frequency_symbol": "omega_m",
+    "reference_frequency_si_hz": 7436000000.0,
+    "reference_frequency_source": "Mayor et al. 2025 measured mechanical mode",
+    "angular_rate_convention": "Normalized rates are ratios to omega_m; all source SI rates are angular unless explicitly labelled Hz.",
+    "conversion": "x_normalized = x_SI / (2*pi*reference_frequency_si_hz) for angular rates"
+  },
+  "objective": {
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY",
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "secondary_objectives": [
+      "stable_periodic_operation",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "experimental_resource_cost"
+    ],
+    "constraints": [
+      {"metric": "stability_margin", "operator": ">=", "value": 0.0},
+      {"metric": "robustness_margin", "operator": ">=", "value": 0.0},
+      {"metric": "resource_cost", "operator": "<=", "value": 0.5}
+    ],
+    "constraint_scope": "normalized model only; no measured hardware power, bandwidth, temperature or present-device J_m constraint",
+    "selection_note": "Any result is a cross-platform sensitivity result and must not be called physically optimal."
+  },
+  "parameters": [
+    {"name": "kappa", "normalized_range": [0.0860678, 0.1291017], "source_si_context": "Mayor kappa/omega_m = 0.1075847"},
+    {"name": "gamma1", "normalized_range": [0.0000222222, 0.0000333333], "source_si_context": "Mayor gamma_m/omega_m = 2.77778e-5"},
+    {"name": "gamma2", "normalized_range": [0.0000222222, 0.0000333333], "source_si_context": "Mayor gamma_m/omega_m = 2.77778e-5"},
+    {"name": "omega1", "normalized_range": [0.98, 1.02], "source_si_context": "reference mode"},
+    {"name": "omega2", "normalized_range": [0.98, 1.02], "source_si_context": "two-mode extension; not measured in Mayor device"},
+    {"name": "g1", "normalized_range": [0.0000946746, 0.000142012], "source_si_context": "Mayor g0/omega_m = 1.18343e-4"},
+    {"name": "g2", "normalized_range": [0.0000946746, 0.000142012], "source_si_context": "two-mode extension; same scale only"},
+    {"name": "hopping", "normalized_range": [0.0000010, 0.0000020], "source_si_context": "Mathew direct-coupling context t2/2pi ~ 10 kHz, used only as a provisional proxy"},
+    {"name": "detuning", "normalized_range": [-1.1, -0.9], "source_si_context": "model convention; not transferred from the experimental anchors"},
+    {"name": "drive", "normalized_range": [0.05, 0.35], "source_si_context": "model coordinate; no SI power mapping"},
+    {"name": "drive_modulation", "normalized_range": [0.08, 0.12], "source_si_context": "model coordinate"},
+    {"name": "drive_frequency", "normalized_range": [0.95, 1.05], "source_si_context": "model coordinate"}
+  ],
+  "gate": {
+    "si_optimization_authorized": false,
+    "physical_pareto_authorized": false,
+    "missing": ["present-device J_m measurement or FEM calibration", "alpha_in convention", "input power and external coupling", "thermal/noise constraints"]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "INCOMPLETE_PUBLISHED_PARAMETER_SET",
+  "calibration_status": "NOT_COMPUTED",
+  "purpose": "Published two-mode reference scenario; not a calibration of the present FL_QOM device",
+  "source": {
+    "citation": "Mathew, del Pino & Verhagen, Nature Nanotechnology 15, 198-202 (2020)",
+    "doi": "10.1038/s41565-019-0630-8",
+    "arxiv": "arXiv:1812.09369",
+    "url": "https://arxiv.org/html/1812.09369",
+    "retrieved_utc": "2026-08-14"
+  },
+  "reported_system": {
+    "platform": "sliced silicon photonic-crystal nanobeam",
+    "optical_cavity_frequency_hz": 192.36e12,
+    "optical_linewidth_hz": 256e9,
+    "mechanical_mode_frequency_hz_approx": 2.4e6,
+    "mechanical_mode_separation_hz_approx": 0.5e6,
+    "intrinsic_mechanical_linewidth_hz_approx": 3.0e3,
+    "phenomenological_linewidths_hz": [8100.0, 8600.0],
+    "drive_power_measurement_1_w": 33.4e-6,
+    "drive_power_measurement_2_w": 174.0e-6,
+    "laser_detuning_over_kappa_for_transfer": 0.35,
+    "modulation_depth_examples": [0.38, 0.98],
+    "effective_coupling_rate_hz": 200e3,
+    "direct_next_nearest_neighbour_coupling_hz": 10e3,
+    "frequency_disorder_standard_deviation_hz": 20e3
+  },
+  "derived_angular_values": {
+    "omega1_rad_s_approx": 15079644.737,
+    "omega2_rad_s_approx": 18221220.669,
+    "omega_modulation_rad_s_approx": 3141592.654,
+    "kappa_rad_s": 1608495433787.0,
+    "gamma_intrinsic_rad_s_approx": 18849.556,
+    "geff_rad_s": 1256637.061,
+    "direct_coupling_rad_s": 62831.853
+  },
+  "mapping_to_current_model": {
+    "omega1": "approximate only; mode frequency was reported as approximately 2.4 MHz",
+    "omega2": "approximate only; separation was reported as approximately 0.5 MHz",
+    "hopping": "NOT_INTERCHANGEABLE: reported t2 is direct next-nearest-neighbour coupling, whereas current J_m is a phase-dependent nearest-mode term",
+    "g1": "NOT_REPORTED_IN_A_DIRECTLY_USABLE_FORM",
+    "g2": "NOT_REPORTED_IN_A_DIRECTLY_USABLE_FORM",
+    "drive": "NOT_CONVERTIBLE_FROM_PIN_WITHOUT_kappa_in_AND_DETUNING_CONVENTION",
+    "detuning": "reported as Delta=(omega_L-omega_c)=0.35 kappa; current model convention must be checked before sign conversion",
+    "phase": "modulation phase phi_m is experimentally controlled, but the present model phase theta requires an explicit convention map"
+  },
+  "gate": {
+    "si_optimization_authorized": false,
+    "physical_pareto_authorized": false,
+    "reason": "The source does not identify g0_1, g0_2, kappa_in, alpha_in or a direct calibration of the current J_m term."
+  },
+  "required_followup_measurements": [
+    "g0_1 and g0_2 or an experimentally fitted equivalent",
+    "kappa_in and total/external coupling fraction",
+    "alpha_in convention and phase reference",
+    "present-device direct J_m and phase theta",
+    "exact omega1 and omega2 from the device spectrum"
+  ]
+}

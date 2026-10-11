@@ -1,0 +1,9 @@
+{
+  "alpha_in_definition": "coherent_input_amplitude_sqrt_photons_per_second",
+  "alpha_in_magnitude_sqrt_per_s": null,
+  "alpha_in_phase_rad": 0.0,
+  "omega_p_rad_s": null,
+  "kappa_rad_s": null,
+  "omega_ref_rad_s": null,
+  "notes": "Replace every null with author-approved setup values. Do not infer alpha_in from the normalized pilot drive. The converter refuses incomplete input and non-real drive phase."
+}

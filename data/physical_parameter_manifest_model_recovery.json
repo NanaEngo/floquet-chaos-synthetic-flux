@@ -1,0 +1,46 @@
+{
+  "status": "PROVISIONAL",
+  "calibration_audit_status": "MODEL_NORMALIZED_NOT_SI",
+  "purpose": "Model-level recovery screening around the validated normalized pilot; not an experimental calibration or physical optimum",
+  "source_reference": {
+    "title": "Local validated reconstruction model",
+    "url": "local://scripts/reconstruction_core.py::ModelParameters",
+    "source_locator": "ModelParameters defaults and validated extended production grid",
+    "retrieved_utc": "2026-08-14"
+  },
+  "normalization": {
+    "status": "MODEL_NORMALIZED",
+    "reference_frequency_symbol": "omega_ref",
+    "reference_frequency_si_hz": 1.0,
+    "reference_frequency_source": "dimensionless model time; explicitly not SI",
+    "angular_rate_convention": "All entries are dimensionless ratios in the model normalization.",
+    "conversion": "No SI conversion is authorized by this manifest."
+  },
+  "objective": {
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY",
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "secondary_objectives": ["stable_periodic_operation", "classical_measurement_fisher_information", "noise_robustness", "experimental_resource_cost"],
+    "constraints": [
+      {"metric": "stability_margin", "operator": ">=", "value": 0.0},
+      {"metric": "robustness_margin", "operator": ">=", "value": 0.0},
+      {"metric": "resource_cost", "operator": "<=", "value": 0.5}
+    ],
+    "constraint_scope": "normalized model only; no hardware constraint",
+    "selection_note": "A positive result is a model-level robust operating region only and must not be called physically optimal."
+  },
+  "parameters": [
+    {"name": "kappa", "normalized_range": [0.90, 1.10]},
+    {"name": "gamma1", "normalized_range": [0.018, 0.022]},
+    {"name": "gamma2", "normalized_range": [0.018, 0.022]},
+    {"name": "omega1", "normalized_range": [0.95, 1.05]},
+    {"name": "omega2", "normalized_range": [0.98, 1.08]},
+    {"name": "g1", "normalized_range": [0.018, 0.022]},
+    {"name": "g2", "normalized_range": [0.0162, 0.0198]},
+    {"name": "hopping", "normalized_range": [0.072, 0.088]},
+    {"name": "detuning", "normalized_range": [-1.10, -0.90]},
+    {"name": "drive", "normalized_range": [0.05, 0.35]},
+    {"name": "drive_modulation", "normalized_range": [0.08, 0.12]},
+    {"name": "drive_frequency", "normalized_range": [0.95, 1.05]}
+  ],
+  "status_note": "This manifest exists only to test whether the validated normalized model has a robust Pareto region. It must never populate physical_parameter_manifest.json."
+}

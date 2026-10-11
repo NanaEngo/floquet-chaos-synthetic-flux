@@ -1,0 +1,51 @@
+{
+  "status": "INCOMPLETE_EXTERNAL_PLATFORM_ANCHOR",
+  "calibration_status": "NOT_COMPUTED",
+  "purpose": "Independent experimental anchor for single-cavity and single-mechanical-mode scales; not a complete calibration of the present two-resonator synthetic-magnetism model",
+  "source": {
+    "citation": "Mayor et al., Nature Communications 16, 2576 (2025)",
+    "doi": "10.1038/s41467-025-57948-7",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11910550/",
+    "device": "silicon two-dimensional optomechanical crystal",
+    "reported_temperature_context": "3 K and below 10 mK measurements; do not transfer temperature between regimes without an explicit thermal model"
+  },
+  "measured_or_reported_values": {
+    "mechanical_frequency_hz": 7436000000.0,
+    "mechanical_quality_factor": 36000.0,
+    "mechanical_damping_rate_rad_s": 1297826.832,
+    "mechanical_damping_rate_hz": 206555.556,
+    "optical_decay_rate_rad_s": 5026548245.744,
+    "optical_decay_rate_hz": 800000000.0,
+    "single_photon_coupling_rate_rad_s": 5529200.0,
+    "single_photon_coupling_rate_hz": 880000.0,
+    "optical_quality_factor": 240000.0
+  },
+  "derived_normalized_values": {
+    "kappa_over_omega_m": 0.107584723,
+    "gamma_over_omega_m": 0.0000277778,
+    "g0_over_omega_m": 0.0001183432
+  },
+  "independent_coupling_scale_context": {
+    "citation": "Mathew, del Pino & Verhagen, Nature Nanotechnology 15, 198-202 (2020)",
+    "doi": "10.1038/s41565-019-0630-8",
+    "mechanical_mode_frequency_hz_approx": 2400000.0,
+    "mechanical_linewidth_hz_approx": 3000.0,
+    "reported_optically_mediated_coupling_fraction": 0.04,
+    "network_example_geff_hz": 200000.0,
+    "network_example_direct_coupling_hz": 10000.0,
+    "transferability": "scale context only; not a calibration of the present direct phase-dependent J_m"
+  },
+  "not_transferable_without_new_calibration": [
+    "phase-controlled mechanical hopping J_m",
+    "two-resonator frequency splitting and mechanical detuning",
+    "mechanical coupling phase theta",
+    "input-output coupling fraction",
+    "alpha_in convention and laser power mapping",
+    "temperature-dependent bath parameters for the present setup"
+  ],
+  "gate": {
+    "si_optimization_authorized": false,
+    "physical_pareto_authorized": false,
+    "reason": "The source is not the same two-resonator device and does not specify J_m or the drive normalization."
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "status": "RECONCILED_PHYSICAL_ANCHOR_SET_20260815",
+  "calibration_status": "PARTIAL_ANCHORED_SINGLE_MODE",
+  "purpose": "Consolidated physically anchored reference set and pilot-vs-anchor comparison for the one-optical/two-mechanical synthetic-flux model; supplements physical_parameter_manifest_experimental_anchor_mayor2025.json and physical_parameter_manifest_cross_platform_scenario.json.",
+  "recorded_at_utc": "2026-08-15T08:22:28.684189+00:00",
+  "normalization": {
+    "reference_frequency_symbol": "omega_m",
+    "reference_frequency_si_hz": 7436000000.0,
+    "reference_frequency_si": "7.436 GHz",
+    "source": "Mayor et al., Nat. Commun. 16, 2576 (2025), DOI 10.1038/s41467-025-57948-7"
+  },
+  "anchored_parameters": [
+    {
+      "symbol": "kappa",
+      "normalized": 0.107585,
+      "si_hz": 800000000.0,
+      "si_display": "2pi x 800 MHz",
+      "status": "MEASURED (Mayor2025)"
+    },
+    {
+      "symbol": "gamma_m",
+      "normalized": 2.778e-05,
+      "si_hz": 206555.55555555556,
+      "si_display": "2pi x 206.6 kHz",
+      "status": "MEASURED (Mayor2025, Q_m = 3.6e4)"
+    },
+    {
+      "symbol": "g_0",
+      "normalized": 0.00011834,
+      "si_hz": 880000.0,
+      "si_display": "2pi x 880 kHz",
+      "status": "MEASURED (Mayor2025)"
+    },
+    {
+      "symbol": "J_m",
+      "normalized_scan": [
+        0.001,
+        0.1
+      ],
+      "si_hz_scan": [
+        7436000.0,
+        743600000.0
+      ],
+      "si_display": "2pi x [7.4, 744] MHz",
+      "status": "SCAN (Mathew2020 coupling scale; no direct GHz two-resonator measurement)"
+    }
+  ],
+  "assumed_or_uncalibrated": [
+    {
+      "symbol": "omega_2",
+      "note": "second mechanical mode assumed near-degenerate (3% detuning); pending two-resonator measurement"
+    },
+    {
+      "symbol": "Delta",
+      "note": "cavity-laser detuning; depends on cavity and laser frequencies"
+    },
+    {
+      "symbol": "E",
+      "note": "drive amplitude normalized only; not convertible to watts without pump frequency, external coupling, and input-field normalization"
+    }
+  ],
+  "pilot_vs_anchor": {
+    "kappa_over_omega_m": {
+      "pilot": 1.0,
+      "anchor": 0.107585,
+      "ratio": 9.3
+    },
+    "gamma_over_omega_m": {
+      "pilot": 0.02,
+      "anchor": 2.778e-05,
+      "ratio": 720.0
+    },
+    "g_over_omega_m": {
+      "pilot": [
+        0.018,
+        0.02
+      ],
+      "anchor": 0.00011834,
+      "ratio_approx": 169.0
+    },
+    "J_over_omega_m": {
+      "pilot": 0.08,
+      "anchor_scan": [
+        0.001,
+        0.1
+      ],
+      "note": "pilot within scan range"
+    },
+    "conclusion": "The pilot uses damping/coupling 9x-720x larger than the anchor; it is a model-level validation, not a device prediction."
+  },
+  "provenance": {
+    "mayor2025_doi": "10.1038/s41467-025-57948-7",
+    "mathew2020_doi": "10.1038/s41565-019-0630-8",
+    "consistent_with": [
+      "physical_parameter_manifest_experimental_anchor_mayor2025.json",
+      "physical_parameter_manifest_cross_platform_scenario.json",
+      "PARAMETER_AUDIT_20260814.md"
+    ],
+    "si_table": "02_si_Chaos_Floquet_SyntheticFlux.tex (Table S1, S2)"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "status": "PROVISIONAL",
+  "calibration_audit_status": "LITERATURE_ANCHORED_WITH_UNRESOLVED_DRIVE_MAPPING",
+  "purpose": "Provisional robust Pareto screening anchored to the published normalized parameter regime; not an experimental calibration or submission claim",
+  "source_reference": {
+    "title": "Controlling complex dynamics with synthetic magnetism in optomechanical systems: A route to enhanced sensor performance",
+    "authors": ["Deivasundari Muthukumar", "Stella Rolande Mbokop Tchounda", "Sifeu Takougang Kingni", "Karthikeyan Rajagopal", "Serge Guy Nana Engo"],
+    "arxiv": "arXiv:2502.12336v2",
+    "journal_doi": "10.1103/f6sv-4fq9",
+    "url": "https://arxiv.org/html/2502.12336",
+    "source_locator": "Section 2.1, paragraph beginning 'For our simulation, we assumed the following parameters'; Section 2.2 drive Hamiltonian; Eqs. 6a and 7a",
+    "drive_definition_from_source": "H_drive = i sqrt(kappa) alpha_in (a^dagger - a); semiclassical additive term sqrt(kappa) alpha_in",
+    "conditional_model_mapping": "E_model = sqrt(kappa_normalized) * alpha_in_normalized, only after normalization and phase conventions are matched",
+    "conditional_power_mapping": "P_in = hbar * omega_p * |alpha_in|^2 under the standard input-output convention; omega_p and field normalization remain unspecified",
+    "drive_mapping_status": "CONDITIONAL_EQUATION_ONLY_NOT_SI_CALIBRATION",
+    "retrieved_utc": "2026-08-14",
+    "unit_audit": "Corrected 2026-08-14: gamma, g and hopping SI conversions had a factor-1000 error in the previous manifest; normalized ratios are unchanged.",
+    "independent_platform_anchor": "Mayor et al., Nature Communications 16, 2576 (2025), DOI 10.1038/s41467-025-57948-7; anchor only, not a matched two-resonator calibration."
+  },
+  "normalization": {
+    "status": "LITERATURE_ANCHORED",
+    "reference_frequency_symbol": "omega_m",
+    "reference_frequency_si_hz": 1000000000.0,
+    "reference_frequency_source": "arXiv:2502.12336v2, Section 2.1; typical SiN GHz-scale example",
+    "angular_rate_convention": "All rate-like SI values below are angular rates in rad s^-1; normalized values are ratios to omega_m.",
+    "conversion": "x_normalized = x_SI / (2*pi*reference_frequency_si_hz) for angular rates"
+  },
+  "objective": {
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY",
+    "candidate_objectives": ["stable_periodic_operation", "classical_measurement_fisher_information", "noise_robustness", "experimental_resource_cost"],
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "secondary_objectives": ["stable_periodic_operation", "classical_measurement_fisher_information", "noise_robustness", "experimental_resource_cost"],
+    "constraints": [
+      {"metric": "stability_margin", "operator": ">=", "value": 0.0},
+      {"metric": "robustness_margin", "operator": ">=", "value": 0.0},
+      {"metric": "resource_cost", "operator": "<=", "value": 0.5}
+    ],
+    "constraint_scope": "numerical screening only; no hardware power, bandwidth, temperature, or fabrication constraint has been supplied",
+    "selection_note": "This scenario is permitted only for exploratory numerical screening. It must not be called physically optimized until the drive mapping and hardware constraints are supplied."
+  },
+  "parameters": [
+    {"name": "kappa", "symbol": "kappa", "normalized_pilot_value": 0.073, "si_value": 458672201.0, "si_units": "rad s^-1", "admissible_si_range": [412804981.0, 504539421.0], "experimental_source": "arXiv:2502.12336v2, Section 2.1: kappa = 7.3e-2 omega_m", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.0657, 0.0803]},
+    {"name": "gamma1", "symbol": "gamma_1", "normalized_pilot_value": 0.00001077, "si_value": 67669.906, "si_units": "rad s^-1","admissible_si_range": [
+        60902.915,
+        74436.896
+      ], "experimental_source": "arXiv:2502.12336v2, Section 2.1: gamma_1 = 1.077e-5 omega_m", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.000009693, 0.000011847]},
+    {"name": "gamma2", "symbol": "gamma_2", "normalized_pilot_value": 0.00001077, "si_value": 67669.906, "si_units": "rad s^-1","admissible_si_range": [
+        60902.915,
+        74436.896
+      ], "experimental_source": "arXiv:2502.12336v2, Section 2.1: gamma_2 = gamma_1", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.000009693, 0.000011847]},
+    {"name": "omega1", "symbol": "omega_1", "normalized_pilot_value": 1.0, "si_value": 6283185307.0, "si_units": "rad s^-1", "admissible_si_range": [5654866776.0, 6911503838.0], "experimental_source": "arXiv:2502.12336v2, Section 2.1: omega_1 = omega_m", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.9, 1.1]},
+    {"name": "omega2", "symbol": "omega_2", "normalized_pilot_value": 1.0005, "si_value": 6286326899.0, "si_units": "rad s^-1", "admissible_si_range": [5657694209.0, 6914959589.0], "experimental_source": "arXiv:2502.12336v2, Section 2.1: omega_2 = (1 + 5e-4) omega_m", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.90045, 1.10055]},
+    {"name": "g1", "symbol": "g_1", "normalized_pilot_value": 0.0001077, "si_value": 676699.058, "si_units": "rad s^-1","admissible_si_range": [
+        609029.152,
+        744368.963
+      ], "experimental_source": "arXiv:2502.12336v2, Section 2.1: g = 1.077e-4 omega_m", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.00009693, 0.00011847]},
+    {"name": "g2", "symbol": "g_2", "normalized_pilot_value": 0.0001077, "si_value": 676699.058, "si_units": "rad s^-1","admissible_si_range": [
+        609029.152,
+        744368.963
+      ], "experimental_source": "arXiv:2502.12336v2, Section 2.1: equal g values used in the source scenario", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.00009693, 0.00011847]},
+    {"name": "hopping", "symbol": "J_m", "normalized_pilot_value": 0.0002, "si_value": 1256637.061, "si_units": "rad s^-1","admissible_si_range": [
+        1130973.355,
+        1382300.768
+      ], "experimental_source": "arXiv:2502.12336v2, Section 2.1: J_m = 2e-4 omega_m", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.00018, 0.00022]},
+    {"name": "detuning", "symbol": "Delta", "normalized_pilot_value": 1.0, "si_value": 6283185307.0, "si_units": "rad s^-1", "admissible_si_range": [5654866776.0, 6911503838.0], "experimental_source": "arXiv:2502.12336v2, Section 2.1: Delta = omega_m", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.9, 1.1]},
+    {"name": "drive", "symbol": "E", "normalized_pilot_value": null, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": {"kind": "unresolved_drive_mapping"}, "normalized_range": [0.05, 0.5], "range_status": "EXPLORATORY_MODEL_COORDINATE_ONLY"},
+    {"name": "drive_modulation", "symbol": "epsilon_mod", "normalized_pilot_value": 0.1, "si_value": null, "si_units": "dimensionless", "admissible_si_range": null, "experimental_source": null, "uncertainty": {"kind": "exploratory_model_coordinate", "fraction": 0.1}, "normalized_range": [0.05, 0.15], "range_status": "EXPLORATORY_MODEL_COORDINATE_ONLY"},
+    {"name": "drive_frequency", "symbol": "Omega", "normalized_pilot_value": 1.0, "si_value": 6283185307.0, "si_units": "rad s^-1", "admissible_si_range": [5654866776.0, 6911503838.0], "experimental_source": "normalized drive frequency tied to omega_m in the reconstruction; source mapping requires confirmation", "uncertainty": {"kind": "screening_envelope", "fraction": 0.1, "not_hardware_bound": true}, "normalized_range": [0.9, 1.1]}
+  ],
+  "status_note": "PROVISIONAL means the numerical Pareto screening may run, but no physical-optimum or experimental-feasibility claim is authorized. The drive coordinate and hardware constraints remain unresolved.",
+  "provenance": {
+    "pilot_source": "scripts/reconstruction_core.py::ModelParameters",
+    "calibration_audit": "PHYSICAL_CALIBRATION_AUDIT_20260813.md",
+    "primary_web_source": "https://arxiv.org/html/2502.12336",
+    "journal_record": "https://doi.org/10.1103/f6sv-4fq9"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "status": "NOT_COMPUTED",
+  "calibration_audit_status": "CANDIDATE_VALUES_FOUND_CONFLICTS_UNRESOLVED",
+  "purpose": "Physical calibration and constrained optimization of the Floquet optomechanical operating regime",
+  "normalization": {
+    "status": "PARTIAL",
+    "reference_frequency_symbol": "omega_ref",
+    "reference_frequency_si_hz": null,
+    "reference_frequency_source": null,
+    "note": "The current reconstruction uses normalized values; no SI calibration is inferred from the code."
+  },
+  "objective": {
+    "status": "INCOMPLETE_MISSING_CONSTRAINTS_AND_CALIBRATION",
+    "candidate_objectives": [
+      "stable_periodic_operation",
+      "controlled_onset_of_chaos",
+      "classical_measurement_fisher_information",
+      "noise_robustness",
+      "multiobjective_pareto_compromise"
+    ],
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "secondary_objectives": ["stable_periodic_operation", "classical_measurement_fisher_information", "noise_robustness", "experimental_resource_cost"],
+    "constraints": [],
+    "selection_note": "Primary objective selected by author on 2026-08-13; Pareto computation is blocked until SI ranges, hardware constraints, and uncertainty models are supplied."
+  },
+  "parameters": [
+    {"name": "kappa", "symbol": "kappa", "normalized_pilot_value": 1.0, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "gamma1", "symbol": "gamma_1", "normalized_pilot_value": 0.02, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "gamma2", "symbol": "gamma_2", "normalized_pilot_value": 0.02, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "omega1", "symbol": "omega_1", "normalized_pilot_value": 1.0, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "omega2", "symbol": "omega_2", "normalized_pilot_value": 1.03, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "g1", "symbol": "g_1", "normalized_pilot_value": 0.02, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "g2", "symbol": "g_2", "normalized_pilot_value": 0.018, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "hopping", "symbol": "J", "normalized_pilot_value": 0.08, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "detuning", "symbol": "Delta", "normalized_pilot_value": -1.0, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "drive", "symbol": "E", "normalized_pilot_value": 0.20, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "drive_modulation", "symbol": "epsilon_mod", "normalized_pilot_value": 0.10, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null},
+    {"name": "drive_frequency", "symbol": "Omega", "normalized_pilot_value": 1.0, "si_value": null, "si_units": null, "admissible_si_range": null, "experimental_source": null, "uncertainty": null}
+  ],
+  "candidate_legacy_values": {
+    "status": "UNVERIFIED_NOT_USED",
+    "sources": [
+      "md_files/P4_PRODUCTION_ANALYSIS_2026.md",
+      "md_files/P5_PRODUCTION_ANALYSIS_2026.md",
+      "md_files/PARAMETER_GUIDE.md",
+      "DQS_260518/Mbokop_DQS_260518.tex"
+    ],
+    "omega_m_over_2pi_hz": 1000000000.0,
+    "kappa_over_2pi_hz": 73000000.0,
+    "mechanical_damping_over_2pi_hz": 10.77,
+    "single_photon_coupling_over_2pi_hz": 107.7,
+    "hopping_over_2pi_hz_candidates": [20000.0, 62800.0, 65000.0, 100000.0],
+    "detuning_over_2pi_hz_candidates": [-800000000.0, -1500000000.0, -3000000000.0],
+    "drive_amplitude_candidates": [400.0, 850.0, 1000.0, 1200.0, 10000.0],
+    "conflicts": [
+      "legacy sources disagree on hopping and detuning by regime",
+      "drive amplitude definition and SI power mapping are unresolved",
+      "new pilot uses kappa=1 whereas legacy candidate kappa/omega_m is approximately 0.073",
+      "reference frequency and normalization convention are not declared in the new manifest"
+    ],
+    "use_in_optimization": false
+  },
+  "synthetic_flux_scan": {
+    "parameter": "theta",
+    "normalized_domain": "[-pi, pi)",
+    "physical_mapping": null,
+    "calibration_status": "NOT_COMPUTED"
+  },
+  "provenance": {
+    "pilot_source": "scripts/reconstruction_core.py::ModelParameters",
+    "pilot_results": ["results/model_gate.json", "results/flux_grid.json"],
+    "physical_calibration_source": null,
+    "audit_document": "PHYSICAL_CALIBRATION_AUDIT_20260813.md",
+    "last_verified_utc": "2026-08-13"
+  }
+}

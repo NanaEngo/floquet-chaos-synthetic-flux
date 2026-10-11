@@ -25,7 +25,7 @@ outcome, not a periodic-orbit pilot.
 - `physical_parameter_run_manifest_model_recovery.json` — provenance for the positive normalized-pilot recovery screen;
 - `physical_parameter_pareto_drive_translation.json` — conditional normalized input-amplitude translation; symbolic power only, not SI calibration;
 - `physical_parameter_stability_screening_provisional.json` — superseded parameter-only stage retained for audit;
-- `../physical_parameter_manifest_literature_scenario.json` — source and assumptions for the provisional screen (track root, outside `results/`, not covered by `checksums.sha256`);
+- `../data/physical_parameter_manifest_literature_scenario.json` — source and assumptions for the provisional screen (`data/`, outside `results/`, not covered by `checksums.sha256`);
 - `physical_parameter_run_manifest.json` — command, environment, design, and limits for the superseded screen;
 - `physical_parameter_run_manifest_v2.json` — exact provenance and interpretation of the definitive eight-candidate robustness screen.
 

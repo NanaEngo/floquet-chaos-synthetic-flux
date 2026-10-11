@@ -1,0 +1,50 @@
+{
+  "status": "PROVISIONAL",
+  "calibration_audit_status": "ASSUMED_CLOSURE_MODEL_SCREEN_ONLY",
+  "purpose": "Exploratory optimizer input derived from published_assumption_closure_mathew2020.json; not physical calibration",
+  "source_reference": {
+    "url": "https://arxiv.org/html/1812.09369",
+    "assumption_manifest": "published_assumption_closure_mathew2020.json",
+    "retrieved_utc": "2026-08-14"
+  },
+  "normalization": {
+    "status": "MODEL_NORMALIZED_FROM_PUBLISHED_ASSUMPTIONS",
+    "reference_frequency_symbol": "omega1",
+    "reference_frequency_si_hz": 2400000.0,
+    "reference_frequency_source": "Mathew et al. 2020 approximate first mechanical mode",
+    "angular_rate_convention": "All normalized values are ratios to omega1; this normalization is not the 1-GHz Muthukumar pilot normalization.",
+    "conversion": "x_normalized = x_SI / omega1"
+  },
+  "objective": {
+    "status": "MODEL_LEVEL_CONSTRAINTS_ONLY",
+    "selected_primary_objective": "multiobjective_pareto_compromise",
+    "secondary_objectives": ["stable_periodic_operation", "classical_measurement_fisher_information", "noise_robustness", "experimental_resource_cost"],
+    "constraints": [
+      {"metric": "stability_margin", "operator": ">=", "value": 0.0},
+      {"metric": "robustness_margin", "operator": ">=", "value": 0.0},
+      {"metric": "resource_cost", "operator": "<=", "value": 0.5}
+    ],
+    "constraint_scope": "exploratory normalized model only; no hardware constraint",
+    "selection_note": "Any result is an assumed-closure diagnostic and cannot support an experimental-optimum claim."
+  },
+  "parameters": [
+    {"name": "kappa", "normalized_range": [96000.0, 117333.3333], "assumption": "2*pi*256 GHz / (2*pi*2.4 MHz), +/-10%"},
+    {"name": "gamma1", "normalized_range": [0.001125, 0.001375], "assumption": "2*pi*3 kHz / (2*pi*2.4 MHz), +/-10%"},
+    {"name": "gamma2", "normalized_range": [0.001125, 0.001375], "assumption": "equal to gamma1, +/-10%"},
+    {"name": "omega1", "normalized_range": [0.9, 1.1], "assumption": "reference mode, +/-10%"},
+    {"name": "omega2", "normalized_range": [1.0875, 1.3291667], "assumption": "2.9/2.4, +/-10%"},
+    {"name": "g1", "normalized_range": [62.526962, 76.4218426], "assumption": "symmetric effective-coupling proxy, +/-10%"},
+    {"name": "g2", "normalized_range": [62.526962, 76.4218426], "assumption": "symmetric effective-coupling proxy, +/-10%"},
+    {"name": "hopping", "normalized_range": [0.00375, 0.0045833333], "assumption": "J_m=t2 proxy, +/-10%"},
+    {"name": "detuning", "normalized_range": [-41066.6667, -33600.0], "assumption": "-0.35*kappa, +/-10%, current sign convention"},
+    {"name": "drive", "normalized_range": [0.05, 0.35], "assumption": "current dimensionless model coordinate; not inferred from watts"},
+    {"name": "drive_modulation", "normalized_range": [0.38, 0.98], "assumption": "reported modulation examples"},
+    {"name": "drive_frequency", "normalized_range": [0.95, 1.05], "assumption": "dimensionless model coordinate"}
+  ],
+  "gate": {
+    "physical_si_optimization_authorized": false,
+    "exploratory_model_screen_authorized": true,
+    "manuscript_claim_authorized": false,
+    "reason": "The ranges contain explicit proxy assumptions and a stiff bad-cavity scaling; no output may be called experimentally calibrated."
+  }
+}
