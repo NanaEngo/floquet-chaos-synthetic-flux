@@ -2,7 +2,7 @@
 
 Only machine-generated outputs from the reconstruction may be stored here.
 The current package is the full production set behind the Chaos, Solitons &
-Fractals resubmission (89 JSON artifacts; `checksums.sha256` is the
+Fractals resubmission (60 JSON artifacts; `checksums.sha256` is the
 authoritative inventory). The headline result is the drive- and
 coupling-gated full-spectrum hyperchaos route with a null matched-sensing
 outcome, not a periodic-orbit pilot.
@@ -19,12 +19,7 @@ outcome, not a periodic-orbit pilot.
 - `checksums.sha256` — hashes of the result files;
 - `flux_grid.json` — canonical 27-run long-window production grid (9 phases × 3 independent replicates), all strict QR/Floquet gates passing;
 - `covariance_fisher.json` — three-phase periodic covariance and classical measurement-Fisher pilot;
-- `physical_parameter_optimization_provisional.json` — superseded provisional robustness screen (0/2 candidates passed the three-initial-condition gate); no physical optimum;
 - `physical_parameter_optimization_provisional_v2.json` — definitive eight-candidate literature-envelope robustness screen (0/8 feasible, 0 non-dominated); no physical optimum;
-- `physical_parameter_optimization_model_recovery.json` — positive normalized-pilot recovery screen (4/4 feasible, 2 non-dominated); `PROVISIONAL_MODEL_LEVEL`, not SI-calibrated;
-- `physical_parameter_run_manifest_model_recovery.json` — provenance for the positive normalized-pilot recovery screen;
-- `physical_parameter_pareto_drive_translation.json` — conditional normalized input-amplitude translation; symbolic power only, not SI calibration;
-- `physical_parameter_stability_screening_provisional.json` — superseded parameter-only stage retained for audit;
 - `../data/physical_parameter_manifest_literature_scenario.json` — source and assumptions for the provisional screen (`data/`, outside `results/`, not covered by `checksums.sha256`);
 - `physical_parameter_run_manifest.json` — command, environment, design, and limits for the superseded screen;
 - `physical_parameter_run_manifest_v2.json` — exact provenance and interpretation of the definitive eight-candidate robustness screen.
