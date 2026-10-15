@@ -1,0 +1,5 @@
+- Synthetic flux selects hyperchaos order in optomechanics    (56 chars)
+- Up to four positive Lyapunov exponents resolved             (47 chars)
+- Neimark-Sacker onset localized by orbit continuation        (51 chars)
+- Matched Fisher bound: no chaotic-transduction gain          (51 chars)
+- Classification ensemble spans 432 long-window runs          (52 chars)
